@@ -1,0 +1,16 @@
+# ======================================================================
+# LEGACY BLOG & PAGE REDIRECTS (INTENT-MATCHED)
+# ======================================================================
+/blog/cast-iron-sewer-pipe-corrosion  /services/partial-repiping  301
+/blog/when-to-replace-toilets         /services/remodels          301
+/services/shower-bathtub-repair       /services/remodels          301
+
+/service-area/centennial-co           /locations/centennial       301
+/service-area/parker-co               /locations/parker           301
+/service-area                         /                           301
+/aurora-co                            /locations/aurora           301
+
+/whole-home-repipes-denver            /why-repipe                 301
+/reviews                              /                           301
+/blog/house-repiping-with-pex         /why-repipe                 301
+/blog/category/*                      /blog                       301

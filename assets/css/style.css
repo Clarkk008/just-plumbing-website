@@ -1,0 +1,370 @@
+/* ==========================================================================
+   CSS Variables (Color Palette & Typography)
+   ========================================================================== */
+:root {
+    --brand-blue: #2B62A2;
+    --brand-red: #EA4335;
+    --text-dark: #333333;
+    --text-light: #666666;
+    --white: #FFFFFF;
+    --bg-light: #F8F9FA;
+    --overlay-dark: rgba(45, 45, 45, 0.85); 
+    --font-main: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* ==========================================================================
+   Base Styles & Reset
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--brand-blue);
+    transition: color 0.3s ease;
+}
+
+/* ==========================================================================
+   Top Action Bar
+   ========================================================================== */
+.top-bar {
+    display: flex;
+    width: 100%;
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.top-bar .tagline {
+    background-color: var(--brand-blue);
+    width: 65%;
+    padding: 15px 40px;
+    text-align: right;
+}
+
+.top-bar .phone {
+    background-color: var(--brand-red);
+    width: 35%;
+    padding: 15px 40px;
+}
+
+.top-bar .phone a {
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+}
+
+.top-bar .phone a:hover {
+    opacity: 0.9;
+}
+
+/* ==========================================================================
+   Header & Navigation
+   ========================================================================== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: var(--white);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo img {
+    max-height: 55px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: var(--brand-blue);
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+nav a:hover {
+    color: var(--brand-red);
+}
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+.hero {
+    /* Set your background image here */
+    background-image: url('../images/team-background.jpg');
+    background-size: cover;
+    background-position: center 20%;
+    padding: 100px 40px;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay-box {
+    background-color: var(--overlay-dark);
+    color: var(--white);
+    max-width: 700px;
+    padding: 50px 60px;
+}
+
+.hero-overlay-box h1 {
+    font-size: 2.6rem;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* White separator line */
+.hero-overlay-box h1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 2px;
+    background-color: var(--white);
+    margin-top: 25px;
+    position: relative;
+}
+
+.hero-overlay-box .hero-highlight {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-overlay-box p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #EAEAEA;
+}
+
+/* ==========================================================================
+   Services Grid
+   ========================================================================== */
+.services-overview {
+    padding: 80px 0;
+    background-color: var(--bg-light);
+    text-align: center;
+}
+
+.services-overview h2 {
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: var(--brand-blue);
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    background-color: var(--white);
+    padding: 40px 30px;
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    border-top: 5px solid var(--brand-blue);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.service-card p {
+    color: var(--text-light);
+    font-size: 1.05rem;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+footer {
+    background-color: #1A1A1A;
+    color: var(--white);
+    padding: 70px 0 25px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+footer h3 {
+    color: var(--brand-blue);
+    margin-bottom: 25px;
+    font-size: 1.3rem;
+}
+
+footer address {
+    font-style: normal;
+    color: #D3D3D3;
+    line-height: 1.8;
+}
+
+footer p {
+    color: #D3D3D3;
+    line-height: 1.8;
+}
+
+footer a {
+    color: var(--white);
+}
+
+footer a:hover {
+    color: var(--brand-red);
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333333;
+    padding-top: 25px;
+    color: #777777;
+    font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   Responsive Styles (Mobile & Tablet)
+   ========================================================================== */
+@media (max-width: 900px) {
+    .top-bar {
+        font-size: 1.1rem;
+    }
+    
+    .top-bar .tagline {
+        padding: 12px 20px;
+    }
+    
+    .top-bar .phone {
+        padding: 12px 20px;
+    }
+    
+    .hero {
+        padding: 80px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: column;
+    }
+    
+    .top-bar .tagline, 
+    .top-bar .phone {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+    
+    .top-bar .phone {
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .logo img {
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+        min-height: auto;
+    }
+
+    .hero-overlay-box {
+        padding: 40px 30px;
+    }
+
+    .hero-overlay-box h1 {
+        font-size: 2rem;
+    }
+}
+/* Dropdown Navigation Framework */
+nav ul li {
+    position: relative; /* Acts as the anchor point for the dropdown menu */
+}
+
+/* Hidden by default sub-menus */
+nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; /* Sits exactly below the parent item */
+    left: 0;
+    background-color: var(--white, #ffffff);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    min-width: 240px;
+    z-index: 999;
+    border-top: 3px solid var(--brand-blue);
+    border-radius: 0 0 4px 4px;
+    text-align: left;
+}
+
+/* Stack dropdown links vertically */
+nav ul li ul.dropdown li {
+    display: block;
+    margin: 0;
+}
+
+nav ul li ul.dropdown li a {
+    display: block;
+    padding: 10px 20px;
+    color: var(--text-dark, #333333) !important; /* Force text to dark for readability */
+    font-size: 0.95rem;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap; /* Prevent text wrap */
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover effects inside the dropdown menu */
+nav ul li ul.dropdown li a:hover {
+    background-color: var(--bg-light, #f9f9f9);
+    color: var(--brand-red) !important;
+}
+
+/* Core Magic: Show the dropdown menu when hovering over the parent list item */
+nav ul li:hover > ul.dropdown {
+    display: block;
+}
