@@ -252,7 +252,7 @@
         </div>
     </div>
 
-    <!-- Main Navigation -->
+    <!-- Main Navigation (Unified 5-Pillar Goliath Header) -->
     <header>
         <div class="logo">
             <a href='/'>
@@ -276,11 +276,40 @@
                     </ul>
                 </li>
                 
-                <li><a href='/why-repipe'>Why Repipe?</a></li>
+                <!-- Pipe Problems Dropdown Menu -->
+                <li>
+                    <a href='/pipe-problems/'>Pipe Problems ▾</a>
+                    <ul class="dropdown">
+                        <li><a href='/pipe-problems/polybutylene'>Polybutylene Pipes</a></li>
+                        <li><a href='/pipe-problems/galvanized-steel'>Galvanized Steel</a></li>
+                        <li><a href='/pipe-problems/kitec'>Kitec Plumbing</a></li>
+                        <li><a href='/pipe-problems/copper-pinhole-leaks'>Copper Pinhole Leaks</a></li>
+                    </ul>
+                </li>
+
+                <!-- Materials Dropdown Menu -->
+                <li>
+                    <a href='/materials/'>Materials ▾</a>
+                    <ul class="dropdown">
+                        <li><a href='/materials/uponor-pex-a'>Uponor PEX-A</a></li>
+                        <li><a href='/materials/pex-a-vs-pex-b'>PEX-A vs PEX-B</a></li>
+                        <li><a href='/materials/type-l-copper'>Type L Copper</a></li>
+                    </ul>
+                </li>
+
+                <!-- Commercial Dropdown Menu -->
+                <li>
+                    <a href='/commercial/'>Commercial ▾</a>
+                    <ul class="dropdown">
+                        <li><a href='/commercial/multifamily-repiping'>Multifamily & Apartments</a></li>
+                        <li><a href='/commercial/hoa-condo-repiping'>HOA & Condos</a></li>
+                        <li><a href='/commercial/commercial-repipe'>Commercial Buildings</a></li>
+                    </ul>
+                </li>
 
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a aria-current="page" href='/locations/denver' style='color: var(--brand-red);'>Service Area ▾</a>
+                    <a aria-current="page" href='/locations/denver' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
                     <ul class="dropdown">
                         <li><a href='/locations/denver'>Denver</a></li>
                         <li><a href='/locations/arvada'>Arvada</a></li>
@@ -298,6 +327,7 @@
                     </ul>
                 </li>
                 
+                <li><a href='/why-repipe'>Why Repipe?</a></li>
                 <li><a href='/about'>About Us</a></li>
                 <li><a href='/contact'>Contact</a></li>
             </ul>
@@ -338,8 +368,29 @@
                     <li><strong><a href='/services/new-construction' style='color: var(--brand-blue); text-decoration: underline;'>New Construction & Remodels</a>:</strong> Blueprint routing, underground line excavations, structural framing rough-ins, and high-end <a href='/services/remodels' style='color: var(--brand-blue); text-decoration: underline;'>finish fixture installations</a>.</li>
                 </ul>
 
+                <!-- Localized Pipe Risk & Material Silo Callout -->
+                <section class="container" style="padding: 20px 0 40px 0;">
+                    <div style="background-color: var(--bg-light); border-left: 5px solid var(--brand-blue); padding: 30px; border-radius: 6px;">
+                        <h3 style="color: var(--brand-blue); margin-bottom: 12px; font-size: 1.3rem;">Historic & Established Home Plumbing Risks</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
+                            Homes built prior to the 1960s in this area frequently suffer from internal corrosion and choked water pressure caused by original 
+                            <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized steel piping</a>. 
+                            As zinc coatings wear away, internal rust narrows pipe diameters to the width of a straw, causing discolored water and poor shower volume.
+                        </p>
+                        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
+                            We surgically replace old galvanized systems without destroying historic plaster or trim, installing modern 
+                            <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> or commercial-grade 
+                            <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L rigid copper</a> lines.
+                        </p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">
+                            Operating an apartment complex or commercial facility? Review our 
+                            <a href="/commercial/multifamily-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">multifamily repiping solutions</a>.
+                        </p>
+                    </div>
+                </section>
+
                 <!-- AI Search / GEO FAQ Knowledge Block -->
-                <section style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-left: 5px solid var(--brand-blue); margin-top: 40px;">
+                <section style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-left: 5px solid var(--brand-blue);">
                     <h2 style="color: var(--brand-blue); margin-bottom: 15px; font-size: 1.4rem;">Frequently Asked Questions — Denver Plumbing</h2>
                     
                     <div style="margin-bottom: 20px;">
@@ -437,10 +488,10 @@
                 <ul>
                     <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
                     <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems/'>Failing Pipe Diagnosis</a></li>
+                    <li><a href='/materials/'>Piping Materials</a></li>
+                    <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
-                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
-                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
-                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 

@@ -2,8 +2,8 @@ export default async (request, context) => {
   const userAgent = request.headers.get("user-agent")?.toLowerCase() || "";
   const countryCode = context.geo?.country?.code;
 
-  // Allow verified search engine bots to maintain US search visibility
-  const isBot = /googlebot|bingbot|duckduckbot|slurp|yandexbot|baiduspider|facebookexternalhit|twitterbot|linkedinbot/.test(userAgent);
+  // Allow verified search engine & AI crawlers to maintain search visibility
+  const isBot = /googlebot|bingbot|duckduckbot|slurp|yandexbot|baiduspider|facebookexternalhit|twitterbot|linkedinbot|gptbot|chatgpt-user|claudebot|perplexitybot|google-extended|ccbot/.test(userAgent);
 
   if (isBot) {
     return context.next();

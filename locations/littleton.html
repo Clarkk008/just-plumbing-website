@@ -202,7 +202,7 @@
         </div>
     </div>
 
-    <!-- Main Navigation -->
+    <!-- Main Navigation (Unified 5-Pillar Goliath Header) -->
     <header>
         <div class="logo">
             <a href="/">
@@ -226,11 +226,40 @@
                     </ul>
                 </li>
                 
-                <li><a href="/why-repipe">Why Repipe?</a></li>
-                
+                <!-- Pipe Problems Dropdown Menu -->
+                <li>
+                    <a href='/pipe-problems/'>Pipe Problems ▾</a>
+                    <ul class="dropdown">
+                        <li><a href='/pipe-problems/polybutylene'>Polybutylene Pipes</a></li>
+                        <li><a href='/pipe-problems/galvanized-steel'>Galvanized Steel</a></li>
+                        <li><a href='/pipe-problems/kitec'>Kitec Plumbing</a></li>
+                        <li><a href='/pipe-problems/copper-pinhole-leaks'>Copper Pinhole Leaks</a></li>
+                    </ul>
+                </li>
+
+                <!-- Materials Dropdown Menu -->
+                <li>
+                    <a href='/materials/'>Materials ▾</a>
+                    <ul class="dropdown">
+                        <li><a href='/materials/uponor-pex-a'>Uponor PEX-A</a></li>
+                        <li><a href='/materials/pex-a-vs-pex-b'>PEX-A vs PEX-B</a></li>
+                        <li><a href='/materials/type-l-copper'>Type L Copper</a></li>
+                    </ul>
+                </li>
+
+                <!-- Commercial Dropdown Menu -->
+                <li>
+                    <a href='/commercial/'>Commercial ▾</a>
+                    <ul class="dropdown">
+                        <li><a href='/commercial/multifamily-repiping'>Multifamily & Apartments</a></li>
+                        <li><a href='/commercial/hoa-condo-repiping'>HOA & Condos</a></li>
+                        <li><a href='/commercial/commercial-repipe'>Commercial Buildings</a></li>
+                    </ul>
+                </li>
+
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a href="/locations/denver" style="color: var(--brand-red);">Service Area ▾</a>
+                    <a aria-current="page" href="/locations/denver" style="color: var(--brand-red); font-weight: bold;">Service Area ▾</a>
                     <ul class="dropdown">
                         <li><a href="/locations/arvada">Arvada</a></li>
                         <li><a href="/locations/aurora">Aurora</a></li>
@@ -248,6 +277,7 @@
                     </ul>
                 </li>
                 
+                <li><a href="/why-repipe">Why Repipe?</a></li>
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
@@ -295,8 +325,29 @@
                     <li><strong><a href="/services/sump-pumps" style="color: var(--brand-blue); text-decoration: underline;">Sump Pumps & Battery Backups</a>:</strong> High-performance sump pump installs and battery backups to protect Littleton basements from South Platte River basin water tables and spring storms.</li>
                 </ul>
 
+                <!-- Localized Pipe Risk & Material Silo Callout -->
+                <section class="container" style="padding: 20px 0 40px 0;">
+                    <div style="background-color: var(--bg-light); border-left: 5px solid var(--brand-blue); padding: 30px; border-radius: 6px;">
+                        <h3 style="color: var(--brand-blue); margin-bottom: 12px; font-size: 1.3rem;">Prevalent Plumbing Risks in This Area</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
+                            Homes built throughout this area during the 1980s and 1990s housing boom frequently contain failing 
+                            <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene (Quest) piping</a>. 
+                            Municipal water disinfectants degrade these gray plastic pipes from the inside out, creating sudden burst risks and insurance cancellation notices.
+                        </p>
+                        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
+                            We permanently resolve these risks in 1–2 days by upgrading your domestic water system to full-flow 
+                            <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A expansion piping</a>. 
+                            Learn why Master Plumbers choose <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">PEX-A over standard PEX-B</a> for cold-weather freeze durability.
+                        </p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">
+                            Managing a multi-unit property or serving on a board? Explore our turnkey 
+                            <a href="/commercial/hoa-condo-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">HOA and condominium repiping services</a>.
+                        </p>
+                    </div>
+                </section>
+
                 <!-- AI Search / GEO FAQ Knowledge Block -->
-                <section style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-left: 5px solid var(--brand-blue); margin-top: 40px;">
+                <section style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-left: 5px solid var(--brand-blue);">
                     <h2 style="color: var(--brand-blue); margin-bottom: 15px; font-size: 1.4rem;">Frequently Asked Questions — Littleton Plumbing</h2>
                     
                     <div style="margin-bottom: 20px;">
@@ -385,6 +436,7 @@
                 <p style="margin-top: 15px; font-size: 0.9rem;">
                     <a href="/faq" style="color: #FFFFFF; text-decoration: underline; margin-right: 15px;">Frequently Asked Questions</a>
                     <a href="/why-repipe" style="color: #FFFFFF; text-decoration: underline;">Why Repipe?</a>
+                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline;'>Pipe Problems</a>
                 </p>
             </div>
 
@@ -394,6 +446,8 @@
                 <ul>
                     <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
                     <li><a href="/services/partial-repiping">Partial Repiping</a></li>
+                    <li><a href='/materials/'>Piping Materials</a></li>
+                    <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href="/services/water-heaters">Water Heater Systems</a></li>
                     <li><a href="/services/sump-pumps">Sump Pumps</a></li>
                     <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
