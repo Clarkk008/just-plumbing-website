@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uponor PEX-A ProPEX Repiping Denver | Just Plumbing Inc.</title>
-    <meta name="description" content="Denver's Uponor PEX-A expansion repipe specialists. Master Plumber installation with full-flow ProPEX fittings, freeze-burst resistance, and 25-year warranty.">
+    <meta name="description" content="Denver's Uponor PEX-A expansion repipe specialists. Master Plumber installation with full-flow ProPEX fittings, freeze-burst resistance, 25-year material warranty, and 5-year workmanship warranty.">
     <link rel="canonical" href="https://justplumbinginc.com/materials/uponor-pex-a">
 
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -25,21 +25,30 @@
       "@graph": [
         {
           "@type": "Service",
-          "@id": "https://justplumbinginc.com/materials/uponor-pex-a#service",
+          "@id": "https://justplumbinginc.com/materials/uponor-pex-a/#service",
           "name": "Uponor PEX Type A Repiping",
           "serviceType": "PEX-A Expansion Plumbing",
           "provider": {
-            "@type": "PlumbingService",
-            "name": "Just Plumbing, Inc.",
-            "telephone": "+1-303-472-0833",
-            "url": "https://justplumbinginc.com/"
+            "@id": "https://justplumbinginc.com/#organization"
           },
-          "description": "Professional installation of Uponor ProPEX Type A cross-linked polyethylene piping systems for whole-home repiping."
+          "areaServed": {
+            "@type": "AdministrativeArea",
+            "name": "Denver Metro Area"
+          },
+          "description": "Professional installation of Uponor ProPEX Type A cross-linked polyethylene piping systems for whole-home and partial repiping. Backed by a 25-year material warranty and a 5-year workmanship warranty."
         },
         {
           "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/materials/uponor-pex-a#faq",
+          "@id": "https://justplumbinginc.com/materials/uponor-pex-a/#faq",
           "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What warranty comes with an Uponor PEX-A repipe?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our Uponor PEX-A repiping projects include a 25-year manufacturer warranty on materials and a 5-year warranty on workmanship."
+              }
+            },
             {
               "@type": "Question",
               "name": "What makes Uponor PEX-A better than standard PEX?",
@@ -89,17 +98,28 @@
     <!-- Top Action Bar -->
     <div class="top-bar" role="banner">
         <div class="tagline">Colorado Plumbing Contractor #PC.0003531 | Master Plumber #MP.00600120</div>
-        <div class="phone"><a href="tel:+13034720833">(303) 472-0833</a></div>
+        <div class="phone">
+            <a href="tel:+13034720833" aria-label="Call Just Plumbing at (303) 472-0833">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 8px;" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                (303) 472-0833
+            </a>
+        </div>
     </div>
 
     <!-- Main Navigation -->
     <header>
         <div class="logo">
-            <a href="/"><img src="../assets/images/logo.png" alt="Just Plumbing Logo"></a>
+            <a href="/">
+                <img src="../assets/images/logo.png" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
+            </a>
         </div>
         <nav aria-label="Main Navigation">
             <ul>
                 <li><a href="/">Home</a></li>
+                
+                <!-- Services Dropdown Menu -->
                 <li>
                     <a href="/services/whole-home-repiping">Services ▾</a>
                     <ul class="dropdown">
@@ -108,8 +128,11 @@
                         <li><a href="/services/water-heaters">Water Heater Systems</a></li>
                         <li><a href="/services/sump-pumps">Sump Pumps</a></li>
                         <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
+                        <li><a href="/services/new-construction">New Construction Plumbing</a></li>
                     </ul>
                 </li>
+                
+                <!-- Pipe Problems Dropdown Menu -->
                 <li>
                     <a href="/pipe-problems/">Pipe Problems ▾</a>
                     <ul class="dropdown">
@@ -119,7 +142,62 @@
                         <li><a href="/pipe-problems/copper-pinhole-leaks">Copper Pinhole Leaks</a></li>
                     </ul>
                 </li>
-                <li><a href="/materials/" class="active">Materials</a></li>
+
+                <!-- Materials Dropdown Menu -->
+                <li>
+                    <a href="/materials/" class="active">Materials ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/materials/uponor-pex-a" class="active">Uponor PEX-A</a></li>
+                        <li><a href="/materials/pex-a-vs-pex-b">PEX-A vs PEX-B</a></li>
+                        <li><a href="/materials/type-l-copper">Type L Copper</a></li>
+                    </ul>
+                </li>
+
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
+                    </ul>
+                </li>
+
+                <!-- Commercial Dropdown Menu -->
+                <li>
+                    <a href="/commercial/">Commercial ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/commercial/multifamily-repiping">Multifamily & Apartments</a></li>
+                        <li><a href="/commercial/hoa-condo-repiping">HOA & Condos</a></li>
+                        <li><a href="/commercial/commercial-repipe">Commercial Buildings</a></li>
+                    </ul>
+                </li>
+
+                <!-- Service Area Dropdown Menu -->
+                <li>
+                    <a href="/locations/denver">Service Area ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/locations/denver">Denver</a></li>
+                        <li><a href="/locations/arvada">Arvada</a></li>
+                        <li><a href="/locations/aurora">Aurora</a></li>
+                        <li><a href="/locations/bennett-prv-rebate">Bennett (PRV Rebate)</a></li>
+                        <li><a href="/locations/broomfield">Broomfield</a></li>
+                        <li><a href="/locations/castle-rock">Castle Rock</a></li>
+                        <li><a href="/locations/centennial">Centennial</a></li>
+                        <li><a href="/locations/golden">Golden</a></li>
+                        <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
+                        <li><a href="/locations/littleton">Littleton</a></li>
+                        <li><a href="/locations/parker">Parker</a></li>
+                        <li><a href="/locations/thornton">Thornton</a></li>
+                        <li><a href="/locations/westminster">Westminster</a></li>
+                    </ul>
+                </li>
+
                 <li><a href="/why-repipe">Why Repipe?</a></li>
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/contact">Contact</a></li>
@@ -138,7 +216,7 @@
                 </nav>
                 <h1>Uponor PEX Type A Expansion Piping</h1>
                 <p class="hero-highlight"><strong>The industry's gold standard in residential repiping. Unmatched flexibility, full water flow, and zero crimp rings.</strong></p>
-                <p>We exclusively install Uponor ProPEX Type A expansion systems backed by a 25-year manufacturer warranty and our lifetime workmanship guarantee.</p>
+                <p>We install Uponor ProPEX Type A expansion systems backed by a 25-year manufacturer warranty on materials and our 5-year workmanship warranty.</p>
                 <a href="tel:+13034720833" class="btn-primary">Get Your Free PEX-A Quote</a>
             </div>
         </section>
@@ -168,18 +246,24 @@
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">The ProPEX Cold-Expansion Advantage</h2>
                 
                 <div style="margin-bottom: 25px;">
-                    <h3 style="font-size: 1.15rem; color: var(--brand-blue); margin-bottom: 5px;">Shape Memory Engineering</h3>
+                    <h3 style="font-size: 1.15rem; color: var(--brand-blue); margin-bottom: 5px;">Shape Memory Engineering & Polybutylene Remediation</h3>
                     <p style="font-size: 0.95rem; line-height: 1.6;">Manufactured using the Engel cross-linking method, Uponor PEX-A has true thermal memory. The pipe and expansion ring are briefly expanded with a mechanical tool, the fitting is inserted, and the pipe naturally shrinks down tightly around the fitting, creating a permanent watertight seal without glue, torches, or mechanical crimps.</p>
+                    <p style="font-size: 0.95rem; line-height: 1.6; margin-top: 10px;">Engineered with shape memory and thermal elasticity, Uponor PEX-A expansion fittings eliminate the rigid pinch points responsible for sudden plumbing failures. When <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">replacing brittle polybutylene systems</a> across older Denver and Douglas County communities, PEX-A provides the flexibility needed to navigate framing with minimal wall incisions while completely resisting chlorine-induced micro-fractures. See our real-world installation in the <a href="/projects/highlands-ranch-polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Highlands Ranch Polybutylene Case Study</a>.</p>
                 </div>
 
                 <div style="margin-bottom: 25px;">
                     <h3 style="font-size: 1.15rem; color: var(--brand-blue); margin-bottom: 5px;">Quieter Plumbing & No Water Hammer</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6;">PEX-A dampens the sound of rushing water and absorbs pressure surges from quick-closing appliance valves (dishwashers and washing machines), eliminating banging pipes and water hammer.</p>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">PEX-A dampens the sound of rushing water and absorbs pressure surges from quick-closing appliance valves (dishwashers and washing machines), eliminating banging pipes and water hammer throughout your home.</p>
+                </div>
+
+                <div style="margin-bottom: 25px;">
+                    <h3 style="font-size: 1.15rem; color: var(--brand-blue); margin-bottom: 5px;">Replacing Deteriorated Metal Lines</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Upgrading to PEX-A solves chronic problems caused by aging systems, including rusty flow from <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized steel lines</a> and wall damage from recurring <a href="/pipe-problems/copper-pinhole-leaks" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">copper pinhole leaks</a>. Where metallic transitions are required by municipal code, we pair PEX-A with commercial-grade <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L rigid copper</a>.</p>
                 </div>
 
                 <div>
                     <h3 style="font-size: 1.15rem; color: var(--brand-blue); margin-bottom: 5px;">Comparing PEX-A Options</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6;">Want to see how Uponor PEX-A compares to standard hardware-store PEX-B? Read our detailed <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">PEX-A vs. PEX-B Guide</a>.</p>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Want to see how Uponor PEX-A compares to standard hardware-store PEX-B crimp systems? Read our detailed <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">PEX-A vs. PEX-B Guide</a>.</p>
                 </div>
             </div>
         </section>
@@ -187,7 +271,7 @@
         <!-- CTA Section -->
         <section class="container" style="text-align: center; padding: 0 20px 50px 20px;">
             <h2 style="color: var(--brand-blue); margin-bottom: 10px;">Upgrade Your Home's Water Lines in 1–2 Days</h2>
-            <p style="max-width: 650px; margin: 0 auto 25px auto; color: #4a5568;">Get a clean, code-compliant Uponor PEX-A repipe led directly by Master Plumber Bill Clark.</p>
+            <p style="max-width: 650px; margin: 0 auto 25px auto; color: #4a5568;">Get a clean, code-compliant Uponor PEX-A <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repipe</a> or <a href="/services/partial-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">partial pipe replacement</a> led directly by Master Plumber Bill Clark.</p>
             <a href="tel:+13034720833" class="btn-primary">Call (303) 472-0833 For a Free Estimate</a>
         </section>
     </main>
@@ -207,29 +291,57 @@
                     Plumbing Contractor: <strong>#PC.0003531</strong><br>
                     Master Plumber: <strong>#MP.00600120</strong>
                 </p>
+                
+                <p style="margin-top: 15px; font-size: 0.9rem;">
+                    <a href="/faq" style="color: #FFFFFF; text-decoration: underline; margin-right: 15px;">Frequently Asked Questions</a>
+                    <a href="/why-repipe" style="color: #FFFFFF; text-decoration: underline; margin-right: 15px;">Why Repipe?</a>
+                    <a href="/pipe-problems/" style="color: #FFFFFF; text-decoration: underline;">Pipe Problems</a>
+                </p>
             </div>
             
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
                     <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/materials/uponor-pex-a">Uponor PEX-A Systems</a></li>
-                    <li><a href="/materials/type-l-copper">Copper Repiping</a></li>
-                    <li><a href="/pipe-problems/polybutylene">Polybutylene Replacement</a></li>
+                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
+                    <li><a href="/pipe-problems/">Failing Pipe Diagnosis</a></li>
+                    <li><a href="/materials/">Piping Materials</a></li>
+                    <li><a href="/commercial/">Commercial Repiping</a></li>
+                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
                 </ul>
             </div>
             
             <div class="footer-areas">
-                <h3>Areas We Serve</h3>
+                <h3>Areas We Serve Across Greater Denver</h3>
                 <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">
-                    <li><a href="/locations/denver">Denver</a></li>
-                    <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
-                    <li><a href="/locations/castle-rock">Castle Rock</a></li>
-                    <li><a href="/locations/golden">Golden</a></li>
                     <li><a href="/locations/arvada">Arvada</a></li>
-                    <li><a href="/locations/parker">Parker</a></li>
+                    <li><a href="/locations/aurora">Aurora</a></li>
+                    <li><a href="/locations/bennett-prv-rebate">Bennett</a></li>
+                    <li><a href="/locations/brighton">Brighton</a></li>
+                    <li><a href="/locations/broomfield">Broomfield</a></li>
+                    <li><a href="/locations/castle-pines">Castle Pines</a></li>
+                    <li><a href="/locations/castle-rock">Castle Rock</a></li>
                     <li><a href="/locations/centennial">Centennial</a></li>
+                    <li><a href="/locations/cherry-hills-village">Cherry Hills Village</a></li>
+                    <li><a href="/locations/commerce-city">Commerce City</a></li>
+                    <li><a href="/locations/denver">Denver</a></li>
+                    <li><a href="/locations/edgewater">Edgewater</a></li>
+                    <li><a href="/locations/englewood">Englewood</a></li>
+                    <li><a href="/locations/evergreen">Evergreen</a></li>
+                    <li><a href="/locations/genesee">Genesee</a></li>
+                    <li><a href="/locations/golden">Golden</a></li>
+                    <li><a href="/locations/glendale">Glendale</a></li>
+                    <li><a href="/locations/greenwood-village">Greenwood Village</a></li>
+                    <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
+                    <li><a href="/locations/larkspur">Larkspur</a></li>
                     <li><a href="/locations/littleton">Littleton</a></li>
+                    <li><a href="/locations/lone-tree">Lone Tree</a></li>
+                    <li><a href="/locations/parker">Parker</a></li>
+                    <li><a href="/locations/sedalia">Sedalia</a></li>
+                    <li><a href="/locations/sheridan">Sheridan</a></li>
+                    <li><a href="/locations/thornton">Thornton</a></li>
+                    <li><a href="/locations/westminster">Westminster</a></li>
+                    <li><a href="/locations/wheat-ridge">Wheat Ridge</a></li>
                 </ul>
             </div>
             

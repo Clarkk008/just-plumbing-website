@@ -77,8 +77,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67
+            "ratingCount": 68,
+            "reviewCount": 68
           },
           "hasCredential": [
             {
@@ -147,7 +147,7 @@
             {"@type": "City", "name": "Glendale"},
             {"@type": "City", "name": "Greenwood Village"},
             {"@type": "City", "name": "Highlands Ranch"},
-            {"@type": "City", "name": "Larkspur"},
+            {"@type": "Larkspur"},
             {"@type": "City", "name": "Littleton"},
             {"@type": "City", "name": "Lone Tree"},
             {"@type": "City", "name": "Parker"},
@@ -257,6 +257,12 @@
             {
               "@type": "ListItem",
               "position": 2,
+              "name": "Services",
+              "item": "https://justplumbinginc.com/services/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
               "name": "Water Heater Services",
               "item": "https://justplumbinginc.com/services/water-heaters"
             }
@@ -281,7 +287,7 @@
         </div>
     </div>
 
-    <!-- Main Navigation (Unified 5-Pillar Goliath Header) -->
+    <!-- Main Navigation -->
     <header>
         <div class="logo">
             <a href='/'>
@@ -294,11 +300,11 @@
                 
                 <!-- Services Dropdown Menu -->
                 <li>
-                    <a aria-current="page" href='/services/water-heaters' style="color: var(--brand-red);">Services ▾</a>
+                    <a aria-current="page" href='/services/water-heaters' style="color: var(--brand-red); font-weight: bold;">Services ▾</a>
                     <ul class="dropdown">
                         <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
                         <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
-                        <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                        <li><a href='/services/water-heaters' class="active">Water Heater Systems</a></li>
                         <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
                         <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
                         <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
@@ -323,6 +329,21 @@
                         <li><a href='/materials/uponor-pex-a'>Uponor PEX-A</a></li>
                         <li><a href='/materials/pex-a-vs-pex-b'>PEX-A vs PEX-B</a></li>
                         <li><a href='/materials/type-l-copper'>Type L Copper</a></li>
+                    </ul>
+                </li>
+
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
                     </ul>
                 </li>
 
@@ -363,6 +384,17 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/services/whole-home-repiping" style="color: var(--brand-blue, #003366); text-decoration: none;">Services</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Water Heaters</span>
+        </div>
+    </nav>
+
     <main>
         <!-- Internal Page Header -->
         <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 80px 20px; text-align: center;">
@@ -370,10 +402,16 @@
                 <span class="trust-badge" style="background-color: rgba(255,255,255,0.2); color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; display: inline-block;">30+ Years of Master Plumber Experience</span>
                 <h1 style="color: var(--white); margin-bottom: 15px; font-size: 2.8rem;">Denver's Water Heater Repair & Installation Experts</h1>
                 
+                <!-- E-E-A-T Byline -->
+                <div style="font-size: 0.9rem; color: rgba(255,255,255,0.85); margin-bottom: 20px; display: flex; justify-content: center; align-items: center; gap: 8px;">
+                    <span><svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/></svg></span>
+                    <em>Expertly reviewed by Master Plumber Bill Clark (MP.00600120)</em>
+                </div>
+
                 <!-- Google Reviews Clickable Badge -->
                 <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
 
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Dependable hot water restored quickly across <a href="/locations/denver" style="color: white; text-decoration: underline;">Denver</a>, <a href="/locations/aurora" style="color: white; text-decoration: underline;">Aurora</a>, <a href="/locations/arvada" style="color: white; text-decoration: underline;">Arvada</a>, and <a href="/locations/centennial" style="color: white; text-decoration: underline;">Centennial</a>. Honest diagnostics, no pushy salespeople.</p>
@@ -434,7 +472,8 @@
             <article>
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Why Trust Just Plumbing With Your Water Heater?</h2>
                 <p style="margin-bottom: 20px; line-height: 1.6;">Unlike massive HVAC franchises that send out sales-driven technicians, <strong>Just Plumbing, Inc.</strong> is a family-owned operation led by Master Plumber Bill Clark. With over 30 years of hands-on plumbing engineering experience, Bill personally ensures that your water heating system is correctly sized, safely vented, and perfectly installed.</p>
-                <p style="margin-bottom: 30px; line-height: 1.6;">A poorly installed water heater isn't just an inconvenience; it can be a severe safety hazard regarding gas leaks, carbon monoxide venting, or thermal expansion blowouts. We handle all city and county permitting, ensure the installation of vital safety features like thermal expansion tanks, and guarantee our workmanship for life.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">A poorly installed water heater isn't just an inconvenience; it can be a severe safety hazard regarding gas leaks, carbon monoxide venting, or thermal expansion blowouts. We handle all city and county permitting, ensure the installation of vital safety features like thermal expansion tanks, and use code-required <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L rigid copper piping</a> on supply connections within 18 inches of the unit.</p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">If your water heater replacement is part of a broader upgrade to eliminate aging <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized lines</a> or defective <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene plumbing</a>, we can integrate the new unit directly into a full <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repipe</a> or a targeted <a href="/services/partial-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">partial repiping project</a> using <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty and 5-year workmanship warranty).</p>
                 
                 <div style="background-color: #fff1f0; border-left: 4px solid var(--brand-red); padding: 25px; border-radius: 4px;">
                     <h3 style="color: var(--brand-red); margin-bottom: 10px; font-size: 1.2rem;">When to call for immediate repair:</h3>
@@ -464,20 +503,20 @@
             <div style="background-color: var(--bg-light); padding: 35px; border-radius: 6px; border-left: 5px solid var(--brand-blue);">
                 <h2 style="color: var(--brand-blue); margin-bottom: 15px; font-size: 1.4rem;">Frequently Asked Questions About Water Heaters</h2>
                 
-                <div style="margin-bottom: 20px;">
+                <article style="margin-bottom: 20px;">
                     <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">Should I repair or replace my water heater?</h3>
                     <p style="font-size: 0.95rem; line-height: 1.6;">If your unit is under 8 to 10 years old and has a repairable issue (such as a faulty heating element, thermocouple, or thermostat), repairing is cost-effective. However, if the main tank is leaking, heavily rusted, or over 10 years old, replacing it is required to prevent catastrophic basement flooding.</p>
-                </div>
+                </article>
 
-                <div style="margin-bottom: 20px;">
+                <article style="margin-bottom: 20px;">
                     <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">Are tankless water heaters suitable for Colorado's cold winters?</h3>
                     <p style="font-size: 0.95rem; line-height: 1.6;">Yes, high-efficiency tankless water heaters are engineered to handle Colorado's cold incoming groundwater temperature. Proper sizing by a licensed Master Plumber ensures endless hot water even during severe winter freezes.</p>
-                </div>
+                </article>
 
-                <div>
+                <article>
                     <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">How does hard water affect water heaters in the Denver Metro area?</h3>
                     <p style="font-size: 0.95rem; line-height: 1.6;">Hard mineral water along Colorado's Front Range causes heavy sediment accumulation inside water heater tanks. Annual flushing or tankless descaling prevents heating element burnout, popping noises, and premature tank failure. For more detailed answers on maintaining your system, check out our full <a href="/faq" style="color: var(--brand-blue); text-decoration: underline;">FAQ page</a>.</p>
-                </div>
+                </article>
             </div>
         </section>
     </main>

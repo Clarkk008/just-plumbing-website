@@ -58,8 +58,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67,
+            "ratingCount": 68,
+            "reviewCount": 68,
             "itemReviewed": {
               "@type": "LocalBusiness",
               "name": "Just Plumbing, Inc."
@@ -146,8 +146,8 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/denver"
+              "name": "Service Areas",
+              "item": "https://justplumbinginc.com/locations/"
             },
             {
               "@type": "ListItem",
@@ -251,6 +251,21 @@
                     </ul>
                 </li>
 
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
+                    </ul>
+                </li>
+
                 <!-- Commercial Dropdown Menu -->
                 <li>
                     <a href='/commercial/'>Commercial ▾</a>
@@ -263,7 +278,7 @@
 
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a aria-current="page" href='/locations/denver' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
+                    <a href='/locations/' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
                     <ul class="dropdown">
                         <li><a href='/locations/denver'>Denver</a></li>
                         <li><a href='/locations/arvada'>Arvada</a></li>
@@ -272,7 +287,7 @@
                         <li><a href='/locations/broomfield'>Broomfield</a></li>
                         <li><a href='/locations/castle-rock'>Castle Rock</a></li>
                         <li><a href='/locations/centennial'>Centennial</a></li>
-                        <li><a href='/locations/golden'>Golden</a></li>
+                        <li><a href='/locations/golden' class="active">Golden</a></li>
                         <li><a href='/locations/highlands-ranch'>Highlands Ranch</a></li>
                         <li><a href='/locations/littleton'>Littleton</a></li>
                         <li><a href='/locations/parker'>Parker</a></li>
@@ -288,6 +303,17 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/locations/" style="color: var(--brand-blue, #003366); text-decoration: none;">Service Areas</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Golden</span>
+        </div>
+    </nav>
+
     <main>
         <!-- Internal Page Header -->
         <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
@@ -297,7 +323,7 @@
                 <!-- Google Reviews Clickable Badge -->
                 <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
 
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Master Plumber-led freeze-durable PEX Type A repiping, high-altitude tankless water heaters, PRV installations, and foothills plumbing protection across Downtown Golden, Applewood, South Table Mountain & Lookout Mountain.</p>
@@ -310,15 +336,15 @@
             <!-- Left Column: The Content -->
             <article>
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Foothills Freeze Protection & Plumbing Experts in Golden</h2>
-                <p style="margin-bottom: 20px;">Golden combines rich pioneer heritage with high-elevation foothills living. From historic brick homes in Downtown Golden and ranch estates in Applewood to custom mountain properties on Lookout Mountain and South Table Mountain, Golden homeowners face specific environmental plumbing challenges—including severe winter cold snaps, elevation-based pressure shifts, and aging galvanized steel or polybutylene lines.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Golden combines rich pioneer heritage with high-elevation foothills living. From historic brick homes in Downtown Golden and ranch estates in Applewood to custom mountain properties on Lookout Mountain and South Table Mountain, Golden homeowners face specific environmental plumbing challenges—including severe winter cold snaps, elevation-based pressure shifts, and aging <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized steel</a> or <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene lines</a>.</p>
                 
-                <p style="margin-bottom: 20px;">Older Golden properties often suffer from internal pipe corrosion that restricts water pressure and turns tap water yellow, while foothill homes face catastrophic pipe bursts during sudden winter freezes. Additionally, high municipal water pressure in valley zones requires dedicated Pressure Reducing Valves (PRVs) to protect home appliances.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Older Golden properties often suffer from internal pipe corrosion that restricts water pressure and turns tap water yellow, while foothill homes face catastrophic pipe bursts during sudden winter freezes. Additionally, high municipal water pressure in valley zones requires dedicated Pressure Reducing Valves (PRVs) to protect home appliances.</p>
 
-                <p style="margin-bottom: 30px;">At <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a>, Master Plumber Bill Clark brings over 30 years of hands-on field experience. We replace corroded or defective lines with freeze-expandable <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">PEX Type A expansion piping</a>, calibrate high-altitude <a href="/services/water-heaters" style="color: var(--brand-blue); text-decoration: underline;">tankless water heaters</a>, and install heavy-duty PRVs—<strong>and we manage the professional drywall repair for you!</strong></p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">At <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a>, Master Plumber Bill Clark brings over 30 years of hands-on field experience across the <a href="/locations/denver" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Greater Denver Metro area</a>. We replace corroded or defective lines with freeze-expandable <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty and 5-year workmanship warranty) or rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a>, calibrate high-altitude <a href="/services/water-heaters" style="color: var(--brand-blue); text-decoration: underline;">tankless water heaters</a>, and install heavy-duty PRVs—<strong>and we manage the professional drywall repair for you!</strong> See our multi-unit work in our <a href="/projects/golden-hoa-condo-repipe" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Golden HOA Condo Case Study</a>.</p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Our Primary Golden Plumbing Services</h2>
                 <ul style="margin: 0 0 30px 20px; line-height: 1.8;">
-                    <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Freeze-Durable Whole-Home Repiping</a>:</strong> Complete system replacements using Uponor AquaPEX Type A tubing, designed to expand during winter cold snaps without bursting.</li>
+                    <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Freeze-Durable Whole-Home Repiping</a>:</strong> Complete system replacements using Uponor AquaPEX Type A tubing, designed to expand during winter cold snaps without bursting. Learn more in our <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">PEX-A vs. PEX-B Guide</a>.</li>
                     <li><strong><a href='/services/water-heaters' style='color: var(--brand-blue); text-decoration: underline;'>High-Altitude Tankless Water Heater Conversions</a>:</strong> Energy-efficient tankless installations calibrated specifically for Golden's elevation and cold mountain groundwater inflow.</li>
                     <li><strong><a href='/services/partial-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Pressure Reducing Valves (PRV) & Pressure Protection</a>:</strong> Installing and calibrating PRVs to protect home pipes and fixtures against high municipal pressure surges.</li>
                     <li><strong><a href='/services/remodels' style='color: var(--brand-blue); text-decoration: underline;'>Kitchen & Bathroom Remodel Plumbing</a>:</strong> Precision supply/drain line relocations, gas line extensions, and high-end fixture hookups for custom Golden remodels.</li>
@@ -339,7 +365,7 @@
                             paired with heavy-duty Pressure Reducing Valves (PRVs) to protect your fixtures and water heaters.
                         </p>
                         <p style="font-size: 0.95rem; line-height: 1.6;">
-                            Explore our complete guide to <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper vs. PEX-A</a> to choose the right material for your property.
+                            Explore our complete guide to <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper vs. PEX-A</a> to choose the right material for your property, or check our commercial <a href="/commercial/hoa-condo-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">HOA and condo repiping services</a>.
                         </p>
                     </div>
                 </section>
@@ -360,7 +386,7 @@
 
                     <div>
                         <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">Who manages plumbing permits in the City of Golden?</h3>
-                        <p style="font-size: 0.95rem; line-height: 1.6;">Just Plumbing, Inc. operates under Colorado Plumbing Contractor Registration #PC.0003531 and Master Plumber License #MP.00600120. We pull all required permits through the City of Golden Community Development or Jefferson County and handle all required municipal sign-offs.</p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">Just Plumbing, Inc. operates under Colorado Plumbing Contractor Registration #PC.0003531 and Master Plumber License #MP.00600120. We pull all required permits through the City of Golden Community Development or Jefferson County and handle all required municipal sign-offs. Reach out via our <a href="/contact" style="color: var(--brand-blue); text-decoration: underline;">contact page</a> to get started.</p>
                     </div>
                 </section>
             </article>
@@ -369,9 +395,9 @@
             <aside>
                 <div style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-top: 5px solid var(--brand-red); text-align: center; position: sticky; top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
                     <h3 style="color: var(--brand-blue); margin-bottom: 15px;">Schedule a Golden Estimate</h3>
-                    <p style="margin-bottom: 20px; font-size: 0.95rem;">Dealing with low water pressure, frozen pipes, high water pressure, or an aging water heater in Golden? Speak directly with Master Plumber Bill Clark.</p>
-                    <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px;">Call (303) 472-0833</a>
-                    <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline;">Or Request Online Estimate →</a>
+                    <p style="margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">Dealing with low water pressure, frozen pipes, high water pressure, or an aging water heater in Golden? Speak directly with Master Plumber Bill Clark.</p>
+                    <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px; transition: transform 0.2s;">Call (303) 472-0833</a>
+                    <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline; font-weight: bold;">Or Request Online Estimate →</a>
                 </div>
             </aside>
 
@@ -381,7 +407,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across Golden and Jefferson County rate Just Plumbing, Inc. 5 out of 5 stars.</p>
+                <p>See why homeowners across Golden and Jefferson County rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -405,8 +431,8 @@
 
                 <!-- Google Reviews Button -->
                 <div style="margin-top: 50px; text-align: center;">
-                    <a href="https://www.google.com/search?q=Just+Plumbing%2C+Inc.&amp;rlz=1C5OZZY_enUS1122US1122&amp;oq=just&amp;gs_lcrp=EgZjaHJvbWUqCAgBEEUYJxg7MgYIABBFGDwyCAgBEEUYJxg7MgYIAhBFGDkyBggDECMYJzIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyBggGEEUYPDIGCAcQRRg80gEIMTgyNGowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8#lrd=0x876c5b80cfa45cc3:0x948b5c0f00e11b36,1,,,," target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
-                        Read All 67 Reviews on Google
+                    <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
+                        Read All 68 Reviews on Google
                     </a>
                 </div>
                 
@@ -414,7 +440,7 @@
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
             <!-- Contact Info Column -->
@@ -434,7 +460,7 @@
                 <p style="margin-top: 15px; font-size: 0.9rem;">
                     <a href='/faq' style='color: #FFFFFF; text-decoration: underline; margin-right: 15px;'>Frequently Asked Questions</a>
                     <a href='/why-repipe' style='color: #FFFFFF; text-decoration: underline;'>Why Repipe?</a>
-                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline;'>Pipe Problems</a>
+                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline; margin-left: 15px;'>Pipe Problems</a>
                 </p>
             </div>
 
@@ -448,10 +474,13 @@
                     <li><a href='/materials/'>Piping Materials</a></li>
                     <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 
-            <!-- Geographic Target Column -->
+            <!-- Geographic Target Column (28 Cities) -->
             <div class="footer-areas">
                 <h3>Areas We Serve Across Greater Denver</h3>
                 <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">
@@ -489,8 +518,8 @@
             <!-- Operating Hours Column -->
             <div class="footer-hours">
                 <h3>Business Hours</h3>
-                <p itemprop="openingHours" content="Mo,Tu,We,Th,Fr 07:00-21:00">Monday - Friday: 7:00 AM - 9:00 PM</p>
-                <p itemprop="openingHours" content="Sa,Su 08:00-17:00">Saturday & Sunday: 8:00 AM - 5:00 PM</p>
+                <p>Monday - Friday: 7:00 AM - 9:00 PM</p>
+                <p>Saturday & Sunday: 8:00 AM - 5:00 PM</p>
             </div>
         </div>
 

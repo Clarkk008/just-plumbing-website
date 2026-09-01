@@ -62,8 +62,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67,
+            "ratingCount": 68,
+            "reviewCount": 68,
             "itemReviewed": {
               "@type": "LocalBusiness",
               "name": "Just Plumbing, Inc."
@@ -127,8 +127,8 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/denver"
+              "name": "Service Areas",
+              "item": "https://justplumbinginc.com/locations/"
             },
             {
               "@type": "ListItem",
@@ -243,12 +243,12 @@
 
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a href='/locations/denver' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
+                    <a href='/locations/' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
                     <ul class="dropdown">
                         <li><a href='/locations/denver'>Denver</a></li>
                         <li><a href='/locations/arvada'>Arvada</a></li>
                         <li><a href='/locations/aurora'>Aurora</a></li>
-                        <li><a href='/locations/bennett-prv-rebate'>Bennett (PRV Rebate)</a></li>
+                        <li><a href='/locations/bennett-prv-rebate' class="active">Bennett (PRV Rebate)</a></li>
                         <li><a href='/locations/broomfield'>Broomfield</a></li>
                         <li><a href='/locations/castle-rock'>Castle Rock</a></li>
                         <li><a href='/locations/centennial'>Centennial</a></li>
@@ -268,6 +268,17 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/locations/" style="color: var(--brand-blue, #003366); text-decoration: none;">Service Areas</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Bennett PRV Rebate</span>
+        </div>
+    </nav>
+
     <main>
         <!-- Hero Section -->
         <section class="hero" style="background-image: url('../assets/images/prv-hero-bg.jpg');">
@@ -278,7 +289,7 @@
                 <!-- Google Reviews Clickable Badge -->
                 <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-top: 15px; margin-bottom: 20px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
 
                 <p class="hero-highlight"><strong>Protect your home's plumbing from high city water pressure and earn up to $550 in rebates from the Town of Bennett.</strong></p>
@@ -345,8 +356,8 @@
                 </p>
                 <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
                     Our Master Plumber-led team performs clean whole-home conversions using corrosion-immune 
-                    <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A expansion lines</a> 
-                    paired with heavy-duty Pressure Reducing Valves (PRVs) to protect your fixtures and water heaters.
+                    <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A expansion lines</a> (backed by a 25-year material warranty and 5-year workmanship warranty)
+                    paired with heavy-duty Pressure Reducing Valves (PRVs) to protect your fixtures and <a href="/services/water-heaters" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">water heaters</a>. Learn more in our <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">PEX-A vs. PEX-B Guide</a>.
                 </p>
                 <p style="font-size: 0.95rem; line-height: 1.6;">
                     Explore our complete guide to <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper vs. PEX-A</a> to choose the right material for your property.
@@ -362,7 +373,7 @@
         </section>
     </main>
 
-    <!-- Footer with Local Site Directory -->
+    <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
             <!-- Contact Info Column -->
@@ -382,6 +393,7 @@
                 <p style="margin-top: 15px; font-size: 0.9rem;">
                     <a href='/faq' style='color: #FFFFFF; text-decoration: underline; margin-right: 15px;'>Frequently Asked Questions</a>
                     <a href='/why-repipe' style='color: #FFFFFF; text-decoration: underline;'>Why Repipe?</a>
+                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline; margin-left: 15px;'>Pipe Problems</a>
                 </p>
             </div>
             
@@ -395,6 +407,9 @@
                     <li><a href='/materials/'>Piping Materials</a></li>
                     <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
             

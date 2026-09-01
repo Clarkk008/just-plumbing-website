@@ -58,8 +58,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67
+            "ratingCount": 68,
+            "reviewCount": 68
           },
           "openingHoursSpecification": [
             {
@@ -143,7 +143,7 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/denver"
+              "item": "https://justplumbinginc.com/locations/"
             },
             {
               "@type": "ListItem",
@@ -247,6 +247,21 @@
                     </ul>
                 </li>
 
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
+                    </ul>
+                </li>
+
                 <!-- Commercial Dropdown Menu -->
                 <li>
                     <a href='/commercial/'>Commercial ▾</a>
@@ -259,10 +274,10 @@
 
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a href='/locations/denver' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
+                    <a href='/locations/' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
                     <ul class="dropdown">
                         <li><a href='/locations/denver'>Denver</a></li>
-                        <li><a href='/locations/arvada'>Arvada</a></li>
+                        <li><a href='/locations/arvada' class="active">Arvada</a></li>
                         <li><a href='/locations/aurora'>Aurora</a></li>
                         <li><a href='/locations/bennett-prv-rebate'>Bennett (PRV Rebate)</a></li>
                         <li><a href='/locations/broomfield'>Broomfield</a></li>
@@ -284,6 +299,17 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/locations/" style="color: var(--brand-blue, #003366); text-decoration: none;">Service Areas</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Arvada</span>
+        </div>
+    </nav>
+
     <main>
         <!-- Internal Page Header -->
         <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
@@ -291,9 +317,9 @@
                 <h1 style="color: var(--white); margin-bottom: 15px;">Your Trusted Plumber in Arvada, CO</h1>
                 
                 <!-- Google Reviews Clickable Badge -->
-                <a href="https://www.google.com/search?q=Just+Plumbing%2C+Inc.&amp;rlz=1C5OZZY_enUS1122US1122&amp;oq=just&amp;gs_lcrp=EgZjaHJvbWUqCAgBEEUYJxg7MgYIABBFGDwyCAgBEEUYJxg7MgYIAhBFGDkyBggDECMYJzIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyBggGEEUYPDIGCAcQRRg80gEIMTgyNGowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8#lrd=0x876c5b80cfa45cc3:0x948b5c0f00e11b36,1,,,," target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+                <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
 
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Arvada's dedicated repiping specialists and historic home plumbing experts, modernizing your pipes while protecting your property.</p>
@@ -306,7 +332,7 @@
             <!-- Left Column: The Content -->
             <article>
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Historic Home Plumbing Experts in Arvada, Colorado</h2>
-                <p style="margin-bottom: 20px;">Arvada is rich in architectural history, from the early 20th-century storefronts of the Olde Town Historic District to the beautiful wood-framed cottages and Queen Anne-style properties in Reno Park and the Stocke-Walter Addition. However, these stunning homes often harbor a hidden structural issue behind plaster walls and under floorboards: aging, heavily corroded galvanized steel or brittle polybutylene plumbing.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Arvada is rich in architectural history, from the early 20th-century storefronts of the Olde Town Historic District to the beautiful wood-framed cottages and Queen Anne-style properties in Reno Park and the Stocke-Walter Addition. However, these stunning homes often harbor a hidden structural issue behind plaster walls and under floorboards: aging, heavily corroded <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized steel</a> or brittle <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene plumbing</a>.</p>
                 
                 <!-- SEO Real Jobsite Image Integration -->
                 <div style="margin: 30px 0; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
@@ -315,7 +341,7 @@
                          style="width: 100%; height: auto; display: block;">
                 </div>
 
-                <p style="margin-bottom: 30px;">If you live in one of Arvada's established neighborhoods like Reno Park, Ralston Valley, or Lake Arbor, your home's original internal plumbing may be operating on borrowed time. When searching for an experienced <strong>plumber in Arvada, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber expertise to safely navigate historic structures across the <a href="/locations/denver" style="color: var(--brand-blue); text-decoration: underline;">Greater Denver Metro area</a>. We specialize in surgical, minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">whole-home repiping</a> that replaces failing lines with clean, freeze-resistant PEX Type A or rigid copper—restoring pristine water pressure and protecting your property's value.</p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">If you live in one of Arvada's established neighborhoods like Reno Park, Ralston Valley, or Lake Arbor, your home's original internal plumbing may be operating on borrowed time. When searching for an experienced <strong>plumber in Arvada, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber expertise to safely navigate historic structures across the <a href="/locations/denver" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Greater Denver Metro area</a>. We specialize in surgical, minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repiping</a> that replaces failing lines with clean, freeze-resistant <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty and 5-year workmanship warranty) or rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a>—restoring pristine water pressure and protecting your property's value. See our successful local copper reroute in our <a href="/projects/arvada-copper-pipe-replacement" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Arvada Copper Pinhole Case Study</a>.</p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Our Top Arvada Plumbing Services</h2>
                 <ul style="margin: 0 0 30px 20px; line-height: 1.8;">
@@ -337,7 +363,7 @@
                         <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
                             We surgically replace old galvanized systems without destroying historic plaster or trim, installing modern 
                             <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> or commercial-grade 
-                            <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L rigid copper</a> lines.
+                            <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L rigid copper</a> lines. Learn about our expansion fitting standards in the <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">PEX-A vs. PEX-B Guide</a>.
                         </p>
                         <p style="font-size: 0.95rem; line-height: 1.6;">
                             Operating an apartment complex or commercial facility? Review our 
@@ -352,7 +378,7 @@
                     
                     <div style="margin-bottom: 20px;">
                         <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">How do I know if my Arvada home needs new pipes?</h3>
-                        <p style="font-size: 0.95rem; line-height: 1.6;">Key warning signs in older Arvada homes include low water pressure when running multiple taps, yellow or brownish water coming from hot water lines, visible rust or flakes in sink strainers, or recurring pinhole leaks in sheetrock. Schedule an inspection via our <a href="/contact" style="color: var(--brand-blue); text-decoration: underline;">contact page</a> to assess your system.</p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">Key warning signs in older Arvada homes include low water pressure when running multiple taps, yellow or brownish water coming from hot water lines, visible rust or flakes in sink strainers, or recurring <a href="/pipe-problems/copper-pinhole-leaks" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">pinhole leaks</a> in sheetrock. Schedule an inspection via our <a href="/contact" style="color: var(--brand-blue); text-decoration: underline;">contact page</a> to assess your system.</p>
                     </div>
 
                     <div style="margin-bottom: 20px;">
@@ -362,7 +388,7 @@
 
                     <div>
                         <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">How long does a whole-house repipe take in an Arvada home?</h3>
-                        <p style="font-size: 0.95rem; line-height: 1.6;">Most residential <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">repiping jobs in Arvada</a> take 2 to 4 days depending on home size and access. We keep your home clean and functional by ensuring water service is safely restored at the end of each workday.</p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">Most residential <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">repiping jobs in Arvada</a> take 1 to 3 days depending on home size and access. We keep your home clean and functional by ensuring water service is safely restored at the end of each workday.</p>
                     </div>
                 </section>
             </article>
@@ -373,7 +399,7 @@
                     <h3 style="color: var(--brand-blue); margin-bottom: 15px;">Call Your Local Arvada Plumber</h3>
                     <p style="margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">Are you experiencing low water pressure, discolored water, or <a href="/services/water-heaters" style="color: var(--brand-blue); text-decoration: underline;">water heater issues</a> in your Arvada home? Contact Master Plumber Bill Clark for an honest, expert assessment.</p>
                     <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px; transition: transform 0.2s;">Call (303) 472-0833</a>
-                    <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline; font-weight: bold;">Or Request Online Estimate →</a>
+                    <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline; font-weight: bold;">Request Online Estimate →</a>
                 </div>
             </aside>
 
@@ -383,7 +409,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across Arvada and the Denver Metro area rate Just Plumbing, Inc. 5 out of 5 stars.</p>
+                <p>See why homeowners across Arvada and the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -407,8 +433,8 @@
 
                 <!-- Google Reviews Button -->
                 <div style="margin-top: 50px; text-align: center;">
-                    <a href="https://www.google.com/search?q=Just+Plumbing%2C+Inc.&amp;rlz=1C5OZZY_enUS1122US1122&amp;oq=just&amp;gs_lcrp=EgZjaHJvbWUqCAgBEEUYJxg7MgYIABBFGDwyCAgBEEUYJxg7MgYIAhBFGDkyBggDECMYJzIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyBggGEEUYPDIGCAcQRRg80gEIMTgyNGowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8#lrd=0x876c5b80cfa45cc3:0x948b5c0f00e11b36,1,,,," target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
-                        Read All 67 Reviews on Google
+                    <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
+                        Read All 68 Reviews on Google
                     </a>
                 </div>
                 
@@ -416,7 +442,7 @@
         </section>
     </main>
 
-    <!-- Footer with Local Site Directory -->
+    <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
             <!-- Contact Info Column -->
@@ -436,6 +462,7 @@
                 <p style="margin-top: 15px; font-size: 0.9rem;">
                     <a href='/faq' style='color: #FFFFFF; text-decoration: underline; margin-right: 15px;'>Frequently Asked Questions</a>
                     <a href='/why-repipe' style='color: #FFFFFF; text-decoration: underline;'>Why Repipe?</a>
+                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline; margin-left: 15px;'>Pipe Problems</a>
                 </p>
             </div>
 
@@ -449,10 +476,13 @@
                     <li><a href='/materials/'>Piping Materials</a></li>
                     <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 
-            <!-- Geographic Target Column -->
+            <!-- Geographic Target Column (28 Cities) -->
             <div class="footer-areas">
                 <h3>Areas We Serve Across Greater Denver</h3>
                 <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">

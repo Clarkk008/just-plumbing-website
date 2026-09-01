@@ -58,12 +58,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67,
-            "itemReviewed": {
-              "@type": "LocalBusiness",
-              "name": "Just Plumbing, Inc."
-            }
+            "ratingCount": 68,
+            "reviewCount": 68
           },
           "openingHoursSpecification": [
             {
@@ -123,7 +119,6 @@
             {"@type": "City", "name": "Golden"},
             {"@type": "City", "name": "Glendale"},
             {"@type": "City", "name": "Greenwood Village"},
-            {"@type": "City", "name": "Highlands Ranch"},
             {"@type": "City", "name": "Larkspur"},
             {"@type": "City", "name": "Littleton"},
             {"@type": "City", "name": "Lone Tree"},
@@ -147,8 +142,8 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/denver"
+              "name": "Service Areas",
+              "item": "https://justplumbinginc.com/locations/"
             },
             {
               "@type": "ListItem",
@@ -252,6 +247,21 @@
                     </ul>
                 </li>
 
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene" class="active">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
+                    </ul>
+                </li>
+
                 <!-- Commercial Dropdown Menu -->
                 <li>
                     <a href='/commercial/'>Commercial ▾</a>
@@ -264,7 +274,7 @@
 
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a aria-current="page" href='/locations/denver' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
+                    <a href='/locations/' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
                     <ul class="dropdown">
                         <li><a href='/locations/denver'>Denver</a></li>
                         <li><a href='/locations/arvada'>Arvada</a></li>
@@ -274,7 +284,7 @@
                         <li><a href='/locations/castle-rock'>Castle Rock</a></li>
                         <li><a href='/locations/centennial'>Centennial</a></li>
                         <li><a href='/locations/golden'>Golden</a></li>
-                        <li><a href='/locations/highlands-ranch'>Highlands Ranch</a></li>
+                        <li><a href='/locations/highlands-ranch' class="active">Highlands Ranch</a></li>
                         <li><a href='/locations/littleton'>Littleton</a></li>
                         <li><a href='/locations/parker'>Parker</a></li>
                         <li><a href='/locations/thornton'>Thornton</a></li>
@@ -289,6 +299,17 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/locations/" style="color: var(--brand-blue, #003366); text-decoration: none;">Service Areas</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Highlands Ranch</span>
+        </div>
+    </nav>
+
     <main>
         <!-- Internal Page Header -->
         <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
@@ -298,7 +319,7 @@
                 <!-- Google Reviews Clickable Badge -->
                 <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
 
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Master Plumber-led polybutylene pipe replacements, high-efficiency tankless water heaters, and basement flood protection across Northridge, Southridge, Eastridge & Westridge.</p>
@@ -311,15 +332,15 @@
             <!-- Left Column: The Content -->
             <article>
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Polybutylene & Plumbing Specialists in Highlands Ranch</h2>
-                <p style="margin-bottom: 20px;">Highlands Ranch is one of Douglas County's premier master-planned communities. However, because thousands of homes in Northridge, Southridge, Eastridge, and Westridge were constructed during the building boom of the 1980s and 1990s, homeowners face a widespread hidden risk: <strong>defective gray Polybutylene piping.</strong></p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Highlands Ranch is one of Douglas County's premier master-planned communities. However, because thousands of homes in Northridge, Southridge, Eastridge, and Westridge were constructed during the building boom of the 1980s and 1990s, homeowners face a widespread hidden risk: <strong>defective gray <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Polybutylene piping</a>.</strong></p>
                 
-                <p style="margin-bottom: 20px;">Over decades of exposure to municipal water treatments, polybutylene pipes degrade internally, become brittle, and fracture at plastic acetal fittings—leading to sudden catastrophic leaks behind sheetrock. Many insurance companies now refuse coverage or drop policies on Highlands Ranch homes with active polybutylene lines.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Over decades of exposure to municipal water treatments, polybutylene pipes degrade internally, become brittle, and fracture at plastic acetal fittings—leading to sudden catastrophic leaks behind sheetrock. Many insurance companies now refuse coverage or drop policies on Highlands Ranch homes with active polybutylene lines.</p>
 
-                <p style="margin-bottom: 30px;">At <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a>, Master Plumber Bill Clark brings 30+ years of local experience replacing polybutylene with freeze-resistant, scale-proof <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">PEX Type A expansion piping</a>. We complete full-home repipes in 1 to 3 days with minimal wall disruption—<strong>and we manage the professional drywall restoration for you!</strong></p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">At <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a>, Master Plumber Bill Clark brings 30+ years of local experience replacing polybutylene with freeze-resistant, scale-proof <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">PEX Type A expansion piping</a> (backed by a 25-year material warranty and 5-year workmanship warranty) along with rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); text-decoration: underline;">Type L Copper</a> at <a href="/services/water-heaters" style="color: var(--brand-blue); text-decoration: underline;">water heater transitions</a>. We complete full-home repipes in 1 to 2 days with minimal wall disruption—<strong>and we manage the professional drywall restoration for you!</strong> See our process in action in our <a href="/projects/highlands-ranch-polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Highlands Ranch Polybutylene Case Study</a>.</p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Our Top Highlands Ranch Services</h2>
                 <ul style="margin: 0 0 30px 20px; line-height: 1.8;">
-                    <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Polybutylene & Whole-Home Repiping</a>:</strong> Complete system replacements using Uponor AquaPEX Type A expansion tubing, permanently protecting your home against hidden leaks.</li>
+                    <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Polybutylene & Whole-Home Repiping</a>:</strong> Complete system replacements using Uponor AquaPEX Type A expansion tubing, permanently protecting your home against hidden leaks. Learn why expansion fittings outperform crimp fittings in our <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); text-decoration: underline;">PEX-A vs. PEX-B Guide</a>.</li>
                     <li><strong><a href='/services/water-heaters' style='color: var(--brand-blue); text-decoration: underline;'>Water Heater Repair & Tankless Conversions</a>:</strong> Same-day diagnostics, sediment flushes, and high-efficiency tankless upgrades built to handle Douglas County water hardness.</li>
                     <li><strong><a href='/services/sump-pumps' style='color: var(--brand-blue); text-decoration: underline;'>Sump Pumps & Battery Backups</a>:</strong> Heavy-duty primary pumps and dual-battery backups to keep finished Highlands Ranch basements dry during seasonal storms.</li>
                     <li><strong><a href='/services/remodels' style='color: var(--brand-blue); text-decoration: underline;'>Kitchen & Bathroom Remodel Plumbing</a>:</strong> Precision supply/drain line relocations and high-end fixture installations for home upgrades.</li>
@@ -352,17 +373,17 @@
                     
                     <div style="margin-bottom: 20px;">
                         <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">How do I check if my Highlands Ranch home has polybutylene pipes?</h3>
-                        <p style="font-size: 0.95rem; line-height: 1.6;">Look at exposed plumbing near your main water shutoff valve, basement ceiling joists, or under bathroom sinks. Polybutylene is a flexible gray plastic pipe usually stamped with "PB2110". If you see gray pipes, contact us via our <a href="/contact" style="color: var(--brand-blue); text-decoration: underline;">contact page</a> for a free inspection.</p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">Look at exposed plumbing near your main water shutoff valve, basement ceiling joists, or under bathroom sinks. Polybutylene is a flexible gray plastic pipe usually stamped with "PB2110". If you see gray pipes, contact us via our <a href="/contact" style="color: var(--brand-blue); text-decoration: underline;">contact page</a> for an inspection.</p>
                     </div>
 
                     <div style="margin-bottom: 20px;">
                         <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">How long does a whole-home repipe take in Highlands Ranch?</h3>
-                        <p style="font-size: 0.95rem; line-height: 1.6;">Most Highlands Ranch repiping jobs take between 1 to 3 days. Water service is safely restored at the end of each workday so your household remains fully operational throughout the process.</p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">Most Highlands Ranch repiping jobs take between 1 to 2 days. Water service is safely restored at the end of each workday so your household remains fully operational throughout the process.</p>
                     </div>
 
                     <div>
                         <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">Who manages plumbing permits in Douglas County?</h3>
-                        <p style="font-size: 0.95rem; line-height: 1.6;">Just Plumbing, Inc. operates under Colorado Plumbing Contractor Registration #PC.0003531 and Master Plumber License #MP.00600120. We pull all required permits through Douglas County Building Services and manage required city sign-offs.</p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">Just Plumbing, Inc. operates under Colorado Plumbing Contractor Registration #PC.0003531 and Master Plumber License #MP.00600120. We pull all required permits through Douglas County Building Services and manage required municipal sign-offs.</p>
                     </div>
                 </section>
             </article>
@@ -371,7 +392,7 @@
             <aside>
                 <div style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-top: 5px solid var(--brand-red); text-align: center; position: sticky; top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
                     <h3 style="color: var(--brand-blue); margin-bottom: 15px;">Schedule a Highlands Ranch Estimate</h3>
-                    <p style="margin-bottom: 20px; font-size: 0.95rem;">Concerned about polybutylene pipes or an aging water heater in Highlands Ranch? Contact Master Plumber Bill Clark today.</p>
+                    <p style="margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">Concerned about polybutylene pipes or an aging water heater in Highlands Ranch? Contact Master Plumber Bill Clark today.</p>
                     <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px; transition: transform 0.2s;">Call (303) 472-0833</a>
                     <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline; font-weight: bold;">Or Request Online Estimate →</a>
                 </div>
@@ -383,7 +404,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across Highlands Ranch and the Metro area rate Just Plumbing, Inc. 5 out of 5 stars.</p>
+                <p>See why homeowners across Highlands Ranch and the Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -408,7 +429,7 @@
                 <!-- Google Reviews Button -->
                 <div style="margin-top: 50px; text-align: center;">
                     <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
-                        Read All 67 Reviews on Google
+                        Read All 68 Reviews on Google
                     </a>
                 </div>
                 
@@ -416,7 +437,7 @@
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
             <!-- Contact Info Column -->
@@ -436,7 +457,7 @@
                 <p style="margin-top: 15px; font-size: 0.9rem;">
                     <a href='/faq' style='color: #FFFFFF; text-decoration: underline; margin-right: 15px;'>Frequently Asked Questions</a>
                     <a href='/why-repipe' style='color: #FFFFFF; text-decoration: underline;'>Why Repipe?</a>
-                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline;'>Pipe Problems</a>
+                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline; margin-left: 15px;'>Pipe Problems</a>
                 </p>
             </div>
 
@@ -450,6 +471,9 @@
                     <li><a href='/materials/'>Piping Materials</a></li>
                     <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 
@@ -491,8 +515,8 @@
             <!-- Operating Hours Column -->
             <div class="footer-hours">
                 <h3>Business Hours</h3>
-                <p itemprop="openingHours" content="Mo,Tu,We,Th,Fr 07:00-21:00">Monday - Friday: 7:00 AM - 9:00 PM</p>
-                <p itemprop="openingHours" content="Sa,Su 08:00-17:00">Saturday & Sunday: 8:00 AM - 5:00 PM</p>
+                <p>Monday - Friday: 7:00 AM - 9:00 PM</p>
+                <p>Saturday & Sunday: 8:00 AM - 5:00 PM</p>
             </div>
         </div>
 

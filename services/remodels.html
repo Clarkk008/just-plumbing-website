@@ -7,7 +7,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-5ZLNWSEL2B');
     </script>
 
@@ -77,8 +76,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67
+            "ratingCount": 68,
+            "reviewCount": 68
           },
           "hasCredential": [
             {
@@ -265,6 +264,12 @@
             {
               "@type": "ListItem",
               "position": 2,
+              "name": "Services",
+              "item": "https://justplumbinginc.com/services/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
               "name": "Kitchen & Bath Remodels",
               "item": "https://justplumbinginc.com/services/remodels"
             }
@@ -302,13 +307,13 @@
                 
                 <!-- Services Dropdown Menu -->
                 <li>
-                    <a aria-current="page" href='/services/remodels' style="color: var(--brand-red);">Services ▾</a>
+                    <a aria-current="page" href='/services/remodels' style="color: var(--brand-red); font-weight: bold;">Services ▾</a>
                     <ul class="dropdown">
                         <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
                         <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
                         <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
                         <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
-                        <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                        <li><a href='/services/remodels' class="active">Kitchen & Bath Remodels</a></li>
                         <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                     </ul>
                 </li>
@@ -331,6 +336,21 @@
                         <li><a href='/materials/uponor-pex-a'>Uponor PEX-A</a></li>
                         <li><a href='/materials/pex-a-vs-pex-b'>PEX-A vs PEX-B</a></li>
                         <li><a href='/materials/type-l-copper'>Type L Copper</a></li>
+                    </ul>
+                </li>
+
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
                     </ul>
                 </li>
 
@@ -371,31 +391,65 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs for UX and Crawlers -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/services/whole-home-repiping" style="color: var(--brand-blue, #003366); text-decoration: none;">Services</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Kitchen & Bath Remodels</span>
+        </div>
+    </nav>
+
     <main>
-        <!-- Internal Page Header -->
+        <!-- Internal Page Header with E-E-A-T Enhancements -->
         <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
             <div class="container" style="text-align: center;">
-                <h1 style="color: var(--white); margin-bottom: 15px;">Bathroom & Kitchen Plumbing Remodels in Denver & Arvada</h1>
+                
+                <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 15px;">
+                    <span class="trust-badge" style="background-color: rgba(255,255,255,0.2); color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Master Plumber Led</span>
+                    <span class="trust-badge" style="background-color: var(--brand-red, #cf2e2e); color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Permits Managed</span>
+                </div>
+                
+                <h1 style="color: var(--white); margin-bottom: 15px; font-size: 2.8rem;">Bathroom & Kitchen Plumbing Remodels in Denver & Arvada</h1>
                 
                 <!-- Google Reviews Clickable Badge -->
                 <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
+
+                <!-- E-E-A-T Byline -->
+                <div style="font-size: 0.95rem; color: rgba(255,255,255,0.85); margin-bottom: 20px; display: flex; justify-content: center; align-items: center; gap: 8px;">
+                    <span><svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/></svg></span>
+                    <em>Expertly reviewed by Master Plumber Bill Clark (MP.00600120)</em>
+                </div>
 
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Expert plumbing upgrades, pipe rerouting, and precision fixture installations for home renovations.</p>
             </div>
         </section>
 
         <!-- Main Content -->
-        <section class="container" style="padding: 60px 20px; display: grid; gap: 40px; grid-template-columns: 2fr 1fr;">
+        <section class="container" style="padding: 60px 20px; display: grid; gap: 40px; grid-template-columns: 2fr 1fr; align-items: start;">
             
             <!-- Left Column: The Content -->
             <article>
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Your Renovation Plumbing Experts</h2>
                 <p style="margin-bottom: 20px; line-height: 1.6;">A successful kitchen or bathroom remodel relies on a flawless, leak-proof plumbing foundation. At <strong>Just Plumbing, Inc.</strong>, we provide comprehensive plumbing upgrades across Denver, Arvada, and surrounding suburbs. We handle everything from complex supply and drain line rerouting to modern fixture installations.</p>
-                <p style="margin-bottom: 30px; line-height: 1.6;">Whether you are moving a kitchen sink to a new island, adding a basement bathroom, or converting a master bath into a spa-like retreat, Master Plumber Bill Clark brings 30+ years of expertise to ensure your new layout is fully code-compliant, drains effortlessly, and maintains optimal water pressure.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Opening up bathroom and kitchen walls for a major remodel provides the ideal opportunity to inspect older supply lines before installing high-end tile, cabinetry, and fixtures. Proactively <a href="/pipe-problems/copper-pinhole-leaks" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">addressing hidden copper pinhole leaks</a> and replacing aging metal stubs during the rough-in stage ensures your newly renovated space remains protected against sub-surface water damage for decades to come.</p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">Whether you are moving a kitchen sink to a new island, adding a basement bathroom, or converting a master bath into a spa-like retreat, Master Plumber Bill Clark brings 30+ years of expertise to ensure your new layout is fully code-compliant, drains effortlessly, and maintains optimal water pressure using <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty and 5-year workmanship warranty) or heavy-duty <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a>.</p>
                 
+                <!-- Added E-E-A-T Trust Block -->
+                <div style="background-color: #f0f7ff; border-left: 4px solid var(--brand-blue, #003366); padding: 25px; margin: 35px 0; border-radius: 4px;">
+                    <h4 style="color: var(--brand-blue, #003366); margin-bottom: 15px; font-size: 1.2rem; margin-top: 0;">The Master Plumber Advantage for Remodels:</h4>
+                    <ul style="line-height: 1.8; color: #333; padding-left: 20px; margin: 0;">
+                        <li><strong>Code Compliance:</strong> We pull local municipal permits in Denver, Arvada, and beyond to ensure your renovation is 100% legal.</li>
+                        <li><strong>Structural Feasibility:</strong> We assess joists, venting capacity, and load requirements before tear-out begins.</li>
+                        <li><strong>Future-Proofing:</strong> We replace hidden failing pipes while walls are open to prevent future leaks behind expensive new tile.</li>
+                    </ul>
+                </div>
+
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Comprehensive Remodel Services</h2>
                 <ul style="margin: 20px 0 30px 20px; line-height: 1.8;">
                     <li><strong>Pipe Rerouting:</strong> Safely moving water supply, drain, and vent lines to match your new architectural floor plan.</li>
@@ -427,11 +481,11 @@
 
             <!-- Right Column: The Sidebar CTA -->
             <aside>
-                <div style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-top: 5px solid var(--brand-red); text-align: center; position: sticky; top: 20px;">
+                <div style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-top: 5px solid var(--brand-red); text-align: center; position: sticky; top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
                     <h3 style="color: var(--brand-blue); margin-bottom: 15px;">Planning a Remodel?</h3>
-                    <p style="margin-bottom: 20px; font-size: 0.95rem;">Involve us early in your renovation project to ensure your plumbing layout is feasible, efficient, and up to local building codes.</p>
-                    <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px;">Call (303) 472-0833</a>
-                    <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline;">Or Request Online Consultation →</a>
+                    <p style="margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">Involve us early in your renovation project to ensure your plumbing layout is feasible, efficient, and up to local building codes.</p>
+                    <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Call (303) 472-0833</a>
+                    <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline; font-weight: 600;">Or Request Online Consultation →</a>
                 </div>
             </aside>
 
@@ -466,7 +520,7 @@
                 <!-- Google Reviews Button -->
                 <div style="margin-top: 50px; text-align: center;">
                     <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
-                        Read All 67 Reviews on Google
+                        Read All 68 Reviews on Google
                     </a>
                 </div>
                 
@@ -474,7 +528,7 @@
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
             <!-- Contact Info Column -->
@@ -504,6 +558,7 @@
                 <ul>
                     <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
                     <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems/'>Failing Pipe Diagnosis</a></li>
                     <li><a href='/materials/'>Piping Materials</a></li>
                     <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href='/services/water-heaters'>Water Heater Systems</a></li>

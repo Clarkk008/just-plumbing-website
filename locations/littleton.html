@@ -58,8 +58,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67
+            "ratingCount": 68,
+            "reviewCount": 68
           },
           "openingHoursSpecification": [
             {
@@ -142,8 +142,8 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/denver"
+              "name": "Service Areas",
+              "item": "https://justplumbinginc.com/locations/"
             },
             {
               "@type": "ListItem",
@@ -247,6 +247,21 @@
                     </ul>
                 </li>
 
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
+                    </ul>
+                </li>
+
                 <!-- Commercial Dropdown Menu -->
                 <li>
                     <a href='/commercial/'>Commercial ▾</a>
@@ -259,18 +274,18 @@
 
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a aria-current="page" href="/locations/denver" style="color: var(--brand-red); font-weight: bold;">Service Area ▾</a>
+                    <a href="/locations/" style="color: var(--brand-red); font-weight: bold;">Service Area ▾</a>
                     <ul class="dropdown">
+                        <li><a href="/locations/denver">Denver</a></li>
                         <li><a href="/locations/arvada">Arvada</a></li>
                         <li><a href="/locations/aurora">Aurora</a></li>
                         <li><a href="/locations/bennett-prv-rebate">Bennett (PRV Rebate)</a></li>
                         <li><a href="/locations/broomfield">Broomfield</a></li>
                         <li><a href="/locations/castle-rock">Castle Rock</a></li>
                         <li><a href="/locations/centennial">Centennial</a></li>
-                        <li><a href="/locations/denver">Denver</a></li>
                         <li><a href="/locations/golden">Golden</a></li>
                         <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
-                        <li><a href="/locations/littleton">Littleton</a></li>
+                        <li><a href="/locations/littleton" class="active">Littleton</a></li>
                         <li><a href="/locations/parker">Parker</a></li>
                         <li><a href="/locations/thornton">Thornton</a></li>
                         <li><a href="/locations/westminster">Westminster</a></li>
@@ -284,6 +299,17 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/locations/" style="color: var(--brand-blue, #003366); text-decoration: none;">Service Areas</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Littleton</span>
+        </div>
+    </nav>
+
     <main>
         <!-- Internal Page Header -->
         <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
@@ -291,9 +317,9 @@
                 <h1 style="color: var(--white); margin-bottom: 15px;">Your Trusted Plumber in Littleton, CO</h1>
                 
                 <!-- Google Reviews Clickable Badge -->
-                <a href="https://www.google.com/search?q=Just+Plumbing%2C+Inc.&amp;rlz=1C5OZZY_enUS1122US1122&amp;oq=just&amp;gs_lcrp=EgZjaHJvbWUqCAgBEEUYJxg7MgYIABBFGDwyCAgBEEUYJxg7MgYIAhBFGDkyBggDECMYJzIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyBggGEEUYPDIGCAcQRRg80gEIMTgyNGowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8#lrd=0x876c5b80cfa45cc3:0x948b5c0f00e11b36,1,,," target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+                <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
 
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Littleton's dedicated repiping specialists and historic home plumbing experts, modernizing your pipes while protecting your property.</p>
@@ -306,7 +332,7 @@
             <!-- Left Column: The Content -->
             <article>
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Historic Home & Residential Plumbing Experts in Littleton, Colorado</h2>
-                <p style="margin-bottom: 20px;">Littleton offers a rich history and distinct character, featuring everything from late 19th-century homes surrounding Historic Downtown Main Street to mid-century ranches and established developments in neighborhoods like Broadridge, Slatterly Park, and Normandy. However, these charming homes frequently carry concealed piping liabilities inside plaster walls and crawlspaces: aging, heavily corroded galvanized iron pipes or brittle polybutylene plumbing lines.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Littleton offers a rich history and distinct character, featuring everything from late 19th-century homes surrounding Historic Downtown Main Street to mid-century ranches and established developments in neighborhoods like Broadridge, Slatterly Park, and Normandy. However, these charming homes frequently carry concealed piping liabilities inside plaster walls and crawlspaces: aging, heavily corroded <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized iron pipes</a> or brittle <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene plumbing lines</a>.</p>
                 
                 <!-- SEO Real Jobsite Image Integration -->
                 <div style="margin: 30px 0; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
@@ -315,7 +341,7 @@
                          style="width: 100%; height: auto; display: block;">
                 </div>
 
-                <p style="margin-bottom: 30px;">If you live in one of Littleton's established neighborhoods, your home's original water distribution system may be near the end of its useful lifespan. When looking for a proven <strong>plumber in Littleton, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber experience to work safely inside older and custom homes across the <a href="/locations/denver" style="color: var(--brand-blue); text-decoration: underline;">Greater Denver Metro area</a>. We specialize in precision, minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">whole-home repiping</a> that replaces failing water lines with durable, freeze-resistant PEX Type A or rigid copper—restoring strong water pressure and safeguarding your property's value.</p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">If you live in one of Littleton's established neighborhoods, your home's original water distribution system may be near the end of its useful lifespan. When looking for a proven <strong>plumber in Littleton, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber experience to work safely inside older and custom homes across the <a href="/locations/denver" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Greater Denver Metro area</a>. We specialize in precision, minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repiping</a> that replaces failing water lines with durable, freeze-resistant <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty and 5-year workmanship warranty) or rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a>—restoring strong water pressure and safeguarding your property's value. Learn more about fitting standards in our <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">PEX-A vs. PEX-B Guide</a>.</p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Our Top Littleton Plumbing Services</h2>
                 <ul style="margin: 0 0 30px 20px; line-height: 1.8;">
@@ -362,7 +388,7 @@
 
                     <div>
                         <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">How long does a whole-house repipe take in a Littleton home?</h3>
-                        <p style="font-size: 0.95rem; line-height: 1.6;">Most residential <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">repiping projects in Littleton</a> take 2 to 4 days, depending on layout, home size, and access points. We work cleanly and ensure running water service is re-established at the end of every day.</p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">Most residential <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">repiping projects in Littleton</a> take 1 to 3 days, depending on layout, home size, and access points. We work cleanly and ensure running water service is re-established at the end of every day.</p>
                     </div>
                 </section>
             </article>
@@ -383,7 +409,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across Littleton and the Denver Metro area rate Just Plumbing, Inc. 5 out of 5 stars.</p>
+                <p>See why homeowners across Littleton and the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -407,8 +433,8 @@
 
                 <!-- Google Reviews Button -->
                 <div style="margin-top: 50px; text-align: center;">
-                    <a href="https://www.google.com/search?q=Just+Plumbing%2C+Inc.&amp;rlz=1C5OZZY_enUS1122US1122&amp;oq=just&amp;gs_lcrp=EgZjaHJvbWUqCAgBEEUYJxg7MgYIABBFGDwyCAgBEEUYJxg7MgYIAhBFGDkyBggDECMYJzIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyBggGEEUYPDIGCAcQRRg80gEIMTgyNGowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8#lrd=0x876c5b80cfa45cc3:0x948b5c0f00e11b36,1,,," target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
-                        Read All 67 Reviews on Google
+                    <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
+                        Read All 68 Reviews on Google
                     </a>
                 </div>
                 
@@ -480,7 +506,7 @@
                     <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
                     <li><a href="/locations/larkspur">Larkspur</a></li>
                     <li><a href="/locations/littleton">Littleton</a></li>
-                    <li><a href="/locations/lone-tree">Lone Tree</a></li>
+                    <li><a href='/locations/lone-tree'>Lone Tree</a></li>
                     <li><a href="/locations/parker">Parker</a></li>
                     <li><a href="/locations/sedalia">Sedalia</a></li>
                     <li><a href="/locations/sheridan">Sheridan</a></li>

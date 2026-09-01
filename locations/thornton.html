@@ -58,8 +58,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67
+            "ratingCount": 68,
+            "reviewCount": 68
           },
           "openingHoursSpecification": [
             {
@@ -121,8 +121,8 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/denver"
+              "name": "Service Areas",
+              "item": "https://justplumbinginc.com/locations/"
             },
             {
               "@type": "ListItem",
@@ -226,6 +226,21 @@
                     </ul>
                 </li>
 
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe" class="active">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
+                    </ul>
+                </li>
+
                 <!-- Commercial Dropdown Menu -->
                 <li>
                     <a href='/commercial/'>Commercial ▾</a>
@@ -238,7 +253,7 @@
 
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a aria-current="page" href='/locations/denver' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
+                    <a href='/locations/' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
                     <ul class="dropdown">
                         <li><a href='/locations/denver'>Denver</a></li>
                         <li><a href='/locations/arvada'>Arvada</a></li>
@@ -251,7 +266,7 @@
                         <li><a href='/locations/highlands-ranch'>Highlands Ranch</a></li>
                         <li><a href='/locations/littleton'>Littleton</a></li>
                         <li><a href='/locations/parker'>Parker</a></li>
-                        <li><a href='/locations/thornton'>Thornton</a></li>
+                        <li><a href='/locations/thornton' class="active">Thornton</a></li>
                         <li><a href='/locations/westminster'>Westminster</a></li>
                     </ul>
                 </li>
@@ -263,6 +278,17 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/locations/" style="color: var(--brand-blue, #003366); text-decoration: none;">Service Areas</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Thornton</span>
+        </div>
+    </nav>
+
     <main>
         <!-- Internal Page Header -->
         <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
@@ -272,7 +298,7 @@
                 <!-- Google Reviews Clickable Badge -->
                 <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
 
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Master Plumber-led polybutylene & galvanized pipe replacements, hard water tankless water heaters, and basement flood protection across Thorncreek, Signal Creek, Eastlake & Original Thornton.</p>
@@ -285,15 +311,15 @@
             <!-- Left Column: The Content -->
             <article>
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Repiping & Master Plumbing Specialists in Thornton</h2>
-                <p style="margin-bottom: 20px;">Situated along the I-25 North corridor in Adams County, Thornton is one of the North Metro area's largest and most vibrant communities. However, because Thornton spans decades of rapid residential development, homeowners encounter vastly different plumbing challenges depending on their neighborhood's age.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Situated along the I-25 North corridor in Adams County, Thornton is one of the North Metro area's largest and most vibrant communities. However, because Thornton spans decades of rapid residential development, homeowners encounter vastly different plumbing challenges depending on their neighborhood's age.</p>
                 
-                <p style="margin-bottom: 20px;">Older homes in Original Thornton built during the 1950s and 1960s frequently contain <strong>corroded galvanized steel lines</strong> that choke off water pressure and leach iron rust into taps. Meanwhile, homes in Thorncreek, Signal Creek, Eastlake, and Heritage Todd Creek built during the 1980s and 1990s often contain <strong>defective gray polybutylene piping</strong>, which degrades internally and causes sudden wall bursts.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Older homes in Original Thornton built during the 1950s and 1960s frequently contain <strong>corroded <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized steel lines</a></strong> that choke off water pressure and leach iron rust into taps. Meanwhile, homes in Thorncreek, Signal Creek, Eastlake, and Heritage Todd Creek built during the 1980s and 1990s often contain <strong>defective gray <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene piping</a></strong>, which degrades internally and causes sudden wall bursts.</p>
 
-                <p style="margin-bottom: 30px;">At <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a>, Master Plumber Bill Clark brings 30+ years of local experience replacing galvanized and polybutylene systems with freeze-resistant, scale-proof <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">PEX Type A expansion piping</a>. We complete full-home repipes in 1 to 3 days with minimal wall disruption—<strong>and we manage the professional drywall restoration for you!</strong></p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">At <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a>, Master Plumber Bill Clark brings 30+ years of local experience replacing galvanized and polybutylene systems with freeze-resistant, scale-proof <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">PEX Type A expansion piping</a> (backed by a 25-year material warranty and 5-year workmanship warranty) and rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); text-decoration: underline;">Type L Copper</a>. We complete full-home repipes in 1 to 3 days with minimal wall disruption—<strong>and we manage the professional drywall restoration for you!</strong> Check out our local success story in our <a href="/projects/thornton-kitec-repipe" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Thornton Kitec Replacement Case Study</a>.</p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Our Top Thornton Plumbing Solutions</h2>
                 <ul style="margin: 0 0 30px 20px; line-height: 1.8;">
-                    <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Polybutylene & Galvanized Whole-Home Repiping</a>:</strong> Complete internal system replacements using Uponor AquaPEX Type A, restoring pristine water pressure and permanently eliminating hidden leak liabilities.</li>
+                    <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Polybutylene & Galvanized Whole-Home Repiping</a>:</strong> Complete internal system replacements using Uponor AquaPEX Type A, restoring pristine water pressure and permanently eliminating hidden leak liabilities. Learn why expansion fittings outperform crimp fittings in our <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); text-decoration: underline;">PEX-A vs. PEX-B Guide</a>.</li>
                     <li><strong><a href='/services/water-heaters' style='color: var(--brand-blue); text-decoration: underline;'>Tankless Water Heater Conversions & Repairs</a>:</strong> Same-day diagnostics, sediment flushes, and high-efficiency tankless upgrades engineered to handle Adams County water mineral scale.</li>
                     <li><strong><a href='/services/sump-pumps' style='color: var(--brand-blue); text-decoration: underline;'>Sump Pumps & Battery Backup Protection</a>:</strong> Heavy-duty primary sump pumps and dual-battery backups to keep finished Thornton basements safe from high water tables and spring rainstorms.</li>
                     <li><strong><a href='/services/remodels' style='color: var(--brand-blue); text-decoration: underline;'>Kitchen & Bathroom Remodel Plumbing</a>:</strong> Precision supply/drain line relocations and high-end fixture installations for home modernizations.</li>
@@ -345,7 +371,7 @@
             <aside>
                 <div style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-top: 5px solid var(--brand-red); text-align: center; position: sticky; top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
                     <h3 style="color: var(--brand-blue); margin-bottom: 15px;">Schedule a Thornton Estimate</h3>
-                    <p style="margin-bottom: 20px; font-size: 0.95rem;">Dealing with low water pressure, polybutylene pipes, or an aging water heater in Thornton? Speak directly with Master Plumber Bill Clark.</p>
+                    <p style="margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">Dealing with low water pressure, polybutylene pipes, or an aging water heater in Thornton? Speak directly with Master Plumber Bill Clark.</p>
                     <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px; transition: transform 0.2s;">Call (303) 472-0833</a>
                     <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline; font-weight: bold;">Or Request Online Estimate →</a>
                 </div>
@@ -357,7 +383,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across Thornton and Adams County rate Just Plumbing, Inc. 5 out of 5 stars.</p>
+                <p>See why homeowners across Thornton and Adams County rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -382,7 +408,7 @@
                 <!-- Google Reviews Button -->
                 <div style="margin-top: 50px; text-align: center;">
                     <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
-                        Read All 67 Reviews on Google
+                        Read All 68 Reviews on Google
                     </a>
                 </div>
                 
@@ -390,7 +416,7 @@
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
             <!-- Contact Info Column -->
@@ -410,7 +436,7 @@
                 <p style="margin-top: 15px; font-size: 0.9rem;">
                     <a href="/faq" style="color: #FFFFFF; text-decoration: underline; margin-right: 15px;">Frequently Asked Questions</a>
                     <a href="/why-repipe" style="color: #FFFFFF; text-decoration: underline;">Why Repipe?</a>
-                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline;'>Pipe Problems</a>
+                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline; margin-left: 15px;'>Pipe Problems</a>
                 </p>
             </div>
 
@@ -420,6 +446,7 @@
                 <ul>
                     <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
                     <li><a href="/services/partial-repiping">Partial Repiping</a></li>
+                    <li><a href='/pipe-problems/'>Failing Pipe Diagnosis</a></li>
                     <li><a href='/materials/'>Piping Materials</a></li>
                     <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href="/services/water-heaters">Water Heater Systems</a></li>
@@ -429,7 +456,7 @@
                 </ul>
             </div>
 
-            <!-- Geographic Target Column -->
+            <!-- Geographic Target Column (28 Cities) -->
             <div class="footer-areas">
                 <h3>Areas We Serve Across Greater Denver</h3>
                 <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">
@@ -454,11 +481,11 @@
                     <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
                     <li><a href="/locations/larkspur">Larkspur</a></li>
                     <li><a href="/locations/littleton">Littleton</a></li>
-                    <li><a href="/locations/lone-tree">Lone Tree</a></li>
+                    <li><a href='/locations/lone-tree'>Lone Tree</a></li>
                     <li><a href="/locations/parker">Parker</a></li>
                     <li><a href="/locations/sedalia">Sedalia</a></li>
                     <li><a href="/locations/sheridan">Sheridan</a></li>
-                    <li><a href="/locations/thornton">Thornton</a></li>
+                    <li><a href="/locations/thornton" class="active">Thornton</a></li>
                     <li><a href="/locations/westminster">Westminster</a></li>
                     <li><a href="/locations/wheat-ridge">Wheat Ridge</a></li>
                 </ul>

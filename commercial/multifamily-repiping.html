@@ -29,10 +29,7 @@
           "name": "Multifamily & Apartment Repiping Services",
           "serviceType": "Turnkey Multifamily Repipe",
           "provider": {
-            "@type": "PlumbingService",
-            "name": "Just Plumbing, Inc.",
-            "telephone": "+1-303-472-0833",
-            "url": "https://justplumbinginc.com/"
+            "@id": "https://justplumbinginc.com/#organization"
           },
           "areaServed": [
             {"@type": "City", "name": "Denver"},
@@ -96,17 +93,28 @@
     <!-- Top Action Bar -->
     <div class="top-bar" role="banner">
         <div class="tagline">Colorado Plumbing Contractor #PC.0003531 | Master Plumber #MP.00600120</div>
-        <div class="phone"><a href="tel:+13034720833">(303) 472-0833</a></div>
+        <div class="phone">
+            <a href="tel:+13034720833" aria-label="Call Just Plumbing at (303) 472-0833">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 8px;" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                (303) 472-0833
+            </a>
+        </div>
     </div>
 
-    <!-- Main Navigation -->
+    <!-- Main Navigation (Unified 5-Pillar Header) -->
     <header>
         <div class="logo">
-            <a href="/"><img src="../assets/images/logo.png" alt="Just Plumbing Logo"></a>
+            <a href="/">
+                <img src="../assets/images/logo.png" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
+            </a>
         </div>
         <nav aria-label="Main Navigation">
             <ul>
                 <li><a href="/">Home</a></li>
+                
+                <!-- Services Dropdown Menu -->
                 <li>
                     <a href="/services/whole-home-repiping">Services ▾</a>
                     <ul class="dropdown">
@@ -115,8 +123,11 @@
                         <li><a href="/services/water-heaters">Water Heater Systems</a></li>
                         <li><a href="/services/sump-pumps">Sump Pumps</a></li>
                         <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
+                        <li><a href="/services/new-construction">New Construction Plumbing</a></li>
                     </ul>
                 </li>
+                
+                <!-- Pipe Problems Dropdown Menu -->
                 <li>
                     <a href="/pipe-problems/">Pipe Problems ▾</a>
                     <ul class="dropdown">
@@ -126,14 +137,62 @@
                         <li><a href="/pipe-problems/copper-pinhole-leaks">Copper Pinhole Leaks</a></li>
                     </ul>
                 </li>
-                <li><a href="/materials/">Materials ▾</a>
+
+                <!-- Materials Dropdown Menu -->
+                <li>
+                    <a href="/materials/">Materials ▾</a>
                     <ul class="dropdown">
                         <li><a href="/materials/uponor-pex-a">Uponor PEX-A</a></li>
                         <li><a href="/materials/pex-a-vs-pex-b">PEX-A vs PEX-B</a></li>
                         <li><a href="/materials/type-l-copper">Type L Copper</a></li>
                     </ul>
                 </li>
-                <li><a href="/commercial/" class="active">Commercial</a></li>
+
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
+                    </ul>
+                </li>
+
+                <!-- Commercial Dropdown Menu -->
+                <li>
+                    <a href="/commercial/" class="active">Commercial ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/commercial/multifamily-repiping" class="active">Multifamily & Apartments</a></li>
+                        <li><a href="/commercial/hoa-condo-repiping">HOA & Condos</a></li>
+                        <li><a href="/commercial/commercial-repipe">Commercial Buildings</a></li>
+                    </ul>
+                </li>
+
+                <!-- Service Area Dropdown Menu -->
+                <li>
+                    <a href="/locations/denver">Service Area ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/locations/denver">Denver</a></li>
+                        <li><a href="/locations/arvada">Arvada</a></li>
+                        <li><a href="/locations/aurora">Aurora</a></li>
+                        <li><a href="/locations/bennett-prv-rebate">Bennett (PRV Rebate)</a></li>
+                        <li><a href="/locations/broomfield">Broomfield</a></li>
+                        <li><a href="/locations/castle-rock">Castle Rock</a></li>
+                        <li><a href="/locations/centennial">Centennial</a></li>
+                        <li><a href="/locations/golden">Golden</a></li>
+                        <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
+                        <li><a href="/locations/littleton">Littleton</a></li>
+                        <li><a href="/locations/parker">Parker</a></li>
+                        <li><a href="/locations/thornton">Thornton</a></li>
+                        <li><a href="/locations/westminster">Westminster</a></li>
+                    </ul>
+                </li>
+                
                 <li><a href="/why-repipe">Why Repipe?</a></li>
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/contact">Contact</a></li>
@@ -152,7 +211,7 @@
                 </nav>
                 <h1>Apartment & Multifamily Repiping Services</h1>
                 <p class="hero-highlight"><strong>Replace defective plumbing across entire apartment communities with zero tenant displacement and water restored daily.</strong></p>
-                <p>We replace failing polybutylene, Kitec, and galvanized plumbing systems with Uponor PEX-A expansion infrastructure backed by our Master Plumber lifetime warranty.</p>
+                <p>We replace failing polybutylene, Kitec, and galvanized plumbing systems with Uponor PEX-A expansion infrastructure backed by our Master Plumber leadership and Uponor 25-year material warranty.</p>
                 <a href="tel:+13034720833" class="btn-primary">Schedule a Multifamily Assessment</a>
             </div>
         </section>
@@ -183,7 +242,7 @@
                 
                 <div style="margin-bottom: 25px;">
                     <h3 style="font-size: 1.15rem; color: var(--brand-blue); margin-bottom: 5px;">1. Engineering Assessment & Plan Submissions</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6;">We map all central supply risers, branch lines, and shutoff valves. We pull all municipal building permits and structure a phased construction schedule customized to your property layout.</p>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">We map all central supply risers, branch lines, and shutoff valves. We pull all municipal building permits and structure a phased construction schedule customized to your property layout, integrating high-capacity <a href="/services/water-heaters" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">water heater and boiler systems</a>.</p>
                 </div>
 
                 <div style="margin-bottom: 25px;">
@@ -191,9 +250,14 @@
                     <p style="font-size: 0.95rem; line-height: 1.6;">We provide customized notification templates for residents. Our crews mask off work zones, cover tenant furnishings with heavy plastic, and vacuum work areas at the end of every shift.</p>
                 </div>
 
-                <div>
+                <div style="margin-bottom: 25px;">
                     <h3 style="font-size: 1.15rem; color: var(--brand-blue); margin-bottom: 5px;">3. Upgrading to Uponor PEX-A Systems</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6;">Failing lines are replaced with expansion-fit <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> lines, eliminating pinhole leaks, improving hot water delivery speed, and restoring full water pressure across upper-floor units.</p>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Failing lines are replaced with expansion-fit <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> lines (backed by a 25-year manufacturer material warranty and 5-year workmanship warranty) and rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a> in central mechanical spaces, eliminating recurring <a href="/pipe-problems/copper-pinhole-leaks" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">pinhole leaks</a>, improving hot water delivery speed, and restoring full water pressure across upper-floor units.</p>
+                </div>
+
+                <div>
+                    <h3 style="font-size: 1.15rem; color: var(--brand-blue); margin-bottom: 5px;">4. Proven Multi-Tenant Case Studies</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Explore how we eliminate defective <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene</a>, corroded <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized risers</a>, and <a href="/pipe-problems/kitec" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Kitec plumbing</a> in multi-unit properties by reviewing our <a href="/projects/golden-hoa-condo-repipe" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Golden HOA Condo Case Study</a> and complementary <a href="/commercial/hoa-condo-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">HOA & condominium solutions</a>.</p>
                 </div>
             </div>
         </section>
@@ -206,7 +270,7 @@
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
             <div class="footer-contact">
@@ -221,27 +285,59 @@
                     Plumbing Contractor: <strong>#PC.0003531</strong><br>
                     Master Plumber: <strong>#MP.00600120</strong>
                 </p>
+                <p style="margin-top: 15px; font-size: 0.9rem;">
+                    <a href="/faq" style="color: #FFFFFF; text-decoration: underline; margin-right: 15px;">Frequently Asked Questions</a>
+                    <a href="/why-repipe" style="color: #FFFFFF; text-decoration: underline;">Why Repipe?</a>
+                    <a href="/pipe-problems/" style="color: #FFFFFF; text-decoration: underline; margin-left: 15px;">Pipe Problems</a>
+                </p>
             </div>
             
             <div class="footer-services">
-                <h3>Commercial Services</h3>
+                <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/commercial/multifamily-repiping">Multifamily Repiping</a></li>
-                    <li><a href="/commercial/hoa-condo-repiping">HOA & Condominium Repipes</a></li>
-                    <li><a href="/commercial/commercial-repipe">Commercial Building Repipes</a></li>
-                    <li><a href="/materials/uponor-pex-a">Uponor PEX-A Systems</a></li>
+                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
+                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
+                    <li><a href="/pipe-problems/">Failing Pipe Diagnosis</a></li>
+                    <li><a href="/materials/">Piping Materials</a></li>
+                    <li><a href="/commercial/">Commercial Repiping</a></li>
+                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
+                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
+                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
+                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
                 </ul>
             </div>
             
             <div class="footer-areas">
-                <h3>Areas We Serve</h3>
+                <h3>Areas We Serve Across Greater Denver</h3>
                 <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">
-                    <li><a href="/locations/denver">Denver</a></li>
+                    <li><a href="/locations/arvada">Arvada</a></li>
                     <li><a href="/locations/aurora">Aurora</a></li>
-                    <li><a href="/locations/lakewood">Lakewood</a></li>
+                    <li><a href="/locations/bennett-prv-rebate">Bennett</a></li>
+                    <li><a href="/locations/brighton">Brighton</a></li>
+                    <li><a href="/locations/broomfield">Broomfield</a></li>
+                    <li><a href="/locations/castle-pines">Castle Pines</a></li>
+                    <li><a href="/locations/castle-rock">Castle Rock</a></li>
+                    <li><a href="/locations/centennial">Centennial</a></li>
+                    <li><a href="/locations/cherry-hills-village">Cherry Hills Village</a></li>
+                    <li><a href="/locations/commerce-city">Commerce City</a></li>
+                    <li><a href="/locations/denver">Denver</a></li>
+                    <li><a href="/locations/edgewater">Edgewater</a></li>
                     <li><a href="/locations/englewood">Englewood</a></li>
+                    <li><a href="/locations/evergreen">Evergreen</a></li>
+                    <li><a href="/locations/genesee">Genesee</a></li>
+                    <li><a href="/locations/golden">Golden</a></li>
+                    <li><a href="/locations/glendale">Glendale</a></li>
+                    <li><a href="/locations/greenwood-village">Greenwood Village</a></li>
+                    <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
+                    <li><a href="/locations/larkspur">Larkspur</a></li>
+                    <li><a href="/locations/littleton">Littleton</a></li>
+                    <li><a href="/locations/lone-tree">Lone Tree</a></li>
+                    <li><a href="/locations/parker">Parker</a></li>
+                    <li><a href="/locations/sedalia">Sedalia</a></li>
+                    <li><a href="/locations/sheridan">Sheridan</a></li>
                     <li><a href="/locations/thornton">Thornton</a></li>
                     <li><a href="/locations/westminster">Westminster</a></li>
+                    <li><a href="/locations/wheat-ridge">Wheat Ridge</a></li>
                 </ul>
             </div>
             

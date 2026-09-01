@@ -58,8 +58,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67,
+            "ratingCount": 68,
+            "reviewCount": 68,
             "itemReviewed": {
               "@type": "LocalBusiness",
               "name": "Just Plumbing, Inc."
@@ -146,8 +146,8 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/denver"
+              "name": "Service Areas",
+              "item": "https://justplumbinginc.com/locations/"
             },
             {
               "@type": "ListItem",
@@ -251,6 +251,21 @@
                     </ul>
                 </li>
 
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
+                    </ul>
+                </li>
+
                 <!-- Commercial Dropdown Menu -->
                 <li>
                     <a href='/commercial/'>Commercial ▾</a>
@@ -263,13 +278,13 @@
 
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a href='/locations/denver' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
+                    <a href='/locations/' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
                     <ul class="dropdown">
                         <li><a href='/locations/denver'>Denver</a></li>
                         <li><a href='/locations/arvada'>Arvada</a></li>
                         <li><a href='/locations/aurora'>Aurora</a></li>
                         <li><a href='/locations/bennett-prv-rebate'>Bennett (PRV Rebate)</a></li>
-                        <li><a href='/locations/broomfield'>Broomfield</a></li>
+                        <li><a href='/locations/broomfield' class="active">Broomfield</a></li>
                         <li><a href='/locations/castle-rock'>Castle Rock</a></li>
                         <li><a href='/locations/centennial'>Centennial</a></li>
                         <li><a href='/locations/golden'>Golden</a></li>
@@ -288,6 +303,17 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/locations/" style="color: var(--brand-blue, #003366); text-decoration: none;">Service Areas</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Broomfield</span>
+        </div>
+    </nav>
+
     <main>
         <!-- Internal Page Header -->
         <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
@@ -297,7 +323,7 @@
                 <!-- Google Reviews Clickable Badge -->
                 <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
 
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Master Plumber-led polybutylene pipe replacements, high-efficiency tankless water heaters, and basement flood protection across Broadlands, Eagle Trace, Interlocken & Anthem.</p>
@@ -310,15 +336,15 @@
             <!-- Left Column: The Content -->
             <article>
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Polybutylene & Plumbing Specialists in Broomfield</h2>
-                <p style="margin-bottom: 20px;">Positioned strategically along the US-36 corridor between Denver and Boulder, Broomfield is a thriving community featuring a mix of established 1980s/1990s neighborhoods and modern technological hubs near Interlocken. However, because thousands of homes in areas like Broadlands, Eagle Trace, and Countryfield were built during key expansion periods, homeowners face a widespread risk: <strong>defective gray Polybutylene piping.</strong></p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Positioned strategically along the US-36 corridor between Denver and Boulder, Broomfield is a thriving community featuring a mix of established 1980s/1990s neighborhoods and modern technological hubs near Interlocken. However, because thousands of homes in areas like Broadlands, Eagle Trace, and Countryfield were built during key expansion periods, homeowners face a widespread risk: <strong>defective gray <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Polybutylene piping</a>.</strong></p>
                 
-                <p style="margin-bottom: 20px;">Over decades of exposure to municipal water oxidizers, polybutylene pipes deteriorate internally, become brittle, and burst at plastic fittings without warning—causing catastrophic sheetrock and flooring damage. Insurance providers frequently drop coverage or require a full repipe on Broomfield homes containing active polybutylene.</p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Over decades of exposure to municipal water oxidizers, polybutylene pipes deteriorate internally, become brittle, and burst at plastic fittings without warning—causing catastrophic sheetrock and flooring damage. Insurance providers frequently drop coverage or require a full repipe on Broomfield homes containing active polybutylene.</p>
 
-                <p style="margin-bottom: 30px;">At <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a>, Master Plumber Bill Clark brings 30+ years of local experience replacing polybutylene with freeze-resistant, scale-proof <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">PEX Type A expansion piping</a>. We complete full-home repipes in 1 to 3 days with minimal wall disruption—<strong>and we manage the professional drywall restoration for you!</strong></p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">At <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a>, Master Plumber Bill Clark brings 30+ years of local experience replacing polybutylene with freeze-resistant, scale-proof <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">PEX Type A expansion piping</a> (backed by a 25-year material warranty and 5-year workmanship warranty) and rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); text-decoration: underline;">Type L Copper</a> at <a href="/services/water-heaters" style="color: var(--brand-blue); text-decoration: underline;">water heater transitions</a>. We complete full-home repipes in 1 to 3 days with minimal wall disruption—<strong>and we manage the professional drywall restoration for you!</strong></p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Our Top Broomfield Plumbing Services</h2>
                 <ul style="margin: 0 0 30px 20px; line-height: 1.8;">
-                    <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Polybutylene & Whole-Home Repiping</a>:</strong> Complete system replacements using Uponor AquaPEX Type A expansion tubing, permanently eliminating hidden leak liabilities.</li>
+                    <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Polybutylene & Whole-Home Repiping</a>:</strong> Complete system replacements using Uponor AquaPEX Type A expansion tubing, permanently eliminating hidden leak liabilities. Learn why expansion fittings outperform crimp fittings in our <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); text-decoration: underline;">PEX-A vs. PEX-B Guide</a>.</li>
                     <li><strong><a href='/services/water-heaters' style='color: var(--brand-blue); text-decoration: underline;'>Tankless Water Heater Conversions & Repairs</a>:</strong> Same-day diagnostics, scale flushes, and high-efficiency tankless upgrades built to handle Front Range mineral scale.</li>
                     <li><strong><a href='/services/sump-pumps' style='color: var(--brand-blue); text-decoration: underline;'>Sump Pumps & Battery Backups</a>:</strong> Heavy-duty primary pumps and dual-battery backups to keep finished Broomfield basements dry during seasonal storms.</li>
                     <li><strong><a href='/services/remodels' style='color: var(--brand-blue); text-decoration: underline;'>Kitchen & Bathroom Remodel Plumbing</a>:</strong> Precision supply/drain line relocations and high-end fixture installations for home modernizations.</li>
@@ -339,7 +365,7 @@
                             Compare the differences between fitting systems in our <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">PEX-A vs. PEX-B guide</a>.
                         </p>
                         <p style="font-size: 0.95rem; line-height: 1.6;">
-                            Need full-building infrastructure upgrades? See our 
+                            Operating an apartment complex or commercial facility? Review our 
                             <a href="/commercial/commercial-repipe" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">commercial building repiping capabilities</a>.
                         </p>
                     </div>
@@ -368,11 +394,11 @@
 
             <!-- Right Column: The Sidebar CTA -->
             <aside>
-                <div style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-top: 5px solid var(--brand-red); text-align: center; position: sticky; top: 20px;">
+                <div style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-top: 5px solid var(--brand-red); text-align: center; position: sticky; top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
                     <h3 style="color: var(--brand-blue); margin-bottom: 15px;">Schedule a Broomfield Estimate</h3>
-                    <p style="margin-bottom: 20px; font-size: 0.95rem;">Concerned about polybutylene pipes, low water pressure, or an aging water heater in Broomfield? Contact Master Plumber Bill Clark today.</p>
-                    <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px;">Call (303) 472-0833</a>
-                    <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline;">Or Request Online Estimate →</a>
+                    <p style="margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">Concerned about polybutylene pipes, low water pressure, or an aging water heater in Broomfield? Contact Master Plumber Bill Clark today.</p>
+                    <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px; transition: transform 0.2s;">Call (303) 472-0833</a>
+                    <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline; font-weight: bold;">Or Request Online Estimate →</a>
                 </div>
             </aside>
 
@@ -382,7 +408,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across Broomfield and the US-36 corridor rate Just Plumbing, Inc. 5 out of 5 stars.</p>
+                <p>See why homeowners across Broomfield and the US-36 corridor rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -407,7 +433,7 @@
                 <!-- Google Reviews Button -->
                 <div style="margin-top: 50px; text-align: center;">
                     <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
-                        Read All 67 Reviews on Google
+                        Read All 68 Reviews on Google
                     </a>
                 </div>
                 
@@ -415,7 +441,7 @@
         </section>
     </main>
 
-    <!-- Footer with Local Site Directory -->
+    <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
             <!-- Contact Info Column -->
@@ -435,6 +461,7 @@
                 <p style="margin-top: 15px; font-size: 0.9rem;">
                     <a href='/faq' style='color: #FFFFFF; text-decoration: underline; margin-right: 15px;'>Frequently Asked Questions</a>
                     <a href='/why-repipe' style='color: #FFFFFF; text-decoration: underline;'>Why Repipe?</a>
+                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline; margin-left: 15px;'>Pipe Problems</a>
                 </p>
             </div>
 
@@ -448,10 +475,13 @@
                     <li><a href='/materials/'>Piping Materials</a></li>
                     <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 
-            <!-- Geographic Target Column -->
+            <!-- Geographic Target Column (28 Cities) -->
             <div class="footer-areas">
                 <h3>Areas We Serve Across Greater Denver</h3>
                 <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">

@@ -1,7 +1,11 @@
+# Just Plumbing, Inc. - Robots.txt
+# https://justplumbinginc.com/
+
 User-agent: *
 Allow: /
+Disallow: /netlify/
 
-# Explicit AI Search & Training Crawlers
+# Explicit AI Search & Discovery Crawlers
 User-agent: GPTBot
 Allow: /
 
@@ -20,4 +24,5 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# XML Sitemap Location
 Sitemap: https://justplumbinginc.com/sitemap.xml

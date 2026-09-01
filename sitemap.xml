@@ -1,200 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+
+  <!-- Core & Standalone Pages -->
   <url>
     <loc>https://justplumbinginc.com/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>1.00</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/about</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://justplumbinginc.com/why-repipe</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/contact</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/why-repipe</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/faq</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://justplumbinginc.com/blog</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.75</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
+  <!-- Services Cluster -->
   <url>
-    <loc>https://justplumbinginc.com/services/whole-home-repiping</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.95</priority>
+    <loc>https://justplumbinginc.com/services/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://justplumbinginc.com/services/water-heaters</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.95</priority>
+    <loc>https://justplumbinginc.com/services/whole-home-repiping</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/services/partial-repiping</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/services/water-heaters</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/services/sump-pumps</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/services/remodels</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/services/new-construction</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
+  <!-- Pipe Problems Cluster -->
   <url>
     <loc>https://justplumbinginc.com/pipe-problems/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/pipe-problems/polybutylene</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/pipe-problems/galvanized-steel</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/pipe-problems/kitec</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
+  <!-- Materials Cluster -->
   <url>
     <loc>https://justplumbinginc.com/materials/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/materials/uponor-pex-a</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/materials/pex-a-vs-pex-b</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/materials/type-l-copper</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
+  <!-- Commercial Cluster -->
   <url>
     <loc>https://justplumbinginc.com/commercial/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/commercial/multifamily-repiping</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/commercial/hoa-condo-repiping</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/commercial/commercial-repipe</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
+  <!-- Projects (Case Studies) Cluster -->
   <url>
-    <loc>https://justplumbinginc.com/locations/arvada</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <loc>https://justplumbinginc.com/projects/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://justplumbinginc.com/locations/aurora</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <loc>https://justplumbinginc.com/projects/arvada-copper-pipe-replacement</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://justplumbinginc.com/locations/bennett-prv-rebate</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <loc>https://justplumbinginc.com/projects/highlands-ranch-polybutylene</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://justplumbinginc.com/locations/broomfield</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <loc>https://justplumbinginc.com/projects/thornton-kitec-repipe</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://justplumbinginc.com/locations/castle-rock</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <loc>https://justplumbinginc.com/projects/golden-hoa-condo-repipe</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://justplumbinginc.com/locations/centennial</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.85</priority>
+    <loc>https://justplumbinginc.com/projects/park-hill-denver-galvanized</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/projects/wash-park-denver-repipe</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/projects/west-highland-denver-repipe</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Locations / Service Area Cluster -->
+  <url>
+    <loc>https://justplumbinginc.com/locations/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/locations/denver</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/locations/arvada</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/locations/aurora</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/locations/bennett-prv-rebate</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/locations/broomfield</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/locations/castle-rock</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/locations/centennial</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/locations/golden</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/locations/highlands-ranch</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/locations/littleton</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/locations/parker</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/locations/thornton</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justplumbinginc.com/locations/westminster</loc>
-    <lastmod>2026-08-28</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>

@@ -1,24 +1,40 @@
 export default async (request, context) => {
-  const userAgent = request.headers.get("user-agent")?.toLowerCase() || "";
-  const countryCode = context.geo?.country?.code;
+  const userAgent = (request.headers.get("user-agent") || "").toLowerCase();
 
-  // Allow verified search engine & AI crawlers to maintain search visibility
-  const isBot = /googlebot|bingbot|duckduckbot|slurp|yandexbot|baiduspider|facebookexternalhit|twitterbot|linkedinbot|gptbot|chatgpt-user|claudebot|perplexitybot|google-extended|ccbot/.test(userAgent);
+  // Whitelist reputable search engines & AI crawlers
+  const allowedBots = [
+    "googlebot",
+    "bingbot",
+    "gptbot",
+    "chatgpt-user",
+    "claudebot",
+    "perplexitybot",
+    "google-extended",
+    "ccbot",
+    "applebot",
+    "duckduckbot",
+    "slurp",
+    "baiduspider",
+    "yandexbot"
+  ];
 
-  if (isBot) {
+  const isAllowedBot = allowedBots.some((bot) => userAgent.includes(bot));
+
+  if (isAllowedBot) {
     return context.next();
   }
 
-  // Block all non-US visitors
-  if (countryCode && countryCode !== "US") {
-    return new Response(
-      "<h1>403 Forbidden</h1><p>Access is restricted to visitors within the United States.</p>",
-      {
-        status: 403,
-        headers: { "Content-Type": "text/html" },
-      }
-    );
+  // Check visitor country code from Netlify Geo headers
+  const country = context.geo?.country?.code;
+
+  // Allow US and internal/local development (undefined/null)
+  if (!country || country === "US") {
+    return context.next();
   }
 
-  return context.next();
+  // Block all other non-US human traffic
+  return new Response("Access restricted: Services only available within the United States.", {
+    status: 403,
+    headers: { "Content-Type": "text/plain" },
+  });
 };

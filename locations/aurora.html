@@ -58,8 +58,8 @@
             "ratingValue": 4.6,
             "bestRating": 5,
             "worstRating": 1,
-            "ratingCount": 67,
-            "reviewCount": 67
+            "ratingCount": 68,
+            "reviewCount": 68
           },
           "openingHoursSpecification": [
             {
@@ -143,7 +143,7 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/denver"
+              "item": "https://justplumbinginc.com/locations/"
             },
             {
               "@type": "ListItem",
@@ -202,7 +202,7 @@
         </div>
     </div>
 
-    <!-- Main Navigation -->
+    <!-- Main Navigation (Unified 5-Pillar Goliath Header) -->
     <header>
         <div class="logo">
             <a href='/'>
@@ -247,6 +247,21 @@
                     </ul>
                 </li>
 
+                <!-- Projects & Case Studies Dropdown Menu -->
+                <li>
+                    <a href="/projects/">Projects ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/">All Case Studies</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Replacement</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA / Condo Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill (Denver) Galvanized</a></li>
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park (Denver) Repipe</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland (Denver) Repipe</a></li>
+                    </ul>
+                </li>
+
                 <!-- Commercial Dropdown Menu -->
                 <li>
                     <a href='/commercial/'>Commercial ▾</a>
@@ -259,11 +274,11 @@
 
                 <!-- Service Area Dropdown Menu -->
                 <li>
-                    <a href='/locations/denver' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
+                    <a href='/locations/' style='color: var(--brand-red); font-weight: bold;'>Service Area ▾</a>
                     <ul class="dropdown">
                         <li><a href='/locations/denver'>Denver</a></li>
                         <li><a href='/locations/arvada'>Arvada</a></li>
-                        <li><a href='/locations/aurora'>Aurora</a></li>
+                        <li><a href='/locations/aurora' class="active">Aurora</a></li>
                         <li><a href='/locations/bennett-prv-rebate'>Bennett (PRV Rebate)</a></li>
                         <li><a href='/locations/broomfield'>Broomfield</a></li>
                         <li><a href='/locations/castle-rock'>Castle Rock</a></li>
@@ -284,6 +299,17 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <a href="/locations/" style="color: var(--brand-blue, #003366); text-decoration: none;">Service Areas</a>
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Aurora</span>
+        </div>
+    </nav>
+
     <main>
         <!-- Internal Page Header -->
         <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
@@ -291,9 +317,9 @@
                 <h1 style="color: var(--white); margin-bottom: 15px;">Your Trusted Local Plumber in Aurora, CO</h1>
                 
                 <!-- Google Reviews Clickable Badge -->
-                <a href="https://www.google.com/search?q=Just+Plumbing%2C+Inc.&amp;rlz=1C5OZZY_enUS1122US1122&amp;oq=just&amp;gs_lcrp=EgZjaHJvbWUqCAgBEEUYJxg7MgYIABBFGDwyCAgBEEUYJxg7MgYIAhBFGDkyBggDECMYJzIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyBggGEEUYPDIGCAcQRRg80gEIMTgyNGowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8#lrd=0x876c5b80cfa45cc3:0x948b5c0f00e11b36,1,,,," target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+                <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
                     <span aria-hidden="true">★★★★☆</span>
-                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 67 Google Reviews</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.6 Stars based on 68 Google Reviews</span>
                 </a>
 
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Aurora's dedicated water heater specialists and whole-home repiping experts, protecting your home against hard water scale and aging pipe bursts.</p>
@@ -306,9 +332,9 @@
             <!-- Left Column: The Content -->
             <article>
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Hard Water & Plumbing Specialists in Aurora, Colorado</h2>
-                <p style="margin-bottom: 20px;">Aurora is one of Colorado's largest and most vibrant communities, spanning from established neighborhoods like Heather Ridge, Meadow Hills, and Mission Viejo to expansive modern developments in Tallyn's Reach and Murphy Creek. However, whether your home was built in 1975 or 2015, Aurora homeowners face a universal plumbing adversary: <strong>elevated mineral hard water.</strong></p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Aurora is one of Colorado's largest and most vibrant communities, spanning from established neighborhoods like Heather Ridge, Meadow Hills, and Mission Viejo to expansive modern developments in Tallyn's Reach and Murphy Creek. However, whether your home was built in 1975 or 2015, Aurora homeowners face a universal plumbing adversary: <strong>elevated mineral hard water.</strong></p>
 
-                <p style="margin-bottom: 30px;">Dissolved calcium and magnesium in local water tables cause aggressive scale buildup inside appliances and supply lines across Aurora. When searching for an experienced <strong>plumber in Aurora, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber expertise directly to your door. Led by Master Plumber Bill Clark (License #MP.00600120), we deliver honest, long-lasting solutions—from emergency <a href="/services/water-heaters" style="color: var(--brand-blue); text-decoration: underline;">water heater repairs</a> to complete <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">whole-home repipes</a> using scale-resistant PEX Type A expansion systems.</p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">Dissolved calcium and magnesium in local water tables cause aggressive scale buildup inside appliances and supply lines across Aurora. When searching for an experienced <strong>plumber in Aurora, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber expertise directly to your door. Led by Master Plumber Bill Clark (License #MP.00600120), we deliver honest, long-lasting solutions—from emergency <a href="/services/water-heaters" style="color: var(--brand-blue); text-decoration: underline;">water heater repairs</a> to complete <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">whole-home repipes</a> using scale-resistant PEX Type A expansion systems.</p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Solving Aurora's Top Plumbing Challenges</h2>
                 
@@ -316,14 +342,14 @@
                 <p style="margin-bottom: 20px; line-height: 1.6;">Because Aurora water is hard, mineral sediment bakes onto the bottom of traditional gas and electric storage tanks, creating a thick crust. Water gets trapped underneath this crust, overheats, and causes loud popping or rumbling noises before the tank metal fatigues and splits open. We perform routine sediment flushes, component repairs, and precision installations of tankless water heaters built to handle high-mineral inflow.</p>
 
                 <h3 style="color: var(--brand-blue); margin-top: 25px; margin-bottom: 15px;">2. Polybutylene Pipe Bursts in 80s & 90s Subdivisions</h3>
-                <p style="margin-bottom: 20px; line-height: 1.6;">Thousands of homes built during Aurora's building boom in the 1980s and 1990s were plumbed with flexible gray Polybutylene piping. Combined with chemical municipal water treatments, these lines deteriorate internally, leading to sudden, catastrophic wall leaks. If your home in Mission Viejo or Meadow Hills still has polybutylene, our team can systematically repipe your entire home in just 1 to 2 days—<strong>including hiring the drywall patcher to restore your walls.</strong></p>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Thousands of homes built during Aurora's building boom in the 1980s and 1990s were plumbed with flexible gray Polybutylene piping. Combined with chemical municipal water treatments, these lines deteriorate internally, leading to sudden, catastrophic wall leaks. If your home in Mission Viejo or Meadow Hills still has <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene</a>, our team can systematically repipe your entire home in just 1 to 2 days—<strong>including hiring the drywall patcher to restore your walls.</strong></p>
 
                 <div style="background-color: #f0f7ff; padding: 25px; border-radius: 6px; border-left: 5px solid var(--brand-blue); margin-top: 30px;">
                     <h3 style="color: var(--brand-blue); margin-bottom: 15px;">Our Primary Aurora Services:</h3>
                     <ul style="line-height: 1.8; margin-left: 20px; color: var(--text-dark);">
                         <li><strong><a href='/services/water-heaters' style='color: var(--brand-blue); text-decoration: underline;'>Water Heater Repair & Replacement</a>:</strong> Same-day diagnostics, tank flushing, and high-efficiency tankless installations.</li>
-                        <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>PEX-A Whole-Home Repiping</a>:</strong> Removing dangerous polybutylene or corroded galvanized lines with freeze-resistant Uponor AquaPEX.</li>
-                        <li><strong><a href='/services/partial-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Partial Repiping</a>:</strong> Replacing exposed basement manifolds, utility lines, or updating plumbing for kitchen/bath remodels.</li>
+                        <li><strong><a href='/services/whole-home-repiping' style='color: var(--brand-blue); text-decoration: underline;'>PEX-A Whole-Home Repiping</a>:</strong> Removing dangerous polybutylene or corroded galvanized lines with freeze-resistant <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty and 5-year workmanship warranty).</li>
+                        <li><strong><a href='/services/partial-repiping' style='color: var(--brand-blue); text-decoration: underline;'>Partial Repiping</a>:</strong> Replacing exposed basement manifolds, utility lines, or updating plumbing for kitchen/bath <a href="/services/remodels" style="color: var(--brand-blue); text-decoration: underline;">remodels</a>.</li>
                         <li><strong><a href='/services/sump-pumps' style='color: var(--brand-blue); text-decoration: underline;'>Sump Pump Systems</a>:</strong> Heavy-duty basement sump pumps and battery backups to combat seasonal storm runoff.</li>
                     </ul>
                 </div>
@@ -343,7 +369,7 @@
                             Compare the differences between fitting systems in our <a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">PEX-A vs. PEX-B guide</a>.
                         </p>
                         <p style="font-size: 0.95rem; line-height: 1.6;">
-                            Need full-building infrastructure upgrades? See our 
+                            Operating an apartment complex or commercial facility? Review our 
                             <a href="/commercial/commercial-repipe" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">commercial building repiping capabilities</a>.
                         </p>
                     </div>
@@ -386,7 +412,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across Aurora and the Denver Metro area rate Just Plumbing, Inc. 5 out of 5 stars.</p>
+                <p>See why homeowners across Aurora and the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -410,8 +436,8 @@
 
                 <!-- Google Reviews Button -->
                 <div style="margin-top: 50px; text-align: center;">
-                    <a href="https://www.google.com/search?q=Just+Plumbing%2C+Inc.&amp;rlz=1C5OZZY_enUS1122US1122&amp;oq=just&amp;gs_lcrp=EgZjaHJvbWUqCAgBEEUYJxg7MgYIABBFGDwyCAgBEEUYJxg7MgYIAhBFGDkyBggDECMYJzIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyBggGEEUYPDIGCAcQRRg80gEIMTgyNGowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8#lrd=0x876c5b80cfa45cc3:0x948b5c0f00e11b36,1,,,," target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
-                        Read All 67 Reviews on Google
+                    <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
+                        Read All 68 Reviews on Google
                     </a>
                 </div>
                 
@@ -419,7 +445,7 @@
         </section>
     </main>
 
-    <!-- Footer with Local Site Directory -->
+    <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
             <!-- Contact Info Column -->
@@ -439,6 +465,7 @@
                 <p style="margin-top: 15px; font-size: 0.9rem;">
                     <a href='/faq' style='color: #FFFFFF; text-decoration: underline; margin-right: 15px;'>Frequently Asked Questions</a>
                     <a href='/why-repipe' style='color: #FFFFFF; text-decoration: underline;'>Why Repipe?</a>
+                    <a href='/pipe-problems/' style='color: #FFFFFF; text-decoration: underline; margin-left: 15px;'>Pipe Problems</a>
                 </p>
             </div>
 
@@ -452,10 +479,13 @@
                     <li><a href='/materials/'>Piping Materials</a></li>
                     <li><a href='/commercial/'>Commercial Repiping</a></li>
                     <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 
-            <!-- Geographic Target Column -->
+            <!-- Geographic Target Column (28 Cities) -->
             <div class="footer-areas">
                 <h3>Areas We Serve Across Greater Denver</h3>
                 <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">
@@ -491,7 +521,7 @@
             </div>
 
             <!-- Operating Hours Column -->
-            <div class="footer-hours">
+            <div class="footer-areas">
                 <h3>Business Hours</h3>
                 <p>Monday - Friday: 7:00 AM - 9:00 PM</p>
                 <p>Saturday & Sunday: 8:00 AM - 5:00 PM</p>
