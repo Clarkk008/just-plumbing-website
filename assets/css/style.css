@@ -3,7 +3,7 @@
    ========================================================================== */
 :root {
     --brand-blue: #2B62A2;
-    --brand-red: #EA4335;
+    --brand-red: #D32F2F; /* Darkened slightly to pass AA contrast on white */
     --text-dark: #333333;
     --text-light: #666666;
     --white: #FFFFFF;
@@ -110,8 +110,8 @@ nav a:hover {
    Hero Section
    ========================================================================== */
 .hero {
-    /* Set your background image here */
-    background-image: url('../images/team-background.jpg');
+    /* Updated to WebP for lightning-fast LCP */
+    background-image: url('../images/team-background.webp');
     background-size: cover;
     background-position: center 20%;
     padding: 100px 40px;
@@ -220,7 +220,7 @@ footer {
 }
 
 footer h3 {
-    color: var(--brand-blue);
+    color: var(--white); /* Changed to white for maximum contrast */
     margin-bottom: 25px;
     font-size: 1.3rem;
 }
@@ -318,6 +318,7 @@ footer a:hover {
         font-size: 2rem;
     }
 }
+
 /* Dropdown Navigation Framework */
 nav ul li {
     position: relative; /* Acts as the anchor point for the dropdown menu */
