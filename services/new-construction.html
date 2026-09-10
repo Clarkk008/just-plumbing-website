@@ -197,7 +197,7 @@
     <header>
         <div class="logo">
             <a href='/'>
-                <img src="../assets/images/logo.png" alt="Just Plumbing, Inc. Logo - Denver New Construction Plumbers">
+                <img src="../assets/images/logo.png" alt="Just Plumbing, Inc. Logo - Denver New Construction Plumbers" width="220" height="55" fetchpriority="high">
             </a>
         </div>
         <nav aria-label="Main Navigation">
@@ -294,9 +294,9 @@
     <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
         <div class="container">
             <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
-            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="margin: 0 8px; color: #a0aec0;" aria-hidden="true">/</span> 
             <a href="/services/whole-home-repiping" style="color: var(--brand-blue, #003366); text-decoration: none;">Services</a>
-            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="margin: 0 8px; color: #a0aec0;" aria-hidden="true">/</span> 
             <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">New Construction Plumbing</span>
         </div>
     </nav>
@@ -310,7 +310,7 @@
                 
                 <!-- E-E-A-T Byline -->
                 <div style="font-size: 0.95rem; color: rgba(255,255,255,0.85); margin-bottom: 25px; display: flex; justify-content: center; align-items: center; gap: 8px;">
-                    <span><svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/></svg></span>
+                    <span><svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/></svg></span>
                     <em>Expertly overseen by Master Plumber Bill Clark (MP.00600120)</em>
                 </div>
 
@@ -328,7 +328,8 @@
                 <p style="margin-bottom: 30px; line-height: 1.6;">Led by Master Plumber Bill Clark (License #MP.00600120) with over 30 years of field experience, we bring the supervisory logistics, commercial equipment capabilities, and structural expertise needed to build out pre-engineered prints without causing jobsite delays or costly municipal revision failures.</p>
                 
                 <div style="background-color: #f0f7ff; border-left: 4px solid var(--brand-blue, #003366); padding: 25px; margin-bottom: 40px; border-radius: 4px;">
-                    <h4 style="color: var(--brand-blue, #003366); margin-bottom: 15px; font-size: 1.2rem; margin-top: 0;">Our B2B Subcontractor Guarantee:</h4>
+                    <!-- Fixed Heading Hierarchy -->
+                    <h3 style="color: var(--brand-blue, #003366); margin-bottom: 15px; font-size: 1.2rem; margin-top: 0;">Our B2B Subcontractor Guarantee:</h3>
                     <ul style="line-height: 1.8; color: #333; padding-left: 20px; margin: 0;">
                         <li><strong>Blueprint Accuracy:</strong> Work is executed exactly to your architectural specs and Colorado IPC standards.</li>
                         <li><strong>Zero-Delay Inspections:</strong> Rigorous hydrostatic and air-pressure testing performed prior to municipal inspections.</li>
@@ -362,23 +363,44 @@
                     
                     <form name="commercial-bid-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" style="display: grid; gap: 12px;">
                         <input type="hidden" name="form-name" value="commercial-bid-request">
-                        <p style="display:none;"><label>Don’t fill this out: <input name="bot-field"></label></p>
+                        <p style="display:none;"><label for="bot-field-input">Don’t fill this out: <input id="bot-field-input" name="bot-field"></label></p>
                         
-                        <input type="text" name="contact_name" placeholder="Contact Name" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem;">
-                        <input type="text" name="company_name" placeholder="Company / Developer Name" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem;">
-                        <input type="tel" name="phone" placeholder="Direct Phone Number" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem;">
-                        <input type="email" name="email" placeholder="Email Address" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem;">
+                        <div>
+                            <label for="b2b-contact" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: #2d3748;">Contact Name *</label>
+                            <input type="text" id="b2b-contact" name="contact_name" placeholder="e.g. Jane Doe" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem;">
+                        </div>
                         
-                        <select name="project_type" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem; background-color: white;">
-                            <option value="" disabled selected>Select Project Type...</option>
-                            <option value="Multi-Family / Apartments">Multi-Family / Apartments</option>
-                            <option value="Townhomes / Condos">Townhomes / Condos</option>
-                            <option value="Tract Home Development">Tract Home Development</option>
-                            <option value="Custom Single-Family">Custom Single-Family Home</option>
-                            <option value="Other Commercial">Other Commercial Plumbing</option>
-                        </select>
+                        <div>
+                            <label for="b2b-company" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: #2d3748;">Company / Developer Name *</label>
+                            <input type="text" id="b2b-company" name="company_name" placeholder="e.g. Apex Builders" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem;">
+                        </div>
+                        
+                        <div>
+                            <label for="b2b-phone" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: #2d3748;">Direct Phone Number *</label>
+                            <input type="tel" id="b2b-phone" name="phone" placeholder="(303) 555-0199" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem;">
+                        </div>
+                        
+                        <div>
+                            <label for="b2b-email" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: #2d3748;">Email Address *</label>
+                            <input type="email" id="b2b-email" name="email" placeholder="jane@example.com" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem;">
+                        </div>
+                        
+                        <div>
+                            <label for="b2b-project-type" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: #2d3748;">Project Type *</label>
+                            <select id="b2b-project-type" name="project_type" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem; background-color: white;">
+                                <option value="" disabled selected>Select Project Type...</option>
+                                <option value="Multi-Family / Apartments">Multi-Family / Apartments</option>
+                                <option value="Townhomes / Condos">Townhomes / Condos</option>
+                                <option value="Tract Home Development">Tract Home Development</option>
+                                <option value="Custom Single-Family">Custom Single-Family Home</option>
+                                <option value="Other Commercial">Other Commercial Plumbing</option>
+                            </select>
+                        </div>
 
-                        <textarea name="project_details" placeholder="Project location, timeline, and brief scope details..." rows="3" style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem; resize: vertical;"></textarea>
+                        <div>
+                            <label for="b2b-project-details" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: #2d3748;">Project Details</label>
+                            <textarea id="b2b-project-details" name="project_details" placeholder="Project location, timeline, and brief scope details..." rows="3" style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 0.95rem; resize: vertical;"></textarea>
+                        </div>
 
                         <button type="submit" style="background-color: var(--brand-red, #cf2e2e); color: white; border: none; padding: 15px; font-size: 1rem; font-weight: 700; border-radius: 4px; cursor: pointer; transition: opacity 0.2s; width: 100%; margin-top: 5px;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
                             Submit to Estimating Team →
@@ -424,19 +446,19 @@
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
-                        <div class="stars">★★★★★</div>
+                        <div class="stars" aria-label="5 stars">★★★★★</div>
                         <p class="review-text">"The team at Just Plumbing... were always on time, worked hard, explained what they were doing, and even went above and beyond what was quoted. You'll be impressed with their plumbing experience, product knowledge, excellent problem solving skills, and solid work ethic."</p>
                         <p class="reviewer-name">- David Honan</p>
                     </div>
 
                     <div class="review-card">
-                        <div class="stars">★★★★★</div>
+                        <div class="stars" aria-label="5 stars">★★★★★</div>
                         <p class="review-text">"Thanks to the Just Plumbing team for being reliable, reasonably priced and consistent with their quality work. I used them starting in 2019... A few years ago, I moved into a new-build condominium. They worked with me today to correct some issues..."</p>
                         <p class="reviewer-name">- Shannon O'Lealy</p>
                     </div>
 
                     <div class="review-card">
-                        <div class="stars">★★★★★</div>
+                        <div class="stars" aria-label="5 stars">★★★★★</div>
                         <p class="review-text">"From start to finish, they were professional, punctual, and incredibly detail-oriented. Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job... Honest, skilled, and compassionate plumbers..."</p>
                         <p class="reviewer-name">- Jennifer Walters</p>
                     </div>
