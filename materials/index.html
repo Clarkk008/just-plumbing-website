@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) - Deferred for Speed -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5ZLNWSEL2B"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -13,28 +13,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piping Materials We Install & Recommend | Just Plumbing Inc.</title>
-    <meta name="description" content="Discover why Just Plumbing exclusively installs Uponor PEX Type A and Type L Copper for Denver home and commercial repipes. Master Plumber quality standards.">
+    <meta name="description" content="Explore why Just Plumbing exclusively installs Uponor PEX Type A and Type L Copper for Denver repipes. Full-port flow, freeze-burst memory & 25-yr warranties.">
     <link rel="canonical" href="https://justplumbinginc.com/materials/">
 
+    <!-- Open Graph for Social & Local Trust -->
+    <meta property="og:title" content="Piping Materials We Install & Recommend | Just Plumbing Inc.">
+    <meta property="og:description" content="We never cut corners with cheap crimp fittings or thin builder-grade tubing. Master Plumber Bill Clark explains Uponor PEX-A and Type L Copper standards.">
+    <meta property="og:url" content="https://justplumbinginc.com/materials/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://justplumbinginc.com/assets/images/logo.webp">
+    <meta property="og:locale" content="en_US">
+
+    <!-- External Stylesheet Link with Relative Path -->
     <link rel="stylesheet" href="../assets/css/style.css">
 
-    <!-- Schema for Materials Collection -->
+    <!-- Comprehensive CollectionPage, ItemList, ServiceAreaBusiness & FAQ Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "ServiceAreaBusiness",
+          "@id": "https://justplumbinginc.com/#organization",
+          "name": "Just Plumbing, Inc.",
+          "image": "https://justplumbinginc.com/assets/images/logo.webp",
+          "telephone": "+1-303-472-0833",
+          "url": "https://justplumbinginc.com/",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "2563 15th St, Suite 216",
+            "addressLocality": "Denver",
+            "addressRegion": "CO",
+            "postalCode": "80211",
+            "addressCountry": "US"
+          },
+          "founder": {
+            "@type": "Person",
+            "name": "Bill Clark",
+            "jobTitle": "Master Plumber & Owner"
+          }
+        },
+        {
           "@type": "CollectionPage",
           "@id": "https://justplumbinginc.com/materials/#page",
           "name": "Plumbing Materials We Install and Recommend",
           "url": "https://justplumbinginc.com/materials/",
-          "description": "Educational guide on modern piping materials including Uponor PEX-A, Type L Copper, and PEX comparisons for Denver Metro homes.",
+          "description": "Comprehensive guide on residential and commercial piping materials including Uponor PEX-A, Type L Copper, and PEX-A vs PEX-B comparisons.",
           "publisher": {
             "@id": "https://justplumbinginc.com/#organization"
           }
         },
         {
           "@type": "ItemList",
+          "name": "High-Performance Piping Material Guides",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -52,7 +84,7 @@
               "@type": "ListItem",
               "position": 3,
               "url": "https://justplumbinginc.com/materials/type-l-copper",
-              "name": "Type L Copper Piping Systems"
+              "name": "Type L Hard Copper Piping Systems"
             }
           ]
         },
@@ -70,6 +102,36 @@
               "position": 2,
               "name": "Materials",
               "item": "https://justplumbinginc.com/materials/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://justplumbinginc.com/materials/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Why does Just Plumbing exclusively recommend Uponor PEX-A over PEX-B?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Uponor PEX-A utilizes the Engel-method cross-linking process, giving the pipe thermal shape memory. It expands with freezing water to prevent bursting, and connects with full-port expansion fittings that maintain maximum water volume. Cheaper PEX-B requires insert crimp fittings that restrict water flow by 20% to 30% at every joint."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "When is Type L Copper preferred over PEX-A?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Type L rigid copper is the ideal specification for exposed mechanical rooms, boiler loops, commercial risers, and historic homes where local architectural review boards or strict municipal building codes mandate metallic water lines."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What warranties back your repiping materials?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Uponor PEX-A systems installed by Just Plumbing carry a 25-year manufacturer material warranty paired with our 5-year Master Plumber workmanship warranty."
+              }
             }
           ]
         }
@@ -95,7 +157,7 @@
     <header>
         <div class="logo">
             <a href="/">
-                <img src="../assets/images/logo.png" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
+                <img src="../assets/images/logo.webp" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
             </a>
         </div>
         <nav aria-label="Main Navigation">
@@ -128,7 +190,7 @@
 
                 <!-- Materials Dropdown Menu -->
                 <li>
-                    <a href="/materials/" class="active">Materials ▾</a>
+                    <a href="/materials/" class="active" style="color: var(--brand-red); font-weight: bold;">Materials ▾</a>
                     <ul class="dropdown">
                         <li><a href="/materials/uponor-pex-a">Uponor PEX-A</a></li>
                         <li><a href="/materials/pex-a-vs-pex-b">PEX-A vs PEX-B</a></li>
@@ -161,23 +223,38 @@
                     </ul>
                 </li>
 
-                <!-- Service Area Dropdown Menu -->
+                <!-- Service Area Dropdown Menu (Full 28 Locations) -->
                 <li>
-                    <a href="/locations/denver">Service Area ▾</a>
+                    <a href="/locations/">Service Area ▾</a>
                     <ul class="dropdown">
-                        <li><a href="/locations/denver">Denver</a></li>
                         <li><a href="/locations/arvada">Arvada</a></li>
                         <li><a href="/locations/aurora">Aurora</a></li>
                         <li><a href="/locations/bennett-prv-rebate">Bennett (PRV Rebate)</a></li>
+                        <li><a href="/locations/brighton">Brighton</a></li>
                         <li><a href="/locations/broomfield">Broomfield</a></li>
+                        <li><a href="/locations/castle-pines">Castle Pines</a></li>
                         <li><a href="/locations/castle-rock">Castle Rock</a></li>
                         <li><a href="/locations/centennial">Centennial</a></li>
+                        <li><a href="/locations/cherry-hills-village">Cherry Hills Village</a></li>
+                        <li><a href="/locations/commerce-city">Commerce City</a></li>
+                        <li><a href="/locations/denver">Denver</a></li>
+                        <li><a href="/locations/edgewater">Edgewater</a></li>
+                        <li><a href="/locations/englewood">Englewood</a></li>
+                        <li><a href="/locations/evergreen">Evergreen</a></li>
+                        <li><a href="/locations/genesee">Genesee</a></li>
                         <li><a href="/locations/golden">Golden</a></li>
+                        <li><a href="/locations/glendale">Glendale</a></li>
+                        <li><a href="/locations/greenwood-village">Greenwood Village</a></li>
                         <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
+                        <li><a href="/locations/larkspur">Larkspur</a></li>
                         <li><a href="/locations/littleton">Littleton</a></li>
+                        <li><a href="/locations/lone-tree">Lone Tree</a></li>
                         <li><a href="/locations/parker">Parker</a></li>
+                        <li><a href="/locations/sedalia">Sedalia</a></li>
+                        <li><a href="/locations/sheridan">Sheridan</a></li>
                         <li><a href="/locations/thornton">Thornton</a></li>
                         <li><a href="/locations/westminster">Westminster</a></li>
+                        <li><a href="/locations/wheat-ridge">Wheat Ridge</a></li>
                     </ul>
                 </li>
 
@@ -188,61 +265,230 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Materials</span>
+        </div>
+    </nav>
+
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-overlay-box">
-                <nav aria-label="Breadcrumb" style="margin-bottom: 15px; font-size: 0.9rem; color: #abb8c3;">
-                    <a href="/" style="color: #abb8c3; text-decoration: underline;">Home</a> &raquo; 
-                    <span style="color: #ffffff;">Materials</span>
-                </nav>
-                <h1>Piping Materials We Install & Recommend</h1>
-                <p class="hero-highlight"><strong>We never cut corners with cheap crimp fittings or thin builder-grade tubing. We exclusively install premium Uponor PEX-A and Type L Copper.</strong></p>
-                <p>Learn why our Master Plumber standards ensure maximum water volume, freeze-burst resistance, and zero corrosion for your home.</p>
-                <a href="tel:+13034720833" class="btn-primary">Get a Free Repipe Estimate</a>
+        <!-- Page Overview Header -->
+        <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
+            <div class="container" style="text-align: center;">
+                <h1 style="color: var(--white); margin-bottom: 15px;">Piping Materials We Install & Recommend</h1>
+                
+                <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+                    <span aria-hidden="true">★★★★☆</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.7 stars based on 71 google reviews</span>
+                </a>
+
+                <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">We never cut corners with cheap crimp fittings or thin builder-grade tubing. Master Plumber Bill Clark exclusively installs premium Uponor PEX-A expansion systems and heavy-gauge Type L Copper.</p>
             </div>
         </section>
 
         <!-- Materials Grid Section -->
-        <section class="services-overview">
-            <div class="container">
-                <h2>Our High-Performance Piping Systems</h2>
-                <div class="service-grid">
-                    <article class="service-card" style="background: #ffffff; border-top: 4px solid var(--brand-blue);">
-                        <h3><a href="/materials/uponor-pex-a">Uponor PEX Type A Expansion Piping</a></h3>
-                        <p>Our gold-standard residential repiping system. Uses thermal shape-memory expansion fittings for maximum water flow, superior freeze protection, and zero mechanical crimp rings that can fail.</p>
-                        <p style="margin-top: 15px;"><a href="/materials/uponor-pex-a" class="btn-primary">Learn About Uponor PEX-A &raquo;</a></p>
-                    </article>
+        <section class="container" style="padding: 60px 20px;">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto 40px auto;">
+                <h2 style="color: var(--brand-blue); margin-bottom: 15px;">Our High-Performance Piping Systems</h2>
+                <p style="color: #4a5568; line-height: 1.6;">Colorado's high elevation, freezing winter temperatures, and municipal water treatment additives demand piping materials that withstand intense hydraulic and thermal stress. Explore our primary piping standards below:</p>
+            </div>
 
-                    <article class="service-card" style="background: #ffffff; border-top: 4px solid var(--brand-blue);">
-                        <h3><a href="/materials/pex-a-vs-pex-b">PEX-A vs. PEX-B: What's The Difference?</a></h3>
-                        <p>Compare manufacturing methods, flexibility, and flow rates. Learn why cheap contractors use crimp-style PEX-B that restricts water volume by 20–30% compared to full-port PEX-A.</p>
-                        <p style="margin-top: 15px;"><a href="/materials/pex-a-vs-pex-b" class="btn-primary">Read PEX Comparison &raquo;</a></p>
-                    </article>
+            <div class="service-grid">
+                <article class="service-card" style="border-top: 4px solid var(--brand-red);">
+                    <h3 style="color: var(--brand-blue);"><a href="/materials/uponor-pex-a" style="color: var(--brand-blue); text-decoration: none;">Uponor PEX-A Expansion Piping</a></h3>
+                    <p style="line-height: 1.6; margin-bottom: 15px;">Our gold standard for whole-home residential repiping. Cross-linked polyethylene with thermal shape-memory expands safely if water freezes, while full-port ProPEX fittings deliver maximum water volume.</p>
+                    <ul style="font-size: 0.9rem; line-height: 1.8; margin-bottom: 20px; color: #4a5568;">
+                        <li><strong>Fitting Type:</strong> Full-port expansion rings (no crimp rings)</li>
+                        <li><strong>Freeze Tolerance:</strong> Expands up to 300% without splitting</li>
+                        <li><strong>Warranty:</strong> 25-year manufacturer + 5-year workmanship</li>
+                    </ul>
+                    <a href="/materials/uponor-pex-a" class="btn-primary" style="display: inline-block;">Explore Uponor PEX-A →</a>
+                </article>
 
-                    <article class="service-card" style="background: #ffffff; border-top: 4px solid var(--brand-blue);">
-                        <h3><a href="/materials/type-l-copper">Type L Hard Copper Piping</a></h3>
-                        <p>Thick-walled, commercial-grade rigid copper piping for clients who require traditional metal plumbing, high-temperature mechanical runs, and strict municipal code compliance.</p>
-                        <p style="margin-top: 15px;"><a href="/materials/type-l-copper" class="btn-primary">Explore Copper Systems &raquo;</a></p>
-                    </article>
+                <article class="service-card" style="border-top: 4px solid var(--brand-red);">
+                    <h3 style="color: var(--brand-blue);"><a href="/materials/pex-a-vs-pex-b" style="color: var(--brand-blue); text-decoration: none;">PEX-A vs. PEX-B Comparison</a></h3>
+                    <p style="line-height: 1.6; margin-bottom: 15px;">Compare chemical manufacturing, flexibility, and hydraulic flow. Learn why builder-grade contractors install cheap PEX-B crimp rings that choke shower pressure and restrict line volume by up to 30%.</p>
+                    <ul style="font-size: 0.9rem; line-height: 1.8; margin-bottom: 20px; color: #4a5568;">
+                        <li><strong>Flow Rate:</strong> PEX-A full-port vs. PEX-B restricted bore</li>
+                        <li><strong>Flexibility:</strong> Kink-repairable with heat vs. permanent damage</li>
+                        <li><strong>Connection:</strong> Molecular memory vs. mechanical crimp bands</li>
+                    </ul>
+                    <a href="/materials/pex-a-vs-pex-b" class="btn-primary" style="display: inline-block;">Read PEX-A vs PEX-B →</a>
+                </article>
+
+                <article class="service-card" style="border-top: 4px solid var(--brand-red);">
+                    <h3 style="color: var(--brand-blue);"><a href="/materials/type-l-copper" style="color: var(--brand-blue); text-decoration: none;">Type L Hard Copper Piping</a></h3>
+                    <p style="line-height: 1.6; margin-bottom: 15px;">Heavy-wall, commercial-grade rigid copper piping for exposed mechanical rooms, boiler circulation loops, water heater connections, and historic districts requiring all-metal construction.</p>
+                    <ul style="font-size: 0.9rem; line-height: 1.8; margin-bottom: 20px; color: #4a5568;">
+                        <li><strong>Wall Thickness:</strong> 30% thicker than standard residential Type M</li>
+                        <li><strong>Durability:</strong> Rigid, fireproof, UV-immune metal lines</li>
+                        <li><strong>Ideal For:</strong> Mechanical rooms, boiler loops & commercial runs</li>
+                    </ul>
+                    <a href="/materials/type-l-copper" class="btn-primary" style="display: inline-block;">Explore Type L Copper →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Technical Comparison Table -->
+        <section class="container" style="padding: 0 20px 50px 20px;">
+            <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 35px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                <h2 style="color: var(--brand-blue); margin-bottom: 20px; font-size: 1.5rem; text-align: center;">Direct Technical Material Comparison</h2>
+                
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; line-height: 1.6; text-align: left;">
+                        <thead>
+                            <tr style="background-color: var(--brand-blue); color: white;">
+                                <th style="padding: 12px 15px; border: 1px solid #cbd5e0;">Material Parameter</th>
+                                <th style="padding: 12px 15px; border: 1px solid #cbd5e0;">Uponor PEX-A (Our Standard)</th>
+                                <th style="padding: 12px 15px; border: 1px solid #cbd5e0;">Standard PEX-B (Budget Grade)</th>
+                                <th style="padding: 12px 15px; border: 1px solid #cbd5e0;">Type L Copper (Our Metal Standard)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #f8f9fa;">
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; font-weight: 600;">Fitting Method</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; color: #2e7d32; font-weight: 600;">ProPEX Full-Port Expansion</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; color: #c62828;">Internal Crimp Ring (Reduced Bore)</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0;">Soldered / ProPress Copper</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; font-weight: 600;">Water Flow Volume</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0;">100% Unrestricted Full Flow</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; color: #c62828;">20–30% Pressure Choke at Fittings</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0;">100% Full Bore Capacity</td>
+                            </tr>
+                            <tr style="background-color: #f8f9fa;">
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; font-weight: 600;">Freeze-Burst Resistance</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; color: #2e7d32; font-weight: 600;">Thermal Shape Memory (Expands & Recovers)</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; color: #c62828;">Prone to Splitting at Rigid Crimp Rings</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; color: #c62828;">Rigid Metal (Splits Seams When Frozen)</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; font-weight: 600;">Corrosion / Pinhole Immunity</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; color: #2e7d32; font-weight: 600;">100% Immune to Scale & Chloramines</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0;">Immune to Rust, Vulnerable at Brass Rings</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0;">Heavy Wall; High Pitting Resistance</td>
+                            </tr>
+                            <tr style="background-color: #f8f9fa;">
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; font-weight: 600;">Manufacturer Material Warranty</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0; font-weight: 600;">25 Years</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0;">10–25 Years (Varies by Crimp Maker)</td>
+                                <td style="padding: 12px 15px; border: 1px solid #e2e8f0;">50 Years (Standard Industry Rating)</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
 
-        <!-- Informational Callout Block with Lateral Spoke Links -->
-        <section class="container" style="padding: 0 20px 40px 20px;">
-            <div style="background-color: var(--bg-light); border-left: 5px solid var(--brand-blue); padding: 35px; border-radius: 6px;">
-                <h2 style="color: var(--brand-blue); margin-bottom: 15px; font-size: 1.4rem;">Why Material Selection Matters in Colorado</h2>
-                <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">Front Range homes experience sub-zero freeze cycles, hard mineral content, and high municipal pressure spikes. Choosing the wrong piping material or using low-bid crimp fittings leads to premature failures, reduced shower pressure, and burst lines during winter freezes.</p>
-                <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">Whether we are replacing failing <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); text-decoration: underline;">polybutylene</a>, corroded <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); text-decoration: underline;">galvanized steel</a>, defective <a href="/pipe-problems/kitec" style="color: var(--brand-blue); text-decoration: underline;">Kitec composite pipes</a>, or recurring <a href="/pipe-problems/copper-pinhole-leaks" style="color: var(--brand-blue); text-decoration: underline;">copper pinhole leaks</a>, our Master Plumber-led team guarantees code-compliant installations tailored to your property's demands.</p>
-                <p style="font-size: 0.95rem; line-height: 1.6;">Every <a href="/services/whole-home-repiping" style="color: var(--brand-blue); text-decoration: underline;">whole-home repipe</a> and <a href="/services/partial-repiping" style="color: var(--brand-blue); text-decoration: underline;">partial repiping</a> system we install is backed by our <strong>Lifetime Workmanship Guarantee</strong> and 25-year manufacturer warranties.</p>
+        <!-- Real Jobsite Photo & Informational Callout Section -->
+        <section class="container" style="padding: 0 20px 50px 20px;">
+            <div style="display: grid; gap: 40px; grid-template-columns: 1fr 1fr; align-items: center;">
+                <div>
+                    <!-- Jobsite Photo -->
+                    <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <img src="../assets/images/arvada-pex-repipe-installation.webp" 
+                             alt="Professional Uponor PEX-A whole-home repipe installation performed by Just Plumbing in Colorado" 
+                             style="width: 100%; height: auto; display: block;" loading="eager">
+                    </div>
+                </div>
+
+                <div>
+                    <div style="background-color: var(--bg-light); border-left: 5px solid var(--brand-blue); padding: 30px; border-radius: 6px;">
+                        <h3 style="color: var(--brand-blue); margin-bottom: 12px; font-size: 1.3rem;">Why We Refuse to Install Crimp-Style PEX-B</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
+                            Many low-bid repiping contractors cut corners by using PEX-B tubing secured with copper crimp rings. To make a crimp connection, an undersized fitting must be inserted into the pipe, creating a permanent 20% to 30% constriction at every single tee, elbow, and turn.
+                        </p>
+                        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
+                            When multiple showers or fixtures run simultaneously, homes plumbed with PEX-B experience severe pressure drops. <strong>Just Plumbing exclusively installs Uponor PEX-A</strong> using full-port expansion rings that expand the pipe temporarily, allowing fittings with the exact same inner diameter as the pipe itself.
+                        </p>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">
+                            The result is 100% full water volume, whisper-quiet operation, and a plumbing system engineered to last for generations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diagnostic Lateral Links -->
+        <section class="container" style="padding: 0 20px 50px 20px;">
+            <div style="background-color: #ffffff; border: 1px solid #e2e8f0; padding: 30px; border-radius: 6px;">
+                <h3 style="color: var(--brand-blue); margin-bottom: 15px;">Replacing Colorado's Failing Pipe Systems</h3>
+                <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">Our premium material upgrades permanently eliminate the risks associated with defective legacy plumbing across Front Range homes. Select your pipe problem below to view diagnosis and replacement protocols:</p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px;">
+                    <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Polybutylene (Quest) Pipe Replacement</a>
+                    <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Galvanized Steel Pipe Replacement</a>
+                    <a href="/pipe-problems/kitec" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Kitec Composite Pipe Replacement</a>
+                    <a href="/pipe-problems/copper-pinhole-leaks" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Copper Pinhole Leaks & Slab Bypasses</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Embedded FAQ Block -->
+        <section class="container" style="padding: 0 20px 60px 20px;">
+            <div style="background-color: var(--bg-light); padding: 35px; border-radius: 6px; border-left: 5px solid var(--brand-blue);">
+                <h2 style="color: var(--brand-blue); margin-bottom: 20px; font-size: 1.4rem;">Frequently Asked Questions — Piping Materials</h2>
+                
+                <div style="margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">Why does Just Plumbing exclusively recommend Uponor PEX-A over PEX-B?</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Uponor PEX-A utilizes the Engel-method cross-linking process, giving the pipe thermal shape memory. It expands with freezing water to prevent bursting, and connects with full-port expansion fittings that maintain maximum water volume. Cheaper PEX-B requires insert crimp fittings that restrict water flow by 20% to 30% at every joint.</p>
+                </div>
+
+                <div style="margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">When is Type L Copper preferred over PEX-A?</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Type L rigid copper is the ideal specification for exposed mechanical rooms, boiler loops, commercial risers, and historic homes where local architectural review boards or strict municipal building codes mandate metallic water lines.</p>
+                </div>
+
+                <div>
+                    <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">What warranties back your repiping materials?</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Uponor PEX-A systems installed by Just Plumbing carry a 25-year manufacturer material warranty paired with our 5-year Master Plumber workmanship warranty.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <h2>Real Customer Reviews</h2>
+                <p>See why homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
+                
+                <div class="testimonials-grid">
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"What a great experience! The team at Just Plumbing re-piped our larger house from copper to PEX Type A. Bill and team were always on time, worked hard, explained what they were doing, and even went above and beyond what was quoted."</p>
+                        <p class="reviewer-name">- David Honan</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"We recently had our main sewer line replaced by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
+                        <p class="reviewer-name">- Jennifer Walters</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"Absolutely Outstanding Whole Home Re-Pipe Experience! I recently hired Just Plumbing Inc. to completely re-pipe our entire house, and I couldn't be happier with the results. From the very first phone call, their team was professional, responsive, and honest..."</p>
+                        <p class="reviewer-name">- Kristen Bitz</p>
+                    </div>
+                </div>
+
+                <!-- Google Reviews Button -->
+                <div style="margin-top: 50px; text-align: center;">
+                    <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
+                        Read All 68 Reviews on Google
+                    </a>
+                </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer with Full 28 Location Directory -->
     <footer>
         <div class="container footer-content">
+            <!-- Contact Info Column -->
             <div class="footer-contact">
                 <h3>Contact Just Plumbing, Inc.</h3>
                 <address>
@@ -263,6 +509,7 @@
                 </p>
             </div>
             
+            <!-- Service Menu Column -->
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
@@ -272,9 +519,13 @@
                     <li><a href="/materials/">Piping Materials</a></li>
                     <li><a href="/commercial/">Commercial Repiping</a></li>
                     <li><a href="/services/water-heaters">Water Heater Systems</a></li>
+                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
+                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
+                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
                 </ul>
             </div>
             
+            <!-- Geographic Target Column (All 28 Locations) -->
             <div class="footer-areas">
                 <h3>Areas We Serve Across Greater Denver</h3>
                 <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">
@@ -309,6 +560,7 @@
                 </ul>
             </div>
             
+            <!-- Operating Hours Column -->
             <div class="footer-hours">
                 <h3>Business Hours</h3>
                 <p>Monday - Friday: 7:00 AM - 9:00 PM</p>

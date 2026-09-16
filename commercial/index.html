@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) - Deferred for Speed -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5ZLNWSEL2B"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -12,18 +12,48 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commercial & Multifamily Repiping Denver | Just Plumbing Inc.</title>
-    <meta name="description" content="Turnkey commercial and multifamily repiping across Denver Metro. Master Plumber led pipe replacement for apartments, HOA condos, and commercial buildings with zero tenant displacement.">
+    <title>Commercial & Multifamily Repiping Denver | Just Plumbing</title>
+    <meta name="description" content="Turnkey commercial and multifamily repiping across Denver Metro. Master Plumber led pipe replacement for apartments and HOAs with zero tenant displacement.">
     <link rel="canonical" href="https://justplumbinginc.com/commercial/">
+
+    <!-- Open Graph for Social & Local Trust -->
+    <meta property="og:title" content="Commercial & Multifamily Repiping Denver | Just Plumbing Inc.">
+    <meta property="og:description" content="Engineered whole-building pipe replacements for property managers and HOA boards across the Front Range. Phased execution with nightly water restoration.">
+    <meta property="og:url" content="https://justplumbinginc.com/commercial/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://justplumbinginc.com/assets/images/logo.webp">
+    <meta property="og:locale" content="en_US">
 
     <!-- External Stylesheet Link with Relative Path -->
     <link rel="stylesheet" href="../assets/css/style.css">
 
-    <!-- Schema for Commercial Collection Hub -->
+    <!-- Comprehensive CollectionPage, ItemList, ServiceAreaBusiness & FAQ Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
+        {
+          "@type": "ServiceAreaBusiness",
+          "@id": "https://justplumbinginc.com/#organization",
+          "name": "Just Plumbing, Inc.",
+          "image": "https://justplumbinginc.com/assets/images/logo.webp",
+          "telephone": "+1-303-472-0833",
+          "url": "https://justplumbinginc.com/",
+          "priceRange": "$$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "2563 15th St, Suite 216",
+            "addressLocality": "Denver",
+            "addressRegion": "CO",
+            "postalCode": "80211",
+            "addressCountry": "US"
+          },
+          "founder": {
+            "@type": "Person",
+            "name": "Bill Clark",
+            "jobTitle": "Master Plumber & Owner"
+          }
+        },
         {
           "@type": "CollectionPage",
           "@id": "https://justplumbinginc.com/commercial/#page",
@@ -36,6 +66,7 @@
         },
         {
           "@type": "ItemList",
+          "name": "Commercial Plumbing Services",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -69,8 +100,38 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Commercial Repiping",
+              "name": "Commercial",
               "item": "https://justplumbinginc.com/commercial/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://justplumbinginc.com/commercial/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Do commercial tenants have to relocate during a building repipe?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Just Plumbing executes multi-story repipes in vertical 'stacks'. By isolating specific units vertically, we complete drywall removal and rough-ins during standard business hours and restore domestic water service every evening, preventing costly hotel relocations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Just Plumbing handle municipal permits for large commercial projects?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Master Plumber Bill Clark directly files all necessary mechanical and plumbing permits, coordinates phased inspections with city officials, and ensures all structural fire-stopping code requirements are met before drywall is restored."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you repipe a building that has a mix of commercial and residential units?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We frequently engineer hybrid repiping solutions. We install commercial-grade Type L Copper for the main building risers and ground-floor retail spaces, and transition to flexible Uponor PEX-A inside the individual residential units to minimize drywall demolition."
+              }
             }
           ]
         }
@@ -92,11 +153,11 @@
         </div>
     </div>
 
-    <!-- Main Navigation (Unified 5-Pillar Header) -->
+    <!-- Main Navigation -->
     <header>
         <div class="logo">
             <a href="/">
-                <img src="../assets/images/logo.png" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
+                <img src="../assets/images/logo.webp" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
             </a>
         </div>
         <nav aria-label="Main Navigation">
@@ -154,7 +215,7 @@
 
                 <!-- Commercial Dropdown Menu -->
                 <li>
-                    <a href="/commercial/" class="active">Commercial ▾</a>
+                    <a href="/commercial/" class="active" style="color: var(--brand-red); font-weight: bold;">Commercial ▾</a>
                     <ul class="dropdown">
                         <li><a href="/commercial/multifamily-repiping">Multifamily & Apartments</a></li>
                         <li><a href="/commercial/hoa-condo-repiping">HOA & Condos</a></li>
@@ -162,23 +223,38 @@
                     </ul>
                 </li>
 
-                <!-- Service Area Dropdown Menu -->
+                <!-- Service Area Dropdown Menu (Full 28 Locations) -->
                 <li>
-                    <a href="/locations/denver">Service Area ▾</a>
+                    <a href="/locations/">Service Area ▾</a>
                     <ul class="dropdown">
-                        <li><a href="/locations/denver">Denver</a></li>
                         <li><a href="/locations/arvada">Arvada</a></li>
                         <li><a href="/locations/aurora">Aurora</a></li>
                         <li><a href="/locations/bennett-prv-rebate">Bennett (PRV Rebate)</a></li>
+                        <li><a href="/locations/brighton">Brighton</a></li>
                         <li><a href="/locations/broomfield">Broomfield</a></li>
+                        <li><a href="/locations/castle-pines">Castle Pines</a></li>
                         <li><a href="/locations/castle-rock">Castle Rock</a></li>
                         <li><a href="/locations/centennial">Centennial</a></li>
+                        <li><a href="/locations/cherry-hills-village">Cherry Hills Village</a></li>
+                        <li><a href="/locations/commerce-city">Commerce City</a></li>
+                        <li><a href="/locations/denver">Denver</a></li>
+                        <li><a href="/locations/edgewater">Edgewater</a></li>
+                        <li><a href="/locations/englewood">Englewood</a></li>
+                        <li><a href="/locations/evergreen">Evergreen</a></li>
+                        <li><a href="/locations/genesee">Genesee</a></li>
                         <li><a href="/locations/golden">Golden</a></li>
+                        <li><a href="/locations/glendale">Glendale</a></li>
+                        <li><a href="/locations/greenwood-village">Greenwood Village</a></li>
                         <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
+                        <li><a href="/locations/larkspur">Larkspur</a></li>
                         <li><a href="/locations/littleton">Littleton</a></li>
+                        <li><a href="/locations/lone-tree">Lone Tree</a></li>
                         <li><a href="/locations/parker">Parker</a></li>
+                        <li><a href="/locations/sedalia">Sedalia</a></li>
+                        <li><a href="/locations/sheridan">Sheridan</a></li>
                         <li><a href="/locations/thornton">Thornton</a></li>
                         <li><a href="/locations/westminster">Westminster</a></li>
+                        <li><a href="/locations/wheat-ridge">Wheat Ridge</a></li>
                     </ul>
                 </li>
 
@@ -189,72 +265,152 @@
         </nav>
     </header>
 
+    <!-- Visual Breadcrumbs -->
+    <nav aria-label="Breadcrumb" style="background-color: var(--bg-light, #f8f9fa); padding: 12px 20px; font-size: 0.9rem; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <a href="/" style="color: var(--brand-blue, #003366); text-decoration: none;">Home</a> 
+            <span style="margin: 0 8px; color: #a0aec0;">/</span> 
+            <span style="color: var(--brand-red, #cf2e2e); font-weight: bold;" aria-current="page">Commercial Repiping</span>
+        </div>
+    </nav>
+
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-overlay-box">
-                <nav aria-label="Breadcrumb" style="margin-bottom: 15px; font-size: 0.9rem; color: #abb8c3;">
-                    <a href="/" style="color: #abb8c3; text-decoration: underline;">Home</a> &raquo; 
-                    <span style="color: #ffffff;">Commercial & Multifamily</span>
-                </nav>
-                <h1>Commercial & Multifamily Repipe Solutions</h1>
-                <p class="hero-highlight"><strong>Engineered whole-building pipe replacements for property managers, HOA boards, and facility directors across Denver.</strong></p>
-                <p>We replace failing polybutylene, Kitec, and galvanized risers with surgical precision, ensuring zero tenant displacement and water restored every evening.</p>
-                <a href="tel:+13034720833" class="btn-primary">Request a Commercial Consultation</a>
+        <!-- Page Overview Header -->
+        <section class="services-overview" style="background-color: var(--brand-blue); color: var(--white); padding: 60px 20px;">
+            <div class="container" style="text-align: center;">
+                <h1 style="color: var(--white); margin-bottom: 15px;">Commercial & Multifamily Repiping Solutions</h1>
+                
+                <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="margin-bottom: 25px; font-size: 1.1rem; color: #fbbc04; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+                    <span aria-hidden="true">★★★★☆</span>
+                    <span style="color: white; font-size: 1rem; font-weight: 500; text-decoration: underline;">4.7 stars based on 71 google reviews</span>
+                </a>
+
+                <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Engineered whole-building pipe replacements for property managers, HOA boards, and facility directors across the Denver Metro Area. Executed with zero tenant displacement.</p>
             </div>
         </section>
 
-        <!-- E-E-A-T Trust Grid -->
-        <section class="trust-section container">
-            <h2>Commercial Standards You Can Count On</h2>
-            <div class="trust-grid">
-                <div class="trust-item">
-                    <h3>Zero Tenant Displacement</h3>
-                    <p>Our phased riser schedules ensure residents have continuous evening water access, eliminating expensive hotel bills or tenant concessions.</p>
+        <!-- Main Content Grid -->
+        <section class="container" style="padding: 60px 20px; display: grid; gap: 40px; grid-template-columns: 2fr 1fr;">
+            
+            <!-- Left Column: The Content -->
+            <article>
+                <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Managing Large-Scale Repiping Without Business Disruption</h2>
+                <p style="margin-bottom: 20px; line-height: 1.6;">Failing supply lines in multi-story structures don't just cause single-unit damage—they flood lower floors, trigger insurance policy cancellations, and cause massive operational disruption. When a commercial building or HOA complex faces systemic plumbing failure, relying on piecemeal patches becomes a financial liability.</p>
+                
+                <!-- SEO Real Jobsite Image Integration -->
+                <div style="margin: 30px 0; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="../assets/images/commercial-multifamily-repipe-installation.webp" 
+                         alt="Professional commercial multifamily plumbing riser installation by Just Plumbing in Colorado" 
+                         style="width: 100%; height: auto; display: block;" loading="eager"
+                         onerror="this.src='../assets/images/arvada-pex-repipe-installation.webp'; this.alt='Professional repiping installation';">
                 </div>
-                <div class="trust-item">
-                    <h3>Master Plumber Oversight</h3>
-                    <p>Every commercial project is led directly by Bill Clark (Master Plumber #MP.00600120), ensuring full municipal code compliance and prompt inspections.</p>
+
+                <p style="margin-bottom: 20px; line-height: 1.6;">Whether eliminating defective <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene</a>, deteriorating <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized risers</a>, or recurring <a href="/pipe-problems/copper-pinhole-leaks" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">copper pinhole leaks</a>, Master Plumber Bill Clark works directly with facility directors and HOA boards to structure phased work zones.</p>
+
+                <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Commercial Sectors We Specialize In</h2>
+                
+                <div style="margin-bottom: 25px;">
+                    <h3 style="font-size: 1.2rem; color: var(--brand-blue); margin-bottom: 8px;"><a href="/commercial/multifamily-repiping" style="color: var(--brand-blue); text-decoration: none;">1. Apartment & Multifamily Repiping</a></h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Turnkey potable water, branch, and riser pipe replacements for occupied apartment complexes. We prioritize streamlined tenant communication and rapid, phased unit turnarounds so that residents never go a single night without water.</p>
                 </div>
-                <div class="trust-item">
-                    <h3>HOA Reserve Planning</h3>
-                    <p>We provide comprehensive engineering assessments, detailed reserve study documentation, and board presentation materials.</p>
+
+                <div style="margin-bottom: 25px;">
+                    <h3 style="font-size: 1.2rem; color: var(--brand-blue); margin-bottom: 8px;"><a href="/commercial/hoa-condo-repiping" style="color: var(--brand-blue); text-decoration: none;">2. HOA & Condominium Repiping</a></h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Specialized vertical riser replacements, unit isolation valves, and mechanical room upgrades designed specifically for multi-story condominium associations. We provide clear, detailed reserve study assessments for HOA board presentations.</p>
                 </div>
-            </div>
+
+                <div style="margin-bottom: 30px;">
+                    <h3 style="font-size: 1.2rem; color: var(--brand-blue); margin-bottom: 8px;"><a href="/commercial/commercial-repipe" style="color: var(--brand-blue); text-decoration: none;">3. Commercial & Hospitality Facilities</a></h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">Heavy-duty commercial domestic supply replacements for hotels, office parks, retail centers, and medical buildings requiring <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L copper</a> infrastructure and commercial fire-stopping compliance.</p>
+                </div>
+
+                <!-- Callout Box: Master Plumber Standards -->
+                <section style="background-color: var(--bg-light); border-left: 5px solid var(--brand-blue); padding: 30px; border-radius: 6px; margin-bottom: 35px;">
+                    <h3 style="color: var(--brand-blue); margin-bottom: 12px; font-size: 1.3rem;">Commercial Standards You Can Count On</h3>
+                    <ul style="font-size: 0.95rem; line-height: 1.8; margin-bottom: 0; color: #4a5568;">
+                        <li><strong>Zero Tenant Displacement:</strong> Our phased "vertical stack" routing ensures residents have continuous evening water access, eliminating expensive hotel bills or tenant concessions.</li>
+                        <li><strong>Master Plumber Oversight:</strong> Every commercial project is led directly by Bill Clark (Master Plumber #MP.00600120), ensuring full municipal code compliance.</li>
+                        <li><strong>Premium Materials:</strong> We install freeze-resistant <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year warranty) and heavy-duty Type L Copper.</li>
+                    </ul>
+                </section>
+
+                <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Review Our Commercial Execution</h2>
+                <p style="margin-bottom: 30px; line-height: 1.6;">When a 16-unit building in Golden was threatened with HOA master insurance cancellation due to recurring riser leaks, Just Plumbing executed a seamless, phased multi-tenant replacement under budget. See the full execution in our <a href="/projects/golden-hoa-condo-repipe" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Golden HOA Condo Case Study</a>.</p>
+
+                <!-- Embedded FAQ Block -->
+                <section style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-left: 5px solid var(--brand-blue); margin-top: 40px;">
+                    <h2 style="color: var(--brand-blue); margin-bottom: 20px; font-size: 1.4rem;">Frequently Asked Questions — Commercial Repiping</h2>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">Do commercial tenants have to relocate during a building repipe?</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">No. Just Plumbing executes multi-story repipes in vertical 'stacks'. By isolating specific units vertically, we complete drywall removal and rough-ins during standard business hours and restore domestic water service every evening, preventing costly hotel relocations.</p>
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">Does Just Plumbing handle municipal permits for large commercial projects?</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">Yes. Master Plumber Bill Clark directly files all necessary mechanical and plumbing permits, coordinates phased inspections with city officials, and ensures all structural fire-stopping code requirements are met before drywall is restored.</p>
+                    </div>
+
+                    <div>
+                        <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">Can you repipe a building that has a mix of commercial and residential units?</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.6;">Yes. We frequently engineer hybrid repiping solutions. We install commercial-grade Type L Copper for the main building risers and ground-floor retail spaces, and transition to flexible Uponor PEX-A inside the individual residential units to minimize drywall demolition.</p>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Right Column: Sidebar CTA -->
+            <aside>
+                <div style="background-color: var(--bg-light); padding: 30px; border-radius: 6px; border-top: 5px solid var(--brand-red); text-align: center; position: sticky; top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                    <h3 style="color: var(--brand-blue); margin-bottom: 15px;">Need a Commercial Bid?</h3>
+                    <p style="margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">Stop paying for emergency leak remediation. Have Master Plumber Bill Clark present a permanent solution to your management team or board.</p>
+                    <a href="tel:+13034720833" style="display: block; background-color: var(--brand-red); color: white; padding: 15px; font-weight: bold; border-radius: 4px; text-decoration: none; margin-bottom: 10px; transition: transform 0.2s;">Call (303) 472-0833</a>
+                    <a href="/contact" style="display: block; color: var(--brand-blue); font-size: 0.9rem; text-decoration: underline; font-weight: bold; margin-bottom: 25px;">Request Site Evaluation →</a>
+                    
+                    <hr style="border: 0; border-top: 1px solid #e2e8f0; margin-bottom: 20px;">
+
+                    <div style="text-align: left; font-size: 0.85rem; line-height: 1.8; color: #4a5568;">
+                        <p><strong>Commercial Sectors:</strong></p>
+                        <p>• <a href="/commercial/multifamily-repiping" style="color: var(--brand-blue); text-decoration: underline;">Multifamily Repiping</a></p>
+                        <p>• <a href="/commercial/hoa-condo-repiping" style="color: var(--brand-blue); text-decoration: underline;">HOA Condo Services</a></p>
+                        <p>• <a href="/commercial/commercial-repipe" style="color: var(--brand-blue); text-decoration: underline;">Commercial Buildings</a></p>
+                        <p>• <a href="/projects/golden-hoa-condo-repipe" style="color: var(--brand-blue); text-decoration: underline;">HOA Repipe Case Study</a></p>
+                    </div>
+                </div>
+            </aside>
         </section>
 
-        <!-- Sector Breakdown Grid -->
-        <section class="services-overview">
+        <!-- Customer Testimonials Section -->
+        <section class="testimonials-section">
             <div class="container">
-                <h2>Commercial Sectors We Specialize In</h2>
-                <div class="service-grid">
-                    <article class="service-card" style="background: #ffffff; border-top: 4px solid var(--brand-blue);">
-                        <h3><a href="/commercial/multifamily-repiping">Apartment & Multifamily Repiping</a></h3>
-                        <p>Turnkey potable water, branch, and riser pipe replacements for occupied apartment complexes. Streamlined tenant communication and rapid unit turnarounds.</p>
-                        <p style="margin-top: 15px;"><a href="/commercial/multifamily-repiping" class="btn-primary">Explore Multifamily Services &raquo;</a></p>
-                    </article>
+                <h2>Real Client Reviews</h2>
+                <p>See why property owners and managers across the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
+                
+                <div class="testimonials-grid">
+                    <div class="review-card">
+                        <div class="stars" aria-label="5 stars">★★★★★</div>
+                        <p class="review-text">"What a great experience! The team at Just Plumbing re-piped our larger house from copper to PEX Type A. Bill and team were always on time, worked hard, explained what they were doing, and even went above and beyond what was quoted."</p>
+                        <p class="reviewer-name">- David Honan</p>
+                    </div>
 
-                    <article class="service-card" style="background: #ffffff; border-top: 4px solid var(--brand-blue);">
-                        <h3><a href="/commercial/hoa-condo-repiping">HOA & Condominium Repiping</a></h3>
-                        <p>Specialized vertical riser replacements, unit isolation valves, and mechanical room upgrades designed specifically for multi-story condominium associations.</p>
-                        <p style="margin-top: 15px;"><a href="/commercial/hoa-condo-repiping" class="btn-primary">Explore HOA Solutions &raquo;</a></p>
-                    </article>
+                    <div class="review-card">
+                        <div class="stars" aria-label="5 stars">★★★★★</div>
+                        <p class="review-text">"We recently had our main sewer line replaced by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
+                        <p class="reviewer-name">- Jennifer Walters</p>
+                    </div>
 
-                    <article class="service-card" style="background: #ffffff; border-top: 4px solid var(--brand-blue);">
-                        <h3><a href="/commercial/commercial-repipe">Commercial & Hospitality Facilities</a></h3>
-                        <p>Heavy-duty commercial domestic supply replacements for hotels, office parks, retail centers, and medical buildings requiring Type L copper or Uponor PEX-A infrastructure.</p>
-                        <p style="margin-top: 15px;"><a href="/commercial/commercial-repipe" class="btn-primary">Explore Commercial Repiping &raquo;</a></p>
-                    </article>
+                    <div class="review-card">
+                        <div class="stars" aria-label="5 stars">★★★★★</div>
+                        <p class="review-text">"Absolutely Outstanding Whole Home Re-Pipe Experience! I recently hired Just Plumbing Inc. to completely re-pipe our entire house, and I couldn't be happier with the results. From the very first phone call, their team was professional, responsive, and honest..."</p>
+                        <p class="reviewer-name">- Kristen Bitz</p>
+                    </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Informational Section with Lateral Spoke Links -->
-        <section class="container" style="padding: 0 20px 40px 20px;">
-            <div style="background-color: var(--bg-light); border-left: 5px solid var(--brand-blue); padding: 35px; border-radius: 6px;">
-                <h2 style="color: var(--brand-blue); margin-bottom: 15px; font-size: 1.4rem;">Managing Large-Scale Repiping Without Business Disruption</h2>
-                <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">Failing supply lines in multi-story structures don't just cause single-unit damage—they flood lower floors, trigger insurance policy cancellations, and cause massive operational disruption. Whether eliminating defective <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene</a>, deteriorating <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized risers</a>, or recurring <a href="/pipe-problems/copper-pinhole-leaks" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">copper pinhole leaks</a>, we work directly with facility directors and HOA boards to structure phased work zones.</p>
-                <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">We install freeze-resistant <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year manufacturer material warranty and our 5-year workmanship warranty) and heavy-duty <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a>. See our phased multi-tenant execution in action in our <a href="/projects/golden-hoa-condo-repipe" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Golden HOA Condo Case Study</a>.</p>
+                <!-- Google Reviews Button -->
+                <div style="margin-top: 50px; text-align: center;">
+                    <a href="https://maps.google.com/?cid=10703770335011740470" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: var(--white); color: var(--brand-blue); padding: 15px 35px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
+                        Read All 68 Reviews on Google
+                    </a>
+                </div>
             </div>
         </section>
     </main>
@@ -262,6 +418,7 @@
     <!-- Footer with Full Master Directory -->
     <footer>
         <div class="container footer-content">
+            <!-- Contact Info Column -->
             <div class="footer-contact">
                 <h3>Contact Just Plumbing, Inc.</h3>
                 <address>
@@ -281,6 +438,7 @@
                 </p>
             </div>
             
+            <!-- Service Menu Column -->
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
@@ -296,6 +454,7 @@
                 </ul>
             </div>
             
+            <!-- Geographic Target Column (28 Cities) -->
             <div class="footer-areas">
                 <h3>Areas We Serve Across Greater Denver</h3>
                 <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">
@@ -330,6 +489,7 @@
                 </ul>
             </div>
             
+            <!-- Operating Hours Column -->
             <div class="footer-hours">
                 <h3>Business Hours</h3>
                 <p>Monday - Friday: 7:00 AM - 9:00 PM</p>
