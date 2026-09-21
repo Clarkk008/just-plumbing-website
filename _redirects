@@ -2,90 +2,174 @@
 # JUST PLUMBING, INC. - NETLIFY REDIRECTS & CANONICAL ROUTING
 # ==============================================================================
 
-# --- CANONICAL CLEAN URL REDIRECTS (301: Strip .html extensions) ---
-/*.html                         /:splat                                  301!
+# ==============================================================================
+# 1. SPECIFIC 301 REDIRECTS (LEGACY PAGES & MOVED SERVICES)
+# Must be at the very top so Netlify matches them before general rules
+# ==============================================================================
+# Heaters & Repiping (Handle both with and without .html)
+/heaters.html                         /services/water-heaters                 301!
+/heaters                              /services/water-heaters                 301!
+/repiping.html                        /services/whole-home-repiping           301!
+/repiping                             /services/whole-home-repiping           301!
+/services/repiping                    /services/whole-home-repiping           301!
+/services/repiping/                   /services/whole-home-repiping           301!
 
-# --- ROOT & UTILITY PAGES (200 Rewrites) ---
-/why-repipe                     /why-repipe.html                         200
-/why-repipe/                    /why-repipe.html                         200
-/about                          /about.html                              200
-/about/                         /about.html                              200
-/contact                        /contact.html                            200
-/contact/                       /contact.html                            200
-/faq                            /faq.html                                200
-/faq/                           /faq.html                                200
+# Renamed Services
+/services/new-construction-plumbing   /services/new-construction              301!
+/services/new-construction-plumbing/  /services/new-construction              301!
+/services/shower-bathtub-repair       /services/remodels                      301!
+/services/shower-bathtub-repair/      /services/remodels                      301!
+/services/sink-repair-installation    /services/remodels                      301!
+/services/sink-repair-installation/   /services/remodels                      301!
 
-# --- SERVICES SILO ---
-/services                       /services/index.html                     200
-/services/                      /services/index.html                     200
-/services/whole-home-repiping   /services/whole-home-repiping.html       200
-/services/whole-home-repiping/  /services/whole-home-repiping.html       200
-/services/partial-repiping      /services/partial-repiping.html          200
-/services/partial-repiping/     /services/partial-repiping.html          200
-/services/water-heaters         /services/water-heaters.html             200
-/services/water-heaters/        /services/water-heaters.html             200
-/services/sump-pumps            /services/sump-pumps.html                200
-/services/sump-pumps/           /services/sump-pumps.html                200
-/services/remodels              /services/remodels.html                  200
-/services/remodels/             /services/remodels.html                  200
-/services/new-construction      /services/new-construction.html          200
-/services/new-construction/     /services/new-construction.html          200
+# Renamed Projects
+/projects/arvada-copper-pinhole-repipe  /projects/arvada-copper-pipe-replacement  301!
+/projects/arvada-copper-pinhole-repipe/ /projects/arvada-copper-pipe-replacement  301!
 
-# --- PIPE PROBLEMS SILO ---
-/pipe-problems                  /pipe-problems/index.html                200
-/pipe-problems/                 /pipe-problems/index.html                200
-/pipe-problems/polybutylene     /pipe-problems/polybutylene.html         200
-/pipe-problems/polybutylene/    /pipe-problems/polybutylene.html         200
-/pipe-problems/galvanized-steel /pipe-problems/galvanized-steel.html     200
-/pipe-problems/galvanized-steel/ /pipe-problems/galvanized-steel.html    200
-/pipe-problems/kitec            /pipe-problems/kitec.html                200
-/pipe-problems/kitec/           /pipe-problems/kitec.html                200
-/pipe-problems/copper-pinhole-leaks  /pipe-problems/copper-pinhole-leaks.html  200
-/pipe-problems/copper-pinhole-leaks/ /pipe-problems/copper-pinhole-leaks.html  200
+# Old WordPress Service-Area URLs -> New /locations/
+/service-area/arvada-co               /locations/arvada                       301!
+/service-area/arvada-co/              /locations/arvada                       301!
+/service-area/centennial-co           /locations/centennial                   301!
+/service-area/centennial-co/          /locations/centennial                   301!
+/service-area/littleton-co            /locations/littleton                    301!
+/service-area/littleton-co/           /locations/littleton                    301!
+/aurora-co                            /locations/aurora                       301!
+/aurora-co/                           /locations/aurora                       301!
+/locations/lakewood                   /locations/                             301!
+/locations/lakewood/                  /locations/                             301!
+/service-area/lakewood-co             /locations/                             301!
+/service-area/lakewood-co/            /locations/                             301!
+/service-area/greeley-co              /locations/                             301!
+/service-area/greeley-co/             /locations/                             301!
+/service-area                         /locations/                             301!
+/service-area/                        /locations/                             301!
 
-# --- MATERIALS SILO ---
-/materials                      /materials/index.html                    200
-/materials/                     /materials/index.html                    200
-/materials/uponor-pex-a         /materials/uponor-pex-a.html             200
-/materials/uponor-pex-a/        /materials/uponor-pex-a.html             200
-/materials/pex-a-vs-pex-b       /materials/pex-a-vs-pex-b.html           200
-/materials/pex-a-vs-pex-b/      /materials/pex-a-vs-pex-b.html           200
-/materials/type-l-copper        /materials/type-l-copper.html            200
-/materials/type-l-copper/       /materials/type-l-copper.html            200
+# Old Blog Posts -> Most Relevant Live Service Pages
+/blog/can-a-sump-pump-run-continuously   /services/sump-pumps                 301!
+/blog/can-a-sump-pump-run-continuously/  /services/sump-pumps                 301!
+/blog/why-is-my-sink-leaking-underneath  /pipe-problems/                      301!
+/blog/why-is-my-sink-leaking-underneath/ /pipe-problems/                      301!
+/blog/when-to-replace-toilets            /services/remodels                   301!
+/blog/when-to-replace-toilets/           /services/remodels                   301!
+/blog/how-long-does-gas-leak-take-to-fix /contact                             301!
+/blog/how-long-does-gas-leak-take-to-fix/ /contact                            301!
 
-# --- COMMERCIAL SILO ---
-/commercial                     /commercial/index.html                   200
-/commercial/                    /commercial/index.html                   200
-/commercial/multifamily-repiping    /commercial/multifamily-repiping.html    200
-/commercial/multifamily-repiping/   /commercial/multifamily-repiping.html    200
-/commercial/hoa-condo-repiping      /commercial/hoa-condo-repiping.html      200
-/commercial/hoa-condo-repiping/     /commercial/hoa-condo-repiping.html      200
-/commercial/commercial-repipe       /commercial/commercial-repipe.html       200
-/commercial/commercial-repipe/      /commercial/commercial-repipe.html       200
+# ==============================================================================
+# 2. PERMANENTLY GONE (410 GONE)
+# Informs Googlebot these legacy files are dead so it stops recrawling them
+# ==============================================================================
+/blog/page/*                          410!
+/blog/category/*                      410!
+/wp-content/*                         410!
+/wp-includes/*                        410!
+/wp-json/*                            410!
+/wp-admin/*                           410!
 
-# --- PROJECTS & CASE STUDIES SILO ---
-/projects                           /projects/index.html                     200
-/projects/                          /projects/index.html                     200
-/projects/arvada-copper-pipe-replacement  /projects/arvada-copper-pipe-replacement.html  200
-/projects/arvada-copper-pipe-replacement/ /projects/arvada-copper-pipe-replacement.html  200
-/projects/highlands-ranch-polybutylene    /projects/highlands-ranch-polybutylene.html    200
-/projects/highlands-ranch-polybutylene/   /projects/highlands-ranch-polybutylene.html    200
-/projects/thornton-kitec-repipe           /projects/thornton-kitec-repipe.html           200
-/projects/thornton-kitec-repipe/          /projects/thornton-kitec-repipe.html           200
-/projects/golden-hoa-condo-repipe         /projects/golden-hoa-condo-repipe.html         200
-/projects/golden-hoa-condo-repipe/        /projects/golden-hoa-condo-repipe.html         200
-/projects/park-hill-denver-galvanized     /projects/park-hill-denver-galvanized.html     200
-/projects/park-hill-denver-galvanized/    /projects/park-hill-denver-galvanized.html     200
-/projects/wash-park-denver-repipe         /projects/wash-park-denver-repipe.html         200
-/projects/wash-park-denver-repipe/        /projects/wash-park-denver-repipe.html         200
-/projects/west-highland-denver-repipe     /projects/west-highland-denver-repipe.html     200
-/projects/west-highland-denver-repipe/    /projects/west-highland-denver-repipe.html     200
+# ==============================================================================
+# 3. CANONICAL CLEAN URL REDIRECTS (Strip .html extensions)
+# ==============================================================================
+# Root level .html stripping
+/*.html                               /:splat                                 301!
+# Nested directory .html stripping (locations, services, projects, etc.)
+/*/*.html                             /:splat                                 301!
 
-# --- LOCATIONS / SERVICE AREA SILO ---
-/locations                      /locations/index.html                    200
-/locations/                     /locations/index.html                    200
-/locations/:city                /locations/:city.html                    200
-/locations/:city/               /locations/:city.html                    200
+# ==============================================================================
+# 4. ROOT & UTILITY PAGES (200 Rewrites)
+# ==============================================================================
+/why-repipe                           /why-repipe.html                         200
+/why-repipe/                          /why-repipe.html                         200
+/about                                /about.html                              200
+/about/                               /about.html                              200
+/contact                              /contact.html                            200
+/contact/                             /contact.html                            200
+/faq                                  /faq.html                                200
+/faq/                                 /faq.html                                200
 
-# --- CUSTOM 404 ERROR HANDLING ---
-/*                              /404.html                                404
+# ==============================================================================
+# 5. SERVICES SILO (200 Rewrites)
+# ==============================================================================
+/services                             /services/index.html                     200
+/services/                            /services/index.html                     200
+/services/whole-home-repiping         /services/whole-home-repiping.html       200
+/services/whole-home-repiping/        /services/whole-home-repiping.html       200
+/services/partial-repiping            /services/partial-repiping.html          200
+/services/partial-repiping/           /services/partial-repiping.html          200
+/services/water-heaters               /services/water-heaters.html             200
+/services/water-heaters/              /services/water-heaters.html             200
+/services/sump-pumps                  /services/sump-pumps.html                200
+/services/sump-pumps/                 /services/sump-pumps.html                200
+/services/remodels                    /services/remodels.html                  200
+/services/remodels/                   /services/remodels.html                  200
+/services/new-construction            /services/new-construction.html          200
+/services/new-construction/           /services/new-construction.html          200
+
+# ==============================================================================
+# 6. PIPE PROBLEMS SILO (200 Rewrites)
+# ==============================================================================
+/pipe-problems                        /pipe-problems/index.html                200
+/pipe-problems/                       /pipe-problems/index.html                200
+/pipe-problems/polybutylene           /pipe-problems/polybutylene.html         200
+/pipe-problems/polybutylene/          /pipe-problems/polybutylene.html         200
+/pipe-problems/galvanized-steel       /pipe-problems/galvanized-steel.html     200
+/pipe-problems/galvanized-steel/      /pipe-problems/galvanized-steel.html     200
+/pipe-problems/kitec                  /pipe-problems/kitec.html                200
+/pipe-problems/kitec/                 /pipe-problems/kitec.html                200
+/pipe-problems/copper-pinhole-leaks   /pipe-problems/copper-pinhole-leaks.html 200
+/pipe-problems/copper-pinhole-leaks/  /pipe-problems/copper-pinhole-leaks.html 200
+
+# ==============================================================================
+# 7. MATERIALS SILO (200 Rewrites)
+# ==============================================================================
+/materials                            /materials/index.html                    200
+/materials/                           /materials/index.html                    200
+/materials/uponor-pex-a               /materials/uponor-pex-a.html             200
+/materials/uponor-pex-a/              /materials/uponor-pex-a.html             200
+/materials/pex-a-vs-pex-b             /materials/pex-a-vs-pex-b.html           200
+/materials/pex-a-vs-pex-b/            /materials/pex-a-vs-pex-b.html           200
+/materials/type-l-copper              /materials/type-l-copper.html            200
+/materials/type-l-copper/             /materials/type-l-copper.html            200
+
+# ==============================================================================
+# 8. COMMERCIAL SILO (200 Rewrites)
+# ==============================================================================
+/commercial                           /commercial/index.html                   200
+/commercial/                          /commercial/index.html                   200
+/commercial/multifamily-repiping      /commercial/multifamily-repiping.html    200
+/commercial/multifamily-repiping/     /commercial/multifamily-repiping.html    200
+/commercial/hoa-condo-repiping        /commercial/hoa-condo-repiping.html      200
+/commercial/hoa-condo-repiping/       /commercial/hoa-condo-repiping.html      200
+/commercial/commercial-repipe         /commercial/commercial-repipe.html       200
+/commercial/commercial-repipe/        /commercial/commercial-repipe.html       200
+
+# ==============================================================================
+# 9. PROJECTS & CASE STUDIES SILO (200 Rewrites)
+# ==============================================================================
+/projects                             /projects/index.html                     200
+/projects/                            /projects/index.html                     200
+/projects/arvada-copper-pipe-replacement   /projects/arvada-copper-pipe-replacement.html   200
+/projects/arvada-copper-pipe-replacement/  /projects/arvada-copper-pipe-replacement.html   200
+/projects/highlands-ranch-polybutylene     /projects/highlands-ranch-polybutylene.html     200
+/projects/highlands-ranch-polybutylene/    /projects/highlands-ranch-polybutylene.html     200
+/projects/thornton-kitec-repipe            /projects/thornton-kitec-repipe.html            200
+/projects/thornton-kitec-repipe/           /projects/thornton-kitec-repipe.html            200
+/projects/golden-hoa-condo-repipe          /projects/golden-hoa-condo-repipe.html          200
+/projects/golden-hoa-condo-repipe/         /projects/golden-hoa-condo-repipe.html          200
+/projects/park-hill-denver-galvanized      /projects/park-hill-denver-galvanized.html      200
+/projects/park-hill-denver-galvanized/     /projects/park-hill-denver-galvanized.html      200
+/projects/wash-park-denver-repipe          /projects/wash-park-denver-repipe.html          200
+/projects/wash-park-denver-repipe/         /projects/wash-park-denver-repipe.html          200
+/projects/west-highland-denver-repipe      /projects/west-highland-denver-repipe.html      200
+/projects/west-highland-denver-repipe/     /projects/west-highland-denver-repipe.html      200
+
+# ==============================================================================
+# 10. LOCATIONS / SERVICE AREA SILO (200 Rewrites)
+# ==============================================================================
+/locations                            /locations/index.html                    200
+/locations/                           /locations/index.html                    200
+/locations/:city                      /locations/:city.html                    200
+/locations/:city/                     /locations/:city.html                    200
+
+# ==============================================================================
+# 11. CUSTOM 404 ERROR HANDLING
+# ==============================================================================
+/*                                    /404.html                                404
