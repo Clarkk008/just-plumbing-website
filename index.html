@@ -763,6 +763,10 @@
                         body: new URLSearchParams(formData).toString()
                     })
                     .then(function () {
+                        // Microsoft Ads Form Conversion Tracking
+                        window.uetq = window.uetq || [];
+                        window.uetq.push('event', 'submit', {'event_category': 'calculator'});
+
                         const { pexStr, copperStr } = calculateValues();
                         pexOutput.textContent = pexStr;
                         copperOutput.textContent = copperStr;
