@@ -12,7 +12,22 @@
 
     <!-- Microsoft Advertising UET Tag -->
     <script>
-    (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"187276009"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+    (function(w, d, t, u, o) {
+        w[u] = w[u] || [], o.ts = (new Date).getTime();
+        var n = d.createElement(t);
+        n.src = "https://bat.bing.net/bat.js?ti=" + o.ti + ("uetq" != u ? "&q=" + u : "");
+        n.async = 1, n.onload = n.onreadystatechange = function() {
+            var s = this.readyState;
+            s && "loaded" !== s && "complete" !== s || 
+            (o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad"), 
+            n.onload = n.onreadystatechange = null)
+        };
+        var i = d.getElementsByTagName(t)[0];
+        i.parentNode.insertBefore(n, i);
+    })(window, document, "script", "uetq", {
+        ti: "187276009",
+        enableAutoSpaTracking: true
+    });
     </script>
 
     <meta charset="UTF-8">
