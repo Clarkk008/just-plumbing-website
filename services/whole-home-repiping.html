@@ -617,8 +617,18 @@
                 else if (baths === "3") { baseMin += 1400; baseMax += 1800; }
                 else if (baths === "4") { baseMin += 2200; baseMax += 2800; }
 
-                if (foundation === "slab") { baseMin += 1200; baseMax += 1800; }
-                else if (foundation === "multistory") { baseMin += 600; baseMax += 900; }
+                if (foundation === "slab") { 
+                    baseMin += 1200; 
+                    baseMax += 1800; 
+                } else if (foundation === "multistory") { 
+                    if (baths === "4") {
+                        baseMin += 1600; 
+                        baseMax += 1900; 
+                    } else {
+                        baseMin += 600; 
+                        baseMax += 900; 
+                    }
+                }
 
                 const pexStr = `$${baseMin.toLocaleString()} – $${baseMax.toLocaleString()}`;
                 const copperMin = Math.round((baseMin * 1.45) / 100) * 100;
