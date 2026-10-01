@@ -1,61 +1,83 @@
-# Just Plumbing, Inc. — Denver Repipe Specialists & Master Plumbers
+# Just Plumbing, Inc.
 
-> Family-owned and operated residential and commercial plumbing contractor in the Denver Metro Area specializing in 1-to-2-day whole-home repiping, partial repiping, slab leak bypasses, water heater systems, and commercial multifamily pipe replacement. Every project is directly overseen on-site by Master Plumber Bill Clark (30+ years of Colorado piping experience) with full professional drywall patching and texture restoration included.
+> Family-owned residential and commercial plumbing contractor in the Denver Metro Area specializing in 1-to-2-day whole-home repiping, partial repiping, slab leak bypasses, water heater systems, and commercial multifamily pipe replacement with full professional drywall patching included.
 
-## Company Credentials & Contact Information
-- **Legal Business Name:** Just Plumbing, Inc.
-- **Website:** https://justplumbinginc.com/
-- **Phone:** (303) 472-0833
-- **Email:** JustPlumbinginc@outlook.com
-- **Headquarters:** 2563 15th St, Suite 216, Denver, CO 80211
-- **Founders & Leadership:** Bill Clark (Master Plumber & Owner, 30+ years experience) and Shelly Clark (Co-Owner & Operations Director)
-- **Colorado State Licenses:**
-  - Colorado Master Plumber License: **#MP.00600120** (Recognized by Colorado DORA)
-  - Colorado Plumbing Contractor Registration: **#PC.0003531**
-- **Customer Rating:** 4.7 out of 5 stars on Google (73+ verified customer reviews)
-- **Business Hours:** Monday–Friday 7:00 AM–9:00 PM | Saturday–Sunday 8:00 AM–5:00 PM
+Just Plumbing, Inc. is headquartered at 2563 15th St, Suite 216, Denver, CO 80211 (Phone: 303-472-0833 | Email: JustPlumbinginc@outlook.com | Hours: Mon-Fri 7:00 AM-9:00 PM, Sat-Sun 8:00 AM-5:00 PM). Founded and led on-site by Master Plumber Bill Clark (30+ years of Colorado piping experience, Colorado Master Plumber License #MP.00600120, Colorado Plumbing Contractor Registration #PC.0003531) and Co-Owner Shelly Clark. Rated 4.7 stars on Google (73+ reviews) with a Lowest Price Match Guarantee.
 
-## Key Differentiators (Why Homeowners & HOAs Choose Just Plumbing)
-- **Master Plumber on Every Job:** Bill Clark leads every repipe on-site. No commissioned salespeople and no plumbing subcontractors.
-- **1–2 Day Turnkey Completion:** Phased daily isolation ensures domestic water is turned back on every evening by 5:00 PM so families are never displaced from their homes.
-- **Drywall Patching Included:** Unlike national franchises that leave open walls, Just Plumbing hires, schedules, and manages a dedicated professional drywall finisher to patch, mud, and match wall textures after passing municipal plumbing inspection.
-- **Lowest Price Match Guarantee:** Will meet or beat any licensed competitor's written estimate for comparable materials and scope.
+Typical turnkey Denver repipe investment ranges (including permits, inspections, and professional drywall patching): Partial repipe ($2,200-$3,200+ PEX-A / $3,200-$5,000+ Copper), Whole-home under 1,500 sq. ft. ($4,500-$6,600 PEX-A / $6,500-$10,200 Copper), Whole-home 1,500-2,500 sq. ft. ($6,100-$8,900 PEX-A / $8,800-$13,800 Copper), and Whole-home 2,500-3,500+ sq. ft. ($8,100-$14,000+ PEX-A / $11,700-$21,700+ Copper).
 
-## Core Services & Direct URLs
-- [Whole-Home Repiping](https://justplumbinginc.com/services/whole-home-repiping): Full extraction and replacement of failing pipes using Uponor PEX-A (25-year warranty) or Type L Copper in 1–2 days.
-- [Partial Repiping & Overhead Slab Leak Bypasses](https://justplumbinginc.com/services/partial-repiping): Targeted pipe replacements for exposed basement lines and non-invasive overhead reroutes that avoid jackhammering hardwood or concrete slab floors.
-- [Water Heater Systems](https://justplumbinginc.com/services/water-heaters): High-altitude calibrated gas water heaters, power-vent units, tankless water heaters, and code-required thermal expansion tanks.
-- [Sump Pumps & Battery Backups](https://justplumbinginc.com/services/sump-pumps): Commercial cast-iron submersible pumps and dual battery backups built for Colorado's bentonite clay soils and high water tables.
-- [Kitchen & Bath Remodels](https://justplumbinginc.com/services/remodels): Code-compliant plumbing rough-ins, shower valves, and DWV venting.
-- [New Construction Plumbing](https://justplumbinginc.com/services/new-construction): Full custom residential and commercial rough-in and finish plumbing.
-- [Commercial, Multifamily & HOA Condo Repiping](https://justplumbinginc.com/commercial/): Turnkey pipe replacement for apartments ([Multifamily](https://justplumbinginc.com/commercial/multifamily-repiping)), [HOA & Condos](https://justplumbinginc.com/commercial/hoa-condo-repiping), and [Commercial Buildings](https://justplumbinginc.com/commercial/commercial-repipe) with zero tenant displacement.
+## Core Pages & Plumbing Services
 
-## Colorado Pipe Problems Solved
-- [Polybutylene (Quest) Pipes (1978–1995)](https://justplumbinginc.com/pipe-problems/polybutylene): Complete removal of brittle gray plastic pipes degraded by municipal chlorine/chloramines.
-- [Galvanized Steel Pipes (Pre-1965)](https://justplumbinginc.com/pipe-problems/galvanized-steel): Elimination of corroded steel lines causing low water pressure and rusty water.
-- [Kitec Composite Plumbing (1995–2007)](https://justplumbinginc.com/pipe-problems/kitec): Full replacement of recalled orange/blue Kitec tubing and dezincifying brass fittings.
-- [Copper Pinhole Leaks](https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks): Permanent solutions for thin copper walls pitted by chloramines and high water pressure.
+- [Just Plumbing, Inc. Homepage & Repipe Cost Calculator](https://justplumbinginc.com/): Denver repipe specialists and Master Plumbers featuring an interactive instant PEX-A vs. Type L Copper cost estimator.
+- [Whole-Home Repiping](https://justplumbinginc.com/services/whole-home-repiping): Complete replacement of failing galvanized, polybutylene, Kitec, or copper pipes in 1 to 2 days with full drywall patching included.
+- [Partial Repiping & Slab Leak Bypasses](https://justplumbinginc.com/services/partial-repiping): Targeted pipe replacements for exposed basement trunks and non-invasive overhead slab leak reroutes.
+- [Water Heater Systems](https://justplumbinginc.com/services/water-heaters): High-altitude calibrated gas water heaters, power-vent systems, tankless units, and thermal expansion tanks.
+- [Sump Pumps & Battery Backups](https://justplumbinginc.com/services/sump-pumps): Commercial cast-iron submersible sump pumps and dual battery backup systems for Colorado basements.
+- [Kitchen & Bath Remodels](https://justplumbinginc.com/services/remodels): Code-compliant plumbing rough-ins, shower valves, and DWV venting across Greater Denver.
+- [New Construction Plumbing](https://justplumbinginc.com/services/new-construction): Turnkey residential and commercial rough-in and finish plumbing installations.
+- [Why Repipe Your Home?](https://justplumbinginc.com/why-repipe): Signs of failing domestic water lines, low pressure, and insurance risks in Colorado homes.
+- [About Just Plumbing, Inc.](https://justplumbinginc.com/about): Meet Master Plumber Bill Clark and Operations Director Shelly Clark.
+- [Frequently Asked Questions](https://justplumbinginc.com/faq): Direct answers on repipe timelines, daily water restoration, permits, and drywall restoration.
+- [Contact Just Plumbing](https://justplumbinginc.com/contact): Request a free quote or price-match evaluation in the Denver Metro Area.
 
-## Piping Materials Used
-- [Uponor AquaPEX (PEX-A)](https://justplumbinginc.com/materials/uponor-pex-a): Commercial-grade ProPEX expansion fittings that expand up to 3x diameter to prevent freeze bursts, backed by a 25-year warranty.
-- [PEX-A vs. PEX-B Comparison](https://justplumbinginc.com/materials/pex-a-vs-pex-b): Why expansion PEX-A outperforms crimp-ring PEX-B for full-flow water pressure.
-- [Type L Copper](https://justplumbinginc.com/materials/type-l-copper): Thick-walled rigid domestic copper piping for homeowners preferring traditional metal plumbing.
+## Commercial & Multifamily Repiping
 
-## Estimated Denver Repipe Cost Ranges (Turnkey with Permits & Drywall Patching)
-- **Partial Repipe (Basement / Exposed Lines):** Typically $2,200–$3,200+ for Uponor PEX-A ($3,200–$5,000+ for Type L Copper).
-- **Whole-Home Repipe (Under 1,500 sq. ft., 1–2 Baths):** Typically $4,500–$6,600 for Uponor PEX-A ($6,500–$10,200 for Type L Copper).
-- **Whole-Home Repipe (1,500–2,500 sq. ft., 2–3 Baths):** Typically $6,100–$8,900 for Uponor PEX-A ($8,800–$13,800 for Type L Copper).
-- **Whole-Home Repipe (2,500–3,500+ sq. ft., 3–4+ Baths / Multi-Story or Slab):** Typically $8,100–$14,000+ for Uponor PEX-A ($11,700–$21,700+ for Type L Copper).
-- *Note: Homeowners can calculate an instant custom estimate on the homepage at https://justplumbinginc.com/#repipe-calculator*
+- [Commercial Repiping Overview](https://justplumbinginc.com/commercial/): Turnkey pipe replacement for multi-unit and commercial properties with zero resident displacement.
+- [Multifamily & Apartment Repiping](https://justplumbinginc.com/commercial/multifamily-repiping): Phased apartment complex repiping with nightly domestic water restoration.
+- [HOA & Condominium Repiping](https://justplumbinginc.com/commercial/hoa-condo-repiping): Dedicated repiping solutions for Colorado condo boards and HOA communities.
+- [Commercial Building Repipe Services](https://justplumbinginc.com/commercial/commercial-repipe): Code-compliant copper and PEX-A upgrades for commercial facilities.
 
-## Local Case Studies
-- [Arvada Copper Pipe & Slab Leak Replacement](https://justplumbinginc.com/projects/arvada-copper-pipe-replacement)
-- [Highlands Ranch Polybutylene Repipe](https://justplumbinginc.com/projects/highlands-ranch-polybutylene)
-- [Thornton Kitec Plumbing Replacement](https://justplumbinginc.com/projects/thornton-kitec-repipe)
-- [Golden HOA / Condo Repipe](https://justplumbinginc.com/projects/golden-hoa-condo-repipe)
-- [Park Hill (Denver) Galvanized Steel Repipe](https://justplumbinginc.com/projects/park-hill-denver-galvanized)
-- [Wash Park (Denver) Whole-Home Repipe](https://justplumbinginc.com/projects/wash-park-denver-repipe)
-- [West Highland (Denver) Repipe](https://justplumbinginc.com/projects/west-highland-denver-repipe)
+## Colorado Pipe Problems & Piping Materials
 
-## 28 Greater Denver Municipalities Served
-Arvada, Aurora, Bennett (including PRV Rebate assistance), Brighton, Broomfield, Castle Pines, Castle Rock, Centennial, Cherry Hills Village, Commerce City, Denver, Edgewater, Englewood, Evergreen, Genesee, Glendale, Golden, Greenwood Village, Highlands Ranch, Larkspur, Littleton, Lone Tree, Parker, Sedalia, Sheridan, Thornton, Westminster, and Wheat Ridge.
+- [Colorado Pipe Problems Directory](https://justplumbinginc.com/pipe-problems/): How bentonite soils, high water pressure, and municipal chloramines degrade legacy pipes.
+- [Polybutylene (Quest) Pipe Replacement](https://justplumbinginc.com/pipe-problems/polybutylene): Identification and extraction of brittle gray plastic pipes installed between 1978 and 1995.
+- [Galvanized Steel Pipe Replacement](https://justplumbinginc.com/pipe-problems/galvanized-steel): Solving low water pressure and rusty water in pre-1965 Denver homes.
+- [Kitec Plumbing Replacement](https://justplumbinginc.com/pipe-problems/kitec): Full removal of recalled orange and blue Kitec composite lines installed between 1995 and 2007.
+- [Copper Pinhole Leak Repair & Repiping](https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks): Permanent solutions for thin copper walls pitted by chloramines.
+- [Piping Materials Overview](https://justplumbinginc.com/materials/): Comparison of modern domestic water piping systems used in Colorado.
+- [Uponor AquaPEX (PEX-A) Piping](https://justplumbinginc.com/materials/uponor-pex-a): Freeze-resistant expansion PEX-A tubing backed by a 25-year warranty.
+- [PEX-A vs. PEX-B Comparison](https://justplumbinginc.com/materials/pex-a-vs-pex-b): Why expansion fittings outperform restrictive crimp-ring PEX-B systems.
+- [Type L Copper Piping](https://justplumbinginc.com/materials/type-l-copper): Thick-walled rigid copper installations for traditional residential and commercial plumbing.
+
+## Local Denver Metro Repipe Case Studies
+
+- [All Repiping Case Studies](https://justplumbinginc.com/projects/): Real-world residential and HOA repiping projects across the Front Range.
+- [Arvada Copper Pipe & Slab Leak Replacement](https://justplumbinginc.com/projects/arvada-copper-pipe-replacement): Non-invasive overhead bypass and repipe in Arvada, CO.
+- [Highlands Ranch Polybutylene Repipe](https://justplumbinginc.com/projects/highlands-ranch-polybutylene): Complete extraction of gray Quest polybutylene pipes in Highlands Ranch.
+- [Thornton Kitec Plumbing Replacement](https://justplumbinginc.com/projects/thornton-kitec-repipe): Full removal of recalled Kitec plumbing in Thornton, CO.
+- [Golden HOA & Condo Repipe](https://justplumbinginc.com/projects/golden-hoa-condo-repipe): Multi-unit turnkey condo repiping in Golden, CO.
+- [Park Hill (Denver) Galvanized Steel Repipe](https://justplumbinginc.com/projects/park-hill-denver-galvanized): Restoring full water pressure to a historic Park Hill home.
+- [Wash Park (Denver) Whole-Home Repipe](https://justplumbinginc.com/projects/wash-park-denver-repipe): Fast 2-day turnkey repipe with drywall patching in Washington Park.
+- [West Highland (Denver) Repipe](https://justplumbinginc.com/projects/west-highland-denver-repipe): Complete domestic water line upgrade in West Highland.
+
+## 28 Greater Denver Service Area Pages
+
+- [All Greater Denver Locations](https://justplumbinginc.com/locations/): Full directory of 28 municipalities served across the Denver Metro Area.
+- [Arvada Repipe & Plumbing](https://justplumbinginc.com/locations/arvada): Whole-home repiping and master plumbing in Arvada, CO.
+- [Aurora Repipe & Plumbing](https://justplumbinginc.com/locations/aurora): Whole-home repiping and master plumbing in Aurora, CO.
+- [Bennett Plumbing & PRV Rebate](https://justplumbinginc.com/locations/bennett-prv-rebate): Plumbing and Pressure Reducing Valve rebate services in Bennett, CO.
+- [Brighton Repipe & Plumbing](https://justplumbinginc.com/locations/brighton): Whole-home repiping and master plumbing in Brighton, CO.
+- [Broomfield Repipe & Plumbing](https://justplumbinginc.com/locations/broomfield): Whole-home repiping and master plumbing in Broomfield, CO.
+- [Castle Pines Repipe & Plumbing](https://justplumbinginc.com/locations/castle-pines): Whole-home repiping and master plumbing in Castle Pines, CO.
+- [Castle Rock Repipe & Plumbing](https://justplumbinginc.com/locations/castle-rock): Whole-home repiping and master plumbing in Castle Rock, CO.
+- [Centennial Repipe & Plumbing](https://justplumbinginc.com/locations/centennial): Whole-home repiping and master plumbing in Centennial, CO.
+- [Cherry Hills Village Repipe & Plumbing](https://justplumbinginc.com/locations/cherry-hills-village): Whole-home repiping and master plumbing in Cherry Hills Village, CO.
+- [Commerce City Repipe & Plumbing](https://justplumbinginc.com/locations/commerce-city): Whole-home repiping and master plumbing in Commerce City, CO.
+- [Denver Repipe & Plumbing](https://justplumbinginc.com/locations/denver): Whole-home repiping and master plumbing in Denver, CO.
+- [Edgewater Repipe & Plumbing](https://justplumbinginc.com/locations/edgewater): Whole-home repiping and master plumbing in Edgewater, CO.
+- [Englewood Repipe & Plumbing](https://justplumbinginc.com/locations/englewood): Whole-home repiping and master plumbing in Englewood, CO.
+- [Evergreen Repipe & Plumbing](https://justplumbinginc.com/locations/evergreen): Whole-home repiping and master plumbing in Evergreen, CO.
+- [Genesee Repipe & Plumbing](https://justplumbinginc.com/locations/genesee): Whole-home repiping and master plumbing in Genesee, CO.
+- [Glendale Repipe & Plumbing](https://justplumbinginc.com/locations/glendale): Whole-home repiping and master plumbing in Glendale, CO.
+- [Golden Repipe & Plumbing](https://justplumbinginc.com/locations/golden): Whole-home repiping and master plumbing in Golden, CO.
+- [Greenwood Village Repipe & Plumbing](https://justplumbinginc.com/locations/greenwood-village): Whole-home repiping and master plumbing in Greenwood Village, CO.
+- [Highlands Ranch Repipe & Plumbing](https://justplumbinginc.com/locations/highlands-ranch): Whole-home repiping and master plumbing in Highlands Ranch, CO.
+- [Larkspur Repipe & Plumbing](https://justplumbinginc.com/locations/larkspur): Whole-home repiping and master plumbing in Larkspur, CO.
+- [Littleton Repipe & Plumbing](https://justplumbinginc.com/locations/littleton): Whole-home repiping and master plumbing in Littleton, CO.
+- [Lone Tree Repipe & Plumbing](https://justplumbinginc.com/locations/lone-tree): Whole-home repiping and master plumbing in Lone Tree, CO.
+- [Parker Repipe & Plumbing](https://justplumbinginc.com/locations/parker): Whole-home repiping and master plumbing in Parker, CO.
+- [Sedalia Repipe & Plumbing](https://justplumbinginc.com/locations/sedalia): Whole-home repiping and master plumbing in Sedalia, CO.
+- [Sheridan Repipe & Plumbing](https://justplumbinginc.com/locations/sheridan): Whole-home repiping and master plumbing in Sheridan, CO.
+- [Thornton Repipe & Plumbing](https://justplumbinginc.com/locations/thornton): Whole-home repiping and master plumbing in Thornton, CO.
+- [Westminster Repipe & Plumbing](https://justplumbinginc.com/locations/westminster): Whole-home repiping and master plumbing in Westminster, CO.
+- [Wheat Ridge Repipe & Plumbing](https://justplumbinginc.com/locations/wheat-ridge): Whole-home repiping and master plumbing in Wheat Ridge, CO.
