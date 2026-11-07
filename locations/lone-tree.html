@@ -51,100 +51,113 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/lone-tree/#business",
-          "name": "Just Plumbing, Inc. - Lone Tree Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/lone-tree",
-          "priceRange": "$$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential plumbing services in Lone Tree, CO, specializing in polybutylene and Kitec repiping, Pressure Reducing Valve (PRV) calibrations, and high-efficiency water heater installations.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Lone Tree",
-              "sameAs": "https://en.wikipedia.org/wiki/Lone_Tree,_Colorado"
-            },
-            {"@type": "PostalCode", "postalCode": "80124"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/lone-tree/#business",
+                  "name": "Just Plumbing, Inc. - Lone Tree Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/lone-tree",
+                  "priceRange": "$$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential plumbing services in Lone Tree, CO, specializing in polybutylene and Kitec repiping, Pressure Reducing Valve (PRV) calibrations, and high-efficiency water heater installations.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Lone Tree",
+                              "sameAs": "https://en.wikipedia.org/wiki/Lone_Tree,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80124"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Lone Tree",
-              "item": "https://justplumbinginc.com/locations/lone-tree"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Lone Tree",
+                              "item": "https://justplumbinginc.com/locations/lone-tree"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/lone-tree/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why are polybutylene and Kitec pipe replacements common in Lone Tree, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Lone Tree underwent rapid residential construction during the late 1980s, 1990s, and early 2000s across subdivisions like Heritage Hills and Carriage Club. Homes built during this timeframe frequently used gray polybutylene or composite Kitec plumbing. Both materials degrade internally from water treatment disinfectants, causing brittle joint failures and homeowner insurance non-renewals."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Why is a Pressure Reducing Valve (PRV) essential for Lone Tree homes?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Due to steep elevation variations across the bluffs surrounding Park Meadows and RidgeGate, municipal water delivery pressures frequently exceed 90 to 110 PSI. Pressure above 80 PSI voids water heater warranties and causes toilet valves, ice maker lines, and pipe fittings to burst without a properly calibrated PRV."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Lone Tree, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The City of Lone Tree Building Division requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings and final inspections."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/lone-tree/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why are polybutylene and Kitec pipe replacements common in Lone Tree, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Lone Tree underwent rapid residential construction during the late 1980s, 1990s, and early 2000s across subdivisions like Heritage Hills and Carriage Club. Homes built during this timeframe frequently used gray polybutylene or composite Kitec plumbing. Both materials degrade internally from water treatment disinfectants, causing brittle joint failures and homeowner insurance non-renewals."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Why is a Pressure Reducing Valve (PRV) essential for Lone Tree homes?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Due to steep elevation variations across the bluffs surrounding Park Meadows and RidgeGate, municipal water delivery pressures frequently exceed 90 to 110 PSI. Pressure above 80 PSI voids water heater warranties and causes toilet valves, ice maker lines, and pipe fittings to burst without a properly calibrated PRV."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Lone Tree, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The City of Lone Tree Building Division requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings and final inspections."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Lone Tree CO | Repiping & PRV Services | Just Plumbing Inc.">

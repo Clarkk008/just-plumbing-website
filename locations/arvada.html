@@ -50,119 +50,129 @@
 
     <!-- Hyper-Local ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/arvada/#business",
-          "name": "Just Plumbing, Inc. - Arvada Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/arvada",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Premium residential and commercial plumbing solutions throughout Arvada, CO, specializing in historic home repiping, water heater upgrades, and code modernizations.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Arvada",
-              "sameAs": "https://en.wikipedia.org/wiki/Arvada,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/arvada/#business",
+                  "name": "Just Plumbing, Inc. - Arvada Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/arvada",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Premium residential and commercial plumbing solutions throughout Arvada, CO, specializing in historic home repiping, water heater upgrades, and code modernizations.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Arvada",
+                              "sameAs": "https://en.wikipedia.org/wiki/Arvada,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80002"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80003"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80004"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80005"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80007"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "PostalCode",
-              "postalCode": "80002"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Arvada",
+                              "item": "https://justplumbinginc.com/locations/arvada"
+                        }
+                  ]
             },
             {
-              "@type": "PostalCode",
-              "postalCode": "80003"
-            },
-            {
-              "@type": "PostalCode",
-              "postalCode": "80004"
-            },
-            {
-              "@type": "PostalCode",
-              "postalCode": "80005"
-            },
-            {
-              "@type": "PostalCode",
-              "postalCode": "80007"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/arvada/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why do historic homes in Arvada, CO frequently require whole-home repiping?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Many homes in older Arvada neighborhoods like Olde Town, Reno Park, and the Stocke-Walter Addition were built with galvanized steel or early polybutylene pipes. Over decades, galvanized steel rusts internally, severely choking water pressure and leaking discolored water, while polybutylene degrades and triggers sudden wall leaks."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Who is the recommended plumber for repiping and water heater services in Arvada, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Just Plumbing, Inc. is highly rated in Arvada, CO. Led by Master Plumber Bill Clark (License #MP.00600120) with over 30 years of experience, Just Plumbing specializes in minimally invasive PEX Type A repiping, water heater replacements, and code-compliant plumbing upgrades."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Does repiping a home in Arvada require city plumbing permits?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, whole-home repiping and water heater installations require permits and inspections from the City of Arvada Building Inspection Division. Operating under Colorado Plumbing Contractor registration #PC.0003531, Just Plumbing handles all municipal permitting and inspection scheduling."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Arvada",
-              "item": "https://justplumbinginc.com/locations/arvada"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/arvada/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why do historic homes in Arvada, CO frequently require whole-home repiping?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Many homes in older Arvada neighborhoods like Olde Town, Reno Park, and the Stocke-Walter Addition were built with galvanized steel or early polybutylene pipes. Over decades, galvanized steel rusts internally, severely choking water pressure and leaking discolored water, while polybutylene degrades and triggers sudden wall leaks."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Who is the recommended plumber for repiping and water heater services in Arvada, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Just Plumbing, Inc. is highly rated in Arvada, CO. Led by Master Plumber Bill Clark (License #MP.00600120) with over 30 years of experience, Just Plumbing specializes in minimally invasive PEX Type A repiping, water heater replacements, and code-compliant plumbing upgrades."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does repiping a home in Arvada require city plumbing permits?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, whole-home repiping and water heater installations require permits and inspections from the City of Arvada Building Inspection Division. Operating under Colorado Plumbing Contractor registration #PC.0003531, Just Plumbing handles all municipal permitting and inspection scheduling."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Arvada CO | Just Plumbing, Inc.">
@@ -331,7 +341,7 @@
                          style="width: 100%; height: auto; display: block;" loading="eager">
                 </div>
 
-                <p style="margin-bottom: 30px; line-height: 1.6;">If you live in one of Arvada's established neighborhoods like Reno Park, Ralston Valley, or Lake Arbor, your home's original internal plumbing may be operating on borrowed time. When searching for an experienced <strong>plumber in Arvada, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber expertise to safely navigate historic structures. We specialize in , minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repiping</a> that replaces failing lines with clean, freeze-resistant <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty) or rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a>—restoring pristine water pressure and protecting your property's value. See our successful local copper reroute in our <a href="/projects/arvada-copper-pipe-replacement" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Arvada Copper Pinhole Case Study</a>.</p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">If you live in one of Arvada's established neighborhoods like Reno Park, Ralston Valley, or Lake Arbor, your home's original internal plumbing may be operating on borrowed time. When searching for an experienced <strong>plumber in Arvada, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber expertise to safely navigate historic structures. We specialize in clean, minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repiping</a> that replaces failing lines with clean, freeze-resistant <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty) or rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a>—restoring pristine water pressure and protecting your property's value. See our successful local copper reroute in our <a href="/projects/arvada-copper-pipe-replacement" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Arvada Copper Pinhole Case Study</a>.</p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Our Top Arvada Plumbing Services</h2>
                 <ul style="margin: 0 0 30px 20px; line-height: 1.8;">

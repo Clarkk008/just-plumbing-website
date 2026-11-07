@@ -51,101 +51,117 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/commerce-city/#business",
-          "name": "Just Plumbing, Inc. - Commerce City Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/commerce-city",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential and commercial plumbing services in Commerce City, CO, specializing in galvanized pipe replacements, Reunion-area repipes, hard water solutions, and water heaters.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Commerce City",
-              "sameAs": "https://en.wikipedia.org/wiki/Commerce_City,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/commerce-city/#business",
+                  "name": "Just Plumbing, Inc. - Commerce City Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/commerce-city",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential and commercial plumbing services in Commerce City, CO, specializing in galvanized pipe replacements, Reunion-area repipes, hard water solutions, and water heaters.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Commerce City",
+                              "sameAs": "https://en.wikipedia.org/wiki/Commerce_City,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80022"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80037"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80022"},
-            {"@type": "PostalCode", "postalCode": "80037"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Commerce City",
+                              "item": "https://justplumbinginc.com/locations/commerce-city"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Commerce City",
-              "item": "https://justplumbinginc.com/locations/commerce-city"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/commerce-city/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why do homes in older Commerce City neighborhoods have low water pressure?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Established neighborhoods like Derby and historic southern Commerce City feature mid-century post-war homes built with galvanized steel plumbing. Over 50+ years, mineral scaling and oxidation create heavy internal rust, restricting pipe openings to the diameter of a pencil and dropping shower pressure to a crawl."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How does hard water in Commerce City affect water heaters?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Water supplied across the South Adams County Water and Sanitation District carries notable hardness minerals. Calcium and magnesium crystallize at the bottom of traditional water heaters, forming dense heat-insulating sediment that causes elements to burn out, leads to loud popping noises, and drastically shortens tank lifespan."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Commerce City?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The City of Commerce City Building Safety Division requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings and final inspections."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/commerce-city/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why do homes in older Commerce City neighborhoods have low water pressure?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Established neighborhoods like Derby and historic southern Commerce City feature mid-century post-war homes built with galvanized steel plumbing. Over 50+ years, mineral scaling and oxidation create heavy internal rust, restricting pipe openings to the diameter of a pencil and dropping shower pressure to a crawl."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does hard water in Commerce City affect water heaters?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Water supplied across the South Adams County Water and Sanitation District carries notable hardness minerals. Calcium and magnesium crystallize at the bottom of traditional water heaters, forming dense heat-insulating sediment that causes elements to burn out, leads to loud popping noises, and drastically shortens tank lifespan."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Commerce City?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The City of Commerce City Building Safety Division requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings and final inspections."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Commerce City CO | Repiping & Water Heaters | Just Plumbing Inc.">

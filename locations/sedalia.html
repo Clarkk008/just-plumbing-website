@@ -51,100 +51,113 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/sedalia/#business",
-          "name": "Just Plumbing, Inc. - Sedalia Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/sedalia",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential plumbing services in Sedalia, CO, specializing in acreage freeze-proof Uponor PEX-A repiping, private well water plumbing integration, and heavy-duty water heating systems.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Sedalia",
-              "sameAs": "https://en.wikipedia.org/wiki/Sedalia,_Colorado"
-            },
-            {"@type": "PostalCode", "postalCode": "80135"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/sedalia/#business",
+                  "name": "Just Plumbing, Inc. - Sedalia Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/sedalia",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential plumbing services in Sedalia, CO, specializing in acreage freeze-proof Uponor PEX-A repiping, private well water plumbing integration, and heavy-duty water heating systems.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Sedalia",
+                              "sameAs": "https://en.wikipedia.org/wiki/Sedalia,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80135"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Sedalia",
-              "item": "https://justplumbinginc.com/locations/sedalia"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Sedalia",
+                              "item": "https://justplumbinginc.com/locations/sedalia"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/sedalia/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why are Sedalia acreage homes vulnerable to winter pipe bursts?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sedalia sits in a foothills microclimate characterized by open acreage, high winds, and rapid temperature drops. Homes with sprawling layouts often have water lines routed through unconditioned crawlspaces or exterior walls where rigid copper solder joints easily freeze, expand, and shatter. Uponor PEX-A piping stretches with freezing water, virtually eliminating these bursts."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How does well water chemistry in Sedalia affect residential plumbing?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Many Sedalia properties rely on deep private wells drawing from the Denver Basin. High mineral content, sediment, and shifting pH levels erode standard copper pipe walls from the inside out, creating pinhole leaks. This raw water also causes heavy calcium scale buildup inside traditional water heaters, significantly reducing their efficiency and lifespan."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Sedalia, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The Douglas County Building Division requires permits and inspections for all whole-home repiping and water heater installations across Sedalia and the surrounding unincorporated areas. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all county filings and final inspections."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/sedalia/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why are Sedalia acreage homes vulnerable to winter pipe bursts?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sedalia sits in a foothills microclimate characterized by open acreage, high winds, and rapid temperature drops. Homes with sprawling layouts often have water lines routed through unconditioned crawlspaces or exterior walls where rigid copper solder joints easily freeze, expand, and shatter. Uponor PEX-A piping stretches with freezing water, virtually eliminating these bursts."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does well water chemistry in Sedalia affect residential plumbing?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Many Sedalia properties rely on deep private wells drawing from the Denver Basin. High mineral content, sediment, and shifting pH levels erode standard copper pipe walls from the inside out, creating pinhole leaks. This raw water also causes heavy calcium scale buildup inside traditional water heaters, significantly reducing their efficiency and lifespan."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Sedalia, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The Douglas County Building Division requires permits and inspections for all whole-home repiping and water heater installations across Sedalia and the surrounding unincorporated areas. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all county filings and final inspections."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Sedalia CO | Freeze-Proof Repiping & Wells | Just Plumbing Inc.">

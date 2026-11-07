@@ -51,125 +51,137 @@
 
     <!-- Article, LocalBusiness, Breadcrumb & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          
-          "hasCredential": [
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State Registration",
-              "name": "Colorado Plumbing Contractor",
-              "credentialNumber": "PC.0003531"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "legalName": "Just Plumbing, Inc.",
+                  "url": "https://justplumbinginc.com/",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$",
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "hasCredential": [
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State Registration",
+                              "name": "Colorado Plumbing Contractor",
+                              "credentialNumber": "PC.0003531",
+                              "identifier": "PC.0003531"
+                        },
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State License",
+                              "name": "Colorado Master Plumber",
+                              "credentialNumber": "MP.00600120",
+                              "identifier": "MP.00600120"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State License",
-              "name": "Colorado Master Plumber",
-              "credentialNumber": "MP.00600120"
+                  "@type": "Article",
+                  "@id": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene#article",
+                  "headline": "Highlands Ranch Case Study: Whole-Home Polybutylene Replacement with Uponor PEX-A",
+                  "description": "A field report documenting the complete replacement of defective gray polybutylene piping in a 1988 Highlands Ranch home, including drywall restoration and insurance certification.",
+                  "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
+                  "author": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "worksFor": {
+                              "@id": "https://justplumbinginc.com/#organization"
+                        }
+                  },
+                  "publisher": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "datePublished": "2024-03-15",
+                  "dateModified": "2026-01-10",
+                  "mainEntityOfPage": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene"
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Projects",
+                              "item": "https://justplumbinginc.com/projects/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Highlands Ranch Polybutylene Repipe",
+                              "item": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why are Highlands Ranch homes prone to polybutylene pipe failures?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Much of Highlands Ranch was built between 1981 and 1995, coinciding directly with the widespread installation of polybutylene (Quest) plumbing. Over decades of exposure to municipal chloramines and Front Range elevation water pressure spikes, the plastic acetal fittings fracture and the pipe resin degrades from the inside out."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Did the homeowner have to leave the house during the repipe?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "No. Just Plumbing completes repiping in structured daily stages. Water service was isolated during working hours and fully restored by 5:00 PM every evening, allowing the family to remain comfortable at home."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Did the homeowner's insurance accept the repipe documentation?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Upon passing final municipal inspection with Douglas County building authorities, Just Plumbing provided an official Master Plumber Certificate of Completion, enabling the homeowner to retain their coverage and eliminate water damage risk surcharges."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "Article",
-          "@id": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene#article",
-          "headline": "Highlands Ranch Case Study: Whole-Home Polybutylene Replacement with Uponor PEX-A",
-          "description": "A field report documenting the complete replacement of defective gray polybutylene piping in a 1988 Highlands Ranch home, including drywall restoration and insurance certification.",
-          "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
-          "author": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "worksFor": {
-              "@id": "https://justplumbinginc.com/#organization"
-            }
-          },
-          "publisher": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "datePublished": "2024-03-15",
-          "dateModified": "2026-01-10",
-          "mainEntityOfPage": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Projects",
-              "item": "https://justplumbinginc.com/projects/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Highlands Ranch Polybutylene Repipe",
-              "item": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why are Highlands Ranch homes prone to polybutylene pipe failures?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Much of Highlands Ranch was built between 1981 and 1995, coinciding directly with the widespread installation of polybutylene (Quest) plumbing. Over decades of exposure to municipal chloramines and Front Range elevation water pressure spikes, the plastic acetal fittings fracture and the pipe resin degrades from the inside out."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Did the homeowner have to leave the house during the repipe?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. Just Plumbing completes repiping in structured daily stages. Water service was isolated during working hours and fully restored by 5:00 PM every evening, allowing the family to remain comfortable at home."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Did the homeowner's insurance accept the repipe documentation?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Upon passing final municipal inspection with Douglas County building authorities, Just Plumbing provided an official Master Plumber Certificate of Completion, enabling the homeowner to retain their coverage and eliminate water damage risk surcharges."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Highlands Ranch Polybutylene Repipe Case Study | Just Plumbing Inc.">
@@ -524,15 +536,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
                     <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
                     <li><a href='/materials'>Piping Materials</a></li>
                     <li><a href='/commercial'>Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 

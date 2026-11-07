@@ -51,103 +51,125 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/golden/#business",
-          "name": "Just Plumbing, Inc. - Golden Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/golden",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential and commercial plumbing services in Golden, CO, specializing in freeze-resistant Uponor PEX-A repiping, HOA multi-unit plumbing, and water heating systems.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Golden",
-              "sameAs": "https://en.wikipedia.org/wiki/Golden,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/golden/#business",
+                  "name": "Just Plumbing, Inc. - Golden Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/golden",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential and commercial plumbing services in Golden, CO, specializing in freeze-resistant Uponor PEX-A repiping, HOA multi-unit plumbing, and water heating systems.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Golden",
+                              "sameAs": "https://en.wikipedia.org/wiki/Golden,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80401"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80402"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80403"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80419"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80401"},
-            {"@type": "PostalCode", "postalCode": "80402"},
-            {"@type": "PostalCode", "postalCode": "80403"},
-            {"@type": "PostalCode", "postalCode": "80419"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Golden",
+                              "item": "https://justplumbinginc.com/locations/golden"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Golden",
-              "item": "https://justplumbinginc.com/locations/golden"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/golden/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why are foothills homes in Golden particularly vulnerable to frozen pipe bursts?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Golden sits right against the Front Range foothills, exposing exterior walls, crawlspaces, and basement cantilevers to rapid temperature drops and persistent winter winds. Rigid copper and CPVC pipes have zero flexibility and split open when water expands during freezing. Uponor PEX-A expansion lines can expand up to three times their diameter, drastically reducing burst risk."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Does Just Plumbing handle HOA and multi-family repiping projects in Golden?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. We have completed extensive HOA multi-unit and condo repiping across Golden, including phased riser installations and water main reroutes that keep resident disruption to a minimum. Review our Golden HOA Condo Repipe Case Study on our projects page."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for water heaters and repipes in Golden, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. All whole-home repiping and water heater replacements require permits and inspections from the City of Golden Community and Economic Development Building Division. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and secures all required city permits and sign-offs."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/golden/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why are foothills homes in Golden particularly vulnerable to frozen pipe bursts?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Golden sits right against the Front Range foothills, exposing exterior walls, crawlspaces, and basement cantilevers to rapid temperature drops and persistent winter winds. Rigid copper and CPVC pipes have zero flexibility and split open when water expands during freezing. Uponor PEX-A expansion lines can expand up to three times their diameter, drastically reducing burst risk."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does Just Plumbing handle HOA and multi-family repiping projects in Golden?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. We have completed extensive HOA multi-unit and condo repiping across Golden, including phased riser installations and water main reroutes that keep resident disruption to a minimum. Review our Golden HOA Condo Repipe Case Study on our projects page."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for water heaters and repipes in Golden, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. All whole-home repiping and water heater replacements require permits and inspections from the City of Golden Community and Economic Development Building Division. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and secures all required city permits and sign-offs."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Golden CO | Repiping & Freeze Protection | Just Plumbing Inc.">

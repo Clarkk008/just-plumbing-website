@@ -51,101 +51,117 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/parker/#business",
-          "name": "Just Plumbing, Inc. - Parker Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/parker",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential plumbing services in Parker, CO, specializing in polybutylene pipe extractions, Pressure Reducing Valve (PRV) calibrations, and water heater replacements.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Parker",
-              "sameAs": "https://en.wikipedia.org/wiki/Parker,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/parker/#business",
+                  "name": "Just Plumbing, Inc. - Parker Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/parker",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential plumbing services in Parker, CO, specializing in polybutylene pipe extractions, Pressure Reducing Valve (PRV) calibrations, and water heater replacements.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Parker",
+                              "sameAs": "https://en.wikipedia.org/wiki/Parker,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80134"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80138"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80134"},
-            {"@type": "PostalCode", "postalCode": "80138"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Parker",
+                              "item": "https://justplumbinginc.com/locations/parker"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Parker",
-              "item": "https://justplumbinginc.com/locations/parker"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/parker/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why is polybutylene pipe replacement so common in Parker, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Parker experienced massive residential growth in the 1980s and early 1990s across neighborhoods like Stonegate, Bradbury Ranch, and Cottonwood. Homes built during this timeframe frequently used gray polybutylene piping, which degrades internally when exposed to municipal water disinfectants. This causes brittle pipe cracks, insurance dropped-policy notices, and unexpected floods."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Why do homes in Parker require Pressure Reducing Valves (PRVs)?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Parker Water and Sanitation District services areas with notable elevation variations, resulting in main water supply pressures that can reach 90 to 110+ PSI. Pressure above 80 PSI voids water heater warranties and causes pipe joints and washing machine hoses to burst without a calibrated PRV."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Parker?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The Town of Parker Building Division requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and manages all required permitting and final inspections."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/parker/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why is polybutylene pipe replacement so common in Parker, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Parker experienced massive residential growth in the 1980s and early 1990s across neighborhoods like Stonegate, Bradbury Ranch, and Cottonwood. Homes built during this timeframe frequently used gray polybutylene piping, which degrades internally when exposed to municipal water disinfectants. This causes brittle pipe cracks, insurance dropped-policy notices, and unexpected floods."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Why do homes in Parker require Pressure Reducing Valves (PRVs)?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Parker Water and Sanitation District services areas with notable elevation variations, resulting in main water supply pressures that can reach 90 to 110+ PSI. Pressure above 80 PSI voids water heater warranties and causes pipe joints and washing machine hoses to burst without a calibrated PRV."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Parker?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The Town of Parker Building Division requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and manages all required permitting and final inspections."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Parker CO | Polybutylene Repiping | Just Plumbing Inc.">

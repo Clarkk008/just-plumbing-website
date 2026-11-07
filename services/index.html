@@ -49,132 +49,143 @@
 
     <!-- Comprehensive CollectionPage, ItemList, ServiceAreaBusiness & FAQ Schema -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/",
-          "priceRange": "$$",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner"
-          }
-        },
-        {
-          "@type": "CollectionPage",
-          "@id": "https://justplumbinginc.com/services/#page",
-          "name": "Residential & Commercial Plumbing Services in Denver",
-          "url": "https://justplumbinginc.com/services/",
-          "description": "Comprehensive plumbing service directory specializing in whole-home repiping, water heater replacements, sump pumps, and structural leak remediation.",
-          "publisher": {
-            "@id": "https://justplumbinginc.com/#organization"
-          }
-        },
-        {
-          "@type": "ItemList",
-          "name": "Core Plumbing & Repiping Services",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "url": "https://justplumbinginc.com/services/whole-home-repiping",
-              "name": "Whole-Home Repiping"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/",
+                  "priceRange": "$$",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner"
+                  },
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "url": "https://justplumbinginc.com/services/partial-repiping",
-              "name": "Partial Repiping & Slab Leak Bypasses"
+                  "@type": "CollectionPage",
+                  "@id": "https://justplumbinginc.com/services/#page",
+                  "name": "Residential & Commercial Plumbing Services in Denver",
+                  "url": "https://justplumbinginc.com/services/",
+                  "description": "Comprehensive plumbing service directory specializing in whole-home repiping, water heater replacements, sump pumps, and structural leak remediation.",
+                  "publisher": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "url": "https://justplumbinginc.com/services/water-heaters",
-              "name": "Water Heater Systems"
+                  "@type": "ItemList",
+                  "name": "Core Plumbing & Repiping Services",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "url": "https://justplumbinginc.com/services/whole-home-repiping",
+                              "name": "Whole-Home Repiping"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "url": "https://justplumbinginc.com/services/partial-repiping",
+                              "name": "Partial Repiping & Slab Leak Bypasses"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "url": "https://justplumbinginc.com/services/water-heaters",
+                              "name": "Water Heater Systems"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 4,
+                              "url": "https://justplumbinginc.com/services/sump-pumps",
+                              "name": "Sump Pumps & Battery Backups"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 5,
+                              "url": "https://justplumbinginc.com/services/remodels",
+                              "name": "Kitchen & Bath Remodels"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 6,
+                              "url": "https://justplumbinginc.com/services/new-construction",
+                              "name": "New Construction Plumbing"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 4,
-              "url": "https://justplumbinginc.com/services/sump-pumps",
-              "name": "Sump Pumps & Battery Backups"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Services",
+                              "item": "https://justplumbinginc.com/services/"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 5,
-              "url": "https://justplumbinginc.com/services/remodels",
-              "name": "Kitchen & Bath Remodels"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "url": "https://justplumbinginc.com/services/new-construction",
-              "name": "New Construction Plumbing"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/services/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "What plumbing services does Just Plumbing, Inc. specialize in?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Just Plumbing specializes in infrastructure plumbing: whole-home repiping (replacing polybutylene, galvanized steel, Kitec, and corroded copper), overhead concrete slab leak bypasses, commercial and residential water heater installations, basement sump pump systems, and architectural kitchen/bath remodels."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How long does a whole-home repiping service take?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Most residential repipes are completed in just 1 to 2 business days. Our Master Plumber-led crew works in organized phases to ensure your domestic water service is fully restored at the end of each working day."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Does Just Plumbing handle municipal permits and inspections?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. As a licensed Colorado Plumbing Contractor (#PC.0003531) led by Master Plumber Bill Clark (#MP.00600120), we manage all city and county permit applications, code compliance filings, and final municipal inspector sign-offs across all 28 Front Range service areas."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Services",
-              "item": "https://justplumbinginc.com/services/"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/services/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What plumbing services does Just Plumbing, Inc. specialize in?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Just Plumbing specializes in infrastructure plumbing: whole-home repiping (replacing polybutylene, galvanized steel, Kitec, and corroded copper), overhead concrete slab leak bypasses, commercial and residential water heater installations, basement sump pump systems, and architectural kitchen/bath remodels."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How long does a whole-home repiping service take?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Most residential repipes are completed in just 1 to 2 business days. Our Master Plumber-led crew works in organized phases to ensure your domestic water service is fully restored at the end of each working day."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does Just Plumbing handle municipal permits and inspections?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. As a licensed Colorado Plumbing Contractor (#PC.0003531) led by Master Plumber Bill Clark (#MP.00600120), we manage all city and county permit applications, code compliance filings, and final municipal inspector sign-offs across all 28 Front Range service areas."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumbing Services Denver | Whole-Home Repiping & Systems | Just Plumbing Inc.">
@@ -552,15 +563,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
-                    <li><a href="/pipe-problems">Failing Pipe Diagnosis</a></li>
-                    <li><a href="/materials">Piping Materials</a></li>
-                    <li><a href="/commercial">Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
+                    <li><a href='/materials'>Piping Materials</a></li>
+                    <li><a href='/commercial'>Commercial Repiping</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
             

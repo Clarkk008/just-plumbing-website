@@ -51,102 +51,121 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/castle-rock/#business",
-          "name": "Just Plumbing, Inc. - Castle Rock Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/castle-rock",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Code-compliant plumbing services in Castle Rock, CO, specializing in hard water heater replacements, polybutylene pipe extractions, and high-pressure PRV installations.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Castle Rock",
-              "sameAs": "https://en.wikipedia.org/wiki/Castle_Rock,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/castle-rock/#business",
+                  "name": "Just Plumbing, Inc. - Castle Rock Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/castle-rock",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Code-compliant plumbing services in Castle Rock, CO, specializing in hard water heater replacements, polybutylene pipe extractions, and high-pressure PRV installations.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Castle Rock",
+                              "sameAs": "https://en.wikipedia.org/wiki/Castle_Rock,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80104"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80108"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80109"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80104"},
-            {"@type": "PostalCode", "postalCode": "80108"},
-            {"@type": "PostalCode", "postalCode": "80109"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Castle Rock",
+                              "item": "https://justplumbinginc.com/locations/castle-rock"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Castle Rock",
-              "item": "https://justplumbinginc.com/locations/castle-rock"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/castle-rock/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why do water heaters fail so quickly in Castle Rock, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Castle Rock draws heavily from deep groundwater aquifers in the Denver Basin. This water is incredibly hard and rich in calcium and magnesium. These minerals calcify at the bottom of traditional water heaters, forcing the unit to overheat, which destroys elements and causes premature tank ruptures."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Do homes in Castle Rock have polybutylene pipes?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Many of Castle Rock's foundational subdivisions built in the 1980s and 1990s, such as Founders Village and early phases of The Meadows, were plumbed with gray polybutylene (Quest) pipes. These pipes degrade and burst without warning, and we specialize in extracting them."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Do you pull permits for plumbing projects in Castle Rock?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Absolutely. Just Plumbing, Inc. operates under Colorado Plumbing Contractor registration #PC.0003531. We pull all necessary permits through the Town of Castle Rock Building Department to ensure your water heater or repipe is completely code-compliant."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/castle-rock/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why do water heaters fail so quickly in Castle Rock, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Castle Rock draws heavily from deep groundwater aquifers in the Denver Basin. This water is incredibly hard and rich in calcium and magnesium. These minerals calcify at the bottom of traditional water heaters, forcing the unit to overheat, which destroys elements and causes premature tank ruptures."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Do homes in Castle Rock have polybutylene pipes?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Many of Castle Rock's foundational subdivisions built in the 1980s and 1990s, such as Founders Village and early phases of The Meadows, were plumbed with gray polybutylene (Quest) pipes. These pipes degrade and burst without warning, and we specialize in extracting them."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you pull permits for plumbing projects in Castle Rock?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Absolutely. Just Plumbing, Inc. operates under Colorado Plumbing Contractor registration #PC.0003531. We pull all necessary permits through the Town of Castle Rock Building Department to ensure your water heater or repipe is completely code-compliant."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Castle Rock CO | Repiping & Water Heaters | Just Plumbing Inc.">

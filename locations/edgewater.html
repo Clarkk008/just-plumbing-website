@@ -51,100 +51,113 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/edgewater/#business",
-          "name": "Just Plumbing, Inc. - Edgewater Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/edgewater",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential plumbing services in Edgewater, CO, specializing in historic bungalow repiping, galvanized pipe extractions, Sloan's Lake area drainage, and water heaters.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Edgewater",
-              "sameAs": "https://en.wikipedia.org/wiki/Edgewater,_Colorado"
-            },
-            {"@type": "PostalCode", "postalCode": "80214"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/edgewater/#business",
+                  "name": "Just Plumbing, Inc. - Edgewater Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/edgewater",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential plumbing services in Edgewater, CO, specializing in historic bungalow repiping, galvanized pipe extractions, Sloan's Lake area drainage, and water heaters.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Edgewater",
+                              "sameAs": "https://en.wikipedia.org/wiki/Edgewater,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80214"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Edgewater",
-              "item": "https://justplumbinginc.com/locations/edgewater"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Edgewater",
+                              "item": "https://justplumbinginc.com/locations/edgewater"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/edgewater/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why do homes near Sloan's Lake in Edgewater frequently need whole-home repiping?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Much of Edgewater's residential core consists of historic bungalows and mid-century ranches built prior to 1960. These homes were plumbed with galvanized steel pipes that corrode internally over time, dropping water volume, discoloring tap water, and springing pinhole leaks in shallow crawlspaces and floor cavities."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Can you repipe an older Edgewater home without tearing down historic plaster walls?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Just Plumbing specializes in minimally invasive repiping. We route flexible Uponor PEX-A expansion piping through basement floor joists, unconditioned crawlspaces, and existing partition voids, preserving historic lath-and-plaster finishes without destructive wall demolition."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Edgewater, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The City of Edgewater Building Department requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings and final approvals."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/edgewater/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why do homes near Sloan's Lake in Edgewater frequently need whole-home repiping?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Much of Edgewater's residential core consists of historic bungalows and mid-century ranches built prior to 1960. These homes were plumbed with galvanized steel pipes that corrode internally over time, dropping water volume, discoloring tap water, and springing pinhole leaks in shallow crawlspaces and floor cavities."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you repipe an older Edgewater home without tearing down historic plaster walls?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Just Plumbing specializes in minimally invasive repiping. We route flexible Uponor PEX-A expansion piping through basement floor joists, unconditioned crawlspaces, and existing partition voids, preserving historic lath-and-plaster finishes without destructive wall demolition."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Edgewater, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The City of Edgewater Building Department requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings and final approvals."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Edgewater CO | Historic Repiping | Just Plumbing Inc.">

@@ -51,100 +51,113 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/glendale/#business",
-          "name": "Just Plumbing, Inc. - Glendale Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/glendale",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led commercial and residential plumbing services in Glendale, CO, specializing in multi-family apartment riser repiping, HOA condo water systems, and commercial water heaters.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Glendale",
-              "sameAs": "https://en.wikipedia.org/wiki/Glendale,_Colorado"
-            },
-            {"@type": "PostalCode", "postalCode": "80246"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/glendale/#business",
+                  "name": "Just Plumbing, Inc. - Glendale Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/glendale",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led commercial and residential plumbing services in Glendale, CO, specializing in multi-family apartment riser repiping, HOA condo water systems, and commercial water heaters.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Glendale",
+                              "sameAs": "https://en.wikipedia.org/wiki/Glendale,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80246"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Glendale",
-              "item": "https://justplumbinginc.com/locations/glendale"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Glendale",
+                              "item": "https://justplumbinginc.com/locations/glendale"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/glendale/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why do multi-family buildings and condos in Glendale frequently need repiping?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Glendale features one of the highest densities of multi-family apartments and condominiums in the Denver Metro area, mostly constructed in the 1960s, 70s, and 80s. Decades of continuous water use, recirculating loop velocity erosion, and thin copper walls cause recurring pinhole leaks along shared risers, risking water damage across multiple stacked units."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How does Just Plumbing handle repiping in occupied Glendale rental communities?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We execute phased riser retrofits designed to avoid tenant displacement. Water service is isolated by vertical stack rather than shutting down the entire complex, and domestic water is restored to all units at the end of each working day."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and commercial water heaters in Glendale, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The City of Glendale Building Division requires permits and inspections for all multi-family riser repiping and commercial water heater installations. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings, plan submissions, and final sign-offs."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/glendale/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why do multi-family buildings and condos in Glendale frequently need repiping?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Glendale features one of the highest densities of multi-family apartments and condominiums in the Denver Metro area, mostly constructed in the 1960s, 70s, and 80s. Decades of continuous water use, recirculating loop velocity erosion, and thin copper walls cause recurring pinhole leaks along shared risers, risking water damage across multiple stacked units."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does Just Plumbing handle repiping in occupied Glendale rental communities?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We execute phased riser retrofits designed to avoid tenant displacement. Water service is isolated by vertical stack rather than shutting down the entire complex, and domestic water is restored to all units at the end of each working day."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and commercial water heaters in Glendale, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The City of Glendale Building Division requires permits and inspections for all multi-family riser repiping and commercial water heater installations. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings, plan submissions, and final sign-offs."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Glendale CO | Multi-Family & Condo Repiping | Just Plumbing Inc.">

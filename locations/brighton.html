@@ -51,102 +51,121 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/brighton/#business",
-          "name": "Just Plumbing, Inc. - Brighton Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/brighton",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential and commercial plumbing services in Brighton, CO, specializing in whole-home PEX-A repiping, hard water scale remediation, and water heater replacements.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Brighton",
-              "sameAs": "https://en.wikipedia.org/wiki/Brighton,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/brighton/#business",
+                  "name": "Just Plumbing, Inc. - Brighton Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/brighton",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential and commercial plumbing services in Brighton, CO, specializing in whole-home PEX-A repiping, hard water scale remediation, and water heater replacements.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Brighton",
+                              "sameAs": "https://en.wikipedia.org/wiki/Brighton,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80601"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80602"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80603"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80601"},
-            {"@type": "PostalCode", "postalCode": "80602"},
-            {"@type": "PostalCode", "postalCode": "80603"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Brighton",
+                              "item": "https://justplumbinginc.com/locations/brighton"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Brighton",
-              "item": "https://justplumbinginc.com/locations/brighton"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/brighton/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "How does Brighton's water hardness impact residential plumbing systems?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Brighton draws much of its water from alluvial wells along the South Platte River basin, producing moderately hard to very hard water rich in calcium and magnesium. This mineral content accelerates scale accumulation inside traditional water heaters, narrows copper pipe diameters, and causes premature valve failure without proactive water filtration or descaling."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What pipe materials frequently fail in older Brighton neighborhoods?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "In established downtown Brighton and surrounding agricultural homesteads, pre-1970s galvanized steel water lines rust from the inside out, choking water volume and discoloring fixtures. In 1980s to early 2000s developments, defective polybutylene and Kitec composite lines present serious burst liabilities that lead to insurance non-renewals."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Brighton, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The City of Brighton Community Development Department requires permits and inspections for all whole-home repiping projects and water heater installations. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings and final sign-offs."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/brighton/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How does Brighton's water hardness impact residential plumbing systems?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Brighton draws much of its water from alluvial wells along the South Platte River basin, producing moderately hard to very hard water rich in calcium and magnesium. This mineral content accelerates scale accumulation inside traditional water heaters, narrows copper pipe diameters, and causes premature valve failure without proactive water filtration or descaling."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What pipe materials frequently fail in older Brighton neighborhoods?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "In established downtown Brighton and surrounding agricultural homesteads, pre-1970s galvanized steel water lines rust from the inside out, choking water volume and discoloring fixtures. In 1980s to early 2000s developments, defective polybutylene and Kitec composite lines present serious burst liabilities that lead to insurance non-renewals."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Brighton, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The City of Brighton Community Development Department requires permits and inspections for all whole-home repiping projects and water heater installations. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings and final sign-offs."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Brighton CO | Repiping & Water Heaters | Just Plumbing Inc.">

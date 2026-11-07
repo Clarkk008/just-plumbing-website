@@ -51,101 +51,117 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/evergreen/#business",
-          "name": "Just Plumbing, Inc. - Evergreen Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/evergreen",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led mountain residential plumbing services in Evergreen, CO, specializing in freeze-expanding Uponor PEX-A repiping, well water system adaptations, crawlspace winterization, and high-altitude water heaters.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Evergreen",
-              "sameAs": "https://en.wikipedia.org/wiki/Evergreen,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/evergreen/#business",
+                  "name": "Just Plumbing, Inc. - Evergreen Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/evergreen",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led mountain residential plumbing services in Evergreen, CO, specializing in freeze-expanding Uponor PEX-A repiping, well water system adaptations, crawlspace winterization, and high-altitude water heaters.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Evergreen",
+                              "sameAs": "https://en.wikipedia.org/wiki/Evergreen,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80437"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80439"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80437"},
-            {"@type": "PostalCode", "postalCode": "80439"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Evergreen",
+                              "item": "https://justplumbinginc.com/locations/evergreen"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Evergreen",
-              "item": "https://justplumbinginc.com/locations/evergreen"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/evergreen/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why is freeze-resistant PEX-A pipe replacement vital for Evergreen mountain homes?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sitting at an elevation between 7,000 and 8,500 feet, Evergreen experiences sub-zero winter temperatures, heavy snowpack, and rapid mountain drafts. Rigid copper and CPVC pipes freeze and fracture cleanly at soldered or glued joints. Uponor PEX-A cross-linked polyethylene expands up to three times its diameter with freezing water and contracts back to normal upon thawing, virtually eliminating winter pipe bursts."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How does private well water impact residential plumbing in Evergreen?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Many Evergreen properties rely on private mountain wells. Variations in underground mineral chemistry, acidic water tables, and sediment can erode copper pipe walls from the inside out, leading to pinhole leaks. Additionally, fluctuating well pressure tanks require balanced manifold distribution to prevent fixtures from surging."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repipes and water heaters in Evergreen, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The Jefferson County or Clear Creek County Building Safety Division (depending on property boundary lines) requires permits and inspections for all whole-home repipes and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all county filings, mechanical plans, and final sign-offs."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/evergreen/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why is freeze-resistant PEX-A pipe replacement vital for Evergreen mountain homes?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sitting at an elevation between 7,000 and 8,500 feet, Evergreen experiences sub-zero winter temperatures, heavy snowpack, and rapid mountain drafts. Rigid copper and CPVC pipes freeze and fracture cleanly at soldered or glued joints. Uponor PEX-A cross-linked polyethylene expands up to three times its diameter with freezing water and contracts back to normal upon thawing, virtually eliminating winter pipe bursts."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does private well water impact residential plumbing in Evergreen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Many Evergreen properties rely on private mountain wells. Variations in underground mineral chemistry, acidic water tables, and sediment can erode copper pipe walls from the inside out, leading to pinhole leaks. Additionally, fluctuating well pressure tanks require balanced manifold distribution to prevent fixtures from surging."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repipes and water heaters in Evergreen, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The Jefferson County or Clear Creek County Building Safety Division (depending on property boundary lines) requires permits and inspections for all whole-home repipes and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all county filings, mechanical plans, and final sign-offs."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Evergreen CO | Mountain Repiping | Just Plumbing Inc.">

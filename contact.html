@@ -57,192 +57,308 @@
 
     <!-- Connected ContactPage, LocalBusiness, Map Link & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": "ContactPage",
-          "@id": "https://justplumbinginc.com/contact#webpage",
-          "url": "https://justplumbinginc.com/contact",
-          "name": "Contact Just Plumbing, Inc.",
-          "description": "Direct contact page for Just Plumbing, Inc. Connect with Master Plumber Bill Clark and Operations Director Shelly Clark.",
-          "mainEntity": {
-            "@id": "https://justplumbinginc.com/#organization"
-          }
-        },
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "alternateName": ["Just Plumbing", "Just Plumbing Inc", "Denver Repipe Specialists"],
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/team-background.webp",
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "foundingDate": "2015-06",
-          "description": "Family-owned plumbing contractor based in Denver, CO, founded by Bill and Shelly Clark in 2015. Specializing in whole-home repiping, water heater installations, sump pumps, and commercial multi-family plumbing across the Greater Denver Metro Area.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": 4.7,
-            "bestRating": 5,
-            "worstRating": 1,
-            "ratingCount": 76,
-            "reviewCount": 76
-          },
-          "sameAs": [
-            "https://www.bbb.org/us/co/denver/profile/plumber/just-plumbing-inc",
-            "https://www.google.com/maps/place/Just+Plumbing/.7583198,-105.0068,17z"
-          ],
-          "contactPoint": [
             {
-              "@type": "ContactPoint",
-              "telephone": "+1-303-472-0833",
-              "contactType": "customer service",
-              "email": "JustPlumbinginc@outlook.com",
-              "areaServed": "Colorado",
-              "availableLanguage": "en"
+                  "@type": "ContactPage",
+                  "@id": "https://justplumbinginc.com/contact#webpage",
+                  "url": "https://justplumbinginc.com/contact",
+                  "name": "Contact Just Plumbing, Inc.",
+                  "description": "Direct contact page for Just Plumbing, Inc. Connect with Master Plumber Bill Clark and Operations Director Shelly Clark.",
+                  "mainEntity": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  }
+            },
+            {
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "legalName": "Just Plumbing, Inc.",
+                  "alternateName": [
+                        "Just Plumbing",
+                        "Just Plumbing Inc",
+                        "Denver Repipe Specialists"
+                  ],
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/team-background.webp",
+                  "url": "https://justplumbinginc.com/",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$",
+                  "foundingDate": "2015-06",
+                  "description": "Family-owned plumbing contractor based in Denver, CO, founded by Bill and Shelly Clark in 2015. Specializing in whole-home repiping, water heater installations, sump pumps, and commercial multi-family plumbing across the Greater Denver Metro Area.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  },
+                  "sameAs": [
+                        "https://www.bbb.org/us/co/denver/profile/plumber/just-plumbing-inc",
+                        "https://www.google.com/maps/place/Just+Plumbing/@39.7583198,-105.0068,17z"
+                  ],
+                  "contactPoint": [
+                        {
+                              "@type": "ContactPoint",
+                              "telephone": "+1-303-472-0833",
+                              "contactType": "customer service",
+                              "email": "JustPlumbinginc@outlook.com",
+                              "areaServed": "Colorado",
+                              "availableLanguage": "en"
+                        }
+                  ],
+                  "founder": [
+                        {
+                              "@type": "Person",
+                              "@id": "https://justplumbinginc.com/#bill-clark",
+                              "name": "Bill Clark",
+                              "jobTitle": "Master Plumber & Owner"
+                        },
+                        {
+                              "@type": "Person",
+                              "@id": "https://justplumbinginc.com/#shelly-clark",
+                              "name": "Shelly Clark",
+                              "jobTitle": "Co-Owner & Operations Director"
+                        }
+                  ],
+                  "hasCredential": [
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State Registration",
+                              "name": "Colorado Plumbing Contractor",
+                              "credentialNumber": "PC.0003531",
+                              "recognizedBy": {
+                                    "@type": "Organization",
+                                    "name": "Colorado Department of Regulatory Agencies"
+                              },
+                              "identifier": "PC.0003531"
+                        },
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State License",
+                              "name": "Colorado Master Plumber",
+                              "credentialNumber": "MP.00600120",
+                              "recognizedBy": {
+                                    "@type": "Organization",
+                                    "name": "Colorado Department of Regulatory Agencies"
+                              },
+                              "identifier": "MP.00600120"
+                        }
+                  ],
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Arvada"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Aurora"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Bennett"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Brighton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Broomfield"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Pines"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Rock"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Centennial"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Cherry Hills Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Commerce City"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Denver"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Edgewater"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Englewood"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Evergreen"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Genesee"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Golden"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Glendale"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Greenwood Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Highlands Ranch"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Larkspur"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Littleton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Lone Tree"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Parker"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sedalia"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sheridan"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Thornton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Westminster"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Wheat Ridge"
+                        }
+                  ],
+                  "openingHoursSpecification": [
+                        {
+                              "@type": "OpeningHoursSpecification",
+                              "dayOfWeek": [
+                                    "Monday",
+                                    "Tuesday",
+                                    "Wednesday",
+                                    "Thursday",
+                                    "Friday"
+                              ],
+                              "opens": "07:00",
+                              "closes": "21:00"
+                        },
+                        {
+                              "@type": "OpeningHoursSpecification",
+                              "dayOfWeek": [
+                                    "Saturday",
+                                    "Sunday"
+                              ],
+                              "opens": "08:00",
+                              "closes": "17:00"
+                        }
+                  ]
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Contact Us",
+                              "item": "https://justplumbinginc.com/contact"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/contact#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "How do I schedule an estimate with Just Plumbing, Inc.?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "You can schedule a consultation by calling our office directly at (303) 472-0833 to speak with Shelly Clark, or by submitting our online estimate request form. Master Plumber Bill Clark will follow up promptly."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Do you charge for repiping estimates?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "No. We provide free, honest, no-obligation on-site evaluations for whole-home repiping, partial repiping, water heater replacements, and commercial projects across the Greater Denver Metro Area."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What are Just Plumbing, Inc.'s business hours?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Just Plumbing, Inc. is open Monday through Friday from 7:00 AM to 9:00 PM, and Saturday through Sunday from 8:00 AM to 5:00 PM."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Where is Just Plumbing, Inc. physically located?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Our office is located at 2563 15th St, Suite 216, Denver, CO 80211, serving residential and commercial properties throughout all 28 municipalities of the Denver Metro Area."
+                              }
+                        }
+                  ]
             }
-          ],
-          "founder": [
-            {
-              "@type": "Person",
-              "@id": "https://justplumbinginc.com/#bill-clark",
-              "name": "Bill Clark",
-              "jobTitle": "Master Plumber & Owner"
-            },
-            {
-              "@type": "Person",
-              "@id": "https://justplumbinginc.com/#shelly-clark",
-              "name": "Shelly Clark",
-              "jobTitle": "Co-Owner & Operations Director"
-            }
-          ],
-          "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State Registration",
-              "name": "Colorado Plumbing Contractor",
-              "credentialNumber": "PC.0003531",
-              "recognizedBy": {
-                "@type": "Organization",
-                "name": "Colorado Department of Regulatory Agencies"
-              }
-            },
-            {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State License",
-              "name": "Colorado Master Plumber",
-              "credentialNumber": "MP.00600120",
-              "recognizedBy": {
-                "@type": "Organization",
-                "name": "Colorado Department of Regulatory Agencies"
-              }
-            }
-          ],
-          "areaServed": [
-            {"@type": "City", "name": "Arvada"}, {"@type": "City", "name": "Aurora"},
-            {"@type": "City", "name": "Bennett"}, {"@type": "City", "name": "Brighton"},
-            {"@type": "City", "name": "Broomfield"}, {"@type": "City", "name": "Castle Pines"},
-            {"@type": "City", "name": "Castle Rock"}, {"@type": "City", "name": "Centennial"},
-            {"@type": "City", "name": "Cherry Hills Village"}, {"@type": "City", "name": "Commerce City"},
-            {"@type": "City", "name": "Denver"}, {"@type": "City", "name": "Edgewater"},
-            {"@type": "City", "name": "Englewood"}, {"@type": "City", "name": "Evergreen"},
-            {"@type": "City", "name": "Genesee"}, {"@type": "City", "name": "Golden"},
-            {"@type": "City", "name": "Glendale"}, {"@type": "City", "name": "Greenwood Village"},
-            {"@type": "City", "name": "Highlands Ranch"}, {"@type": "City", "name": "Larkspur"},
-            {"@type": "City", "name": "Littleton"}, {"@type": "City", "name": "Lone Tree"},
-            {"@type": "City", "name": "Parker"}, {"@type": "City", "name": "Sedalia"},
-            {"@type": "City", "name": "Sheridan"}, {"@type": "City", "name": "Thornton"},
-            {"@type": "City", "name": "Westminster"}, {"@type": "City", "name": "Wheat Ridge"}
-          ],
-          "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-              "opens": "07:00",
-              "closes": "21:00"
-            },
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Saturday", "Sunday"],
-              "opens": "08:00",
-              "closes": "17:00"
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Contact Us",
-              "item": "https://justplumbinginc.com/contact"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/contact#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How do I schedule an estimate with Just Plumbing, Inc.?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "You can schedule a consultation by calling our office directly at (303) 472-0833 to speak with Shelly Clark, or by submitting our online estimate request form. Master Plumber Bill Clark will follow up promptly."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you charge for repiping estimates?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. We provide free, honest, no-obligation on-site evaluations for whole-home repiping, partial repiping, water heater replacements, and commercial projects across the Greater Denver Metro Area."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What are Just Plumbing, Inc.'s business hours?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Just Plumbing, Inc. is open Monday through Friday from 7:00 AM to 9:00 PM, and Saturday through Sunday from 8:00 AM to 5:00 PM."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Where is Just Plumbing, Inc. physically located?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Our office is located at 2563 15th St, Suite 216, Denver, CO 80211, serving residential and commercial properties throughout all 28 municipalities of the Denver Metro Area."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
 </head>
 <body>
@@ -411,15 +527,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
-                    <li><a href="/pipe-problems">Failing Pipe Diagnosis</a></li>
-                    <li><a href="/materials">Piping Materials</a></li>
-                    <li><a href="/commercial">Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen &amp; Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
+                    <li><a href='/materials'>Piping Materials</a></li>
+                    <li><a href='/commercial'>Commercial Repiping</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
             

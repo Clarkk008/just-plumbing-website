@@ -51,103 +51,125 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/broomfield/#business",
-          "name": "Just Plumbing, Inc. - Broomfield Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/broomfield",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Code-compliant plumbing services in Broomfield, CO, specializing in the extraction and replacement of defective Kitec plumbing systems, brass fitting dezincification, and hard water heater solutions.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Broomfield",
-              "sameAs": "https://en.wikipedia.org/wiki/Broomfield,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/broomfield/#business",
+                  "name": "Just Plumbing, Inc. - Broomfield Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/broomfield",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Code-compliant plumbing services in Broomfield, CO, specializing in the extraction and replacement of defective Kitec plumbing systems, brass fitting dezincification, and hard water heater solutions.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Broomfield",
+                              "sameAs": "https://en.wikipedia.org/wiki/Broomfield,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80020"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80021"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80023"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80038"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80020"},
-            {"@type": "PostalCode", "postalCode": "80021"},
-            {"@type": "PostalCode", "postalCode": "80023"},
-            {"@type": "PostalCode", "postalCode": "80038"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Broomfield",
+                              "item": "https://justplumbinginc.com/locations/broomfield"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Broomfield",
-              "item": "https://justplumbinginc.com/locations/broomfield"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/broomfield/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why are Kitec plumbing pipes failing in Broomfield, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Many homes built in Broomfield between 1995 and 2007 used Kitec composite pipes. The primary failure point is the brass fittings. Due to water chemistry, these fittings undergo 'dezincification,' where zinc leaches out of the metal, creating a powdery white crust that eventually causes the fitting to snap and flood the home."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How does Broomfield's water hardness affect my water heater?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Broomfield's municipal tap water is moderately hard, which causes severe mineral scale buildup inside traditional water heaters. This scale reduces heating efficiency and dramatically shortens the tank's lifespan. We recommend routine flushing or upgrading to a hard-water resistant tankless system."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Do you pull permits for plumbing projects in Broomfield?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Just Plumbing, Inc. operates under Colorado Plumbing Contractor registration #PC.0003531. We pull all necessary permits through the City and County of Broomfield Building Division to ensure every repipe and water heater installation is 100% code-compliant."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/broomfield/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why are Kitec plumbing pipes failing in Broomfield, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Many homes built in Broomfield between 1995 and 2007 used Kitec composite pipes. The primary failure point is the brass fittings. Due to water chemistry, these fittings undergo 'dezincification,' where zinc leaches out of the metal, creating a powdery white crust that eventually causes the fitting to snap and flood the home."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does Broomfield's water hardness affect my water heater?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Broomfield's municipal tap water is moderately hard, which causes severe mineral scale buildup inside traditional water heaters. This scale reduces heating efficiency and dramatically shortens the tank's lifespan. We recommend routine flushing or upgrading to a hard-water resistant tankless system."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you pull permits for plumbing projects in Broomfield?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Just Plumbing, Inc. operates under Colorado Plumbing Contractor registration #PC.0003531. We pull all necessary permits through the City and County of Broomfield Building Division to ensure every repipe and water heater installation is 100% code-compliant."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Broomfield CO | Kitec Repiping | Just Plumbing Inc.">
@@ -317,7 +339,7 @@
                 </div>
 
                 <p style="margin-bottom: 20px; line-height: 1.6;">The danger of Kitec isn't just the pipe itself—it's the yellow brass fittings connecting the system. Due to the local water chemistry, these fittings undergo a process called <strong>dezincification</strong>. The zinc literally leaches out of the metal, creating a chalky white "meringue" crust on the outside while leaving the fitting porous and brittle on the inside. Eventually, the fitting snaps entirely, causing catastrophic flooding behind your walls.</p>
-                <p style="margin-bottom: 30px; line-height: 1.6;">If your Broomfield home has bright orange (hot) and bright blue (cold) pipes, you are at risk. When searching for an experienced <strong>plumber in Broomfield, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber expertise directly to your door. We specialize in , minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repiping</a>. We extract the defective Kitec system and completely eliminate future leak hazards by installing modern, dezincification-immune <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> expansion piping.</p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">If your Broomfield home has bright orange (hot) and bright blue (cold) pipes, you are at risk. When searching for an experienced <strong>plumber in Broomfield, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> brings over 30 years of Master Plumber expertise directly to your door. We specialize in clean, minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repiping</a>. We extract the defective Kitec system and completely eliminate future leak hazards by installing modern, dezincification-immune <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> expansion piping.</p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Our Top Broomfield Plumbing Services</h2>
                 <ul style="margin: 0 0 30px 20px; line-height: 1.8;">

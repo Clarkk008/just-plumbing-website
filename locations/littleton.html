@@ -51,103 +51,125 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/littleton/#business",
-          "name": "Just Plumbing, Inc. - Littleton Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/littleton",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential plumbing services in Littleton, CO, specializing in whole-home repiping, heavy-duty sump pump systems for expansive soils, and water heater installations.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Littleton",
-              "sameAs": "https://en.wikipedia.org/wiki/Littleton,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/littleton/#business",
+                  "name": "Just Plumbing, Inc. - Littleton Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/littleton",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential plumbing services in Littleton, CO, specializing in whole-home repiping, heavy-duty sump pump systems for expansive soils, and water heater installations.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Littleton",
+                              "sameAs": "https://en.wikipedia.org/wiki/Littleton,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80120"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80123"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80127"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80128"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80120"},
-            {"@type": "PostalCode", "postalCode": "80123"},
-            {"@type": "PostalCode", "postalCode": "80127"},
-            {"@type": "PostalCode", "postalCode": "80128"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Littleton",
+                              "item": "https://justplumbinginc.com/locations/littleton"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Littleton",
-              "item": "https://justplumbinginc.com/locations/littleton"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/littleton/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why are sump pumps with battery backups critical for Littleton homes?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Littleton features high concentrations of bentonite expansive clay soil that swells when saturated during Front Range spring snowmelts. Without a primary submersible pump paired with a dual-battery backup system, groundwater accumulates beneath basement slabs, causing foundation shifting, cracked concrete, and catastrophic basement flooding during power outages."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What plumbing materials fail most frequently in older Littleton neighborhoods?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "In established Littleton neighborhoods like Columbine Valley and near Downtown Littleton, pre-1970s galvanized steel lines rust internally, cutting water pressure and staining fixtures. In areas developed during the 1980s and 1990s (like Ken Caryl), gray polybutylene pipes frequently develop brittle wall cracks, resulting in insurance cancellations."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repipes and water heaters in Littleton, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Water heater replacements, sump pump drainage integrations, and repiping require permits from the City of Littleton or Arapahoe/Jefferson County Building Divisions depending on municipal boundary lines. Just Plumbing, Inc. holds Colorado Registration #PC.0003531 and coordinates all required permitting and final inspections."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/littleton/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why are sump pumps with battery backups critical for Littleton homes?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Littleton features high concentrations of bentonite expansive clay soil that swells when saturated during Front Range spring snowmelts. Without a primary submersible pump paired with a dual-battery backup system, groundwater accumulates beneath basement slabs, causing foundation shifting, cracked concrete, and catastrophic basement flooding during power outages."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What plumbing materials fail most frequently in older Littleton neighborhoods?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "In established Littleton neighborhoods like Columbine Valley and near Downtown Littleton, pre-1970s galvanized steel lines rust internally, cutting water pressure and staining fixtures. In areas developed during the 1980s and 1990s (like Ken Caryl), gray polybutylene pipes frequently develop brittle wall cracks, resulting in insurance cancellations."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repipes and water heaters in Littleton, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Water heater replacements, sump pump drainage integrations, and repiping require permits from the City of Littleton or Arapahoe/Jefferson County Building Divisions depending on municipal boundary lines. Just Plumbing, Inc. holds Colorado Registration #PC.0003531 and coordinates all required permitting and final inspections."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Littleton CO | Repiping & Sump Pumps | Just Plumbing Inc.">
@@ -317,7 +339,7 @@
                 </div>
 
                 <p style="margin-bottom: 20px; line-height: 1.6;">Littleton also features distinct housing eras with divergent pipe failure risks. Older mid-century neighborhoods near Downtown Littleton, Columbine Valley, and Sterne Park battle corroded <a href="/pipe-problems/galvanized-steel" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">galvanized steel pipes</a> that restrict flow to single-faucet trickles. Meanwhile, 1980s developments toward Ken Caryl and Roxborough face brittle <a href="/pipe-problems/polybutylene" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">polybutylene</a> lines that compromise property insurance coverage.</p>
-                <p style="margin-bottom: 30px; line-height: 1.6;">When searching for an experienced, licensed <strong>plumber in Littleton, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> delivers over 30 years of Master Plumber field expertise. We specialize in , minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repiping</a> using flexible, freeze-expanding <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty and 5-year workmanship warranty) or rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a>—restoring clean water flow while permanently resolving slab and wall leak liabilities.</p>
+                <p style="margin-bottom: 30px; line-height: 1.6;">When searching for an experienced, licensed <strong>plumber in Littleton, CO</strong>, <a href="/about" style="color: var(--brand-blue); font-weight: bold; text-decoration: underline;">Just Plumbing, Inc.</a> delivers over 30 years of Master Plumber field expertise. We specialize in clean, minimally invasive <a href="/services/whole-home-repiping" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">whole-home repiping</a> using flexible, freeze-expanding <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty and 5-year workmanship warranty) or rigid <a href="/materials/type-l-copper" style="color: var(--brand-blue); font-weight: 600; text-decoration: underline;">Type L Copper</a>—restoring clean water flow while permanently resolving slab and wall leak liabilities.</p>
                 
                 <h2 style="color: var(--brand-blue); margin-bottom: 20px;">Our Top Littleton Plumbing Services</h2>
                 <ul style="margin: 0 0 30px 20px; line-height: 1.8;">

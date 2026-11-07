@@ -51,125 +51,137 @@
 
     <!-- Article, LocalBusiness, Breadcrumb & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          
-          "hasCredential": [
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State Registration",
-              "name": "Colorado Plumbing Contractor",
-              "credentialNumber": "PC.0003531"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "legalName": "Just Plumbing, Inc.",
+                  "url": "https://justplumbinginc.com/",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$",
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "hasCredential": [
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State Registration",
+                              "name": "Colorado Plumbing Contractor",
+                              "credentialNumber": "PC.0003531",
+                              "identifier": "PC.0003531"
+                        },
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State License",
+                              "name": "Colorado Master Plumber",
+                              "credentialNumber": "MP.00600120",
+                              "identifier": "MP.00600120"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State License",
-              "name": "Colorado Master Plumber",
-              "credentialNumber": "MP.00600120"
+                  "@type": "Article",
+                  "@id": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe#article",
+                  "headline": "Golden Case Study: HOA Multi-Family Riser & Condo Repipe",
+                  "description": "Field documentation of a commercial multi-family plumbing replacement for a 16-unit HOA in Golden, Colorado, featuring Type L Copper main risers and Uponor PEX-A unit distribution lines.",
+                  "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
+                  "author": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "worksFor": {
+                              "@id": "https://justplumbinginc.com/#organization"
+                        }
+                  },
+                  "publisher": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "datePublished": "2024-07-12",
+                  "dateModified": "2026-01-15",
+                  "mainEntityOfPage": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe"
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Projects",
+                              "item": "https://justplumbinginc.com/projects/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Golden HOA Condo Repipe",
+                              "item": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why do hot water recirculation lines fail so quickly in condo buildings?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Multi-family buildings utilize continuous recirculation pumps so residents have instant hot water. Over time, the high velocity of this continuously moving water mechanically erodes the inside of standard copper pipes, particularly at 90-degree elbows, leading to rapid pinhole leaks."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Did residents have to move out during the HOA repipe?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "No. Just Plumbing organized the project in vertical 'stacks'. By isolating specific units vertically, we completed rough-ins during the day and restored domestic water service every evening, preventing costly hotel relocation expenses for the HOA."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Why did Just Plumbing use both Type L Copper and PEX-A for this commercial project?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Commercial building codes and fire-stopping requirements often dictate rigid, non-combustible materials for multi-story vertical risers. We installed commercial-grade Type L Copper for the main building risers, and transitioned to flexible Uponor PEX-A inside the individual units to minimize drywall demolition."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "Article",
-          "@id": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe#article",
-          "headline": "Golden Case Study: HOA Multi-Family Riser & Condo Repipe",
-          "description": "Field documentation of a commercial multi-family plumbing replacement for a 16-unit HOA in Golden, Colorado, featuring Type L Copper main risers and Uponor PEX-A unit distribution lines.",
-          "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
-          "author": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "worksFor": {
-              "@id": "https://justplumbinginc.com/#organization"
-            }
-          },
-          "publisher": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "datePublished": "2024-07-12",
-          "dateModified": "2026-01-15",
-          "mainEntityOfPage": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Projects",
-              "item": "https://justplumbinginc.com/projects/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Golden HOA Condo Repipe",
-              "item": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why do hot water recirculation lines fail so quickly in condo buildings?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Multi-family buildings utilize continuous recirculation pumps so residents have instant hot water. Over time, the high velocity of this continuously moving water mechanically erodes the inside of standard copper pipes, particularly at 90-degree elbows, leading to rapid pinhole leaks."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Did residents have to move out during the HOA repipe?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. Just Plumbing organized the project in vertical 'stacks'. By isolating specific units vertically, we completed rough-ins during the day and restored domestic water service every evening, preventing costly hotel relocation expenses for the HOA."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Why did Just Plumbing use both Type L Copper and PEX-A for this commercial project?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Commercial building codes and fire-stopping requirements often dictate rigid, non-combustible materials for multi-story vertical risers. We installed commercial-grade Type L Copper for the main building risers, and transitioned to flexible Uponor PEX-A inside the individual units to minimize drywall demolition."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Golden HOA Multi-Family Riser Repipe Case Study | Just Plumbing Inc.">
@@ -529,15 +541,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
                     <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
                     <li><a href='/materials'>Piping Materials</a></li>
                     <li><a href='/commercial'>Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 

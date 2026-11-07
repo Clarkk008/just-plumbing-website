@@ -22,6 +22,13 @@
 /services/sink-repair-installation    /services/remodels                      301!
 /services/sink-repair-installation/   /services/remodels                      301!
 
+/services/water-heater-installation   /services/water-heaters                 301!
+/services/water-heater-installation/  /services/water-heaters                 301!
+/services/water-filtration-system-installation  /services/                    301!
+/services/water-filtration-system-installation/ /services/                    301!
+/services/commercial                  /commercial/                            301!
+/services/commercial/                 /commercial/                            301!
+
 # Renamed Projects
 /projects/arvada-copper-pinhole-repipe  /projects/arvada-copper-pipe-replacement  301!
 /projects/arvada-copper-pinhole-repipe/ /projects/arvada-copper-pipe-replacement  301!

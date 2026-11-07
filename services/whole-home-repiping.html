@@ -53,138 +53,150 @@
 
     <!-- JSON-LD Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$$",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          
-          "hasCredential": [
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State Registration",
-              "name": "Colorado Plumbing Contractor",
-              "credentialNumber": "PC.0003531"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "legalName": "Just Plumbing, Inc.",
+                  "url": "https://justplumbinginc.com/",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$$",
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "hasCredential": [
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State Registration",
+                              "name": "Colorado Plumbing Contractor",
+                              "credentialNumber": "PC.0003531",
+                              "identifier": "PC.0003531"
+                        },
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State License",
+                              "name": "Colorado Master Plumber",
+                              "credentialNumber": "MP.00600120",
+                              "identifier": "MP.00600120"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State License",
-              "name": "Colorado Master Plumber",
-              "credentialNumber": "MP.00600120"
+                  "@type": "Service",
+                  "@id": "https://justplumbinginc.com/services/whole-home-repiping#service",
+                  "name": "Whole-Home Repiping",
+                  "serviceType": "Residential Plumbing Repiping",
+                  "description": "Complete extraction and replacement of failing galvanized, polybutylene, Kitec, and copper domestic water systems with Uponor PEX Type A or Type L Copper. Drywall patching included.",
+                  "provider": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  }
+            },
+            {
+                  "@type": "Person",
+                  "@id": "https://justplumbinginc.com/#bill-clark",
+                  "name": "Bill Clark",
+                  "jobTitle": "Owner & Master Plumber",
+                  "worksFor": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "knowsAbout": [
+                        "Whole Home Repiping",
+                        "Uponor PEX-A Installation",
+                        "Polybutylene Replacement",
+                        "Galvanized Steel Extraction",
+                        "Colorado Plumbing Code"
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/services/whole-home-repiping#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "How do I know if my house needs a full repipe?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "If your home was built between the 1970s and 1990s with polybutylene pipes, between 1995 and 2007 with recalled Kitec, or prior to 1965 with galvanized steel, you are at severe risk for catastrophic leaks and insurance cancellation. Classic warning signs include chronic low water pressure, discolored rusty water, and recurring pinhole leaks."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Will a repipe completely destroy my drywall?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "No. A professional repipe requires precision cuts, not wide-scale demolition. We make small, strategic incisions in drywall to route flexible Uponor PEX-A lines. Furthermore, Just Plumbing hires and schedules a professional drywall patcher to restore your walls to base quality when the plumbing is finished."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How long does a whole-house repipe take?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Most standard residential repipes are completed in 1 to 2 business days. Our Master Plumber crew isolates plumbing in organized phases so that your domestic water service is restored at the end of each workday, allowing you to stay in your home comfortably throughout the project."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What piping materials do you install for whole-home repiping?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We install commercial-grade Uponor PEX-A (AquaPEX) expansion piping backed by a 25-year manufacturer material warranty and our 5-year Master Plumber workmanship guarantee. For mechanical rooms, high-temperature lines, and historic preservation mandates, we install rigid Type L Copper."
+                              }
+                        }
+                  ]
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Services",
+                              "item": "https://justplumbinginc.com/services/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Whole-Home Repiping",
+                              "item": "https://justplumbinginc.com/services/whole-home-repiping"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "Service",
-          "@id": "https://justplumbinginc.com/services/whole-home-repiping#service",
-          "name": "Whole-Home Repiping",
-          "serviceType": "Residential Plumbing Repiping",
-          "description": "Complete extraction and replacement of failing galvanized, polybutylene, Kitec, and copper domestic water systems with Uponor PEX Type A or Type L Copper. Drywall patching included.",
-          "provider": {
-            "@id": "https://justplumbinginc.com/#organization"
-          }
-        },
-        {
-          "@type": "Person",
-          "@id": "https://justplumbinginc.com/#bill-clark",
-          "name": "Bill Clark",
-          "jobTitle": "Owner & Master Plumber",
-          "worksFor": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "knowsAbout": [
-            "Whole Home Repiping",
-            "Uponor PEX-A Installation",
-            "Polybutylene Replacement",
-            "Galvanized Steel Extraction",
-            "Colorado Plumbing Code"
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/services/whole-home-repiping#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How do I know if my house needs a full repipe?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "If your home was built between the 1970s and 1990s with polybutylene pipes, between 1995 and 2007 with recalled Kitec, or prior to 1965 with galvanized steel, you are at severe risk for catastrophic leaks and insurance cancellation. Classic warning signs include chronic low water pressure, discolored rusty water, and recurring pinhole leaks."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Will a repipe completely destroy my drywall?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. A professional repipe requires precision cuts, not wide-scale demolition. We make small, strategic incisions in drywall to route flexible Uponor PEX-A lines. Furthermore, Just Plumbing hires and schedules a professional drywall patcher to restore your walls to base quality when the plumbing is finished."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How long does a whole-house repipe take?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Most standard residential repipes are completed in 1 to 2 business days. Our Master Plumber crew isolates plumbing in organized phases so that your domestic water service is restored at the end of each workday, allowing you to stay in your home comfortably throughout the project."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What piping materials do you install for whole-home repiping?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We install commercial-grade Uponor PEX-A (AquaPEX) expansion piping backed by a 25-year manufacturer material warranty and our 5-year Master Plumber workmanship guarantee. For mechanical rooms, high-temperature lines, and historic preservation mandates, we install rigid Type L Copper."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Services",
-              "item": "https://justplumbinginc.com/services/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Whole-Home Repiping",
-              "item": "https://justplumbinginc.com/services/whole-home-repiping"
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Denver Whole-Home Repiping | Polybutylene & Galvanized Replacement">

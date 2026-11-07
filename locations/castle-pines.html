@@ -51,100 +51,113 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/castle-pines/#business",
-          "name": "Just Plumbing, Inc. - Castle Pines Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/castle-pines",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential plumbing services in Castle Pines, CO, specializing in luxury home PEX-A and Copper repiping, dedicated hot water recirculation loops, and high-pressure PRV installations.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Castle Pines",
-              "sameAs": "https://en.wikipedia.org/wiki/Castle_Pines,_Colorado"
-            },
-            {"@type": "PostalCode", "postalCode": "80108"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/castle-pines/#business",
+                  "name": "Just Plumbing, Inc. - Castle Pines Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/castle-pines",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential plumbing services in Castle Pines, CO, specializing in luxury home PEX-A and Copper repiping, dedicated hot water recirculation loops, and high-pressure PRV installations.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Castle Pines",
+                              "sameAs": "https://en.wikipedia.org/wiki/Castle_Pines,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80108"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Castle Pines",
-              "item": "https://justplumbinginc.com/locations/castle-pines"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Castle Pines",
+                              "item": "https://justplumbinginc.com/locations/castle-pines"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/castle-pines/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why do large custom homes in Castle Pines require dedicated hot water recirculation loops?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Castle Pines properties often feature sprawling floor plans exceeding 4,000 to 7,000+ square feet. Without an engineered recirculation line and smart pump system, it can take minutes for hot water to reach distant master suites or guest wings, wasting hundreds of gallons of water annually. We install continuous, insulated Uponor PEX-A return loops for instant, on-demand hot water."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Why is water pressure calibration critical in Castle Pines, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The steep topography across Castle Pines Village and surrounding ridge developments requires high municipal distribution pressure to push water uphill. Incoming pressures often exceed 90 to 110 PSI, which ruins high-end European fixtures, blows out water heater relief valves, and causes pinhole leaks in copper piping unless regulated by a commercial-grade Pressure Reducing Valve (PRV)."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for luxury repipes and water heaters in Castle Pines?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Whole-home repiping and water heater replacements require permits and inspections from the City of Castle Pines Building Department. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings, engineering verifications, and final approvals."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/castle-pines/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why do large custom homes in Castle Pines require dedicated hot water recirculation loops?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Castle Pines properties often feature sprawling floor plans exceeding 4,000 to 7,000+ square feet. Without an engineered recirculation line and smart pump system, it can take minutes for hot water to reach distant master suites or guest wings, wasting hundreds of gallons of water annually. We install continuous, insulated Uponor PEX-A return loops for instant, on-demand hot water."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Why is water pressure calibration critical in Castle Pines, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The steep topography across Castle Pines Village and surrounding ridge developments requires high municipal distribution pressure to push water uphill. Incoming pressures often exceed 90 to 110 PSI, which ruins high-end European fixtures, blows out water heater relief valves, and causes pinhole leaks in copper piping unless regulated by a commercial-grade Pressure Reducing Valve (PRV)."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for luxury repipes and water heaters in Castle Pines?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Whole-home repiping and water heater replacements require permits and inspections from the City of Castle Pines Building Department. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings, engineering verifications, and final approvals."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Castle Pines CO | Luxury Repiping | Just Plumbing Inc.">

@@ -51,117 +51,128 @@
 
     <!-- Service, Organization, Breadcrumb & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          }
-        },
-        {
-          "@type": "Service",
-          "@id": "https://justplumbinginc.com/commercial/hoa-condo-repiping#service",
-          "name": "HOA & Condominium Repiping",
-          "serviceType": "Commercial Plumbing Contractor",
-          "category": "Commercial Plumbing",
-          "provider": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Comprehensive condominium and HOA plumbing replacement across Greater Denver. Includes board presentations, Type L Copper central risers, PEX-A unit branch lines, and commercial fire-stopping."
-        },
-        {
-          "@type": "Person",
-          "@id": "https://justplumbinginc.com/#bill-clark",
-          "name": "Bill Clark",
-          "jobTitle": "Owner & Master Plumber",
-          "worksFor": {
-            "@id": "https://justplumbinginc.com/#organization"
-          }
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/commercial/hoa-condo-repiping#faq",
-          "mainEntity": [
             {
-              "@type": "Question",
-              "name": "Will Just Plumbing present to our HOA Board of Directors?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Master Plumber Bill Clark personally attends HOA board meetings to present structural plumbing audits, explain the engineering behind the proposed riser replacement, and outline the exact financial and scheduling milestones for the project."
-              }
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "legalName": "Just Plumbing, Inc.",
+                  "url": "https://justplumbinginc.com/",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$",
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "Question",
-              "name": "Do condo owners have to move out during the repiping process?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. We utilize a phased 'vertical stack' approach. By working on a single column of stacked units simultaneously, we confine water shutoffs to regular business hours (8:00 AM – 4:30 PM) and restore full domestic water service every evening."
-              }
+                  "@type": "Service",
+                  "@id": "https://justplumbinginc.com/commercial/hoa-condo-repiping#service",
+                  "name": "HOA & Condominium Repiping",
+                  "serviceType": "Commercial Plumbing Contractor",
+                  "category": "Commercial Plumbing",
+                  "provider": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Comprehensive condominium and HOA plumbing replacement across Greater Denver. Includes board presentations, Type L Copper central risers, PEX-A unit branch lines, and commercial fire-stopping."
             },
             {
-              "@type": "Question",
-              "name": "Who handles the drywall patching inside the individual condo units?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Just Plumbing provides a true turnkey solution. We hire and schedule professional commercial drywall finishers to repair, mud, and texture all access holes in common areas and inside individual resident units, eliminating the need for the HOA to coordinate secondary contractors."
-              }
+                  "@type": "Person",
+                  "@id": "https://justplumbinginc.com/#bill-clark",
+                  "name": "Bill Clark",
+                  "jobTitle": "Owner & Master Plumber",
+                  "worksFor": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  }
             },
             {
-              "@type": "Question",
-              "name": "How does an HOA repipe affect our master insurance policy?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Chronic pinhole leaks lead to massive water damage claims, causing insurance carriers to drastically increase premiums or drop master policies entirely. Completing a Master Plumber-certified repipe eliminates these liabilities, often resulting in policy renewals and lowered premium surcharges."
-              }
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/commercial/hoa-condo-repiping#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Will Just Plumbing present to our HOA Board of Directors?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Master Plumber Bill Clark personally attends HOA board meetings to present structural plumbing audits, explain the engineering behind the proposed riser replacement, and outline the exact financial and scheduling milestones for the project."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Do condo owners have to move out during the repiping process?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "No. We utilize a phased 'vertical stack' approach. By working on a single column of stacked units simultaneously, we confine water shutoffs to regular business hours (8:00 AM \u2013 4:30 PM) and restore full domestic water service every evening."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Who handles the drywall patching inside the individual condo units?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Just Plumbing provides a true turnkey solution. We hire and schedule professional commercial drywall finishers to repair, mud, and texture all access holes in common areas and inside individual resident units, eliminating the need for the HOA to coordinate secondary contractors."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How does an HOA repipe affect our master insurance policy?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Chronic pinhole leaks lead to massive water damage claims, causing insurance carriers to drastically increase premiums or drop master policies entirely. Completing a Master Plumber-certified repipe eliminates these liabilities, often resulting in policy renewals and lowered premium surcharges."
+                              }
+                        }
+                  ]
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Commercial",
+                              "item": "https://justplumbinginc.com/commercial/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "HOA & Condo Repiping",
+                              "item": "https://justplumbinginc.com/commercial/hoa-condo-repiping"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Commercial",
-              "item": "https://justplumbinginc.com/commercial/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "HOA & Condo Repiping",
-              "item": "https://justplumbinginc.com/commercial/hoa-condo-repiping"
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="HOA & Condominium Repiping Denver | Just Plumbing Inc.">
@@ -487,15 +498,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
-                    <li><a href="/pipe-problems">Failing Pipe Diagnosis</a></li>
-                    <li><a href="/materials">Piping Materials</a></li>
-                    <li><a href="/commercial">Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
+                    <li><a href='/materials'>Piping Materials</a></li>
+                    <li><a href='/commercial'>Commercial Repiping</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
             

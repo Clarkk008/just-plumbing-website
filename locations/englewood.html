@@ -51,103 +51,125 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/englewood/#business",
-          "name": "Just Plumbing, Inc. - Englewood Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/englewood",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential and commercial plumbing services in Englewood, CO, specializing in slab leak overhead bypass reroutes, galvanized pipe extractions, and water heater replacements.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Englewood",
-              "sameAs": "https://en.wikipedia.org/wiki/Englewood,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/englewood/#business",
+                  "name": "Just Plumbing, Inc. - Englewood Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/englewood",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential and commercial plumbing services in Englewood, CO, specializing in slab leak overhead bypass reroutes, galvanized pipe extractions, and water heater replacements.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Englewood",
+                              "sameAs": "https://en.wikipedia.org/wiki/Englewood,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80110"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80111"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80112"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80113"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80110"},
-            {"@type": "PostalCode", "postalCode": "80111"},
-            {"@type": "PostalCode", "postalCode": "80112"},
-            {"@type": "PostalCode", "postalCode": "80113"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Englewood",
+                              "item": "https://justplumbinginc.com/locations/englewood"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Englewood",
-              "item": "https://justplumbinginc.com/locations/englewood"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/englewood/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "How does Just Plumbing fix slab leaks in Englewood homes without jackhammering?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Many mid-century Englewood ranches have original copper water lines buried directly inside concrete foundation slabs. When soil friction and corrosive minerals cause pinhole slab leaks, jackhammering destroys flooring. We execute non-invasive overhead reroutes by permanently abandoning failing subterranean lines and feeding new Uponor PEX-A expansion lines through upper wall and ceiling cavities."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What warning signs indicate galvanized pipe failure in older Englewood neighborhoods?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Homes built between the 1940s and 1960s throughout central and east Englewood commonly feature galvanized steel lines. Warning signs include yellow or brownish morning tap water, sudden drops in shower volume when washing machines run, flaking rust in aerators, and persistent pinhole leaks around threaded steel fittings."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repipes and water heaters in Englewood, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The City of Englewood Community Development Department requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and manages all required municipal filings, scheduling, and final sign-offs."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/englewood/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How does Just Plumbing fix slab leaks in Englewood homes without jackhammering?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Many mid-century Englewood ranches have original copper water lines buried directly inside concrete foundation slabs. When soil friction and corrosive minerals cause pinhole slab leaks, jackhammering destroys flooring. We execute non-invasive overhead reroutes by permanently abandoning failing subterranean lines and feeding new Uponor PEX-A expansion lines through upper wall and ceiling cavities."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What warning signs indicate galvanized pipe failure in older Englewood neighborhoods?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Homes built between the 1940s and 1960s throughout central and east Englewood commonly feature galvanized steel lines. Warning signs include yellow or brownish morning tap water, sudden drops in shower volume when washing machines run, flaking rust in aerators, and persistent pinhole leaks around threaded steel fittings."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repipes and water heaters in Englewood, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The City of Englewood Community Development Department requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and manages all required municipal filings, scheduling, and final sign-offs."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Englewood CO | Slab Leaks & Repiping | Just Plumbing Inc.">

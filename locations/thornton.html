@@ -51,104 +51,129 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/thornton/#business",
-          "name": "Just Plumbing, Inc. - Thornton Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/thornton",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential and commercial plumbing services in Thornton, CO, specializing in recalled Kitec pipe replacements, yellow brass dezincification repairs, and hard water heater installations.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Thornton",
-              "sameAs": "https://en.wikipedia.org/wiki/Thornton,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/thornton/#business",
+                  "name": "Just Plumbing, Inc. - Thornton Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/thornton",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential and commercial plumbing services in Thornton, CO, specializing in recalled Kitec pipe replacements, yellow brass dezincification repairs, and hard water heater installations.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Thornton",
+                              "sameAs": "https://en.wikipedia.org/wiki/Thornton,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80229"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80233"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80241"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80260"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80602"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80229"},
-            {"@type": "PostalCode", "postalCode": "80233"},
-            {"@type": "PostalCode", "postalCode": "80241"},
-            {"@type": "PostalCode", "postalCode": "80260"},
-            {"@type": "PostalCode", "postalCode": "80602"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Thornton",
+                              "item": "https://justplumbinginc.com/locations/thornton"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Thornton",
-              "item": "https://justplumbinginc.com/locations/thornton"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/thornton/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why is Kitec plumbing replacement so common in Thornton, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Extensive residential tracts built between 1995 and 2007 north of 104th Avenue in Thornton were constructed using Kitec aluminum-composite pipes. Due to regional water chemistry, the yellow brass fittings undergo dezincification, developing a white crust that chokes flow and causes sudden fittings blowouts that flood living spaces."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Can you buy or sell a home in Thornton with active Kitec plumbing?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Selling a Thornton property with Kitec is challenging because home inspectors immediately flag the bright orange and blue lines. Underwriters frequently refuse to issue homeowner policies, and lenders may halt financing until the defective lines are replaced. Just Plumbing provides fast-turnaround real estate closing repipes."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Thornton?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The City of Thornton City Development Building Division requires permits and inspections for all whole-home repipes and water heater replacements. Just Plumbing holds Colorado Contractor Registration #PC.0003531 and coordinates all municipal filings and final approvals."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/thornton/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why is Kitec plumbing replacement so common in Thornton, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Extensive residential tracts built between 1995 and 2007 north of 104th Avenue in Thornton were constructed using Kitec aluminum-composite pipes. Due to regional water chemistry, the yellow brass fittings undergo dezincification, developing a white crust that chokes flow and causes sudden fittings blowouts that flood living spaces."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you buy or sell a home in Thornton with active Kitec plumbing?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Selling a Thornton property with Kitec is challenging because home inspectors immediately flag the bright orange and blue lines. Underwriters frequently refuse to issue homeowner policies, and lenders may halt financing until the defective lines are replaced. Just Plumbing provides fast-turnaround real estate closing repipes."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Thornton?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The City of Thornton City Development Building Division requires permits and inspections for all whole-home repipes and water heater replacements. Just Plumbing holds Colorado Contractor Registration #PC.0003531 and coordinates all municipal filings and final approvals."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Thornton CO | Kitec Repiping Specialists | Just Plumbing Inc.">

@@ -57,172 +57,295 @@
 
     <!-- Comprehensive E-E-A-T Organization, Founder, Breadcrumb & FAQ Schema -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "alternateName": ["Just Plumbing Inc", "Just Plumbing", "Denver Repipe Specialists"],
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/team-background.webp",
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "foundingDate": "2015-06",
-          "description": "Family-owned plumbing contractor in Denver, CO, founded by Bill and Shelly Clark in 2015. Specializing in whole-home repiping, defective pipe extraction, water heaters, and commercial multi-family plumbing across the Greater Denver Metro Area.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          "sameAs": [
-            "https://www.bbb.org/us/co/denver/profile/plumber/just-plumbing-inc"
-          ],
-          
-          "founder": [
             {
-              "@type": "Person",
-              "@id": "https://justplumbinginc.com/#bill-clark",
-              "name": "Bill Clark",
-              "jobTitle": "Master Plumber & Owner",
-              "worksFor": {
-                "@id": "https://justplumbinginc.com/#organization"
-              },
-              "description": "Master Plumber with over 30 years of hands-on experience in residential, commercial, and multi-family piping infrastructure in Colorado.",
-              "knowsAbout": [
-                "Whole Home Repiping",
-                "Uponor PEX-A Expansion Systems",
-                "Type L Copper Soldering",
-                "Polybutylene Pipe Replacement",
-                "Galvanized Steel Extraction",
-                "Colorado Plumbing Code Compliance"
-              ]
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "legalName": "Just Plumbing, Inc.",
+                  "alternateName": [
+                        "Just Plumbing Inc",
+                        "Just Plumbing",
+                        "Denver Repipe Specialists"
+                  ],
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/team-background.webp",
+                  "url": "https://justplumbinginc.com/",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$",
+                  "foundingDate": "2015-06",
+                  "description": "Family-owned plumbing contractor in Denver, CO, founded by Bill and Shelly Clark in 2015. Specializing in whole-home repiping, defective pipe extraction, water heaters, and commercial multi-family plumbing across the Greater Denver Metro Area.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "sameAs": [
+                        "https://www.bbb.org/us/co/denver/profile/plumber/just-plumbing-inc"
+                  ],
+                  "founder": [
+                        {
+                              "@type": "Person",
+                              "@id": "https://justplumbinginc.com/#bill-clark",
+                              "name": "Bill Clark",
+                              "jobTitle": "Master Plumber & Owner",
+                              "worksFor": {
+                                    "@id": "https://justplumbinginc.com/#organization"
+                              },
+                              "description": "Master Plumber with over 30 years of hands-on experience in residential, commercial, and multi-family piping infrastructure in Colorado.",
+                              "knowsAbout": [
+                                    "Whole Home Repiping",
+                                    "Uponor PEX-A Expansion Systems",
+                                    "Type L Copper Soldering",
+                                    "Polybutylene Pipe Replacement",
+                                    "Galvanized Steel Extraction",
+                                    "Colorado Plumbing Code Compliance"
+                              ]
+                        },
+                        {
+                              "@type": "Person",
+                              "@id": "https://justplumbinginc.com/#shelly-clark",
+                              "name": "Shelly Clark",
+                              "jobTitle": "Co-Owner & Operations Director",
+                              "worksFor": {
+                                    "@id": "https://justplumbinginc.com/#organization"
+                              },
+                              "description": "Co-owner directing client relations, logistics, municipal permit administration, and project scheduling for Just Plumbing, Inc."
+                        }
+                  ],
+                  "hasCredential": [
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State Registration",
+                              "name": "Colorado Plumbing Contractor",
+                              "credentialNumber": "PC.0003531",
+                              "recognizedBy": {
+                                    "@type": "Organization",
+                                    "name": "Colorado Department of Regulatory Agencies"
+                              },
+                              "identifier": "PC.0003531"
+                        },
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State License",
+                              "name": "Colorado Master Plumber",
+                              "credentialNumber": "MP.00600120",
+                              "recognizedBy": {
+                                    "@type": "Organization",
+                                    "name": "Colorado Department of Regulatory Agencies"
+                              },
+                              "identifier": "MP.00600120"
+                        }
+                  ],
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Arvada"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Aurora"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Bennett"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Brighton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Broomfield"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Pines"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Rock"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Centennial"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Cherry Hills Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Commerce City"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Denver"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Edgewater"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Englewood"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Evergreen"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Genesee"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Golden"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Glendale"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Greenwood Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Highlands Ranch"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Larkspur"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Littleton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Lone Tree"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Parker"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sedalia"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sheridan"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Thornton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Westminster"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Wheat Ridge"
+                        }
+                  ],
+                  "openingHoursSpecification": [
+                        {
+                              "@type": "OpeningHoursSpecification",
+                              "dayOfWeek": [
+                                    "Monday",
+                                    "Tuesday",
+                                    "Wednesday",
+                                    "Thursday",
+                                    "Friday"
+                              ],
+                              "opens": "07:00",
+                              "closes": "21:00"
+                        },
+                        {
+                              "@type": "OpeningHoursSpecification",
+                              "dayOfWeek": [
+                                    "Saturday",
+                                    "Sunday"
+                              ],
+                              "opens": "08:00",
+                              "closes": "17:00"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "Person",
-              "@id": "https://justplumbinginc.com/#shelly-clark",
-              "name": "Shelly Clark",
-              "jobTitle": "Co-Owner & Operations Director",
-              "worksFor": {
-                "@id": "https://justplumbinginc.com/#organization"
-              },
-              "description": "Co-owner directing client relations, logistics, municipal permit administration, and project scheduling for Just Plumbing, Inc."
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "About Us",
+                              "item": "https://justplumbinginc.com/about"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/about#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Who owns and operates Just Plumbing, Inc. in Denver?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Just Plumbing, Inc. is 100% family-owned and operated by Bill and Shelly Clark. Bill Clark is a licensed Colorado Master Plumber (#MP.00600120) with over 30 years of hands-on plumbing experience who personally manages work on-site."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What is the background of Just Plumbing with national repiping brands?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "For over half a decade, Just Plumbing served as the primary local installation crew for the largest national repiping corporation operating in Colorado. Today, homeowners hire Bill and Shelly directly, receiving the same Master Plumber craftsmanship without corporate call centers or inflated franchise markups."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What state credentials and licenses does Just Plumbing hold in Colorado?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and Master Plumber License #MP.00600120 issued by the Colorado Department of Regulatory Agencies (DORA). The company is fully insured, bonded, and code-compliant across all Front Range municipalities."
+                              }
+                        }
+                  ]
             }
-          ],
-          "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State Registration",
-              "name": "Colorado Plumbing Contractor",
-              "credentialNumber": "PC.0003531",
-              "recognizedBy": {
-                "@type": "Organization",
-                "name": "Colorado Department of Regulatory Agencies"
-              }
-            },
-            {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State License",
-              "name": "Colorado Master Plumber",
-              "credentialNumber": "MP.00600120",
-              "recognizedBy": {
-                "@type": "Organization",
-                "name": "Colorado Department of Regulatory Agencies"
-              }
-            }
-          ],
-          "areaServed": [
-            {"@type": "City", "name": "Arvada"}, {"@type": "City", "name": "Aurora"},
-            {"@type": "City", "name": "Bennett"}, {"@type": "City", "name": "Brighton"},
-            {"@type": "City", "name": "Broomfield"}, {"@type": "City", "name": "Castle Pines"},
-            {"@type": "City", "name": "Castle Rock"}, {"@type": "City", "name": "Centennial"},
-            {"@type": "City", "name": "Cherry Hills Village"}, {"@type": "City", "name": "Commerce City"},
-            {"@type": "City", "name": "Denver"}, {"@type": "City", "name": "Edgewater"},
-            {"@type": "City", "name": "Englewood"}, {"@type": "City", "name": "Evergreen"},
-            {"@type": "City", "name": "Genesee"}, {"@type": "City", "name": "Golden"},
-            {"@type": "City", "name": "Glendale"}, {"@type": "City", "name": "Greenwood Village"},
-            {"@type": "City", "name": "Highlands Ranch"}, {"@type": "City", "name": "Larkspur"},
-            {"@type": "City", "name": "Littleton"}, {"@type": "City", "name": "Lone Tree"},
-            {"@type": "City", "name": "Parker"}, {"@type": "City", "name": "Sedalia"},
-            {"@type": "City", "name": "Sheridan"}, {"@type": "City", "name": "Thornton"},
-            {"@type": "City", "name": "Westminster"}, {"@type": "City", "name": "Wheat Ridge"}
-          ],
-          "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-              "opens": "07:00",
-              "closes": "21:00"
-            },
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Saturday", "Sunday"],
-              "opens": "08:00",
-              "closes": "17:00"
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "About Us",
-              "item": "https://justplumbinginc.com/about"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/about#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Who owns and operates Just Plumbing, Inc. in Denver?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Just Plumbing, Inc. is 100% family-owned and operated by Bill and Shelly Clark. Bill Clark is a licensed Colorado Master Plumber (#MP.00600120) with over 30 years of hands-on plumbing experience who personally manages work on-site."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the background of Just Plumbing with national repiping brands?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "For over half a decade, Just Plumbing served as the primary local installation crew for the largest national repiping corporation operating in Colorado. Today, homeowners hire Bill and Shelly directly, receiving the same Master Plumber craftsmanship without corporate call centers or inflated franchise markups."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What state credentials and licenses does Just Plumbing hold in Colorado?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and Master Plumber License #MP.00600120 issued by the Colorado Department of Regulatory Agencies (DORA). The company is fully insured, bonded, and code-compliant across all Front Range municipalities."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
 </head>
 <body>

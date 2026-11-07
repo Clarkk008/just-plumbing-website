@@ -51,100 +51,113 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/larkspur/#business",
-          "name": "Just Plumbing, Inc. - Larkspur Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/larkspur",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential plumbing services in Larkspur, CO, specializing in Palmer Divide freeze-proof Uponor PEX-A repiping, private well water system adaptations, crawlspace winterization, and water heaters.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Larkspur",
-              "sameAs": "https://en.wikipedia.org/wiki/Larkspur,_Colorado"
-            },
-            {"@type": "PostalCode", "postalCode": "80118"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/larkspur/#business",
+                  "name": "Just Plumbing, Inc. - Larkspur Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/larkspur",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential plumbing services in Larkspur, CO, specializing in Palmer Divide freeze-proof Uponor PEX-A repiping, private well water system adaptations, crawlspace winterization, and water heaters.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Larkspur",
+                              "sameAs": "https://en.wikipedia.org/wiki/Larkspur,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80118"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Larkspur",
-              "item": "https://justplumbinginc.com/locations/larkspur"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Larkspur",
+                              "item": "https://justplumbinginc.com/locations/larkspur"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/larkspur/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why are Larkspur homes along the Palmer Divide prone to frozen pipe bursts?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Larkspur sits right on the Palmer Divide at elevations between 6,600 and 7,300 feet, where winter temperatures regularly drop lower and snow accumulates heavier than in central Denver. Homes in neighborhoods like Perry Park often have water lines routed through unconditioned crawlspaces, cantilevers, or exterior walls where rigid copper solder joints easily freeze, expand, and burst."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How does well water chemistry in Larkspur affect plumbing pipes and water heaters?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Many Larkspur properties draw water from deep private aquifers in the Denver Basin. High mineral content, fluctuating pH levels, and sediment can corrode copper pipes from the inside out, creating pinhole leaks. This hard water also causes heavy calcium scale buildup inside water heaters, requiring proactive filtration and scale-resistant Uponor PEX-A piping."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Larkspur, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The Douglas County Building Division requires permits and inspections for whole-home repiping and water heater installations across Larkspur and unincorporated Douglas County. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all county mechanical filings and final inspections."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/larkspur/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why are Larkspur homes along the Palmer Divide prone to frozen pipe bursts?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Larkspur sits right on the Palmer Divide at elevations between 6,600 and 7,300 feet, where winter temperatures regularly drop lower and snow accumulates heavier than in central Denver. Homes in neighborhoods like Perry Park often have water lines routed through unconditioned crawlspaces, cantilevers, or exterior walls where rigid copper solder joints easily freeze, expand, and burst."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does well water chemistry in Larkspur affect plumbing pipes and water heaters?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Many Larkspur properties draw water from deep private aquifers in the Denver Basin. High mineral content, fluctuating pH levels, and sediment can corrode copper pipes from the inside out, creating pinhole leaks. This hard water also causes heavy calcium scale buildup inside water heaters, requiring proactive filtration and scale-resistant Uponor PEX-A piping."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Larkspur, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The Douglas County Building Division requires permits and inspections for whole-home repiping and water heater installations across Larkspur and unincorporated Douglas County. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all county mechanical filings and final inspections."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Larkspur CO | Freeze-Proof Repiping & Wells | Just Plumbing Inc.">

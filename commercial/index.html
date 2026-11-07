@@ -49,114 +49,125 @@
 
     <!-- Comprehensive CollectionPage, ItemList, ServiceAreaBusiness & FAQ Schema -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/",
-          "priceRange": "$$$",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner"
-          }
-        },
-        {
-          "@type": "CollectionPage",
-          "@id": "https://justplumbinginc.com/commercial/#page",
-          "name": "Commercial & Multifamily Repiping Solutions",
-          "url": "https://justplumbinginc.com/commercial/",
-          "description": "Comprehensive pipe replacement services for apartment complexes, condominium associations, HOA boards, and commercial facilities in Greater Denver.",
-          "publisher": {
-            "@id": "https://justplumbinginc.com/#organization"
-          }
-        },
-        {
-          "@type": "ItemList",
-          "name": "Commercial Plumbing Services",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
-              "name": "Multifamily & Apartment Repiping"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/",
+                  "priceRange": "$$$",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner"
+                  },
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
-              "name": "HOA & Condominium Repiping"
+                  "@type": "CollectionPage",
+                  "@id": "https://justplumbinginc.com/commercial/#page",
+                  "name": "Commercial & Multifamily Repiping Solutions",
+                  "url": "https://justplumbinginc.com/commercial/",
+                  "description": "Comprehensive pipe replacement services for apartment complexes, condominium associations, HOA boards, and commercial facilities in Greater Denver.",
+                  "publisher": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "url": "https://justplumbinginc.com/commercial/commercial-repipe",
-              "name": "Commercial Building Repiping"
+                  "@type": "ItemList",
+                  "name": "Commercial Plumbing Services",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
+                              "name": "Multifamily & Apartment Repiping"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
+                              "name": "HOA & Condominium Repiping"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "url": "https://justplumbinginc.com/commercial/commercial-repipe",
+                              "name": "Commercial Building Repiping"
+                        }
+                  ]
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Commercial",
+                              "item": "https://justplumbinginc.com/commercial/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/commercial/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Do commercial tenants have to relocate during a building repipe?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "No. Just Plumbing executes multi-story repipes in vertical 'stacks'. By isolating specific units vertically, we complete drywall removal and rough-ins during standard business hours and restore domestic water service every evening, preventing costly hotel relocations."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Does Just Plumbing handle municipal permits for large commercial projects?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Master Plumber Bill Clark directly files all necessary mechanical and plumbing permits, coordinates phased inspections with city officials, and ensures all structural fire-stopping code requirements are met before drywall is restored."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Can you repipe a building that has a mix of commercial and residential units?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. We frequently engineer hybrid repiping solutions. We install commercial-grade Type L Copper for the main building risers and ground-floor retail spaces, and transition to flexible Uponor PEX-A inside the individual residential units to minimize drywall demolition."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Commercial",
-              "item": "https://justplumbinginc.com/commercial/"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/commercial/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Do commercial tenants have to relocate during a building repipe?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. Just Plumbing executes multi-story repipes in vertical 'stacks'. By isolating specific units vertically, we complete drywall removal and rough-ins during standard business hours and restore domestic water service every evening, preventing costly hotel relocations."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does Just Plumbing handle municipal permits for large commercial projects?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Master Plumber Bill Clark directly files all necessary mechanical and plumbing permits, coordinates phased inspections with city officials, and ensures all structural fire-stopping code requirements are met before drywall is restored."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you repipe a building that has a mix of commercial and residential units?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. We frequently engineer hybrid repiping solutions. We install commercial-grade Type L Copper for the main building risers and ground-floor retail spaces, and transition to flexible Uponor PEX-A inside the individual residential units to minimize drywall demolition."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Commercial & Multifamily Repiping Denver | Just Plumbing Inc.">
@@ -463,15 +474,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
-                    <li><a href="/pipe-problems">Failing Pipe Diagnosis</a></li>
-                    <li><a href="/materials">Piping Materials</a></li>
-                    <li><a href="/commercial">Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
+                    <li><a href='/materials'>Piping Materials</a></li>
+                    <li><a href='/commercial'>Commercial Repiping</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
             

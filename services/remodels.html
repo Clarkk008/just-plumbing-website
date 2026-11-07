@@ -51,139 +51,151 @@
 
     <!-- Service, Organization, Breadcrumb & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          
-          "hasCredential": [
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State Registration",
-              "name": "Colorado Plumbing Contractor",
-              "credentialNumber": "PC.0003531"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "legalName": "Just Plumbing, Inc.",
+                  "url": "https://justplumbinginc.com/",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$",
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "hasCredential": [
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State Registration",
+                              "name": "Colorado Plumbing Contractor",
+                              "credentialNumber": "PC.0003531",
+                              "identifier": "PC.0003531"
+                        },
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State License",
+                              "name": "Colorado Master Plumber",
+                              "credentialNumber": "MP.00600120",
+                              "identifier": "MP.00600120"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State License",
-              "name": "Colorado Master Plumber",
-              "credentialNumber": "MP.00600120"
+                  "@type": "Service",
+                  "@id": "https://justplumbinginc.com/services/remodels#service",
+                  "name": "Kitchen & Bathroom Remodel Plumbing",
+                  "serviceType": "Remodeling Plumbing Contractor",
+                  "category": "Plumbing",
+                  "provider": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Architectural rough-in and finish plumbing for residential kitchen, bathroom, and basement renovations across the Denver Metro Area. Drain-waste-vent reconfiguration, custom shower valves, and fixture installations."
+            },
+            {
+                  "@type": "Person",
+                  "@id": "https://justplumbinginc.com/#bill-clark",
+                  "name": "Bill Clark",
+                  "jobTitle": "Owner & Master Plumber",
+                  "worksFor": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "knowsAbout": [
+                        "Kitchen Remodeling Plumbing",
+                        "Bathroom Remodeling Plumbing",
+                        "Thermostatic Shower Valve Routing",
+                        "Drain-Waste-Vent (DWV) Reconfiguration",
+                        "Colorado Plumbing Code Permitting"
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/services/remodels#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why should a licensed Master Plumber handle remodel rough-ins instead of a general handyman?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Moving walls and reconfiguring sinks, showers, or toilets alters the slope, venting, and hydraulic balance of your home's Drain-Waste-Vent (DWV) system. Unlicensed handymen frequently install improper unvented S-traps or undersized supply lines that fail municipal building inspections and cause sewer gas leaks behind finished tile."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Should I replace old supply pipes during a kitchen or bathroom remodel?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. When walls, subfloors, and ceilings are stripped down to the studs during demolition, replacing legacy galvanized steel, polybutylene, or aging copper with Uponor PEX-A is significantly faster and more economical than repiping after expensive tile and cabinetry have been installed."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Can you relocate an island sink without tearing up the entire ceiling below?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Island sinks require engineered venting because there is no vertical wall above the sink for a standard vent stack. We engineer code-compliant island loop vents (combination waste and vent) or install approved air admittance valves (AAVs) to ensure fast drainage without unnecessary ceiling demolition."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Does Just Plumbing pull permits for remodeling plumbing in Colorado?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. All remodel rough-in and finish plumbing completed by Just Plumbing is fully permitted and scheduled for municipal rough and final inspections under Colorado Plumbing Contractor Registration #PC.0003531."
+                              }
+                        }
+                  ]
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Services",
+                              "item": "https://justplumbinginc.com/services/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Kitchen & Bath Remodels",
+                              "item": "https://justplumbinginc.com/services/remodels"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "Service",
-          "@id": "https://justplumbinginc.com/services/remodels#service",
-          "name": "Kitchen & Bathroom Remodel Plumbing",
-          "serviceType": "Remodeling Plumbing Contractor",
-          "category": "Plumbing",
-          "provider": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Architectural rough-in and finish plumbing for residential kitchen, bathroom, and basement renovations across the Denver Metro Area. Drain-waste-vent reconfiguration, custom shower valves, and fixture installations."
-        },
-        {
-          "@type": "Person",
-          "@id": "https://justplumbinginc.com/#bill-clark",
-          "name": "Bill Clark",
-          "jobTitle": "Owner & Master Plumber",
-          "worksFor": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "knowsAbout": [
-            "Kitchen Remodeling Plumbing",
-            "Bathroom Remodeling Plumbing",
-            "Thermostatic Shower Valve Routing",
-            "Drain-Waste-Vent (DWV) Reconfiguration",
-            "Colorado Plumbing Code Permitting"
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/services/remodels#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why should a licensed Master Plumber handle remodel rough-ins instead of a general handyman?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moving walls and reconfiguring sinks, showers, or toilets alters the slope, venting, and hydraulic balance of your home's Drain-Waste-Vent (DWV) system. Unlicensed handymen frequently install improper unvented S-traps or undersized supply lines that fail municipal building inspections and cause sewer gas leaks behind finished tile."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Should I replace old supply pipes during a kitchen or bathroom remodel?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. When walls, subfloors, and ceilings are stripped down to the studs during demolition, replacing legacy galvanized steel, polybutylene, or aging copper with Uponor PEX-A is significantly faster and more economical than repiping after expensive tile and cabinetry have been installed."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you relocate an island sink without tearing up the entire ceiling below?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Island sinks require engineered venting because there is no vertical wall above the sink for a standard vent stack. We engineer code-compliant island loop vents (combination waste and vent) or install approved air admittance valves (AAVs) to ensure fast drainage without unnecessary ceiling demolition."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does Just Plumbing pull permits for remodeling plumbing in Colorado?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. All remodel rough-in and finish plumbing completed by Just Plumbing is fully permitted and scheduled for municipal rough and final inspections under Colorado Plumbing Contractor Registration #PC.0003531."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Services",
-              "item": "https://justplumbinginc.com/services/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Kitchen & Bath Remodels",
-              "item": "https://justplumbinginc.com/services/remodels"
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Kitchen & Bath Remodel Plumbing Denver | Just Plumbing, Inc.">
@@ -508,15 +520,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
                     <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
                     <li><a href='/materials'>Piping Materials</a></li>
                     <li><a href='/commercial'>Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels" class="active">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 

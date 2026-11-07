@@ -51,102 +51,121 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/greenwood-village/#business",
-          "name": "Just Plumbing, Inc. - Greenwood Village Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/greenwood-village",
-          "priceRange": "$$$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential plumbing services in Greenwood Village, CO, specializing in luxury estate repiping, copper pinhole leak remediation, hot water recirculation loops, and water heating systems.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Greenwood Village",
-              "sameAs": "https://en.wikipedia.org/wiki/Greenwood_Village,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/greenwood-village/#business",
+                  "name": "Just Plumbing, Inc. - Greenwood Village Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/greenwood-village",
+                  "priceRange": "$$$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential plumbing services in Greenwood Village, CO, specializing in luxury estate repiping, copper pinhole leak remediation, hot water recirculation loops, and water heating systems.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Greenwood Village",
+                              "sameAs": "https://en.wikipedia.org/wiki/Greenwood_Village,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80111"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80121"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80155"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80111"},
-            {"@type": "PostalCode", "postalCode": "80121"},
-            {"@type": "PostalCode", "postalCode": "80155"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Greenwood Village",
+                              "item": "https://justplumbinginc.com/locations/greenwood-village"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Greenwood Village",
-              "item": "https://justplumbinginc.com/locations/greenwood-village"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/greenwood-village/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why do custom luxury homes in Greenwood Village experience copper pinhole leaks?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Many Greenwood Village estates feature continuous hot water recirculation loops designed to deliver instant hot water across 5,000+ square foot floor plans. Over 15 to 25 years, excessive water velocity, micro-turbulence at sharp 90-degree copper elbows, and dissolved minerals mechanically erode the interior copper walls, causing sudden pinhole leaks inside ceilings and finished wall cavities."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How does Just Plumbing protect high-end finishes during an estate repipe in Greenwood Village?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We implement white-glove site protection including negative-air dust containment, floor armor runners, and non-invasive endoscopic camera routing. Rather than tearing down drywall, we feed flexible Uponor PEX-A or rigid Type L Copper through utility basements, mechanical chases, and stud cavities, preserving custom millwork, wallpaper, and hardwood flooring."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Greenwood Village, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The City of Greenwood Village Community Development Department requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings, engineering reviews, and final inspector sign-offs."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/greenwood-village/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why do custom luxury homes in Greenwood Village experience copper pinhole leaks?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Many Greenwood Village estates feature continuous hot water recirculation loops designed to deliver instant hot water across 5,000+ square foot floor plans. Over 15 to 25 years, excessive water velocity, micro-turbulence at sharp 90-degree copper elbows, and dissolved minerals mechanically erode the interior copper walls, causing sudden pinhole leaks inside ceilings and finished wall cavities."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does Just Plumbing protect high-end finishes during an estate repipe in Greenwood Village?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We implement white-glove site protection including negative-air dust containment, floor armor runners, and non-invasive endoscopic camera routing. Rather than tearing down drywall, we feed flexible Uponor PEX-A or rigid Type L Copper through utility basements, mechanical chases, and stud cavities, preserving custom millwork, wallpaper, and hardwood flooring."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Greenwood Village, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The City of Greenwood Village Community Development Department requires permits and inspections for all whole-home repiping and water heater replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings, engineering reviews, and final inspector sign-offs."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Greenwood Village CO | Luxury Repiping | Just Plumbing Inc.">

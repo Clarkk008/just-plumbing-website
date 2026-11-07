@@ -255,211 +255,353 @@
 
     <!-- Complete JSON-LD Schema Graph -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "alternateName": ["Just Plumbing Inc", "Just Plumbing", "Denver Repipe Specialists"],
-          "url": "https://justplumbinginc.com/",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/hero-repipe-specialist.jpeg",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "foundingDate": "2015-06",
-          "description": "Family-owned plumbing contractor in the Denver Metro Area specializing in whole-home and partial repiping, defective pipe extraction (polybutylene, galvanized steel, Kitec, copper pinholes), water heater systems, and commercial multi-family plumbing.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          "sameAs": [
-            "https://www.bbb.org/us/co/denver/profile/plumber/just-plumbing-inc"
-          ],
-          "founder": [
             {
-              "@type": "Person",
-              "@id": "https://justplumbinginc.com/#bill-clark",
-              "name": "Bill Clark",
-              "jobTitle": "Master Plumber & Owner",
-              "description": "Master Plumber with over 30 years of hands-on piping and repiping experience in Colorado.",
-              "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "legalName": "Just Plumbing, Inc.",
+                  "alternateName": [
+                        "Just Plumbing Inc",
+                        "Just Plumbing",
+                        "Denver Repipe Specialists"
+                  ],
+                  "url": "https://justplumbinginc.com/",
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/hero-repipe-specialist.jpeg",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$",
+                  "foundingDate": "2015-06",
+                  "description": "Family-owned plumbing contractor in the Denver Metro Area specializing in whole-home and partial repiping, defective pipe extraction (polybutylene, galvanized steel, Kitec, copper pinholes), water heater systems, and commercial multi-family plumbing.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "sameAs": [
+                        "https://www.bbb.org/us/co/denver/profile/plumber/just-plumbing-inc"
+                  ],
+                  "founder": [
+                        {
+                              "@type": "Person",
+                              "@id": "https://justplumbinginc.com/#bill-clark",
+                              "name": "Bill Clark",
+                              "jobTitle": "Master Plumber & Owner",
+                              "description": "Master Plumber with over 30 years of hands-on piping and repiping experience in Colorado.",
+                              "sameAs": "https://dpo.colorado.gov/Plumbing"
+                        },
+                        {
+                              "@type": "Person",
+                              "@id": "https://justplumbinginc.com/#shelly-clark",
+                              "name": "Shelly Clark",
+                              "jobTitle": "Co-Owner & Operations Director"
+                        }
+                  ],
+                  "hasCredential": [
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State Registration",
+                              "name": "Colorado Plumbing Contractor",
+                              "credentialNumber": "PC.0003531",
+                              "recognizedBy": {
+                                    "@type": "Organization",
+                                    "name": "Colorado Department of Regulatory Agencies"
+                              },
+                              "identifier": "PC.0003531"
+                        },
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State License",
+                              "name": "Colorado Master Plumber",
+                              "credentialNumber": "MP.00600120",
+                              "recognizedBy": {
+                                    "@type": "Organization",
+                                    "name": "Colorado Department of Regulatory Agencies"
+                              },
+                              "identifier": "MP.00600120"
+                        }
+                  ],
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Arvada"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Aurora"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Bennett"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Brighton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Broomfield"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Pines"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Rock"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Centennial"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Cherry Hills Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Commerce City"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Denver"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Edgewater"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Englewood"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Evergreen"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Genesee"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Glendale"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Golden"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Greenwood Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Highlands Ranch"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Larkspur"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Littleton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Lone Tree"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Parker"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sedalia"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sheridan"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Thornton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Westminster"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Wheat Ridge"
+                        }
+                  ],
+                  "hasOfferCatalog": {
+                        "@type": "OfferCatalog",
+                        "name": "Plumbing Services Catalog",
+                        "itemListElement": [
+                              {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                          "@type": "Service",
+                                          "name": "Whole-Home Repiping",
+                                          "url": "https://justplumbinginc.com/services/whole-home-repiping",
+                                          "description": "Complete replacement of failing galvanized, polybutylene, Kitec, or copper piping with Uponor PEX-A or Type L Copper in 1-2 days. Drywall patching included."
+                                    }
+                              },
+                              {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                          "@type": "Service",
+                                          "name": "Partial Repiping & Slab Bypasses",
+                                          "url": "https://justplumbinginc.com/services/partial-repiping",
+                                          "description": "Targeted pipe upgrades for basements, exposed runs, and overhead slab leak bypasses without floor destruction."
+                                    }
+                              },
+                              {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                          "@type": "Service",
+                                          "name": "Commercial & Multifamily Repiping",
+                                          "url": "https://justplumbinginc.com/commercial/",
+                                          "description": "Turnkey commercial pipe replacement for apartment complexes, condominium HOAs, and commercial buildings with zero resident displacement."
+                                    }
+                              },
+                              {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                          "@type": "Service",
+                                          "name": "Water Heater Systems",
+                                          "url": "https://justplumbinginc.com/services/water-heaters",
+                                          "description": "High-altitude calibrated gas tanks, power-vent systems, continuous tankless water heaters, and thermal expansion tanks."
+                                    }
+                              },
+                              {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                          "@type": "Service",
+                                          "name": "Sump Pump Installation & Battery Backups",
+                                          "url": "https://justplumbinginc.com/services/sump-pumps",
+                                          "description": "Commercial-grade cast-iron primary sump pumps, dual AGM battery backup systems, silent check valves, and radon-sealed basins."
+                                    }
+                              },
+                              {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                          "@type": "Service",
+                                          "name": "New Construction & Custom Home Plumbing",
+                                          "url": "https://justplumbinginc.com/services/new-construction",
+                                          "description": "Complete underground rough-in, top-out, gas piping, and fixture finish plumbing for custom homes, ADUs, and commercial builds."
+                                    }
+                              }
+                        ]
+                  },
+                  "openingHoursSpecification": [
+                        {
+                              "@type": "OpeningHoursSpecification",
+                              "dayOfWeek": [
+                                    "Monday",
+                                    "Tuesday",
+                                    "Wednesday",
+                                    "Thursday",
+                                    "Friday"
+                              ],
+                              "opens": "07:00",
+                              "closes": "21:00"
+                        },
+                        {
+                              "@type": "OpeningHoursSpecification",
+                              "dayOfWeek": [
+                                    "Saturday",
+                                    "Sunday"
+                              ],
+                              "opens": "08:00",
+                              "closes": "17:00"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "Person",
-              "@id": "https://justplumbinginc.com/#shelly-clark",
-              "name": "Shelly Clark",
-              "jobTitle": "Co-Owner & Operations Director"
+                  "@type": "WebSite",
+                  "@id": "https://justplumbinginc.com/#website",
+                  "url": "https://justplumbinginc.com/",
+                  "name": "Just Plumbing, Inc.",
+                  "description": "Denver Metro whole-home repiping specialists and licensed master plumbers.",
+                  "publisher": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  }
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Who owns and operates Just Plumbing, Inc. in Denver?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Just Plumbing, Inc. is a family-owned plumbing company led by Master Plumber Bill Clark, who brings over 30 years of hands-on residential and commercial plumbing experience. The company holds Colorado Master Plumber License #MP.00600120 and Plumbing Contractor Registration #PC.0003531."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How long does a typical whole-home repipe take?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Most standard residential repipes are completed in just 1 to 2 business days. Our Master Plumber crews isolate plumbing systematically so your domestic water service is safely restored by the end of each workday, meaning you never have to leave your home."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Does Just Plumbing include drywall patching with whole-home repiping?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes! Unlike national plumbing franchises that leave you with gaping wall cavities, Just Plumbing hires and schedules a dedicated professional drywall finisher to patch, mud, and texture all plumbing access holes to base quality."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What areas across Greater Denver does Just Plumbing serve?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Just Plumbing serves all 28 municipalities across the Denver Metro Area, including Arvada, Aurora, Bennett, Brighton, Broomfield, Castle Pines, Castle Rock, Centennial, Cherry Hills Village, Commerce City, Denver, Edgewater, Englewood, Evergreen, Genesee, Glendale, Golden, Greenwood Village, Highlands Ranch, Larkspur, Littleton, Lone Tree, Parker, Sedalia, Sheridan, Thornton, Westminster, and Wheat Ridge."
+                              }
+                        }
+                  ]
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        }
+                  ]
             }
-          ],
-          "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State Registration",
-              "name": "Colorado Plumbing Contractor",
-              "credentialNumber": "PC.0003531",
-              "recognizedBy": {
-                "@type": "Organization",
-                "name": "Colorado Department of Regulatory Agencies"
-              }
-            },
-            {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State License",
-              "name": "Colorado Master Plumber",
-              "credentialNumber": "MP.00600120",
-              "recognizedBy": {
-                "@type": "Organization",
-                "name": "Colorado Department of Regulatory Agencies"
-              }
-            }
-          ],
-          "areaServed": [
-            {"@type": "City", "name": "Arvada"}, {"@type": "City", "name": "Aurora"}, 
-            {"@type": "City", "name": "Bennett"}, {"@type": "City", "name": "Brighton"}, 
-            {"@type": "City", "name": "Broomfield"}, {"@type": "City", "name": "Castle Pines"}, 
-            {"@type": "City", "name": "Castle Rock"}, {"@type": "City", "name": "Centennial"}, 
-            {"@type": "City", "name": "Cherry Hills Village"}, {"@type": "City", "name": "Commerce City"}, 
-            {"@type": "City", "name": "Denver"}, {"@type": "City", "name": "Edgewater"}, 
-            {"@type": "City", "name": "Englewood"}, {"@type": "City", "name": "Evergreen"}, 
-            {"@type": "City", "name": "Genesee"}, {"@type": "City", "name": "Glendale"}, 
-            {"@type": "City", "name": "Golden"}, {"@type": "City", "name": "Greenwood Village"}, 
-            {"@type": "City", "name": "Highlands Ranch"}, {"@type": "City", "name": "Larkspur"}, 
-            {"@type": "City", "name": "Littleton"}, {"@type": "City", "name": "Lone Tree"}, 
-            {"@type": "City", "name": "Parker"}, {"@type": "City", "name": "Sedalia"}, 
-            {"@type": "City", "name": "Sheridan"}, {"@type": "City", "name": "Thornton"}, 
-            {"@type": "City", "name": "Westminster"}, {"@type": "City", "name": "Wheat Ridge"}
-          ],
-          "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Plumbing Services Catalog",
-            "itemListElement": [
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Whole-Home Repiping",
-                  "url": "https://justplumbinginc.com/services/whole-home-repiping",
-                  "description": "Complete replacement of failing galvanized, polybutylene, Kitec, or copper piping with Uponor PEX-A or Type L Copper in 1-2 days. Drywall patching included."
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Partial Repiping & Slab Bypasses",
-                  "url": "https://justplumbinginc.com/services/partial-repiping",
-                  "description": "Targeted pipe upgrades for basements, exposed runs, and overhead slab leak bypasses without floor destruction."
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Commercial & Multifamily Repiping",
-                  "url": "https://justplumbinginc.com/commercial/",
-                  "description": "Turnkey commercial pipe replacement for apartment complexes, condominium HOAs, and commercial buildings with zero resident displacement."
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Water Heater Systems",
-                  "url": "https://justplumbinginc.com/services/water-heaters",
-                  "description": "High-altitude calibrated gas tanks, power-vent systems, continuous tankless water heaters, and thermal expansion tanks."
-                }
-              }
-            ]
-          },
-          "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-              "opens": "07:00",
-              "closes": "21:00"
-            },
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Saturday", "Sunday"],
-              "opens": "08:00",
-              "closes": "17:00"
-            }
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://justplumbinginc.com/#website",
-          "url": "https://justplumbinginc.com/",
-          "name": "Just Plumbing, Inc.",
-          "description": "Denver Metro whole-home repiping specialists and licensed master plumbers.",
-          "publisher": {
-            "@id": "https://justplumbinginc.com/#organization"
-          }
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Who owns and operates Just Plumbing, Inc. in Denver?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Just Plumbing, Inc. is a family-owned plumbing company led by Master Plumber Bill Clark, who brings over 30 years of hands-on residential and commercial plumbing experience. The company holds Colorado Master Plumber License #MP.00600120 and Plumbing Contractor Registration #PC.0003531."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How long does a typical whole-home repipe take?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Most standard residential repipes are completed in just 1 to 2 business days. Our Master Plumber crews isolate plumbing systematically so your domestic water service is safely restored by the end of each workday, meaning you never have to leave your home."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does Just Plumbing include drywall patching with whole-home repiping?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes! Unlike national plumbing franchises that leave you with gaping wall cavities, Just Plumbing hires and schedules a dedicated professional drywall finisher to patch, mud, and texture all plumbing access holes to base quality."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What areas across Greater Denver does Just Plumbing serve?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Just Plumbing serves all 28 municipalities across the Denver Metro Area, including Arvada, Aurora, Bennett, Brighton, Broomfield, Castle Pines, Castle Rock, Centennial, Cherry Hills Village, Commerce City, Denver, Edgewater, Englewood, Evergreen, Genesee, Glendale, Golden, Greenwood Village, Highlands Ranch, Larkspur, Littleton, Lone Tree, Parker, Sedalia, Sheridan, Thornton, Westminster, and Wheat Ridge."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
 </head>
 <body>
@@ -481,7 +623,7 @@
     <header>
         <div class="logo">
             <a href='/'>
-                <img src="/assets/images/logo.webp" width="200" height="60" fetchpriority="high" decoding="async" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
+                <img src="assets/images/logo.webp" width="200" height="60" fetchpriority="high" decoding="async" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
             </a>
         </div>
         <nav aria-label="Main Navigation">
@@ -623,7 +765,7 @@
                 </div>
                 <div class="trust-item">
                     <h3>100% Turnkey Restoration</h3>
-                    <p>We make small, incisions to route new lines. When the plumbing passes city inspection, <strong>we hire and manage the professional drywall patcher</strong> to restore your walls to base quality.</p>
+                    <p>We make small, surgical incisions to route new lines. When the plumbing passes city inspection, <strong>we hire and manage the professional drywall patcher</strong> to restore your walls to base quality.</p>
                 </div>
                 <div class="trust-item">
                     <h3>Price Match Guarantee</h3>
@@ -692,12 +834,12 @@
                         <p>Protect your finished basement from high river basin water tables and bentonite clay hydrostatic pressure with commercial cast-iron submersible pumps.</p>
                     </article>
                     <article class="service-card">
-                        <h3><a href='/services/remodels'>Kitchen & Bath Remodels</a></h3>
-                        <p>Architectural rough-ins, thermostatic shower valve configurations, and island loop DWV venting designed to pass municipal inspections on the first walkthrough.</p>
+                        <h3><a href='/services/new-construction'>New Construction & Custom Remodels</a></h3>
+                        <p>Turnkey <a href="/services/new-construction" style="color: var(--brand-blue); text-decoration: underline;">new construction plumbing</a>, custom home rough-ins, and <a href="/services/remodels" style="color: var(--brand-blue); text-decoration: underline;">kitchen & bath remodels</a> engineered to pass municipal inspections on the first walkthrough.</p>
                     </article>
                     <article class="service-card">
                         <h3><a href='/commercial'>Commercial & Multifamily Repiping</a></h3>
-                        <p>Specialize <a href="/commercial/multifamily-repiping" style="color: var(--brand-blue); text-decoration: underline;">apartment complex</a>, <a href="/commercial/hoa-condo-repiping" style="color: var(--brand-blue); text-decoration: underline;">HOA condo</a>, and <a href="/commercial/commercial-repipe" style="color: var(--brand-blue); text-decoration: underline;">commercial building</a> repiping executed with zero tenant displacement and nightly water restoration.</p>
+                        <p>Specialized <a href="/commercial/multifamily-repiping" style="color: var(--brand-blue); text-decoration: underline;">apartment complex</a>, <a href="/commercial/hoa-condo-repiping" style="color: var(--brand-blue); text-decoration: underline;">HOA condo</a>, and <a href="/commercial/commercial-repipe" style="color: var(--brand-blue); text-decoration: underline;">commercial building</a> repiping executed with zero tenant displacement and nightly water restoration.</p>
                     </article>
                 </div>
             </div>

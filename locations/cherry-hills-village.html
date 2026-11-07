@@ -51,102 +51,121 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/cherry-hills-village/#business",
-          "name": "Just Plumbing, Inc. - Cherry Hills Village Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/cherry-hills-village",
-          "priceRange": "$$$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led residential plumbing services in Cherry Hills Village, CO, specializing in luxury estate repiping, commercial-grade Type L Copper, architectural preservation, and high-capacity water heating systems.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Cherry Hills Village",
-              "sameAs": "https://en.wikipedia.org/wiki/Cherry_Hills_Village,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/cherry-hills-village/#business",
+                  "name": "Just Plumbing, Inc. - Cherry Hills Village Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/cherry-hills-village",
+                  "priceRange": "$$$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led residential plumbing services in Cherry Hills Village, CO, specializing in luxury estate repiping, commercial-grade Type L Copper, architectural preservation, and high-capacity water heating systems.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Cherry Hills Village",
+                              "sameAs": "https://en.wikipedia.org/wiki/Cherry_Hills_Village,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80111"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80113"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80121"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
-            {"@type": "PostalCode", "postalCode": "80111"},
-            {"@type": "PostalCode", "postalCode": "80113"},
-            {"@type": "PostalCode", "postalCode": "80121"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Cherry Hills Village",
+                              "item": "https://justplumbinginc.com/locations/cherry-hills-village"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Cherry Hills Village",
-              "item": "https://justplumbinginc.com/locations/cherry-hills-village"
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/cherry-hills-village/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "How does Just Plumbing preserve custom architecture and finishes during an estate repipe?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Cherry Hills Village residences feature irreplaceable architectural finishes, imported wall coverings, and lath-and-plaster construction. We avoid destructive trenching by threading flexible Uponor PEX-A expansion tubing or rigid Type L copper lines vertically through subfloors, mechanical chases, and service basements, keeping finished living spaces fully intact."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Can you design a plumbing system to support multi-head showers and high-flow estate fixtures?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Custom master bathrooms with steam showers, body spray clusters, and freestanding soaking tubs demand high hydraulic capacity and balanced pressure. We re-engineer main supply sizing, install high-flow manifold systems, and configure commercial-grade recirculating loops to guarantee simultaneous, high-volume hot water delivery."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repipes and water heaters in Cherry Hills Village?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The City of Cherry Hills Village Building Department requires permits and inspections for all whole-home repiping and water heating replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings, plan submissions, and final inspector sign-offs."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/cherry-hills-village/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How does Just Plumbing preserve custom architecture and finishes during an estate repipe?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Cherry Hills Village residences feature irreplaceable architectural finishes, imported wall coverings, and lath-and-plaster construction. We avoid destructive trenching by threading flexible Uponor PEX-A expansion tubing or rigid Type L copper lines vertically through subfloors, mechanical chases, and service basements, keeping finished living spaces fully intact."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you design a plumbing system to support multi-head showers and high-flow estate fixtures?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Custom master bathrooms with steam showers, body spray clusters, and freestanding soaking tubs demand high hydraulic capacity and balanced pressure. We re-engineer main supply sizing, install high-flow manifold systems, and configure commercial-grade recirculating loops to guarantee simultaneous, high-volume hot water delivery."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repipes and water heaters in Cherry Hills Village?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The City of Cherry Hills Village Building Department requires permits and inspections for all whole-home repiping and water heating replacements. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all municipal filings, plan submissions, and final inspector sign-offs."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Cherry Hills Village CO | Estate Repiping | Just Plumbing Inc.">

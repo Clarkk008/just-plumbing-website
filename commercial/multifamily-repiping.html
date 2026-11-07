@@ -51,139 +51,151 @@
 
     <!-- Service, Organization, Breadcrumb & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          
-          "hasCredential": [
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State Registration",
-              "name": "Colorado Plumbing Contractor",
-              "credentialNumber": "PC.0003531"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "legalName": "Just Plumbing, Inc.",
+                  "url": "https://justplumbinginc.com/",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$",
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "hasCredential": [
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State Registration",
+                              "name": "Colorado Plumbing Contractor",
+                              "credentialNumber": "PC.0003531",
+                              "identifier": "PC.0003531"
+                        },
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State License",
+                              "name": "Colorado Master Plumber",
+                              "credentialNumber": "MP.00600120",
+                              "identifier": "MP.00600120"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State License",
-              "name": "Colorado Master Plumber",
-              "credentialNumber": "MP.00600120"
+                  "@type": "Service",
+                  "@id": "https://justplumbinginc.com/commercial/multifamily-repiping#service",
+                  "name": "Multifamily & Apartment Building Repiping",
+                  "serviceType": "Multifamily Plumbing Contractor",
+                  "category": "Commercial Plumbing",
+                  "provider": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Turnkey domestic water pipe replacement for occupied apartment complexes and multifamily buildings across Greater Denver. Phased vertical stack execution with nightly water service restoration."
+            },
+            {
+                  "@type": "Person",
+                  "@id": "https://justplumbinginc.com/#bill-clark",
+                  "name": "Bill Clark",
+                  "jobTitle": "Owner & Master Plumber",
+                  "worksFor": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "knowsAbout": [
+                        "Multifamily Repiping",
+                        "Apartment Complex Plumbing",
+                        "Vertical Stack Routing",
+                        "Commercial Fire-Stopping",
+                        "Tenant Management Coordination"
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/commercial/multifamily-repiping#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "How do you manage tenant disruption during an apartment complex repipe?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We organize our work into strict vertical 'stacks' (units aligned vertically above one another). Water is isolated only for that specific stack during standard daytime working hours (8:00 AM to 4:30 PM) and is fully restored every evening. Tenants remain in their apartments without needing hotel relocations."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What piping materials are best for multifamily apartment buildings?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We install commercial-grade Type L Copper for vertical building risers to meet structural rigidity and fire-stop code requirements, combined with flexible Uponor PEX-A expansion tubing inside individual apartment units to eliminate pinhole leaks and reduce drywall cutting."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How do you coordinate with property managers and leasing offices?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Shelly Clark coordinates directly with property management to provide professional 48-hour tenant entry notices, parking and staging plans, and clear daily schedule updates to ensure seamless communication."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are your multifamily repiping projects fully permitted and inspected?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Master Plumber Bill Clark pulls all required municipal commercial plumbing permits and schedules phased building inspections with city officials to ensure 100% code compliance."
+                              }
+                        }
+                  ]
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Commercial",
+                              "item": "https://justplumbinginc.com/commercial/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Multifamily Repiping",
+                              "item": "https://justplumbinginc.com/commercial/multifamily-repiping"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "Service",
-          "@id": "https://justplumbinginc.com/commercial/multifamily-repiping#service",
-          "name": "Multifamily & Apartment Building Repiping",
-          "serviceType": "Multifamily Plumbing Contractor",
-          "category": "Commercial Plumbing",
-          "provider": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Turnkey domestic water pipe replacement for occupied apartment complexes and multifamily buildings across Greater Denver. Phased vertical stack execution with nightly water service restoration."
-        },
-        {
-          "@type": "Person",
-          "@id": "https://justplumbinginc.com/#bill-clark",
-          "name": "Bill Clark",
-          "jobTitle": "Owner & Master Plumber",
-          "worksFor": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "knowsAbout": [
-            "Multifamily Repiping",
-            "Apartment Complex Plumbing",
-            "Vertical Stack Routing",
-            "Commercial Fire-Stopping",
-            "Tenant Management Coordination"
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/commercial/multifamily-repiping#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How do you manage tenant disruption during an apartment complex repipe?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We organize our work into strict vertical 'stacks' (units aligned vertically above one another). Water is isolated only for that specific stack during standard daytime working hours (8:00 AM to 4:30 PM) and is fully restored every evening. Tenants remain in their apartments without needing hotel relocations."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What piping materials are best for multifamily apartment buildings?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We install commercial-grade Type L Copper for vertical building risers to meet structural rigidity and fire-stop code requirements, combined with flexible Uponor PEX-A expansion tubing inside individual apartment units to eliminate pinhole leaks and reduce drywall cutting."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How do you coordinate with property managers and leasing offices?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Shelly Clark coordinates directly with property management to provide professional 48-hour tenant entry notices, parking and staging plans, and clear daily schedule updates to ensure seamless communication."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are your multifamily repiping projects fully permitted and inspected?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Master Plumber Bill Clark pulls all required municipal commercial plumbing permits and schedules phased building inspections with city officials to ensure 100% code compliance."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Commercial",
-              "item": "https://justplumbinginc.com/commercial/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Multifamily Repiping",
-              "item": "https://justplumbinginc.com/commercial/multifamily-repiping"
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Multifamily & Apartment Repiping Denver | Just Plumbing Inc.">
@@ -501,15 +513,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
-                    <li><a href="/pipe-problems">Failing Pipe Diagnosis</a></li>
-                    <li><a href="/materials">Piping Materials</a></li>
-                    <li><a href="/commercial">Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
+                    <li><a href='/materials'>Piping Materials</a></li>
+                    <li><a href='/commercial'>Commercial Repiping</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
             

@@ -57,150 +57,162 @@
 
     <!-- Service, Organization, Breadcrumb & FAQ Schema Markup for AI Engines -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": [
-            "LocalBusiness",
-            "PlumbingService"
-          ],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing",
-          "legalName": "Just Plumbing, Inc.",
-          "alternateName": ["Just Plumbing Inc", "Just Plumbing, Inc."],
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          "sameAs": [
-            "https://www.bbb.org/us/co/denver/profile/plumber/just-plumbing-inc"
-          ],
-          
-          "hasCredential": [
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State Registration",
-              "name": "Colorado Plumbing Contractor",
-              "credentialNumber": "PC.0003531"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing",
+                  "legalName": "Just Plumbing, Inc.",
+                  "alternateName": [
+                        "Just Plumbing Inc",
+                        "Just Plumbing, Inc."
+                  ],
+                  "url": "https://justplumbinginc.com/",
+                  "telephone": "+1-303-472-0833",
+                  "email": "JustPlumbinginc@outlook.com",
+                  "priceRange": "$$",
+                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 39.7583,
+                        "longitude": -105.0068
+                  },
+                  "sameAs": [
+                        "https://www.bbb.org/us/co/denver/profile/plumber/just-plumbing-inc"
+                  ],
+                  "hasCredential": [
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State Registration",
+                              "name": "Colorado Plumbing Contractor",
+                              "credentialNumber": "PC.0003531",
+                              "identifier": "PC.0003531"
+                        },
+                        {
+                              "@type": "EducationalOccupationalCredential",
+                              "credentialCategory": "State License",
+                              "name": "Colorado Master Plumber",
+                              "credentialNumber": "MP.00600120",
+                              "identifier": "MP.00600120"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "State License",
-              "name": "Colorado Master Plumber",
-              "credentialNumber": "MP.00600120"
+                  "@type": "Service",
+                  "@id": "https://justplumbinginc.com/services/partial-repiping#service",
+                  "name": "Partial Home Repiping & Overhead Slab Leak Bypasses",
+                  "serviceType": "Partial Home Repiping",
+                  "category": "Plumbing",
+                  "provider": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Targeted pipe replacement, overhead slab leak bypasses, and localized repiping across Denver Metro. We replace failing sections of galvanized steel, copper, or polybutylene plumbing with Uponor PEX Type A or Type L copper."
+            },
+            {
+                  "@type": "Person",
+                  "@id": "https://justplumbinginc.com/#bill-clark",
+                  "name": "Bill Clark",
+                  "jobTitle": "Owner & Master Plumber",
+                  "worksFor": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "knowsAbout": [
+                        "Partial Repiping",
+                        "Overhead Slab Leak Bypasses",
+                        "Polybutylene Replacement",
+                        "Galvanized Pipe Transition",
+                        "PEX-A Expansion Systems",
+                        "Dielectric Union Transitions"
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/services/partial-repiping#faq",
+                  "about": {
+                        "@id": "https://justplumbinginc.com/services/partial-repiping#service"
+                  },
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "What is an overhead concrete slab leak bypass?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "When a subterranean copper line ruptures underneath a concrete slab, breaking up finished flooring with jackhammers is destructive and expensive. An overhead bypass caps and abandons the leaking pipe beneath the concrete, routing flexible Uponor PEX-A expansion tubing overhead through wall studs and ceiling joists to restore water safely without floor damage."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Can you connect new PEX pipes to existing copper or galvanized lines?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Using approved transition fittings such as dielectric unions, ProPress adapters, or threaded brass transition couplings, we safely join modern Uponor PEX-A expansion piping to existing sound copper or steel lines without triggering galvanic corrosion."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Is a partial repipe enough to fix low water pressure?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "If low water pressure is caused by heavy mineral tuberculation choking a specific main distribution line or exposed basement manifold, replacing that key section will significantly increase flow to your fixtures. If the entire branch network is corroded, we will evaluate whether a whole-home repipe is more cost-effective."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Does a partial repipe require shutting off the water for multiple days?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "No. Most partial repiping projects are completed in just 1 to 2 days, and Just Plumbing ensures your domestic water service is safely restored by the end of each workday."
+                              }
+                        }
+                  ]
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Services",
+                              "item": "https://justplumbinginc.com/services/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Partial Repiping",
+                              "item": "https://justplumbinginc.com/services/partial-repiping"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "Service",
-          "@id": "https://justplumbinginc.com/services/partial-repiping#service",
-          "name": "Partial Home Repiping & Overhead Slab Leak Bypasses",
-          "serviceType": "Partial Home Repiping",
-          "category": "Plumbing",
-          "provider": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Targeted pipe replacement, overhead slab leak bypasses, and localized repiping across Denver Metro. We replace failing sections of galvanized steel, copper, or polybutylene plumbing with Uponor PEX Type A or Type L copper."
-        },
-        {
-          "@type": "Person",
-          "@id": "https://justplumbinginc.com/#bill-clark",
-          "name": "Bill Clark",
-          "jobTitle": "Owner & Master Plumber",
-          "worksFor": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "knowsAbout": [
-            "Partial Repiping",
-            "Overhead Slab Leak Bypasses",
-            "Polybutylene Replacement",
-            "Galvanized Pipe Transition",
-            "PEX-A Expansion Systems",
-            "Dielectric Union Transitions"
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/services/partial-repiping#faq",
-          "about": {
-            "@id": "https://justplumbinginc.com/services/partial-repiping#service"
-          },
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is an overhead concrete slab leak bypass?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "When a subterranean copper line ruptures underneath a concrete slab, breaking up finished flooring with jackhammers is destructive and expensive. An overhead bypass caps and abandons the leaking pipe beneath the concrete, routing flexible Uponor PEX-A expansion tubing overhead through wall studs and ceiling joists to restore water safely without floor damage."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you connect new PEX pipes to existing copper or galvanized lines?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Using approved transition fittings such as dielectric unions, ProPress adapters, or threaded brass transition couplings, we safely join modern Uponor PEX-A expansion piping to existing sound copper or steel lines without triggering galvanic corrosion."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is a partial repipe enough to fix low water pressure?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "If low water pressure is caused by heavy mineral tuberculation choking a specific main distribution line or exposed basement manifold, replacing that key section will significantly increase flow to your fixtures. If the entire branch network is corroded, we will evaluate whether a whole-home repipe is more cost-effective."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does a partial repipe require shutting off the water for multiple days?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. Most partial repiping projects are completed in just 1 to 2 days, and Just Plumbing ensures your domestic water service is safely restored by the end of each workday."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Services",
-              "item": "https://justplumbinginc.com/services/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Partial Repiping",
-              "item": "https://justplumbinginc.com/services/partial-repiping"
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
 </head>
 <body>
@@ -797,15 +809,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
-                    <li><a href="/pipe-problems">Failing Pipe Diagnosis</a></li>
-                    <li><a href="/materials">Piping Materials</a></li>
-                    <li><a href="/commercial">Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
+                    <li><a href='/materials'>Piping Materials</a></li>
+                    <li><a href='/commercial'>Commercial Repiping</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
 

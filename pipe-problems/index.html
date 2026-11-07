@@ -49,120 +49,131 @@
 
     <!-- Comprehensive CollectionPage, ItemList, ServiceAreaBusiness & FAQ Schema -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/",
-          "priceRange": "$$",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner"
-          }
-        },
-        {
-          "@type": "CollectionPage",
-          "@id": "https://justplumbinginc.com/pipe-problems/#page",
-          "name": "Common Failing Pipe Systems in Colorado",
-          "url": "https://justplumbinginc.com/pipe-problems/",
-          "description": "Comprehensive identification guide and replacement solutions for defective plumbing systems in the Denver Metro area.",
-          "publisher": {
-            "@id": "https://justplumbinginc.com/#organization"
-          }
-        },
-        {
-          "@type": "ItemList",
-          "name": "Failing Plumbing Pipe Diagnostic Guides",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "url": "https://justplumbinginc.com/pipe-problems/polybutylene",
-              "name": "Polybutylene (Quest) Pipe Replacement"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/",
+                  "priceRange": "$$",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner"
+                  },
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "url": "https://justplumbinginc.com/pipe-problems/galvanized-steel",
-              "name": "Galvanized Steel Pipe Replacement"
+                  "@type": "CollectionPage",
+                  "@id": "https://justplumbinginc.com/pipe-problems/#page",
+                  "name": "Common Failing Pipe Systems in Colorado",
+                  "url": "https://justplumbinginc.com/pipe-problems/",
+                  "description": "Comprehensive identification guide and replacement solutions for defective plumbing systems in the Denver Metro area.",
+                  "publisher": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "url": "https://justplumbinginc.com/pipe-problems/kitec",
-              "name": "Kitec Composite Plumbing Replacement"
+                  "@type": "ItemList",
+                  "name": "Failing Plumbing Pipe Diagnostic Guides",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "url": "https://justplumbinginc.com/pipe-problems/polybutylene",
+                              "name": "Polybutylene (Quest) Pipe Replacement"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "url": "https://justplumbinginc.com/pipe-problems/galvanized-steel",
+                              "name": "Galvanized Steel Pipe Replacement"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "url": "https://justplumbinginc.com/pipe-problems/kitec",
+                              "name": "Kitec Composite Plumbing Replacement"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 4,
+                              "url": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks",
+                              "name": "Copper Pinhole Leaks & Slab Leak Reroutes"
+                        }
+                  ]
             },
             {
-              "@type": "ListItem",
-              "position": 4,
-              "url": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks",
-              "name": "Copper Pinhole Leaks & Slab Leak Reroutes"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Pipe Problems",
+                              "item": "https://justplumbinginc.com/pipe-problems/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/pipe-problems/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "How do I identify defective polybutylene pipes in my home?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Polybutylene pipes are typically flexible, dull gray (sometimes blue or black) plastic lines stamped with code 'PB2110'. They were widely installed between 1978 and 1995 and are frequently visible at water heater connections, under sink cabinets, or near the main water meter."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What causes copper pinhole leaks in Denver Metro plumbing?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Copper pinhole leaks are primarily caused by excessive municipal water velocity, high line pressure (above 80 PSI), aggressive water chemistry, and mechanical friction along subterranean lines installed directly beneath concrete foundation slabs."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Can defective plumbing lines be replaced without tearing down all the walls?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Master Plumber Bill Clark specializes in minimally invasive repiping. By threading flexible Uponor PEX-A expansion piping through basement floor joists, drop ceilings, crawlspaces, and interior partition cavities, we replace whole-home supply systems with minimal drywall openings in just 1 to 2 days."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Pipe Problems",
-              "item": "https://justplumbinginc.com/pipe-problems/"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/pipe-problems/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How do I identify defective polybutylene pipes in my home?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Polybutylene pipes are typically flexible, dull gray (sometimes blue or black) plastic lines stamped with code 'PB2110'. They were widely installed between 1978 and 1995 and are frequently visible at water heater connections, under sink cabinets, or near the main water meter."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What causes copper pinhole leaks in Denver Metro plumbing?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Copper pinhole leaks are primarily caused by excessive municipal water velocity, high line pressure (above 80 PSI), aggressive water chemistry, and mechanical friction along subterranean lines installed directly beneath concrete foundation slabs."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can defective plumbing lines be replaced without tearing down all the walls?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Master Plumber Bill Clark specializes in minimally invasive repiping. By threading flexible Uponor PEX-A expansion piping through basement floor joists, drop ceilings, crawlspaces, and interior partition cavities, we replace whole-home supply systems with minimal drywall openings in just 1 to 2 days."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Common Pipe Problems in Denver & Colorado Homes | Just Plumbing Inc.">
@@ -491,15 +502,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
-                    <li><a href="/pipe-problems">Failing Pipe Diagnosis</a></li>
-                    <li><a href="/materials">Piping Materials</a></li>
-                    <li><a href="/commercial">Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
+                    <li><a href='/materials'>Piping Materials</a></li>
+                    <li><a href='/commercial'>Commercial Repiping</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
             

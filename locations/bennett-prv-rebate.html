@@ -51,103 +51,113 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/bennett-prv-rebate/#business",
-          "name": "Just Plumbing, Inc. - Bennett Plumbing & PRV Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/bennett-prv-rebate",
-          "priceRange": "$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Code-compliant Pressure Reducing Valve (PRV) installations for the Bennett $550 rebate program, alongside premium whole-home repiping and water heater replacements.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Bennett",
-              "sameAs": "https://en.wikipedia.org/wiki/Bennett,_Colorado"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/bennett-prv-rebate/#business",
+                  "name": "Just Plumbing, Inc. - Bennett Plumbing & PRV Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/bennett-prv-rebate",
+                  "priceRange": "$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Code-compliant Pressure Reducing Valve (PRV) installations for the Bennett $550 rebate program, alongside premium whole-home repiping and water heater replacements.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Bennett",
+                              "sameAs": "https://en.wikipedia.org/wiki/Bennett,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80102"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "PostalCode",
-              "postalCode": "80102"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Bennett",
+                              "item": "https://justplumbinginc.com/locations/bennett-prv-rebate"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/bennett-prv-rebate/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "How much is the Town of Bennett PRV Rebate?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The Town of Bennett currently offers a rebate of up to $550 for eligible households that install a new Pressure Reducing Valve (PRV) on their main water line."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Why do I need a PRV and repiping in Bennett?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The Town of Bennett's elevated water storage tank generates high municipal pressure. If your home's internal pipes are older galvanized steel or polybutylene, this high pressure can easily cause bursts, pinhole leaks, and blown water heater seals, necessitating both a PRV and a repipe."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Will Just Plumbing provide the correct receipts for the Bennett rebate?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes! Just Plumbing, Inc. is operated by a licensed Master Plumber. We provide the detailed, itemized receipt with our license number (#MP.00600120) and installation date required to submit your rebate application within the 60-day window."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Bennett",
-              "item": "https://justplumbinginc.com/locations/bennett-prv-rebate"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/bennett-prv-rebate/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How much is the Town of Bennett PRV Rebate?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The Town of Bennett currently offers a rebate of up to $550 for eligible households that install a new Pressure Reducing Valve (PRV) on their main water line."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Why do I need a PRV and repiping in Bennett?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The Town of Bennett's elevated water storage tank generates high municipal pressure. If your home's internal pipes are older galvanized steel or polybutylene, this high pressure can easily cause bursts, pinhole leaks, and blown water heater seals, necessitating both a PRV and a repipe."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Will Just Plumbing provide the correct receipts for the Bennett rebate?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes! Just Plumbing, Inc. is operated by a licensed Master Plumber. We provide the detailed, itemized receipt with our license number (#MP.00600120) and installation date required to submit your rebate application within the 60-day window."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Bennett CO | PRV Rebates & Repiping | Just Plumbing Inc.">

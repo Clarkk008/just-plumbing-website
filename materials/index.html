@@ -49,114 +49,125 @@
 
     <!-- Comprehensive CollectionPage, ItemList, ServiceAreaBusiness & FAQ Schema -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/",
-          "priceRange": "$$",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner"
-          }
-        },
-        {
-          "@type": "CollectionPage",
-          "@id": "https://justplumbinginc.com/materials/#page",
-          "name": "Plumbing Materials We Install and Recommend",
-          "url": "https://justplumbinginc.com/materials/",
-          "description": "Comprehensive guide on residential and commercial piping materials including Uponor PEX-A, Type L Copper, and PEX-A vs PEX-B comparisons.",
-          "publisher": {
-            "@id": "https://justplumbinginc.com/#organization"
-          }
-        },
-        {
-          "@type": "ItemList",
-          "name": "High-Performance Piping Material Guides",
-          "itemListElement": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "url": "https://justplumbinginc.com/materials/uponor-pex-a",
-              "name": "Uponor PEX Type A Expansion Piping"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/#organization",
+                  "name": "Just Plumbing, Inc.",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/",
+                  "priceRange": "$$",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner"
+                  },
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "url": "https://justplumbinginc.com/materials/pex-a-vs-pex-b",
-              "name": "PEX-A vs. PEX-B Comparison Guide"
+                  "@type": "CollectionPage",
+                  "@id": "https://justplumbinginc.com/materials/#page",
+                  "name": "Plumbing Materials We Install and Recommend",
+                  "url": "https://justplumbinginc.com/materials/",
+                  "description": "Comprehensive guide on residential and commercial piping materials including Uponor PEX-A, Type L Copper, and PEX-A vs PEX-B comparisons.",
+                  "publisher": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "url": "https://justplumbinginc.com/materials/type-l-copper",
-              "name": "Type L Hard Copper Piping Systems"
+                  "@type": "ItemList",
+                  "name": "High-Performance Piping Material Guides",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "url": "https://justplumbinginc.com/materials/uponor-pex-a",
+                              "name": "Uponor PEX Type A Expansion Piping"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "url": "https://justplumbinginc.com/materials/pex-a-vs-pex-b",
+                              "name": "PEX-A vs. PEX-B Comparison Guide"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "url": "https://justplumbinginc.com/materials/type-l-copper",
+                              "name": "Type L Hard Copper Piping Systems"
+                        }
+                  ]
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Materials",
+                              "item": "https://justplumbinginc.com/materials/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/materials/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why does Just Plumbing exclusively recommend Uponor PEX-A over PEX-B?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Uponor PEX-A utilizes the Engel-method cross-linking process, giving the pipe thermal shape memory. It expands with freezing water to prevent bursting, and connects with full-port expansion fittings that maintain maximum water volume. Cheaper PEX-B requires insert crimp fittings that restrict water flow by 20% to 30% at every joint."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "When is Type L Copper preferred over PEX-A?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Type L rigid copper is the ideal specification for exposed mechanical rooms, boiler loops, commercial risers, and historic homes where local architectural review boards or strict municipal building codes mandate metallic water lines."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What warranties back your repiping materials?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Uponor PEX-A systems installed by Just Plumbing carry a 25-year manufacturer material warranty paired with our 5-year Master Plumber workmanship warranty."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Materials",
-              "item": "https://justplumbinginc.com/materials/"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/materials/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why does Just Plumbing exclusively recommend Uponor PEX-A over PEX-B?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Uponor PEX-A utilizes the Engel-method cross-linking process, giving the pipe thermal shape memory. It expands with freezing water to prevent bursting, and connects with full-port expansion fittings that maintain maximum water volume. Cheaper PEX-B requires insert crimp fittings that restrict water flow by 20% to 30% at every joint."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "When is Type L Copper preferred over PEX-A?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Type L rigid copper is the ideal specification for exposed mechanical rooms, boiler loops, commercial risers, and historic homes where local architectural review boards or strict municipal building codes mandate metallic water lines."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What warranties back your repiping materials?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Uponor PEX-A systems installed by Just Plumbing carry a 25-year manufacturer material warranty paired with our 5-year Master Plumber workmanship warranty."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Piping Materials We Install & Recommend | Just Plumbing Inc.">
@@ -537,15 +548,15 @@
             <div class="footer-services">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
-                    <li><a href="/services/partial-repiping">Partial Repiping</a></li>
-                    <li><a href="/pipe-problems">Failing Pipe Diagnosis</a></li>
-                    <li><a href="/materials">Piping Materials</a></li>
-                    <li><a href="/commercial">Commercial Repiping</a></li>
-                    <li><a href="/services/water-heaters">Water Heater Systems</a></li>
-                    <li><a href="/services/sump-pumps">Sump Pumps</a></li>
-                    <li><a href="/services/remodels">Kitchen & Bath Remodels</a></li>
-                    <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                    <li><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></li>
+                    <li><a href='/services/partial-repiping'>Partial Repiping</a></li>
+                    <li><a href='/pipe-problems'>Failing Pipe Diagnosis</a></li>
+                    <li><a href='/materials'>Piping Materials</a></li>
+                    <li><a href='/commercial'>Commercial Repiping</a></li>
+                    <li><a href='/services/water-heaters'>Water Heater Systems</a></li>
+                    <li><a href='/services/sump-pumps'>Sump Pumps</a></li>
+                    <li><a href='/services/remodels'>Kitchen & Bath Remodels</a></li>
+                    <li><a href='/services/new-construction'>New Construction Plumbing</a></li>
                 </ul>
             </div>
             

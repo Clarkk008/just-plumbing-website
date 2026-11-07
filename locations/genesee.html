@@ -51,100 +51,113 @@
 
     <!-- Comprehensive E-E-A-T, ServiceAreaBusiness & FAQ Schema Markup -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/locations/genesee/#business",
-          "name": "Just Plumbing, Inc. - Genesee Plumbing & Repiping Services",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "telephone": "+1-303-472-0833",
-          "url": "https://justplumbinginc.com/locations/genesee",
-          "priceRange": "$$$",
-          "parentOrganization": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "description": "Master Plumber-led mountain residential plumbing services in Genesee, CO, specializing in freeze-expanding Uponor PEX-A repiping, hillside crawlspace winterization, pressure regulation, and high-altitude water heater systems.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner",
-            "sameAs": "https://dpo.colorado.gov/Plumbing"
-          },
-          "areaServed": [
             {
-              "@type": "City",
-              "name": "Genesee",
-              "sameAs": "https://en.wikipedia.org/wiki/Genesee,_Colorado"
-            },
-            {"@type": "PostalCode", "postalCode": "80401"}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Area",
-              "item": "https://justplumbinginc.com/locations/"
+                  "@type": [
+                        "LocalBusiness",
+                        "PlumbingService"
+                  ],
+                  "@id": "https://justplumbinginc.com/locations/genesee/#business",
+                  "name": "Just Plumbing, Inc. - Genesee Plumbing & Repiping Services",
+                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                  "telephone": "+1-303-472-0833",
+                  "url": "https://justplumbinginc.com/locations/genesee",
+                  "priceRange": "$$$",
+                  "parentOrganization": {
+                        "@id": "https://justplumbinginc.com/#organization"
+                  },
+                  "description": "Master Plumber-led mountain residential plumbing services in Genesee, CO, specializing in freeze-expanding Uponor PEX-A repiping, hillside crawlspace winterization, pressure regulation, and high-altitude water heater systems.",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "2563 15th St, Suite 216",
+                        "addressLocality": "Denver",
+                        "addressRegion": "CO",
+                        "postalCode": "80211",
+                        "addressCountry": "US"
+                  },
+                  "founder": {
+                        "@type": "Person",
+                        "name": "Bill Clark",
+                        "jobTitle": "Master Plumber & Owner",
+                        "sameAs": "https://dpo.colorado.gov/Plumbing"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Genesee",
+                              "sameAs": "https://en.wikipedia.org/wiki/Genesee,_Colorado"
+                        },
+                        {
+                              "@type": "PostalCode",
+                              "postalCode": "80401"
+                        }
+                  ],
+                  "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 4.7,
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingCount": 76,
+                        "reviewCount": 76
+                  }
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Genesee",
-              "item": "https://justplumbinginc.com/locations/genesee"
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Service Area",
+                              "item": "https://justplumbinginc.com/locations/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Genesee",
+                              "item": "https://justplumbinginc.com/locations/genesee"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/locations/genesee/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Why are Genesee mountain homes vulnerable to freeze-thaw pipe bursts?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Genesee sits along the I-70 mountain corridor at elevations ranging from 7,400 to 8,200 feet. Rapid foothills temperature swings and sub-zero winter wind drafts penetrate exposed floor cantilevers, unconditioned crawlspaces, and exterior wall framing. Rigid copper solder joints and CPVC plastic cannot expand, leading to catastrophic splitting when ice forms inside lines."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "How does Uponor PEX-A prevent pipe bursts in Genesee properties?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Uponor PEX-A cross-linked polyethylene features molecular thermal shape memory. If water inside the line freezes, the pipe expands up to three times its standard diameter to accommodate expanding ice volume, contracting back to original specifications once thawed without splitting or weakening fitting joints."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Are plumbing permits required for repiping and water heaters in Genesee, CO?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The Jefferson County Building Safety Division requires permits and inspections for all whole-home repiping and water heater replacements in unincorporated Genesee. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all county mechanical filings and final approvals."
+                              }
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/locations/genesee/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Why are Genesee mountain homes vulnerable to freeze-thaw pipe bursts?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Genesee sits along the I-70 mountain corridor at elevations ranging from 7,400 to 8,200 feet. Rapid foothills temperature swings and sub-zero winter wind drafts penetrate exposed floor cantilevers, unconditioned crawlspaces, and exterior wall framing. Rigid copper solder joints and CPVC plastic cannot expand, leading to catastrophic splitting when ice forms inside lines."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does Uponor PEX-A prevent pipe bursts in Genesee properties?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Uponor PEX-A cross-linked polyethylene features molecular thermal shape memory. If water inside the line freezes, the pipe expands up to three times its standard diameter to accommodate expanding ice volume, contracting back to original specifications once thawed without splitting or weakening fitting joints."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are plumbing permits required for repiping and water heaters in Genesee, CO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The Jefferson County Building Safety Division requires permits and inspections for all whole-home repiping and water heater replacements in unincorporated Genesee. Just Plumbing, Inc. holds Colorado Plumbing Contractor Registration #PC.0003531 and coordinates all county mechanical filings and final approvals."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Plumber Genesee CO | Mountain Repiping | Just Plumbing Inc.">
