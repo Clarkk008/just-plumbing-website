@@ -42,10 +42,8 @@
 /service-area/littleton-co/           /locations/littleton                    301!
 /aurora-co                            /locations/aurora                       301!
 /aurora-co/                           /locations/aurora                       301!
-/locations/lakewood                   /locations/                             301!
-/locations/lakewood/                  /locations/                             301!
-/service-area/lakewood-co             /locations/                             301!
-/service-area/lakewood-co/            /locations/                             301!
+/service-area/lakewood-co       /locations/lakewood                     301!
+/service-area/lakewood-co/       /locations/lakewood                     301!
 /service-area/greeley-co              /locations/                             301!
 /service-area/greeley-co/             /locations/                             301!
 /service-area                         /locations/                             301!

@@ -49,106 +49,293 @@
 
     <!-- Comprehensive Service, ServiceAreaBusiness, FAQPage & Breadcrumb Schema -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": "Service",
-          "@id": "https://justplumbinginc.com/pipe-problems/kitec/#service",
-          "name": "Kitec Pipe Replacement & Whole-Home Repiping",
-          "serviceType": "Kitec Repiping",
-          "provider": {
-            "@type": ["LocalBusiness", "PlumbingService"],
-            "@id": "https://justplumbinginc.com/#organization",
-            "name": "Just Plumbing, Inc.",
-            "telephone": "+1-303-472-0833",
-            "image": "https://justplumbinginc.com/assets/images/logo.webp",
-            "url": "https://justplumbinginc.com/",
-            "priceRange": "$$",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "2563 15th St, Suite 216",
-              "addressLocality": "Denver",
-              "addressRegion": "CO",
-              "postalCode": "80211",
-              "addressCountry": "US"
+            {
+                  "@type": "Service",
+                  "@id": "https://justplumbinginc.com/pipe-problems/kitec/#service",
+                  "name": "Kitec Pipe Replacement & Whole-Home Repiping",
+                  "serviceType": "Kitec Repiping",
+                  "provider": {
+                        "@type": [
+                              "LocalBusiness",
+                              "PlumbingService"
+                        ],
+                        "@id": "https://justplumbinginc.com/#organization",
+                        "name": "Just Plumbing, Inc.",
+                        "telephone": "+1-303-472-0833",
+                        "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                        "url": "https://justplumbinginc.com/",
+                        "priceRange": "$$",
+                        "address": {
+                              "@type": "PostalAddress",
+                              "streetAddress": "2563 15th St, Suite 216",
+                              "addressLocality": "Denver",
+                              "addressRegion": "CO",
+                              "postalCode": "80211",
+                              "addressCountry": "US"
+                        }
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Applewood"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Arvada"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Aurora"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Bennett"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Boulder"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Bow Mar"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Brighton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Broomfield"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Pines"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Rock"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Centennial"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Cherry Hills Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Columbine Valley"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Commerce City"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Conifer"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Denver"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Edgewater"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Elizabeth"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Englewood"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Erie"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Evergreen"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Firestone"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Franktown"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Frederick"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Genesee"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Glendale"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Golden"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Greenwood Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Highlands Ranch"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Ken Caryl"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Lafayette"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Lakewood"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Larkspur"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Littleton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Lone Tree"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Longmont"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Louisville"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Monument"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Morrison"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Northglenn"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Parker"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Roxborough Park"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sedalia"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sheridan"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Superior"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Thornton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Westminster"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Wheat Ridge"
+                        }
+                  ],
+                  "description": "Turnkey extraction and replacement of recalled Kitec composite pipes and dezincified yellow brass fittings with scale-proof Uponor PEX-A expansion tubing or Type L rigid copper."
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Pipe Problems",
+                              "item": "https://justplumbinginc.com/pipe-problems/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "Kitec Plumbing",
+                              "item": "https://justplumbinginc.com/pipe-problems/kitec"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/pipe-problems/kitec/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "How do I identify Kitec plumbing in my Colorado home?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Kitec is typically identified by its distinctive bright orange (hot water) and bright blue (cold water) flexible composite piping, although some installations used gray, black, or white tubing. Look for stampings like 'Kitec', 'KTC', 'PlumbBetter', or 'ASTM F1281'. It is also characterized by yellow brass crimp fittings, often marked with 'Kitec' or 'KTC'."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What is dezincification in Kitec brass fittings?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Dezincification is a chemical reaction where water leaches zinc out of the high-zinc yellow brass fittings. This leaves behind a weakened, brittle copper sponge and produces a white, chalky, meringue-like zinc oxide deposit on the fitting exterior that restricts water flow and leads to catastrophic fitting shear."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Why is Kitec plumbing a roadblock for real estate transactions and home insurance?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Because Kitec was subject to an extensive nationwide class action recall due to high failure rates, home inspectors flag it on inspection reports. Major Colorado insurance companies regularly refuse to write new homeowner policies or exclude water damage on homes with active Kitec, causing mortgage lenders to delay or deny loan funding."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Can Kitec pipes be repaired or patched locally?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "No. Kitec pipe dimensions are non-standard and cannot be safely joined with standard PEX crimps or push-to-connect fittings. Furthermore, because dezincification and pipe delamination occur throughout the entire plumbing network, isolated patches only transfer stress to other degrading fittings. Whole-home repiping is the only permanent, code-compliant fix."
+                              }
+                        }
+                  ]
             }
-          },
-          "areaServed": [
-            {"@type": "City", "name": "Thornton"},
-            {"@type": "City", "name": "Westminster"},
-            {"@type": "City", "name": "Broomfield"},
-            {"@type": "City", "name": "Brighton"},
-            {"@type": "City", "name": "Commerce City"},
-            {"@type": "City", "name": "Aurora"},
-            {"@type": "City", "name": "Centennial"},
-            {"@type": "City", "name": "Denver"}
-          ],
-          "description": "Turnkey extraction and replacement of recalled Kitec composite pipes and dezincified yellow brass fittings with scale-proof Uponor PEX-A expansion tubing or Type L rigid copper."
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Pipe Problems",
-              "item": "https://justplumbinginc.com/pipe-problems/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Kitec Plumbing",
-              "item": "https://justplumbinginc.com/pipe-problems/kitec"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/pipe-problems/kitec/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How do I identify Kitec plumbing in my Colorado home?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Kitec is typically identified by its distinctive bright orange (hot water) and bright blue (cold water) flexible composite piping, although some installations used gray, black, or white tubing. Look for stampings like 'Kitec', 'KTC', 'PlumbBetter', or 'ASTM F1281'. It is also characterized by yellow brass crimp fittings, often marked with 'Kitec' or 'KTC'."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is dezincification in Kitec brass fittings?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dezincification is a chemical reaction where water leaches zinc out of the high-zinc yellow brass fittings. This leaves behind a weakened, brittle copper sponge and produces a white, chalky, meringue-like zinc oxide deposit on the fitting exterior that restricts water flow and leads to catastrophic fitting shear."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Why is Kitec plumbing a roadblock for real estate transactions and home insurance?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Because Kitec was subject to an extensive nationwide class action recall due to high failure rates, home inspectors flag it on inspection reports. Major Colorado insurance companies regularly refuse to write new homeowner policies or exclude water damage on homes with active Kitec, causing mortgage lenders to delay or deny loan funding."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can Kitec pipes be repaired or patched locally?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. Kitec pipe dimensions are non-standard and cannot be safely joined with standard PEX crimps or push-to-connect fittings. Furthermore, because dezincification and pipe delamination occur throughout the entire plumbing network, isolated patches only transfer stress to other degrading fittings. Whole-home repiping is the only permanent, code-compliant fix."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Kitec Pipe Replacement Denver | Brass Dezincification | Just Plumbing Inc.">
@@ -173,7 +360,7 @@
     <header>
         <div class="logo">
             <a href="/">
-                <img src="assets/images/logo.webp" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
+                <img src="../assets/images/logo.webp" onerror="this.onerror=null;this.src='/assets/images/logo.webp';" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
             </a>
         </div>
         <nav aria-label="Main Navigation">
@@ -476,36 +663,56 @@
             
             <!-- Geographic Target Column (All 28 Locations) -->
             <div class="footer-areas">
-                <h3>Areas We Serve Across Greater Denver</h3>
-                <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">
-                    <li><a href="/locations/arvada">Arvada</a></li>
-                    <li><a href="/locations/aurora">Aurora</a></li>
-                    <li><a href="/locations/bennett-prv-rebate">Bennett</a></li>
-                    <li><a href="/locations/brighton">Brighton</a></li>
-                    <li><a href="/locations/broomfield">Broomfield</a></li>
-                    <li><a href="/locations/castle-pines">Castle Pines</a></li>
-                    <li><a href="/locations/castle-rock">Castle Rock</a></li>
-                    <li><a href="/locations/centennial">Centennial</a></li>
-                    <li><a href="/locations/cherry-hills-village">Cherry Hills Village</a></li>
-                    <li><a href="/locations/commerce-city">Commerce City</a></li>
-                    <li><a href="/locations/denver">Denver</a></li>
-                    <li><a href="/locations/edgewater">Edgewater</a></li>
-                    <li><a href="/locations/englewood">Englewood</a></li>
-                    <li><a href="/locations/evergreen">Evergreen</a></li>
-                    <li><a href="/locations/genesee">Genesee</a></li>
-                    <li><a href="/locations/golden">Golden</a></li>
-                    <li><a href="/locations/glendale">Glendale</a></li>
-                    <li><a href="/locations/greenwood-village">Greenwood Village</a></li>
-                    <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
-                    <li><a href="/locations/larkspur">Larkspur</a></li>
-                    <li><a href="/locations/littleton">Littleton</a></li>
-                    <li><a href="/locations/lone-tree">Lone Tree</a></li>
-                    <li><a href="/locations/parker">Parker</a></li>
-                    <li><a href="/locations/sedalia">Sedalia</a></li>
-                    <li><a href="/locations/sheridan">Sheridan</a></li>
-                    <li><a href="/locations/thornton">Thornton</a></li>
-                    <li><a href="/locations/westminster">Westminster</a></li>
-                    <li><a href="/locations/wheat-ridge">Wheat Ridge</a></li>
+                <h3>48 Areas We Serve Across Greater Denver</h3>
+                <ul style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px 12px; font-size: 0.8rem;">
+                    <li><a href='/locations/applewood'>Applewood</a></li>
+                    <li><a href='/locations/arvada'>Arvada</a></li>
+                    <li><a href='/locations/aurora'>Aurora</a></li>
+                    <li><a href='/locations/bennett-prv-rebate'>Bennett</a></li>
+                    <li><a href='/locations/boulder'>Boulder</a></li>
+                    <li><a href='/locations/bow-mar'>Bow Mar</a></li>
+                    <li><a href='/locations/brighton'>Brighton</a></li>
+                    <li><a href='/locations/broomfield'>Broomfield</a></li>
+                    <li><a href='/locations/castle-pines'>Castle Pines</a></li>
+                    <li><a href='/locations/castle-rock'>Castle Rock</a></li>
+                    <li><a href='/locations/centennial'>Centennial</a></li>
+                    <li><a href='/locations/cherry-hills-village'>Cherry Hills Village</a></li>
+                    <li><a href='/locations/columbine-valley'>Columbine Valley</a></li>
+                    <li><a href='/locations/commerce-city'>Commerce City</a></li>
+                    <li><a href='/locations/conifer'>Conifer</a></li>
+                    <li><a href='/locations/denver'>Denver</a></li>
+                    <li><a href='/locations/edgewater'>Edgewater</a></li>
+                    <li><a href='/locations/elizabeth'>Elizabeth</a></li>
+                    <li><a href='/locations/englewood'>Englewood</a></li>
+                    <li><a href='/locations/erie'>Erie</a></li>
+                    <li><a href='/locations/evergreen'>Evergreen</a></li>
+                    <li><a href='/locations/firestone'>Firestone</a></li>
+                    <li><a href='/locations/franktown'>Franktown</a></li>
+                    <li><a href='/locations/frederick'>Frederick</a></li>
+                    <li><a href='/locations/genesee'>Genesee</a></li>
+                    <li><a href='/locations/glendale'>Glendale</a></li>
+                    <li><a href='/locations/golden'>Golden</a></li>
+                    <li><a href='/locations/greenwood-village'>Greenwood Village</a></li>
+                    <li><a href='/locations/highlands-ranch'>Highlands Ranch</a></li>
+                    <li><a href='/locations/ken-caryl'>Ken Caryl</a></li>
+                    <li><a href='/locations/lafayette'>Lafayette</a></li>
+                    <li><a href='/locations/lakewood'>Lakewood</a></li>
+                    <li><a href='/locations/larkspur'>Larkspur</a></li>
+                    <li><a href='/locations/littleton'>Littleton</a></li>
+                    <li><a href='/locations/lone-tree'>Lone Tree</a></li>
+                    <li><a href='/locations/longmont'>Longmont</a></li>
+                    <li><a href='/locations/louisville'>Louisville</a></li>
+                    <li><a href='/locations/monument'>Monument</a></li>
+                    <li><a href='/locations/morrison'>Morrison</a></li>
+                    <li><a href='/locations/northglenn'>Northglenn</a></li>
+                    <li><a href='/locations/parker'>Parker</a></li>
+                    <li><a href='/locations/roxborough-park'>Roxborough Park</a></li>
+                    <li><a href='/locations/sedalia'>Sedalia</a></li>
+                    <li><a href='/locations/sheridan'>Sheridan</a></li>
+                    <li><a href='/locations/superior'>Superior</a></li>
+                    <li><a href='/locations/thornton'>Thornton</a></li>
+                    <li><a href='/locations/westminster'>Westminster</a></li>
+                    <li><a href='/locations/wheat-ridge'>Wheat Ridge</a></li>
                 </ul>
             </div>
             

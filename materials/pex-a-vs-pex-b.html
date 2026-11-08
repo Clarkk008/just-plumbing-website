@@ -49,106 +49,293 @@
 
     <!-- Comprehensive Service, ServiceAreaBusiness, FAQPage & Breadcrumb Schema -->
     <script type="application/ld+json">
-    {
+{
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": "Service",
-          "@id": "https://justplumbinginc.com/materials/pex-a-vs-pex-b/#service",
-          "name": "PEX-A vs. PEX-B Piping Consultation & Repiping",
-          "serviceType": "Piping Material Consultation",
-          "provider": {
-            "@type": ["LocalBusiness", "PlumbingService"],
-            "@id": "https://justplumbinginc.com/#organization",
-            "name": "Just Plumbing, Inc.",
-            "telephone": "+1-303-472-0833",
-            "image": "https://justplumbinginc.com/assets/images/logo.webp",
-            "url": "https://justplumbinginc.com/",
-            "priceRange": "$$",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "2563 15th St, Suite 216",
-              "addressLocality": "Denver",
-              "addressRegion": "CO",
-              "postalCode": "80211",
-              "addressCountry": "US"
+            {
+                  "@type": "Service",
+                  "@id": "https://justplumbinginc.com/materials/pex-a-vs-pex-b/#service",
+                  "name": "PEX-A vs. PEX-B Piping Consultation & Repiping",
+                  "serviceType": "Piping Material Consultation",
+                  "provider": {
+                        "@type": [
+                              "LocalBusiness",
+                              "PlumbingService"
+                        ],
+                        "@id": "https://justplumbinginc.com/#organization",
+                        "name": "Just Plumbing, Inc.",
+                        "telephone": "+1-303-472-0833",
+                        "image": "https://justplumbinginc.com/assets/images/logo.webp",
+                        "url": "https://justplumbinginc.com/",
+                        "priceRange": "$$",
+                        "address": {
+                              "@type": "PostalAddress",
+                              "streetAddress": "2563 15th St, Suite 216",
+                              "addressLocality": "Denver",
+                              "addressRegion": "CO",
+                              "postalCode": "80211",
+                              "addressCountry": "US"
+                        }
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Applewood"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Arvada"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Aurora"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Bennett"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Boulder"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Bow Mar"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Brighton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Broomfield"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Pines"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Castle Rock"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Centennial"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Cherry Hills Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Columbine Valley"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Commerce City"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Conifer"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Denver"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Edgewater"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Elizabeth"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Englewood"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Erie"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Evergreen"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Firestone"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Franktown"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Frederick"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Genesee"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Glendale"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Golden"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Greenwood Village"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Highlands Ranch"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Ken Caryl"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Lafayette"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Lakewood"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Larkspur"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Littleton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Lone Tree"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Longmont"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Louisville"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Monument"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Morrison"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Northglenn"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Parker"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Roxborough Park"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sedalia"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Sheridan"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Superior"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Thornton"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Westminster"
+                        },
+                        {
+                              "@type": "City",
+                              "name": "Wheat Ridge"
+                        }
+                  ],
+                  "description": "Comparative guide and whole-home repiping services evaluating Engel-method PEX-A expansion piping versus Silane-method PEX-B crimp piping."
+            },
+            {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://justplumbinginc.com/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "Materials",
+                              "item": "https://justplumbinginc.com/materials/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "name": "PEX-A vs. PEX-B",
+                              "item": "https://justplumbinginc.com/materials/pex-a-vs-pex-b"
+                        }
+                  ]
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://justplumbinginc.com/materials/pex-a-vs-pex-b/#faq",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Is PEX-A better than PEX-B for whole-home repiping?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. PEX-A has a higher degree of cross-linking (over 85%), giving it molecular shape memory, superior flexibility, and the ability to expand when frozen without splitting. Most importantly, PEX-A utilizes full-port expansion fittings that do not restrict water pressure, whereas PEX-B relies on insert crimp fittings that choke pipe volume by 20% to 30%."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Why does PEX-B restrict water flow and pressure?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "PEX-B connections require inserting a smaller fitting inside the pipe before securing it with an external copper or stainless steel crimp ring. Because the fitting fits inside the pipe, the internal diameter drops significantly at every turn, tee, and valve, causing noticeable pressure loss when multiple plumbing fixtures run at once."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "What happens if a PEX-B pipe kinks during installation?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "When PEX-B kinks, its crystalline molecular structure permanently weakens at the crease. The damaged section must be cut out entirely and spliced with two additional crimp fittings. Conversely, PEX-A features thermal memory\u2014a kink can be completely repaired using a controlled heat gun, returning the pipe to its full structural integrity without extra joints."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Why do some contractors install PEX-B instead of PEX-A?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Cost is the primary factor. PEX-B tubing, manual crimp tools, and budget crimp rings are considerably cheaper to purchase than commercial PEX-A expansion systems. Low-bid plumbers use PEX-B to reduce overhead, but homeowners pay the long-term price in reduced water pressure and higher freeze risk."
+                              }
+                        }
+                  ]
             }
-          },
-          "areaServed": [
-            {"@type": "City", "name": "Denver"},
-            {"@type": "City", "name": "Highlands Ranch"},
-            {"@type": "City", "name": "Arvada"},
-            {"@type": "City", "name": "Parker"},
-            {"@type": "City", "name": "Centennial"},
-            {"@type": "City", "name": "Golden"},
-            {"@type": "City", "name": "Thornton"},
-            {"@type": "City", "name": "Westminster"}
-          ],
-          "description": "Comparative guide and whole-home repiping services evaluating Engel-method PEX-A expansion piping versus Silane-method PEX-B crimp piping."
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Materials",
-              "item": "https://justplumbinginc.com/materials/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "PEX-A vs. PEX-B",
-              "item": "https://justplumbinginc.com/materials/pex-a-vs-pex-b"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://justplumbinginc.com/materials/pex-a-vs-pex-b/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Is PEX-A better than PEX-B for whole-home repiping?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. PEX-A has a higher degree of cross-linking (over 85%), giving it molecular shape memory, superior flexibility, and the ability to expand when frozen without splitting. Most importantly, PEX-A utilizes full-port expansion fittings that do not restrict water pressure, whereas PEX-B relies on insert crimp fittings that choke pipe volume by 20% to 30%."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Why does PEX-B restrict water flow and pressure?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "PEX-B connections require inserting a smaller fitting inside the pipe before securing it with an external copper or stainless steel crimp ring. Because the fitting fits inside the pipe, the internal diameter drops significantly at every turn, tee, and valve, causing noticeable pressure loss when multiple plumbing fixtures run at once."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What happens if a PEX-B pipe kinks during installation?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "When PEX-B kinks, its crystalline molecular structure permanently weakens at the crease. The damaged section must be cut out entirely and spliced with two additional crimp fittings. Conversely, PEX-A features thermal memory—a kink can be completely repaired using a controlled heat gun, returning the pipe to its full structural integrity without extra joints."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Why do some contractors install PEX-B instead of PEX-A?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Cost is the primary factor. PEX-B tubing, manual crimp tools, and budget crimp rings are considerably cheaper to purchase than commercial PEX-A expansion systems. Low-bid plumbers use PEX-B to reduce overhead, but homeowners pay the long-term price in reduced water pressure and higher freeze risk."
-              }
-            }
-          ]
-        }
       ]
-    }
+}
     </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="PEX-A vs. PEX-B Plumbing Comparison | Just Plumbing Inc.">
@@ -173,7 +360,7 @@
     <header>
         <div class="logo">
             <a href="/">
-                <img src="assets/images/logo.webp" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
+                <img src="../assets/images/logo.webp" onerror="this.onerror=null;this.src='/assets/images/logo.webp';" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
             </a>
         </div>
         <nav aria-label="Main Navigation">
@@ -521,36 +708,56 @@
             
             <!-- Geographic Target Column (All 28 Locations) -->
             <div class="footer-areas">
-                <h3>Areas We Serve Across Greater Denver</h3>
-                <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 15px; font-size: 0.85rem;">
-                    <li><a href="/locations/arvada">Arvada</a></li>
-                    <li><a href="/locations/aurora">Aurora</a></li>
-                    <li><a href="/locations/bennett-prv-rebate">Bennett</a></li>
-                    <li><a href="/locations/brighton">Brighton</a></li>
-                    <li><a href="/locations/broomfield">Broomfield</a></li>
-                    <li><a href="/locations/castle-pines">Castle Pines</a></li>
-                    <li><a href="/locations/castle-rock">Castle Rock</a></li>
-                    <li><a href="/locations/centennial">Centennial</a></li>
-                    <li><a href="/locations/cherry-hills-village">Cherry Hills Village</a></li>
-                    <li><a href="/locations/commerce-city">Commerce City</a></li>
-                    <li><a href="/locations/denver">Denver</a></li>
-                    <li><a href="/locations/edgewater">Edgewater</a></li>
-                    <li><a href="/locations/englewood">Englewood</a></li>
-                    <li><a href="/locations/evergreen">Evergreen</a></li>
-                    <li><a href="/locations/genesee">Genesee</a></li>
-                    <li><a href="/locations/golden">Golden</a></li>
-                    <li><a href="/locations/glendale">Glendale</a></li>
-                    <li><a href="/locations/greenwood-village">Greenwood Village</a></li>
-                    <li><a href="/locations/highlands-ranch">Highlands Ranch</a></li>
-                    <li><a href="/locations/larkspur">Larkspur</a></li>
-                    <li><a href="/locations/littleton">Littleton</a></li>
-                    <li><a href="/locations/lone-tree">Lone Tree</a></li>
-                    <li><a href="/locations/parker">Parker</a></li>
-                    <li><a href="/locations/sedalia">Sedalia</a></li>
-                    <li><a href="/locations/sheridan">Sheridan</a></li>
-                    <li><a href="/locations/thornton">Thornton</a></li>
-                    <li><a href="/locations/westminster">Westminster</a></li>
-                    <li><a href="/locations/wheat-ridge">Wheat Ridge</a></li>
+                <h3>48 Areas We Serve Across Greater Denver</h3>
+                <ul style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px 12px; font-size: 0.8rem;">
+                    <li><a href='/locations/applewood'>Applewood</a></li>
+                    <li><a href='/locations/arvada'>Arvada</a></li>
+                    <li><a href='/locations/aurora'>Aurora</a></li>
+                    <li><a href='/locations/bennett-prv-rebate'>Bennett</a></li>
+                    <li><a href='/locations/boulder'>Boulder</a></li>
+                    <li><a href='/locations/bow-mar'>Bow Mar</a></li>
+                    <li><a href='/locations/brighton'>Brighton</a></li>
+                    <li><a href='/locations/broomfield'>Broomfield</a></li>
+                    <li><a href='/locations/castle-pines'>Castle Pines</a></li>
+                    <li><a href='/locations/castle-rock'>Castle Rock</a></li>
+                    <li><a href='/locations/centennial'>Centennial</a></li>
+                    <li><a href='/locations/cherry-hills-village'>Cherry Hills Village</a></li>
+                    <li><a href='/locations/columbine-valley'>Columbine Valley</a></li>
+                    <li><a href='/locations/commerce-city'>Commerce City</a></li>
+                    <li><a href='/locations/conifer'>Conifer</a></li>
+                    <li><a href='/locations/denver'>Denver</a></li>
+                    <li><a href='/locations/edgewater'>Edgewater</a></li>
+                    <li><a href='/locations/elizabeth'>Elizabeth</a></li>
+                    <li><a href='/locations/englewood'>Englewood</a></li>
+                    <li><a href='/locations/erie'>Erie</a></li>
+                    <li><a href='/locations/evergreen'>Evergreen</a></li>
+                    <li><a href='/locations/firestone'>Firestone</a></li>
+                    <li><a href='/locations/franktown'>Franktown</a></li>
+                    <li><a href='/locations/frederick'>Frederick</a></li>
+                    <li><a href='/locations/genesee'>Genesee</a></li>
+                    <li><a href='/locations/glendale'>Glendale</a></li>
+                    <li><a href='/locations/golden'>Golden</a></li>
+                    <li><a href='/locations/greenwood-village'>Greenwood Village</a></li>
+                    <li><a href='/locations/highlands-ranch'>Highlands Ranch</a></li>
+                    <li><a href='/locations/ken-caryl'>Ken Caryl</a></li>
+                    <li><a href='/locations/lafayette'>Lafayette</a></li>
+                    <li><a href='/locations/lakewood'>Lakewood</a></li>
+                    <li><a href='/locations/larkspur'>Larkspur</a></li>
+                    <li><a href='/locations/littleton'>Littleton</a></li>
+                    <li><a href='/locations/lone-tree'>Lone Tree</a></li>
+                    <li><a href='/locations/longmont'>Longmont</a></li>
+                    <li><a href='/locations/louisville'>Louisville</a></li>
+                    <li><a href='/locations/monument'>Monument</a></li>
+                    <li><a href='/locations/morrison'>Morrison</a></li>
+                    <li><a href='/locations/northglenn'>Northglenn</a></li>
+                    <li><a href='/locations/parker'>Parker</a></li>
+                    <li><a href='/locations/roxborough-park'>Roxborough Park</a></li>
+                    <li><a href='/locations/sedalia'>Sedalia</a></li>
+                    <li><a href='/locations/sheridan'>Sheridan</a></li>
+                    <li><a href='/locations/superior'>Superior</a></li>
+                    <li><a href='/locations/thornton'>Thornton</a></li>
+                    <li><a href='/locations/westminster'>Westminster</a></li>
+                    <li><a href='/locations/wheat-ridge'>Wheat Ridge</a></li>
                 </ul>
             </div>
             
