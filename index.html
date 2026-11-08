@@ -694,33 +694,62 @@
     <header>
         <div class="logo">
             <a href='/'>
-                <img src="assets/images/logo.webp" onerror="this.onerror=null;this.src="assets/images/logo.webp";" width="200" height="60" fetchpriority="high" decoding="async" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
+                <img src="assets/images/logo.webp" width="200" height="60" fetchpriority="high" decoding="async" alt="Just Plumbing, Inc. Logo - Denver Repipe Specialists">
             </a>
         </div>
         <nav aria-label="Main Navigation">
             <ul>
-                
-                
-                <!-- Services Dropdown Menu -->
-                
-                
-                <!-- Pipe Problems Dropdown Menu -->
-                
-
-                <!-- Materials Dropdown Menu -->
-                
-
-                <!-- Projects & Case Studies Dropdown Menu -->
-                
-
-                <!-- Commercial Dropdown Menu -->
-                
-
-                <!-- Service Area Dropdown Menu (Full 28 Cities Alphabetized) -->
-                
-                <li><a href='/why-repipe'>Why Repipe?</a></li>
-                <li><a href='/about'>About Us</a></li>
-                <li><a href='/contact'>Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li>
+                    <a href="/services">Services &#9662;</a>
+                    <ul class="dropdown">
+                        <li><a href="/services/whole-home-repiping">Whole-Home Repiping</a></li>
+                        <li><a href="/services/partial-repiping">Partial Repiping &amp; Slab Bypasses</a></li>
+                        <li><a href="/services/new-construction">New Construction Plumbing</a></li>
+                        <li><a href="/services/water-heaters">Water Heater Systems</a></li>
+                        <li><a href="/services/remodels">Kitchen &amp; Bath Remodels</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/pipe-problems">Pipe Problems &#9662;</a>
+                    <ul class="dropdown">
+                        <li><a href="/pipe-problems/polybutylene">Polybutylene (Quest) Pipe</a></li>
+                        <li><a href="/pipe-problems/galvanized-steel">Galvanized Steel Pipe</a></li>
+                        <li><a href="/pipe-problems/kitec">Recalled Kitec Pipe</a></li>
+                        <li><a href="/pipe-problems/copper-pinhole-leaks">Copper Pinhole Leaks</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/materials">Materials &#9662;</a>
+                    <ul class="dropdown">
+                        <li><a href="/materials/uponor-pex-a">Uponor PEX-A</a></li>
+                        <li><a href="/materials/pex-a-vs-pex-b">PEX-A vs. PEX-B</a></li>
+                        <li><a href="/materials/type-l-copper">Type L Copper</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/projects">Projects &#9662;</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/wash-park-denver-repipe">Wash Park Repipe</a></li>
+                        <li><a href="/projects/park-hill-denver-galvanized">Park Hill Galvanized</a></li>
+                        <li><a href="/projects/west-highland-denver-repipe">West Highland Repipe</a></li>
+                        <li><a href="/projects/highlands-ranch-polybutylene">Highlands Ranch Polybutylene</a></li>
+                        <li><a href="/projects/thornton-kitec-repipe">Thornton Kitec Repipe</a></li>
+                        <li><a href="/projects/arvada-copper-pipe-replacement">Arvada Copper Repipe</a></li>
+                        <li><a href="/projects/golden-hoa-condo-repipe">Golden HOA Condo Repipe</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/commercial">Commercial &#9662;</a>
+                    <ul class="dropdown">
+                        <li><a href="/commercial/commercial-repipe">Commercial Building Repiping</a></li>
+                        <li><a href="/commercial/multifamily-repiping">Multifamily &amp; Apartment Repiping</a></li>
+                        <li><a href="/commercial/hoa-condo-repiping">HOA &amp; Condo Repiping</a></li>
+                    </ul>
+                </li>
+                <li><a href="/why-repipe">Why Repipe?</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -775,10 +804,38 @@
                 <p style="text-align: center; max-width: 800px; margin: 0 auto 35px auto; font-size: 1rem; color: #2d3748;">
                     Colorado's expansive bentonite soils, high water tables, and municipal chloramines aggressively degrade legacy piping materials. Learn how to identify your system:
                 </p>
-                                <div class="service-grid">
+                <div class="service-grid">
+                    <article class="service-card">
+                        <h3><a href='/pipe-problems/polybutylene'>Gray Polybutylene (Quest)</a></h3>
+                        <p>Installed across Denver suburbs from 1978–1995. Municipal chloramines react with polybutylene resins, causing internal flaking and sudden high-pressure pipe bursts.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3><a href='/pipe-problems/galvanized-steel'>Corroded Galvanized Steel</a></h3>
+                        <p>Common in pre-1965 Denver neighborhoods. Internal rust and zinc corrosion choke off water pressure, discolor tap water, and rupture behind plaster and drywall.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3><a href='/pipe-problems/kitec'>Recalled Kitec Composite</a></h3>
+                        <p>Bright orange and blue composite pipes installed between 1995 and 2007 suffer from severe brass fitting dezincification, delamination, and catastrophic blowouts.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3><a href='/pipe-problems/copper-pinhole-leaks'>Copper Pinhole Leaks</a></h3>
+                        <p>Thin-walled Type M copper tubing pits from the inside out under Front Range water chemistry, high static street pressure, and continuous recirculation loops.</p>
+                    </article>
+                </div>
+                <div style="text-align: center; margin-top: 35px;">
+                    <a href="/pipe-problems" class="btn-primary">Explore Pipe Problem Directory</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="services-overview">
+            <div class="container">
+                <h2>Our Specialized Plumbing &amp; Repiping Services</h2>
+                <div class="service-grid">
                     <article class="service-card">
                         <h3><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></h3>
-                        <p>Suffering from low water pressure, rusty water, or recurring leaks? We extract failing pipes and install <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty) or <a href="/materials/type-l-copper" style="color: var(--brand-blue); text-decoration: underline;">Type L Copper</a> in 1-2 days with full drywall patching included.</p>
+                        <p>Suffering from low water pressure, rusty water, or recurring leaks? We extract failing pipes and install <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty) or <a href="/materials/type-l-copper" style="color: var(--brand-blue); text-decoration: underline;">Type L Copper</a> in 1–2 days with full drywall patching included.</p>
                     </article>
                     <article class="service-card">
                         <h3><a href='/services/partial-repiping'>Partial Repiping &amp; Slab Bypasses</a></h3>
@@ -799,42 +856,6 @@
                     <article class="service-card">
                         <h3><a href='/services/remodels'>Custom Kitchen &amp; Bath Remodels</a></h3>
                         <p>Architectural plumbing rough-ins, multi-valve custom showers, and island loop DWV venting engineered to pass municipal inspections on the first walkthrough.</p>
-                    </article>
-                </div>
-                <div style="text-align: center; margin-top: 35px;">
-                    <a href="/pipe-problems" class="btn-primary">Explore Pipe Problem Directory</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Grid -->
-        <section class="services-overview">
-            <div class="container">
-                <h2>Our Specialized Plumbing & Repiping Services</h2>
-                <div class="service-grid">
-                    <article class="service-card">
-                        <h3><a href='/services/whole-home-repiping'>Whole-Home Repiping</a></h3>
-                        <p>Suffering from low water pressure, rusty water, or recurring leaks? We extract failing pipes and install <a href="/materials/uponor-pex-a" style="color: var(--brand-blue); text-decoration: underline;">Uponor PEX-A</a> (backed by a 25-year material warranty) or <a href="/materials/type-l-copper" style="color: var(--brand-blue); text-decoration: underline;">Type L Copper</a> in 1-2 days.</p>
-                    </article>
-                    <article class="service-card">
-                        <h3><a href='/services/partial-repiping'>Partial Repiping & Slab Bypasses</a></h3>
-                        <p>Targeted pipe replacement for exposed basement trunks, remodel rough-ins, or non-invasive overhead slab leak bypasses that save your finished hardwood floors.</p>
-                    </article>
-                    <article class="service-card">
-                        <h3><a href='/services/water-heaters'>Water Heater Systems</a></h3>
-                        <p>High-altitude calibrated atmospheric gas tanks, power-vent systems, and continuous tankless water heaters paired with code-required thermal expansion tanks.</p>
-                    </article>
-                    <article class="service-card" style="background: white; padding: 28px; border-radius: 8px; border-top: 4px solid var(--brand-blue, #003366); box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
-                        <h3 style="margin-bottom: 10px;"><a href="/services/new-construction" style="color: var(--brand-blue, #003366); text-decoration: none;">4. Commercial Construction &amp; Custom Builds</a></h3>
-                        <p style="color: #4a5568; line-height: 1.6;">Blueprint-driven underground rough-ins, top-outs, gas piping, commercial tenant finishes, and ground-up custom home construction overseen directly by Master Plumber Bill Clark (#MP.00600120).</p>
-                    </article>
-                    <article class="service-card">
-                        <h3><a href='/services/new-construction'>New Construction & Custom Remodels</a></h3>
-                        <p>Turnkey <a href="/services/new-construction" style="color: var(--brand-blue); text-decoration: underline;">new construction plumbing</a>, custom home rough-ins, and <a href="/services/remodels" style="color: var(--brand-blue); text-decoration: underline;">kitchen & bath remodels</a> engineered to pass municipal inspections on the first walkthrough.</p>
-                    </article>
-                    <article class="service-card">
-                        <h3><a href='/commercial'>Commercial & Multifamily Repiping</a></h3>
-                        <p>Specialized <a href="/commercial/multifamily-repiping" style="color: var(--brand-blue); text-decoration: underline;">apartment complex</a>, <a href="/commercial/hoa-condo-repiping" style="color: var(--brand-blue); text-decoration: underline;">HOA condo</a>, and <a href="/commercial/commercial-repipe" style="color: var(--brand-blue); text-decoration: underline;">commercial building</a> repiping executed with zero tenant displacement and nightly water restoration.</p>
                     </article>
                 </div>
             </div>
@@ -1123,7 +1144,7 @@
 
                 <div style="margin-bottom: 20px;">
                     <h3 style="font-size: 1.1rem; color: var(--brand-blue); margin-bottom: 5px;">Will a repipe ruin my walls and ceilings?</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6; margin: 0;"><strong>No.</strong> We make clean, incisions (typically 6"x6" to 12"x12") only where necessary to access pipe chases. Unlike other plumbing companies that leave you with open walls, <strong>we hire and schedule a professional drywall finisher</strong> to patch, mud, and apply matching texture to your walls as part of our turnkey service.</p>
+                    <p style="font-size: 0.95rem; line-height: 1.6; margin: 0;"><strong>No.</strong> We make clean, strategic incisions (typically 6"x6" to 12"x12") only where necessary to access pipe chases. Unlike other plumbing companies that leave you with open walls, <strong>we hire and schedule a professional drywall finisher</strong> to patch, mud, and apply matching texture to your walls as part of our turnkey service.</p>
                 </div>
 
                 <div>
