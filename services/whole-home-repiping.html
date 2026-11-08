@@ -612,9 +612,10 @@
                     }
                 }
 
-                const pexStr = `$${baseMin.toLocaleString()} – $${baseMax.toLocaleString()}`;
+                const pexMax = baseMax + 1000;
+                const pexStr = `$${baseMin.toLocaleString()} – $${pexMax.toLocaleString()}`;
                 const copperMin = Math.round((baseMin * 1.45) / 100) * 100;
-                const copperMax = Math.round((baseMax * 1.55) / 100) * 100;
+                const copperMax = Math.round((baseMax * 1.55) / 100) * 100 + 1000;
                 const copperStr = `$${copperMin.toLocaleString()} – $${copperMax.toLocaleString()}`;
 
                 return { pexStr, copperStr };
@@ -722,7 +723,7 @@
                 </div>
                 <div style="margin-top: 50px; text-align: center;">
                     <a href="https://www.google.com/maps/place/Just+Plumbing/data=!4m2!3m1!1s0x0:0x948b5c0f00e11b36?sa=X&amp;ved=1t:2428&amp;ictx=111" target="_blank" rel="noopener noreferrer" class="btn-primary">
-                        Read all76 reviews on Google
+                        Read all 76 reviews on Google
                     </a>
                 </div>
             </div>
