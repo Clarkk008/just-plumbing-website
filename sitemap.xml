@@ -301,6 +301,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://justplumbinginc.com/locations/crystal-valley-terrain-cobblestone-castle-rock</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://justplumbinginc.com/locations/denver</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -399,7 +405,7 @@
   <url>
     <loc>https://justplumbinginc.com/locations/</loc>
     <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -481,6 +487,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://justplumbinginc.com/locations/plum-creek-founders-village-castle-rock</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://justplumbinginc.com/locations/roxborough-park</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -500,6 +512,12 @@
   </url>
   <url>
     <loc>https://justplumbinginc.com/locations/superior</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justplumbinginc.com/locations/the-meadows-red-hawk-castle-rock</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
