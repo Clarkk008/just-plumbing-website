@@ -52,137 +52,189 @@
     <!-- Article, LocalBusiness, Breadcrumb & FAQ Schema Markup -->
     <script type="application/ld+json">
 {
-      "@context": "https://schema.org",
-      "@graph": [
-            {
-                  "@type": [
-                        "LocalBusiness",
-                        "PlumbingService"
-                  ],
-                  "@id": "https://justplumbinginc.com/#organization",
-                  "name": "Just Plumbing, Inc.",
-                  "legalName": "Just Plumbing, Inc.",
-                  "url": "https://justplumbinginc.com/",
-                  "telephone": "+1-303-472-0833",
-                  "email": "JustPlumbinginc@outlook.com",
-                  "priceRange": "$$",
-                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
-                  "address": {
-                        "@type": "PostalAddress",
-                        "streetAddress": "2563 15th St, Suite 216",
-                        "addressLocality": "Denver",
-                        "addressRegion": "CO",
-                        "postalCode": "80211",
-                        "addressCountry": "US"
-                  },
-                  "geo": {
-                        "@type": "GeoCoordinates",
-                        "latitude": 39.7583,
-                        "longitude": -105.0068
-                  },
-                  "hasCredential": [
-                        {
-                              "@type": "EducationalOccupationalCredential",
-                              "credentialCategory": "State Registration",
-                              "name": "Colorado Plumbing Contractor",
-                              "credentialNumber": "PC.0003531",
-                              "identifier": "PC.0003531"
-                        },
-                        {
-                              "@type": "EducationalOccupationalCredential",
-                              "credentialCategory": "State License",
-                              "name": "Colorado Master Plumber",
-                              "credentialNumber": "MP.00600120",
-                              "identifier": "MP.00600120"
-                        }
-                  ],
-                  "aggregateRating": {
-                        "@type": "AggregateRating",
-                        "ratingValue": 4.7,
-                        "bestRating": 5,
-                        "worstRating": 1,
-                        "ratingCount": 76,
-                        "reviewCount": 76
-                  }
-            },
-            {
-                  "@type": "Article",
-                  "@id": "https://justplumbinginc.com/projects/wash-park-denver-repipe#article",
-                  "headline": "Wash Park (Denver) Case Study: Historic Bungalow Whole-Home Repipe",
-                  "description": "Field documentation of a complete plumbing replacement in a 1928 Washington Park bungalow, featuring the removal of galvanized steel and the installation of a central Uponor PEX-A home-run manifold.",
-                  "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
-                  "author": {
-                        "@type": "Person",
-                        "name": "Bill Clark",
-                        "jobTitle": "Master Plumber & Owner",
-                        "worksFor": {
-                              "@id": "https://justplumbinginc.com/#organization"
-                        }
-                  },
-                  "publisher": {
-                        "@id": "https://justplumbinginc.com/#organization"
-                  },
-                  "datePublished": "2024-08-05",
-                  "dateModified": "2026-01-15",
-                  "mainEntityOfPage": "https://justplumbinginc.com/projects/wash-park-denver-repipe"
-            },
-            {
-                  "@type": "BreadcrumbList",
-                  "itemListElement": [
-                        {
-                              "@type": "ListItem",
-                              "position": 1,
-                              "name": "Home",
-                              "item": "https://justplumbinginc.com/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 2,
-                              "name": "Projects",
-                              "item": "https://justplumbinginc.com/projects/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 3,
-                              "name": "Wash Park Denver Repipe",
-                              "item": "https://justplumbinginc.com/projects/wash-park-denver-repipe"
-                        }
-                  ]
-            },
-            {
-                  "@type": "FAQPage",
-                  "@id": "https://justplumbinginc.com/projects/wash-park-denver-repipe#faq",
-                  "mainEntity": [
-                        {
-                              "@type": "Question",
-                              "name": "What is a PEX home-run manifold system?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Unlike a traditional branch-and-tee plumbing system where fixtures share a single large pipe, a home-run manifold acts like an electrical breaker box for your water. A central manifold is installed near the water heater, and individual, dedicated Uponor PEX-A lines are run directly to every single fixture. This equalizes pressure across the entire home, so flushing a toilet no longer impacts the shower."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Is it safe to leave abandoned galvanized pipes in the walls of an older home?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Yes. Once the old galvanized or lead pipes are drained, physically disconnected from the water supply, and permanently capped, they are entirely inert. Leaving them in the wall cavities prevents unnecessary and expensive demolition of historic plaster and drywall."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Can you repipe a historic Denver home without destroying the original plaster?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Yes. By using highly flexible Uponor PEX-A tubing, our Master Plumber team can fish new water lines vertically through existing wall cavities, closets, and basement joists. We only make small, strategic access holes that are easily patched, preserving the home's historic architectural integrity."
-                              }
-                        }
-                  ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "LocalBusiness",
+        "PlumbingService"
+      ],
+      "@id": "https://justplumbinginc.com/#organization",
+      "name": "Just Plumbing, Inc.",
+      "legalName": "Just Plumbing, Inc.",
+      "url": "https://justplumbinginc.com/",
+      "telephone": "+1-303-472-0833",
+      "email": "JustPlumbinginc@outlook.com",
+      "priceRange": "$$-$$$",
+      "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+      "image": "https://justplumbinginc.com/assets/images/logo.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2563 15th St, Suite 216",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80211",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.7583,
+        "longitude": -105.0068
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "State Registration",
+          "name": "Colorado Plumbing Contractor",
+          "credentialNumber": "PC.0003531",
+          "identifier": "PC.0003531"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "State License",
+          "name": "Colorado Master Plumber",
+          "credentialNumber": "MP.00600120",
+          "identifier": "MP.00600120"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 76,
+        "reviewCount": 76
+      },
+      "description": "Licensed Denver Master Plumber (#MP.00600120) and Colorado Plumbing Contractor (#PC.0003531) specializing in 1–2 day whole-home repiping, partial home repiping & overhead slab leak bypasses, HOA & condominium vertical-stack repiping, multi-family apartment complex repiping, and B2B commercial building pipe replacement.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Residential, HOA, Multi-Family & B2B Commercial Repiping Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/whole-home-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
             }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/partial-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/commercial-repipe",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://justplumbinginc.com/projects/wash-park-denver-repipe#article",
+      "headline": "Wash Park (Denver) Case Study: Historic Bungalow Whole-Home Repipe",
+      "description": "Field documentation of a complete plumbing replacement in a 1928 Washington Park bungalow, featuring the removal of galvanized steel and the installation of a central Uponor PEX-A home-run manifold.",
+      "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Bill Clark",
+        "jobTitle": "Master Plumber & Owner",
+        "worksFor": {
+          "@id": "https://justplumbinginc.com/#organization"
+        }
+      },
+      "publisher": {
+        "@id": "https://justplumbinginc.com/#organization"
+      },
+      "datePublished": "2024-08-05",
+      "dateModified": "2026-01-15",
+      "mainEntityOfPage": "https://justplumbinginc.com/projects/wash-park-denver-repipe"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://justplumbinginc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://justplumbinginc.com/projects/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Wash Park Denver Repipe",
+          "item": "https://justplumbinginc.com/projects/wash-park-denver-repipe"
+        }
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://justplumbinginc.com/projects/wash-park-denver-repipe#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a PEX home-run manifold system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unlike a traditional branch-and-tee plumbing system where fixtures share a single large pipe, a home-run manifold acts like an electrical breaker box for your water. A central manifold is installed near the water heater, and individual, dedicated Uponor PEX-A lines are run directly to every single fixture. This equalizes pressure across the entire home, so flushing a toilet no longer impacts the shower."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to leave abandoned galvanized pipes in the walls of an older home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Once the old galvanized or lead pipes are drained, physically disconnected from the water supply, and permanently capped, they are entirely inert. Leaving them in the wall cavities prevents unnecessary and expensive demolition of historic plaster and drywall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you repipe a historic Denver home without destroying the original plaster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. By using highly flexible Uponor PEX-A tubing, our Master Plumber team can fish new water lines vertically through existing wall cavities, closets, and basement joists. We only make small, strategic access holes that are easily patched, preserving the home's historic architectural integrity."
+          }
+        }
+      ]
+    }
+  ]
 }
-    </script>
+</script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Wash Park Denver Bungalow Repipe Case Study | Just Plumbing Inc.">
   <meta name="twitter:description" content="Discover how we extracted 1920s galvanized iron and lead lines, installing a PEX-A home-run manifold to restore water pressure to this historic Denver bungalow.">
@@ -428,7 +480,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across Denver's historic neighborhoods rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
+                <p>See why homeowners across Denver's historic neighborhoods rate Just Plumbing, Inc. 4.7 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -439,7 +491,7 @@
 
                     <div class="review-card">
                         <div class="stars" aria-label="5 stars">★★★★★</div>
-                        <p class="review-text">"We recently had our main sewer line replaced by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
+                        <p class="review-text">"We recently had our corroded water supply lines repiped by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
                         <p class="reviewer-name">- Jennifer Walters</p>
                     </div>
 

@@ -52,137 +52,189 @@
     <!-- Article, LocalBusiness, Breadcrumb & FAQ Schema Markup -->
     <script type="application/ld+json">
 {
-      "@context": "https://schema.org",
-      "@graph": [
-            {
-                  "@type": [
-                        "LocalBusiness",
-                        "PlumbingService"
-                  ],
-                  "@id": "https://justplumbinginc.com/#organization",
-                  "name": "Just Plumbing, Inc.",
-                  "legalName": "Just Plumbing, Inc.",
-                  "url": "https://justplumbinginc.com/",
-                  "telephone": "+1-303-472-0833",
-                  "email": "JustPlumbinginc@outlook.com",
-                  "priceRange": "$$",
-                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
-                  "address": {
-                        "@type": "PostalAddress",
-                        "streetAddress": "2563 15th St, Suite 216",
-                        "addressLocality": "Denver",
-                        "addressRegion": "CO",
-                        "postalCode": "80211",
-                        "addressCountry": "US"
-                  },
-                  "geo": {
-                        "@type": "GeoCoordinates",
-                        "latitude": 39.7583,
-                        "longitude": -105.0068
-                  },
-                  "hasCredential": [
-                        {
-                              "@type": "EducationalOccupationalCredential",
-                              "credentialCategory": "State Registration",
-                              "name": "Colorado Plumbing Contractor",
-                              "credentialNumber": "PC.0003531",
-                              "identifier": "PC.0003531"
-                        },
-                        {
-                              "@type": "EducationalOccupationalCredential",
-                              "credentialCategory": "State License",
-                              "name": "Colorado Master Plumber",
-                              "credentialNumber": "MP.00600120",
-                              "identifier": "MP.00600120"
-                        }
-                  ],
-                  "aggregateRating": {
-                        "@type": "AggregateRating",
-                        "ratingValue": 4.7,
-                        "bestRating": 5,
-                        "worstRating": 1,
-                        "ratingCount": 76,
-                        "reviewCount": 76
-                  }
-            },
-            {
-                  "@type": "Article",
-                  "@id": "https://justplumbinginc.com/projects/west-highland-denver-repipe#article",
-                  "headline": "West Highland (Denver) Case Study: Mid-Century Ranch Crawlspace Repipe",
-                  "description": "Field documentation of a complete plumbing replacement in a 1954 West Highland ranch home, utilizing crawlspace routing to replace mixed galvanized and early-generation copper pipes with Uponor PEX-A.",
-                  "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
-                  "author": {
-                        "@type": "Person",
-                        "name": "Bill Clark",
-                        "jobTitle": "Master Plumber & Owner",
-                        "worksFor": {
-                              "@id": "https://justplumbinginc.com/#organization"
-                        }
-                  },
-                  "publisher": {
-                        "@id": "https://justplumbinginc.com/#organization"
-                  },
-                  "datePublished": "2024-09-10",
-                  "dateModified": "2026-01-15",
-                  "mainEntityOfPage": "https://justplumbinginc.com/projects/west-highland-denver-repipe"
-            },
-            {
-                  "@type": "BreadcrumbList",
-                  "itemListElement": [
-                        {
-                              "@type": "ListItem",
-                              "position": 1,
-                              "name": "Home",
-                              "item": "https://justplumbinginc.com/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 2,
-                              "name": "Projects",
-                              "item": "https://justplumbinginc.com/projects/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 3,
-                              "name": "West Highland Denver Repipe",
-                              "item": "https://justplumbinginc.com/projects/west-highland-denver-repipe"
-                        }
-                  ]
-            },
-            {
-                  "@type": "FAQPage",
-                  "@id": "https://justplumbinginc.com/projects/west-highland-denver-repipe#faq",
-                  "mainEntity": [
-                        {
-                              "@type": "Question",
-                              "name": "Why did my 1950s ranch home suddenly lose water pressure?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Homes built in the 1950s often used a mix of galvanized steel mains and early thin-wall copper branches. Over decades, the galvanized steel rusts internally, creating thick mineral nodules called tuberculation. This chokes the inner diameter of the pipe, drastically reducing water pressure and volume to your fixtures."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Do you have to tear up my hardwood floors to repipe a home with a crawlspace?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "No. When repiping a home with a crawlspace or unfinished basement, our Master Plumber team routes the new Uponor PEX-A lines beneath the main floor. We precisely drill up through the bottom wall plates directly into the partition cavities, keeping your finished hardwood and tile floors completely intact."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Why do you install a PRV (Pressure Reducing Valve) during a repipe?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Denver's municipal water pressure can fluctuate wildly, sometimes spiking over 100 PSI. High pressure damages appliance valves, causes pipe hammer, and voids fixture warranties. We install a calibrated PRV to regulate incoming water to a safe, steady 65 PSI, protecting your new plumbing investment."
-                              }
-                        }
-                  ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "LocalBusiness",
+        "PlumbingService"
+      ],
+      "@id": "https://justplumbinginc.com/#organization",
+      "name": "Just Plumbing, Inc.",
+      "legalName": "Just Plumbing, Inc.",
+      "url": "https://justplumbinginc.com/",
+      "telephone": "+1-303-472-0833",
+      "email": "JustPlumbinginc@outlook.com",
+      "priceRange": "$$-$$$",
+      "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+      "image": "https://justplumbinginc.com/assets/images/logo.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2563 15th St, Suite 216",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80211",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.7583,
+        "longitude": -105.0068
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "State Registration",
+          "name": "Colorado Plumbing Contractor",
+          "credentialNumber": "PC.0003531",
+          "identifier": "PC.0003531"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "State License",
+          "name": "Colorado Master Plumber",
+          "credentialNumber": "MP.00600120",
+          "identifier": "MP.00600120"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 76,
+        "reviewCount": 76
+      },
+      "description": "Licensed Denver Master Plumber (#MP.00600120) and Colorado Plumbing Contractor (#PC.0003531) specializing in 1–2 day whole-home repiping, partial home repiping & overhead slab leak bypasses, HOA & condominium vertical-stack repiping, multi-family apartment complex repiping, and B2B commercial building pipe replacement.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Residential, HOA, Multi-Family & B2B Commercial Repiping Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/whole-home-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
             }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/partial-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/commercial-repipe",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://justplumbinginc.com/projects/west-highland-denver-repipe#article",
+      "headline": "West Highland (Denver) Case Study: Mid-Century Ranch Crawlspace Repipe",
+      "description": "Field documentation of a complete plumbing replacement in a 1954 West Highland ranch home, utilizing crawlspace routing to replace mixed galvanized and early-generation copper pipes with Uponor PEX-A.",
+      "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Bill Clark",
+        "jobTitle": "Master Plumber & Owner",
+        "worksFor": {
+          "@id": "https://justplumbinginc.com/#organization"
+        }
+      },
+      "publisher": {
+        "@id": "https://justplumbinginc.com/#organization"
+      },
+      "datePublished": "2024-09-10",
+      "dateModified": "2026-01-15",
+      "mainEntityOfPage": "https://justplumbinginc.com/projects/west-highland-denver-repipe"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://justplumbinginc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://justplumbinginc.com/projects/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "West Highland Denver Repipe",
+          "item": "https://justplumbinginc.com/projects/west-highland-denver-repipe"
+        }
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://justplumbinginc.com/projects/west-highland-denver-repipe#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why did my 1950s ranch home suddenly lose water pressure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Homes built in the 1950s often used a mix of galvanized steel mains and early thin-wall copper branches. Over decades, the galvanized steel rusts internally, creating thick mineral nodules called tuberculation. This chokes the inner diameter of the pipe, drastically reducing water pressure and volume to your fixtures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you have to tear up my hardwood floors to repipe a home with a crawlspace?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. When repiping a home with a crawlspace or unfinished basement, our Master Plumber team routes the new Uponor PEX-A lines beneath the main floor. We precisely drill up through the bottom wall plates directly into the partition cavities, keeping your finished hardwood and tile floors completely intact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do you install a PRV (Pressure Reducing Valve) during a repipe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Denver's municipal water pressure can fluctuate wildly, sometimes spiking over 100 PSI. High pressure damages appliance valves, causes pipe hammer, and voids fixture warranties. We install a calibrated PRV to regulate incoming water to a safe, steady 65 PSI, protecting your new plumbing investment."
+          }
+        }
+      ]
+    }
+  ]
 }
-    </script>
+</script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="West Highland Denver Repipe Case Study | Just Plumbing Inc.">
   <meta name="twitter:description" content="Discover how we extracted failing galvanized and copper pipes from a 1954 West Highland ranch, restoring full water volume without destroying the main floors.">
@@ -428,7 +480,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across Denver and West Highland rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
+                <p>See why homeowners across Denver and West Highland rate Just Plumbing, Inc. 4.7 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -439,7 +491,7 @@
 
                     <div class="review-card">
                         <div class="stars" aria-label="5 stars">★★★★★</div>
-                        <p class="review-text">"We recently had our main sewer line replaced by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
+                        <p class="review-text">"We recently had our corroded water supply lines repiped by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
                         <p class="reviewer-name">- Jennifer Walters</p>
                     </div>
 

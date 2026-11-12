@@ -50,131 +50,183 @@
     <!-- Comprehensive CollectionPage, ItemList, ServiceAreaBusiness & FAQ Schema -->
     <script type="application/ld+json">
 {
-      "@context": "https://schema.org",
-      "@graph": [
-            {
-                  "@type": [
-                        "LocalBusiness",
-                        "PlumbingService"
-                  ],
-                  "@id": "https://justplumbinginc.com/#organization",
-                  "name": "Just Plumbing, Inc.",
-                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
-                  "telephone": "+1-303-472-0833",
-                  "url": "https://justplumbinginc.com/",
-                  "priceRange": "$$",
-                  "address": {
-                        "@type": "PostalAddress",
-                        "streetAddress": "2563 15th St, Suite 216",
-                        "addressLocality": "Denver",
-                        "addressRegion": "CO",
-                        "postalCode": "80211",
-                        "addressCountry": "US"
-                  },
-                  "founder": {
-                        "@type": "Person",
-                        "name": "Bill Clark",
-                        "jobTitle": "Master Plumber & Owner"
-                  },
-                  "aggregateRating": {
-                        "@type": "AggregateRating",
-                        "ratingValue": 4.7,
-                        "bestRating": 5,
-                        "worstRating": 1,
-                        "ratingCount": 76,
-                        "reviewCount": 76
-                  }
-            },
-            {
-                  "@type": "CollectionPage",
-                  "@id": "https://justplumbinginc.com/pipe-problems/#page",
-                  "name": "Common Failing Pipe Systems in Colorado",
-                  "url": "https://justplumbinginc.com/pipe-problems/",
-                  "description": "Comprehensive identification guide and replacement solutions for defective plumbing systems in the Denver Metro area.",
-                  "publisher": {
-                        "@id": "https://justplumbinginc.com/#organization"
-                  }
-            },
-            {
-                  "@type": "ItemList",
-                  "name": "Failing Plumbing Pipe Diagnostic Guides",
-                  "itemListElement": [
-                        {
-                              "@type": "ListItem",
-                              "position": 1,
-                              "url": "https://justplumbinginc.com/pipe-problems/polybutylene",
-                              "name": "Polybutylene (Quest) Pipe Replacement"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 2,
-                              "url": "https://justplumbinginc.com/pipe-problems/galvanized-steel",
-                              "name": "Galvanized Steel Pipe Replacement"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 3,
-                              "url": "https://justplumbinginc.com/pipe-problems/kitec",
-                              "name": "Kitec Composite Plumbing Replacement"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 4,
-                              "url": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks",
-                              "name": "Copper Pinhole Leaks & Slab Leak Reroutes"
-                        }
-                  ]
-            },
-            {
-                  "@type": "BreadcrumbList",
-                  "itemListElement": [
-                        {
-                              "@type": "ListItem",
-                              "position": 1,
-                              "name": "Home",
-                              "item": "https://justplumbinginc.com/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 2,
-                              "name": "Pipe Problems",
-                              "item": "https://justplumbinginc.com/pipe-problems/"
-                        }
-                  ]
-            },
-            {
-                  "@type": "FAQPage",
-                  "@id": "https://justplumbinginc.com/pipe-problems/#faq",
-                  "mainEntity": [
-                        {
-                              "@type": "Question",
-                              "name": "How do I identify defective polybutylene pipes in my home?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Polybutylene pipes are typically flexible, dull gray (sometimes blue or black) plastic lines stamped with code 'PB2110'. They were widely installed between 1978 and 1995 and are frequently visible at water heater connections, under sink cabinets, or near the main water meter."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "What causes copper pinhole leaks in Denver Metro plumbing?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Copper pinhole leaks are primarily caused by excessive municipal water velocity, high line pressure (above 80 PSI), aggressive water chemistry, and mechanical friction along subterranean lines installed directly beneath concrete foundation slabs."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Can defective plumbing lines be replaced without tearing down all the walls?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Yes. Master Plumber Bill Clark specializes in minimally invasive repiping. By threading flexible Uponor PEX-A expansion piping through basement floor joists, drop ceilings, crawlspaces, and interior partition cavities, we replace whole-home supply systems with minimal drywall openings in just 1 to 2 days."
-                              }
-                        }
-                  ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "LocalBusiness",
+        "PlumbingService"
+      ],
+      "@id": "https://justplumbinginc.com/#organization",
+      "name": "Just Plumbing, Inc.",
+      "image": "https://justplumbinginc.com/assets/images/logo.webp",
+      "telephone": "+1-303-472-0833",
+      "url": "https://justplumbinginc.com/",
+      "priceRange": "$$-$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2563 15th St, Suite 216",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80211",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Bill Clark",
+        "jobTitle": "Master Plumber & Owner"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 76,
+        "reviewCount": 76
+      },
+      "description": "Licensed Denver Master Plumber (#MP.00600120) and Colorado Plumbing Contractor (#PC.0003531) specializing in 1–2 day whole-home repiping, partial home repiping & overhead slab leak bypasses, HOA & condominium vertical-stack repiping, multi-family apartment complex repiping, and B2B commercial building pipe replacement.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Residential, HOA, Multi-Family & B2B Commercial Repiping Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/whole-home-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
             }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/partial-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/commercial-repipe",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://justplumbinginc.com/pipe-problems/#page",
+      "name": "Common Failing Pipe Systems in Colorado",
+      "url": "https://justplumbinginc.com/pipe-problems/",
+      "description": "Comprehensive identification guide and replacement solutions for defective plumbing systems in the Denver Metro area.",
+      "publisher": {
+        "@id": "https://justplumbinginc.com/#organization"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Failing Plumbing Pipe Diagnostic Guides",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://justplumbinginc.com/pipe-problems/polybutylene",
+          "name": "Polybutylene (Quest) Pipe Replacement"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://justplumbinginc.com/pipe-problems/galvanized-steel",
+          "name": "Galvanized Steel Pipe Replacement"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://justplumbinginc.com/pipe-problems/kitec",
+          "name": "Kitec Composite Plumbing Replacement"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks",
+          "name": "Copper Pinhole Leaks & Slab Leak Reroutes"
+        }
       ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://justplumbinginc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pipe Problems",
+          "item": "https://justplumbinginc.com/pipe-problems/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://justplumbinginc.com/pipe-problems/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I identify defective polybutylene pipes in my home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Polybutylene pipes are typically flexible, dull gray (sometimes blue or black) plastic lines stamped with code 'PB2110'. They were widely installed between 1978 and 1995 and are frequently visible at water heater connections, under sink cabinets, or near the main water meter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What causes copper pinhole leaks in Denver Metro plumbing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Copper pinhole leaks are primarily caused by excessive municipal water velocity, high line pressure (above 80 PSI), aggressive water chemistry, and mechanical friction along subterranean lines installed directly beneath concrete foundation slabs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can defective plumbing lines be replaced without tearing down all the walls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Master Plumber Bill Clark specializes in minimally invasive repiping. By threading flexible Uponor PEX-A expansion piping through basement floor joists, drop ceilings, crawlspaces, and interior partition cavities, we replace whole-home supply systems with minimal drywall openings in just 1 to 2 days."
+          }
+        }
+      ]
+    }
+  ]
 }
-    </script>
+</script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Common Pipe Problems in Denver & Colorado Homes | Just Plumbing Inc.">
   <meta name="twitter:description" content="Diagnose failing pipes in your Colorado home. Master Plumber Bill Clark explains failure signs for Polybutylene, Galvanized, Kitec, and Pinhole Copper leaks.">
@@ -395,7 +447,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
+                <p>See why homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.7 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -406,7 +458,7 @@
 
                     <div class="review-card">
                         <div class="stars">★★★★★</div>
-                        <p class="review-text">"We recently had our main sewer line replaced by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
+                        <p class="review-text">"We recently had our corroded water supply lines repiped by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
                         <p class="reviewer-name">- Jennifer Walters</p>
                     </div>
 

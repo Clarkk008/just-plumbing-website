@@ -50,301 +50,353 @@
     <!-- Comprehensive Service, FAQPage & Breadcrumb Schema -->
     <script type="application/ld+json">
 {
-      "@context": "https://schema.org",
-      "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks#service",
+      "name": "Copper Pinhole Leak Repiping & Slab Leak Bypass",
+      "serviceType": "Copper Pipe Repiping",
+      "provider": {
+        "@type": [
+          "LocalBusiness",
+          "PlumbingService"
+        ],
+        "@id": "https://justplumbinginc.com/#organization",
+        "name": "Just Plumbing, Inc.",
+        "telephone": "+1-303-472-0833",
+        "image": "https://justplumbinginc.com/assets/images/logo.webp",
+        "url": "https://justplumbinginc.com/",
+        "priceRange": "$$-$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2563 15th St, Suite 216",
+          "addressLocality": "Denver",
+          "addressRegion": "CO",
+          "postalCode": "80211",
+          "addressCountry": "US"
+        },
+        "description": "Licensed Denver Master Plumber (#MP.00600120) and Colorado Plumbing Contractor (#PC.0003531) specializing in 1–2 day whole-home repiping, partial home repiping & overhead slab leak bypasses, HOA & condominium vertical-stack repiping, multi-family apartment complex repiping, and B2B commercial building pipe replacement.",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Residential, HOA, Multi-Family & B2B Commercial Repiping Services",
+          "itemListElement": [
             {
-                  "@type": "Service",
-                  "@id": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks#service",
-                  "name": "Copper Pinhole Leak Repiping & Slab Leak Bypass",
-                  "serviceType": "Copper Pipe Repiping",
-                  "provider": {
-                        "@type": [
-                              "LocalBusiness",
-                              "PlumbingService"
-                        ],
-                        "@id": "https://justplumbinginc.com/#organization",
-                        "name": "Just Plumbing, Inc.",
-                        "telephone": "+1-303-472-0833",
-                        "image": "https://justplumbinginc.com/assets/images/logo.webp",
-                        "url": "https://justplumbinginc.com/",
-                        "priceRange": "$$",
-                        "address": {
-                              "@type": "PostalAddress",
-                              "streetAddress": "2563 15th St, Suite 216",
-                              "addressLocality": "Denver",
-                              "addressRegion": "CO",
-                              "postalCode": "80211",
-                              "addressCountry": "US"
-                        }
-                  },
-                  "areaServed": [
-                        {
-                              "@type": "City",
-                              "name": "Applewood"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Arvada"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Aurora"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Bennett"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Boulder"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Bow Mar"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Brighton"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Broomfield"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Castle Pines"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Castle Rock"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Centennial"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Cherry Hills Village"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Columbine Valley"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Commerce City"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Conifer"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Denver"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Edgewater"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Elizabeth"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Englewood"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Erie"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Evergreen"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Firestone"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Franktown"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Frederick"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Genesee"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Glendale"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Golden"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Greenwood Village"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Highlands Ranch"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Ken Caryl"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Lafayette"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Lakewood"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Larkspur"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Littleton"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Lone Tree"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Longmont"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Louisville"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Monument"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Morrison"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Northglenn"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Parker"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Roxborough Park"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Sedalia"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Sheridan"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Superior"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Thornton"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Westminster"
-                        },
-                        {
-                              "@type": "City",
-                              "name": "Wheat Ridge"
-                        }
-                  ],
-                  "description": "Permanent Uponor PEX-A repiping and non-invasive overhead reroutes for recurring copper pinhole leaks, pitting corrosion, and concrete slab leaks.",
-                  "aggregateRating": {
-                        "@type": "AggregateRating",
-                        "ratingValue": 4.7,
-                        "bestRating": 5,
-                        "worstRating": 1,
-                        "ratingCount": 76,
-                        "reviewCount": 76
-                  }
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+                "url": "https://justplumbinginc.com/services/whole-home-repiping",
+                "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+              }
             },
             {
-                  "@type": "BreadcrumbList",
-                  "itemListElement": [
-                        {
-                              "@type": "ListItem",
-                              "position": 1,
-                              "name": "Home",
-                              "item": "https://justplumbinginc.com/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 2,
-                              "name": "Pipe Problems",
-                              "item": "https://justplumbinginc.com/pipe-problems/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 3,
-                              "name": "Copper Pinhole Leaks",
-                              "item": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks"
-                        }
-                  ]
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+                "url": "https://justplumbinginc.com/services/partial-repiping",
+                "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+              }
             },
             {
-                  "@type": "FAQPage",
-                  "@id": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks#faq",
-                  "mainEntity": [
-                        {
-                              "@type": "Question",
-                              "name": "What causes pinhole leaks in Colorado copper pipes?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Copper pinhole leaks stem from three primary causes: localized pitting corrosion from municipal water treatment chemicals (chloramines and pH swings), mechanical velocity erosion inside hot water recirculation loops, and chemical/friction reactions where subterranean copper contacts soil and concrete foundation slabs."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Should I patch a copper pinhole leak or repipe the home?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "If your home has experienced two or more pinhole leaks, the interior copper walls have experienced widespread structural thinning. Patching single pinholes with solder couplings or clamps only redirects hydraulic pressure to adjacent weak spots, leading to inevitable repeat leaks inside walls and ceilings."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "How does Just Plumbing repair a slab leak without jackhammering my floor?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "We execute overhead bypass reroutes. Instead of breaking concrete and destroying tile or hardwood floors, we permanently cap and abandon the compromised subterranean copper line and route flexible, corrosion-proof Uponor PEX-A expansion lines through interior wall cavities and ceiling joists."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "What warranty comes with a whole-home copper replacement?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "All whole-home Uponor PEX-A installations completed by Just Plumbing include a 25-year manufacturer material warranty and our 5-year Master Plumber workmanship warranty."
-                              }
-                        }
-                  ]
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+                "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
+                "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+                "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
+                "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+                "url": "https://justplumbinginc.com/commercial/commercial-repipe",
+                "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+              }
             }
+          ]
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Applewood"
+        },
+        {
+          "@type": "City",
+          "name": "Arvada"
+        },
+        {
+          "@type": "City",
+          "name": "Aurora"
+        },
+        {
+          "@type": "City",
+          "name": "Bennett"
+        },
+        {
+          "@type": "City",
+          "name": "Boulder"
+        },
+        {
+          "@type": "City",
+          "name": "Bow Mar"
+        },
+        {
+          "@type": "City",
+          "name": "Brighton"
+        },
+        {
+          "@type": "City",
+          "name": "Broomfield"
+        },
+        {
+          "@type": "City",
+          "name": "Castle Pines"
+        },
+        {
+          "@type": "City",
+          "name": "Castle Rock"
+        },
+        {
+          "@type": "City",
+          "name": "Centennial"
+        },
+        {
+          "@type": "City",
+          "name": "Cherry Hills Village"
+        },
+        {
+          "@type": "City",
+          "name": "Columbine Valley"
+        },
+        {
+          "@type": "City",
+          "name": "Commerce City"
+        },
+        {
+          "@type": "City",
+          "name": "Conifer"
+        },
+        {
+          "@type": "City",
+          "name": "Denver"
+        },
+        {
+          "@type": "City",
+          "name": "Edgewater"
+        },
+        {
+          "@type": "City",
+          "name": "Elizabeth"
+        },
+        {
+          "@type": "City",
+          "name": "Englewood"
+        },
+        {
+          "@type": "City",
+          "name": "Erie"
+        },
+        {
+          "@type": "City",
+          "name": "Evergreen"
+        },
+        {
+          "@type": "City",
+          "name": "Firestone"
+        },
+        {
+          "@type": "City",
+          "name": "Franktown"
+        },
+        {
+          "@type": "City",
+          "name": "Frederick"
+        },
+        {
+          "@type": "City",
+          "name": "Genesee"
+        },
+        {
+          "@type": "City",
+          "name": "Glendale"
+        },
+        {
+          "@type": "City",
+          "name": "Golden"
+        },
+        {
+          "@type": "City",
+          "name": "Greenwood Village"
+        },
+        {
+          "@type": "City",
+          "name": "Highlands Ranch"
+        },
+        {
+          "@type": "City",
+          "name": "Ken Caryl"
+        },
+        {
+          "@type": "City",
+          "name": "Lafayette"
+        },
+        {
+          "@type": "City",
+          "name": "Lakewood"
+        },
+        {
+          "@type": "City",
+          "name": "Larkspur"
+        },
+        {
+          "@type": "City",
+          "name": "Littleton"
+        },
+        {
+          "@type": "City",
+          "name": "Lone Tree"
+        },
+        {
+          "@type": "City",
+          "name": "Longmont"
+        },
+        {
+          "@type": "City",
+          "name": "Louisville"
+        },
+        {
+          "@type": "City",
+          "name": "Monument"
+        },
+        {
+          "@type": "City",
+          "name": "Morrison"
+        },
+        {
+          "@type": "City",
+          "name": "Northglenn"
+        },
+        {
+          "@type": "City",
+          "name": "Parker"
+        },
+        {
+          "@type": "City",
+          "name": "Roxborough Park"
+        },
+        {
+          "@type": "City",
+          "name": "Sedalia"
+        },
+        {
+          "@type": "City",
+          "name": "Sheridan"
+        },
+        {
+          "@type": "City",
+          "name": "Superior"
+        },
+        {
+          "@type": "City",
+          "name": "Thornton"
+        },
+        {
+          "@type": "City",
+          "name": "Westminster"
+        },
+        {
+          "@type": "City",
+          "name": "Wheat Ridge"
+        }
+      ],
+      "description": "Permanent Uponor PEX-A repiping and non-invasive overhead reroutes for recurring copper pinhole leaks, pitting corrosion, and concrete slab leaks.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 76,
+        "reviewCount": 76
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://justplumbinginc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pipe Problems",
+          "item": "https://justplumbinginc.com/pipe-problems/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Copper Pinhole Leaks",
+          "item": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks"
+        }
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://justplumbinginc.com/pipe-problems/copper-pinhole-leaks#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What causes pinhole leaks in Colorado copper pipes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Copper pinhole leaks stem from three primary causes: localized pitting corrosion from municipal water treatment chemicals (chloramines and pH swings), mechanical velocity erosion inside hot water recirculation loops, and chemical/friction reactions where subterranean copper contacts soil and concrete foundation slabs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I patch a copper pinhole leak or repipe the home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your home has experienced two or more pinhole leaks, the interior copper walls have experienced widespread structural thinning. Patching single pinholes with solder couplings or clamps only redirects hydraulic pressure to adjacent weak spots, leading to inevitable repeat leaks inside walls and ceilings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Just Plumbing repair a slab leak without jackhammering my floor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We execute overhead bypass reroutes. Instead of breaking concrete and destroying tile or hardwood floors, we permanently cap and abandon the compromised subterranean copper line and route flexible, corrosion-proof Uponor PEX-A expansion lines through interior wall cavities and ceiling joists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What warranty comes with a whole-home copper replacement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All whole-home Uponor PEX-A installations completed by Just Plumbing include a 25-year manufacturer material warranty and our 5-year Master Plumber workmanship warranty."
+          }
+        }
+      ]
+    }
+  ]
 }
-    </script>
+</script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Copper Pinhole Leak Repair & Slab Leak Repiping Denver | Just Plumbing Inc.">
   <meta name="twitter:description" content="Stop patching failing copper pipes. Master Plumber Bill Clark executes non-invasive overhead slab leak bypasses and whole-home PEX conversions in 1–2 days.">
@@ -552,7 +604,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
+                <p>See why homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.7 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -563,7 +615,7 @@
 
                     <div class="review-card">
                         <div class="stars">★★★★★</div>
-                        <p class="review-text">"We recently had our main sewer line replaced by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
+                        <p class="review-text">"We recently had our corroded water supply lines repiped by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
                         <p class="reviewer-name">- Jennifer Walters</p>
                     </div>
 

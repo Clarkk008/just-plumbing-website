@@ -41,111 +41,306 @@
 
     <!-- Schema Markup for Location Hub CollectionPage (Expanded to 28 Cities) -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": [
-            "LocalBusiness",
-            "PlumbingService"
-          ],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing",
-          "legalName": "Just Plumbing, Inc.",
-          "alternateName": ["Just Plumbing Inc", "Just Plumbing, Inc."],
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 39.7583,
-            "longitude": -105.0068
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": 4.7,
-            "bestRating": 5,
-            "worstRating": 1,
-            "ratingCount": 76,
-            "reviewCount": 76
-          }
-        },
-        {
-          "@type": "CollectionPage",
-          "@id": "https://justplumbinginc.com/locations/#webpage",
-          "url": "https://justplumbinginc.com/locations/",
-          "name": "Greater Denver Plumbing & Repiping Service Areas",
-          "description": "Comprehensive regional directory of cities, towns, and communities served by Master Plumber Bill Clark and Just Plumbing, Inc.",
-          "isPartOf": {
-            "@id": "https://justplumbinginc.com/#website"
-          },
-          "about": {
-            "@id": "https://justplumbinginc.com/#organization"
-          },
-          "mainEntity": {
-            "@type": "ItemList",
-            "itemListElement": [
-              { "@type": "ListItem", "position": 1, "url": "https://justplumbinginc.com/locations/arvada", "name": "Arvada Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 2, "url": "https://justplumbinginc.com/locations/aurora", "name": "Aurora Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 3, "url": "https://justplumbinginc.com/locations/bennett-prv-rebate", "name": "Bennett PRV Rebate & Repiping" },
-              { "@type": "ListItem", "position": 4, "url": "https://justplumbinginc.com/locations/brighton", "name": "Brighton Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 5, "url": "https://justplumbinginc.com/locations/broomfield", "name": "Broomfield Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 6, "url": "https://justplumbinginc.com/locations/castle-pines", "name": "Castle Pines Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 7, "url": "https://justplumbinginc.com/locations/castle-rock", "name": "Castle Rock Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 8, "url": "https://justplumbinginc.com/locations/centennial", "name": "Centennial Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 9, "url": "https://justplumbinginc.com/locations/cherry-hills-village", "name": "Cherry Hills Village Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 10, "url": "https://justplumbinginc.com/locations/commerce-city", "name": "Commerce City Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 11, "url": "https://justplumbinginc.com/locations/denver", "name": "Denver Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 12, "url": "https://justplumbinginc.com/locations/edgewater", "name": "Edgewater Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 13, "url": "https://justplumbinginc.com/locations/englewood", "name": "Englewood Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 14, "url": "https://justplumbinginc.com/locations/evergreen", "name": "Evergreen Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 15, "url": "https://justplumbinginc.com/locations/genesee", "name": "Genesee Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 16, "url": "https://justplumbinginc.com/locations/glendale", "name": "Glendale Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 17, "url": "https://justplumbinginc.com/locations/golden", "name": "Golden Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 18, "url": "https://justplumbinginc.com/locations/greenwood-village", "name": "Greenwood Village Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 19, "url": "https://justplumbinginc.com/locations/highlands-ranch", "name": "Highlands Ranch Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 20, "url": "https://justplumbinginc.com/locations/larkspur", "name": "Larkspur Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 21, "url": "https://justplumbinginc.com/locations/littleton", "name": "Littleton Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 22, "url": "https://justplumbinginc.com/locations/lone-tree", "name": "Lone Tree Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 23, "url": "https://justplumbinginc.com/locations/parker", "name": "Parker Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 24, "url": "https://justplumbinginc.com/locations/sedalia", "name": "Sedalia Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 25, "url": "https://justplumbinginc.com/locations/sheridan", "name": "Sheridan Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 26, "url": "https://justplumbinginc.com/locations/thornton", "name": "Thornton Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 27, "url": "https://justplumbinginc.com/locations/westminster", "name": "Westminster Repiping & Plumbing" },
-              { "@type": "ListItem", "position": 28, "url": "https://justplumbinginc.com/locations/wheat-ridge", "name": "Wheat Ridge Repiping & Plumbing" }
-            ]
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Areas",
-              "item": "https://justplumbinginc.com/locations/"
+      "@type": [
+        "LocalBusiness",
+        "PlumbingService"
+      ],
+      "@id": "https://justplumbinginc.com/#organization",
+      "name": "Just Plumbing",
+      "legalName": "Just Plumbing, Inc.",
+      "alternateName": [
+        "Just Plumbing Inc",
+        "Just Plumbing, Inc."
+      ],
+      "url": "https://justplumbinginc.com/",
+      "telephone": "+1-303-472-0833",
+      "email": "JustPlumbinginc@outlook.com",
+      "priceRange": "$$-$$$",
+      "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2563 15th St, Suite 216",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80211",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.7583,
+        "longitude": -105.0068
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 76,
+        "reviewCount": 76
+      },
+      "description": "Licensed Denver Master Plumber (#MP.00600120) and Colorado Plumbing Contractor (#PC.0003531) specializing in 1–2 day whole-home repiping, partial home repiping & overhead slab leak bypasses, HOA & condominium vertical-stack repiping, multi-family apartment complex repiping, and B2B commercial building pipe replacement.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Residential, HOA, Multi-Family & B2B Commercial Repiping Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/whole-home-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
             }
-          ]
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/partial-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/commercial-repipe",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://justplumbinginc.com/locations/#webpage",
+      "url": "https://justplumbinginc.com/locations/",
+      "name": "Greater Denver Plumbing & Repiping Service Areas",
+      "description": "Comprehensive regional directory of cities, towns, and communities served by Master Plumber Bill Clark and Just Plumbing, Inc.",
+      "isPartOf": {
+        "@id": "https://justplumbinginc.com/#website"
+      },
+      "about": {
+        "@id": "https://justplumbinginc.com/#organization"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "https://justplumbinginc.com/locations/arvada",
+            "name": "Arvada Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://justplumbinginc.com/locations/aurora",
+            "name": "Aurora Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "https://justplumbinginc.com/locations/bennett-prv-rebate",
+            "name": "Bennett PRV Rebate & Repiping"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://justplumbinginc.com/locations/brighton",
+            "name": "Brighton Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "https://justplumbinginc.com/locations/broomfield",
+            "name": "Broomfield Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "https://justplumbinginc.com/locations/castle-pines",
+            "name": "Castle Pines Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "url": "https://justplumbinginc.com/locations/castle-rock",
+            "name": "Castle Rock Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "url": "https://justplumbinginc.com/locations/centennial",
+            "name": "Centennial Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "url": "https://justplumbinginc.com/locations/cherry-hills-village",
+            "name": "Cherry Hills Village Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "url": "https://justplumbinginc.com/locations/commerce-city",
+            "name": "Commerce City Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "url": "https://justplumbinginc.com/locations/denver",
+            "name": "Denver Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "url": "https://justplumbinginc.com/locations/edgewater",
+            "name": "Edgewater Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "url": "https://justplumbinginc.com/locations/englewood",
+            "name": "Englewood Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "url": "https://justplumbinginc.com/locations/evergreen",
+            "name": "Evergreen Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "url": "https://justplumbinginc.com/locations/genesee",
+            "name": "Genesee Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "url": "https://justplumbinginc.com/locations/glendale",
+            "name": "Glendale Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "url": "https://justplumbinginc.com/locations/golden",
+            "name": "Golden Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "url": "https://justplumbinginc.com/locations/greenwood-village",
+            "name": "Greenwood Village Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 19,
+            "url": "https://justplumbinginc.com/locations/highlands-ranch",
+            "name": "Highlands Ranch Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 20,
+            "url": "https://justplumbinginc.com/locations/larkspur",
+            "name": "Larkspur Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 21,
+            "url": "https://justplumbinginc.com/locations/littleton",
+            "name": "Littleton Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 22,
+            "url": "https://justplumbinginc.com/locations/lone-tree",
+            "name": "Lone Tree Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 23,
+            "url": "https://justplumbinginc.com/locations/parker",
+            "name": "Parker Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 24,
+            "url": "https://justplumbinginc.com/locations/sedalia",
+            "name": "Sedalia Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 25,
+            "url": "https://justplumbinginc.com/locations/sheridan",
+            "name": "Sheridan Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 26,
+            "url": "https://justplumbinginc.com/locations/thornton",
+            "name": "Thornton Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 27,
+            "url": "https://justplumbinginc.com/locations/westminster",
+            "name": "Westminster Repiping & Plumbing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 28,
+            "url": "https://justplumbinginc.com/locations/wheat-ridge",
+            "name": "Wheat Ridge Repiping & Plumbing"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://justplumbinginc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Service Areas",
+          "item": "https://justplumbinginc.com/locations/"
         }
       ]
     }
-    </script>
+  ]
+}
+</script>
 </head>
 <body>
 

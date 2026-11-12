@@ -51,120 +51,175 @@
 
     <!-- CollectionPage, ItemList, ServiceAreaBusiness & Breadcrumb Schema -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": ["LocalBusiness", "PlumbingService"],
-          "@id": "https://justplumbinginc.com/#organization",
-          "name": "Just Plumbing, Inc.",
-          "legalName": "Just Plumbing, Inc.",
-          "url": "https://justplumbinginc.com/",
-          "telephone": "+1-303-472-0833",
-          "email": "JustPlumbinginc@outlook.com",
-          "priceRange": "$$",
-          "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-          "image": "https://justplumbinginc.com/assets/images/logo.webp",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "2563 15th St, Suite 216",
-            "addressLocality": "Denver",
-            "addressRegion": "CO",
-            "postalCode": "80211",
-            "addressCountry": "US"
-          },
-          "founder": {
-            "@type": "Person",
-            "name": "Bill Clark",
-            "jobTitle": "Master Plumber & Owner"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": 4.7,
-            "bestRating": 5,
-            "worstRating": 1,
-            "ratingCount": 76,
-            "reviewCount": 76
-          }
-        },
-        {
-          "@type": "CollectionPage",
-          "@id": "https://justplumbinginc.com/projects/#page",
-          "name": "Denver Repiping Case Studies & Project Gallery",
-          "url": "https://justplumbinginc.com/projects/",
-          "description": "Comprehensive index of residential and commercial plumbing case studies, whole-home repipes, and structural leak bypasses completed across the Denver Metro Area.",
-          "publisher": {
-            "@id": "https://justplumbinginc.com/#organization"
-          }
-        },
-        {
-          "@type": "ItemList",
-          "name": "Front Range Repiping Case Studies",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "url": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene",
-              "name": "Highlands Ranch: Polybutylene Pipe Replacement Case Study"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "url": "https://justplumbinginc.com/projects/park-hill-denver-galvanized",
-              "name": "Park Hill (Denver): Historic Galvanized Steel Repipe"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "url": "https://justplumbinginc.com/projects/thornton-kitec-repipe",
-              "name": "Thornton: Recalled Kitec Plumbing System Replacement"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "url": "https://justplumbinginc.com/projects/arvada-copper-pipe-replacement",
-              "name": "Arvada: Copper Pinhole & Under-Slab Leak Overhead Bypass"
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "url": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe",
-              "name": "Golden: HOA Multi-Family Riser & Condo Repipe"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "url": "https://justplumbinginc.com/projects/wash-park-denver-repipe",
-              "name": "Wash Park (Denver): Classic Bungalow Whole-Home Repipe"
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "url": "https://justplumbinginc.com/projects/west-highland-denver-repipe",
-              "name": "West Highland (Denver): Mid-Century Ranch Repipe"
+      "@type": [
+        "LocalBusiness",
+        "PlumbingService"
+      ],
+      "@id": "https://justplumbinginc.com/#organization",
+      "name": "Just Plumbing, Inc.",
+      "legalName": "Just Plumbing, Inc.",
+      "url": "https://justplumbinginc.com/",
+      "telephone": "+1-303-472-0833",
+      "email": "JustPlumbinginc@outlook.com",
+      "priceRange": "$$-$$$",
+      "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+      "image": "https://justplumbinginc.com/assets/images/logo.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2563 15th St, Suite 216",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80211",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Bill Clark",
+        "jobTitle": "Master Plumber & Owner"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 76,
+        "reviewCount": 76
+      },
+      "description": "Licensed Denver Master Plumber (#MP.00600120) and Colorado Plumbing Contractor (#PC.0003531) specializing in 1–2 day whole-home repiping, partial home repiping & overhead slab leak bypasses, HOA & condominium vertical-stack repiping, multi-family apartment complex repiping, and B2B commercial building pipe replacement.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Residential, HOA, Multi-Family & B2B Commercial Repiping Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/whole-home-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
             }
-          ]
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/partial-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/commercial-repipe",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://justplumbinginc.com/projects/#page",
+      "name": "Denver Repiping Case Studies & Project Gallery",
+      "url": "https://justplumbinginc.com/projects/",
+      "description": "Comprehensive index of residential and commercial plumbing case studies, whole-home repipes, and structural leak bypasses completed across the Denver Metro Area.",
+      "publisher": {
+        "@id": "https://justplumbinginc.com/#organization"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Front Range Repiping Case Studies",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://justplumbinginc.com/projects/highlands-ranch-polybutylene",
+          "name": "Highlands Ranch: Polybutylene Pipe Replacement Case Study"
         },
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://justplumbinginc.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Projects",
-              "item": "https://justplumbinginc.com/projects/"
-            }
-          ]
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://justplumbinginc.com/projects/park-hill-denver-galvanized",
+          "name": "Park Hill (Denver): Historic Galvanized Steel Repipe"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://justplumbinginc.com/projects/thornton-kitec-repipe",
+          "name": "Thornton: Recalled Kitec Plumbing System Replacement"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://justplumbinginc.com/projects/arvada-copper-pipe-replacement",
+          "name": "Arvada: Copper Pinhole & Under-Slab Leak Overhead Bypass"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "url": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe",
+          "name": "Golden: HOA Multi-Family Riser & Condo Repipe"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "url": "https://justplumbinginc.com/projects/wash-park-denver-repipe",
+          "name": "Wash Park (Denver): Classic Bungalow Whole-Home Repipe"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "url": "https://justplumbinginc.com/projects/west-highland-denver-repipe",
+          "name": "West Highland (Denver): Mid-Century Ranch Repipe"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://justplumbinginc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://justplumbinginc.com/projects/"
         }
       ]
     }
-    </script>
+  ]
+}
+</script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Denver Repiping Case Studies & Projects | Just Plumbing, Inc.">
   <meta name="twitter:description" content="Real Front Range repiping projects: Polybutylene in Highlands Ranch, Kitec in Thornton, galvanized steel in Park Hill, and copper slab bypasses in Arvada.">
@@ -400,7 +455,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
+                <p>See why homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.7 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -411,7 +466,7 @@
 
                     <div class="review-card">
                         <div class="stars" aria-label="5 stars">★★★★★</div>
-                        <p class="review-text">"We recently had our main sewer line replaced by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
+                        <p class="review-text">"We recently had our corroded water supply lines repiped by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
                         <p class="reviewer-name">- Jennifer Walters</p>
                     </div>
 

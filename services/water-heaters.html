@@ -52,151 +52,203 @@
     <!-- Service, Organization, Breadcrumb & FAQ Schema Markup -->
     <script type="application/ld+json">
 {
-      "@context": "https://schema.org",
-      "@graph": [
-            {
-                  "@type": [
-                        "LocalBusiness",
-                        "PlumbingService"
-                  ],
-                  "@id": "https://justplumbinginc.com/#organization",
-                  "name": "Just Plumbing, Inc.",
-                  "legalName": "Just Plumbing, Inc.",
-                  "url": "https://justplumbinginc.com/",
-                  "telephone": "+1-303-472-0833",
-                  "email": "JustPlumbinginc@outlook.com",
-                  "priceRange": "$$",
-                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
-                  "address": {
-                        "@type": "PostalAddress",
-                        "streetAddress": "2563 15th St, Suite 216",
-                        "addressLocality": "Denver",
-                        "addressRegion": "CO",
-                        "postalCode": "80211",
-                        "addressCountry": "US"
-                  },
-                  "geo": {
-                        "@type": "GeoCoordinates",
-                        "latitude": 39.7583,
-                        "longitude": -105.0068
-                  },
-                  "hasCredential": [
-                        {
-                              "@type": "EducationalOccupationalCredential",
-                              "credentialCategory": "State Registration",
-                              "name": "Colorado Plumbing Contractor",
-                              "credentialNumber": "PC.0003531",
-                              "identifier": "PC.0003531"
-                        },
-                        {
-                              "@type": "EducationalOccupationalCredential",
-                              "credentialCategory": "State License",
-                              "name": "Colorado Master Plumber",
-                              "credentialNumber": "MP.00600120",
-                              "identifier": "MP.00600120"
-                        }
-                  ],
-                  "aggregateRating": {
-                        "@type": "AggregateRating",
-                        "ratingValue": 4.7,
-                        "bestRating": 5,
-                        "worstRating": 1,
-                        "ratingCount": 76,
-                        "reviewCount": 76
-                  }
-            },
-            {
-                  "@type": "Service",
-                  "@id": "https://justplumbinginc.com/services/water-heaters#service",
-                  "name": "Water Heater Replacement & Installation",
-                  "serviceType": "Water Heater Installation",
-                  "category": "Plumbing",
-                  "provider": {
-                        "@id": "https://justplumbinginc.com/#organization"
-                  },
-                  "description": "Code-compliant water heater replacement across the Denver Metro Area. Specializing in high-altitude atmospheric gas tanks, power-vent systems, continuous tankless water heaters, and thermal expansion tanks."
-            },
-            {
-                  "@type": "Person",
-                  "@id": "https://justplumbinginc.com/#bill-clark",
-                  "name": "Bill Clark",
-                  "jobTitle": "Owner & Master Plumber",
-                  "worksFor": {
-                        "@id": "https://justplumbinginc.com/#organization"
-                  },
-                  "knowsAbout": [
-                        "Water Heater Installation",
-                        "High-Altitude Combustion Calibration",
-                        "Tankless Water Heaters",
-                        "Thermal Expansion Tanks",
-                        "Pressure Reducing Valves"
-                  ]
-            },
-            {
-                  "@type": "FAQPage",
-                  "@id": "https://justplumbinginc.com/services/water-heaters#faq",
-                  "mainEntity": [
-                        {
-                              "@type": "Question",
-                              "name": "Why do water heaters need high-altitude calibration in Denver?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "At 5,280 feet and higher, thin atmospheric air contains less oxygen per cubic foot. Standard gas water heaters require high-altitude burner orifices and proper draft hood calibration to prevent incomplete combustion, heavy carbon monoxide buildup, and soot accumulation."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Why is a thermal expansion tank required by Colorado plumbing code?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "When municipal water enters a home with a backflow preventer or pressure-reducing valve (PRV), it creates a closed plumbing system. As water heats from 50\u00b0F to 120\u00b0F, it expands in volume. Without a properly pressurized thermal expansion tank, this hydrostatic pressure spikes past 150 PSI, blowing out the water heater's internal glass lining and voiding the manufacturer warranty."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Should I choose a tankless water heater or a traditional storage tank?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Tankless systems provide endless hot water, take up virtually no floor space, and last 20+ years, making them ideal for high-demand households. Traditional atmospheric gas or power-vent tanks have lower upfront installation costs and remain a dependable choice for standard replacement budgets."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "How does Front Range hard water affect water heater lifespan?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Heavy mineral content and calcium carbonate in municipal and well water precipitate out when heated, settling at the bottom of the tank. This creates an insulating crust between the burner flame and the water, causing popping noises, slower recovery times, and premature bottom-tank rust-through."
-                              }
-                        }
-                  ]
-            },
-            {
-                  "@type": "BreadcrumbList",
-                  "itemListElement": [
-                        {
-                              "@type": "ListItem",
-                              "position": 1,
-                              "name": "Home",
-                              "item": "https://justplumbinginc.com/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 2,
-                              "name": "Services",
-                              "item": "https://justplumbinginc.com/services/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 3,
-                              "name": "Water Heater Systems",
-                              "item": "https://justplumbinginc.com/services/water-heaters"
-                        }
-                  ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "LocalBusiness",
+        "PlumbingService"
+      ],
+      "@id": "https://justplumbinginc.com/#organization",
+      "name": "Just Plumbing, Inc.",
+      "legalName": "Just Plumbing, Inc.",
+      "url": "https://justplumbinginc.com/",
+      "telephone": "+1-303-472-0833",
+      "email": "JustPlumbinginc@outlook.com",
+      "priceRange": "$$-$$$",
+      "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+      "image": "https://justplumbinginc.com/assets/images/logo.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2563 15th St, Suite 216",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80211",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.7583,
+        "longitude": -105.0068
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "State Registration",
+          "name": "Colorado Plumbing Contractor",
+          "credentialNumber": "PC.0003531",
+          "identifier": "PC.0003531"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "State License",
+          "name": "Colorado Master Plumber",
+          "credentialNumber": "MP.00600120",
+          "identifier": "MP.00600120"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 76,
+        "reviewCount": 76
+      },
+      "description": "Licensed Denver Master Plumber (#MP.00600120) and Colorado Plumbing Contractor (#PC.0003531) specializing in 1–2 day whole-home repiping, partial home repiping & overhead slab leak bypasses, HOA & condominium vertical-stack repiping, multi-family apartment complex repiping, and B2B commercial building pipe replacement.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Residential, HOA, Multi-Family & B2B Commercial Repiping Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/whole-home-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
             }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/partial-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/commercial-repipe",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://justplumbinginc.com/services/water-heaters#service",
+      "name": "Water Heater Replacement & Installation",
+      "serviceType": "Water Heater Installation",
+      "category": "Plumbing",
+      "provider": {
+        "@id": "https://justplumbinginc.com/#organization"
+      },
+      "description": "Code-compliant water heater replacement across the Denver Metro Area. Specializing in high-altitude atmospheric gas tanks, power-vent systems, continuous tankless water heaters, and thermal expansion tanks."
+    },
+    {
+      "@type": "Person",
+      "@id": "https://justplumbinginc.com/#bill-clark",
+      "name": "Bill Clark",
+      "jobTitle": "Owner & Master Plumber",
+      "worksFor": {
+        "@id": "https://justplumbinginc.com/#organization"
+      },
+      "knowsAbout": [
+        "Water Heater Installation",
+        "High-Altitude Combustion Calibration",
+        "Tankless Water Heaters",
+        "Thermal Expansion Tanks",
+        "Pressure Reducing Valves"
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://justplumbinginc.com/services/water-heaters#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why do water heaters need high-altitude calibration in Denver?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At 5,280 feet and higher, thin atmospheric air contains less oxygen per cubic foot. Standard gas water heaters require high-altitude burner orifices and proper draft hood calibration to prevent incomplete combustion, heavy carbon monoxide buildup, and soot accumulation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is a thermal expansion tank required by Colorado plumbing code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When municipal water enters a home with a backflow preventer or pressure-reducing valve (PRV), it creates a closed plumbing system. As water heats from 50°F to 120°F, it expands in volume. Without a properly pressurized thermal expansion tank, this hydrostatic pressure spikes past 150 PSI, blowing out the water heater's internal glass lining and voiding the manufacturer warranty."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I choose a tankless water heater or a traditional storage tank?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tankless systems provide endless hot water, take up virtually no floor space, and last 20+ years, making them ideal for high-demand households. Traditional atmospheric gas or power-vent tanks have lower upfront installation costs and remain a dependable choice for standard replacement budgets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Front Range hard water affect water heater lifespan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Heavy mineral content and calcium carbonate in municipal and well water precipitate out when heated, settling at the bottom of the tank. This creates an insulating crust between the burner flame and the water, causing popping noises, slower recovery times, and premature bottom-tank rust-through."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://justplumbinginc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://justplumbinginc.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Water Heater Systems",
+          "item": "https://justplumbinginc.com/services/water-heaters"
+        }
+      ]
+    }
+  ]
 }
-    </script>
+</script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Denver Water Heater Replacement & Installation | Just Plumbing, Inc.">
   <meta name="twitter:description" content="High-altitude calibrated gas tanks, continuous tankless water heaters, and thermal expansion systems installed across Denver Metro by Master Plumber Bill Clark.">
@@ -412,7 +464,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
+                <p>See why homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.7 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -423,7 +475,7 @@
 
                     <div class="review-card">
                         <div class="stars" aria-label="5 stars">★★★★★</div>
-                        <p class="review-text">"We recently had our main sewer line replaced by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
+                        <p class="review-text">"We recently had our corroded water supply lines repiped by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
                         <p class="reviewer-name">- Jennifer Walters</p>
                     </div>
 

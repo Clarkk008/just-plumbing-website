@@ -52,137 +52,189 @@
     <!-- Article, LocalBusiness, Breadcrumb & FAQ Schema Markup -->
     <script type="application/ld+json">
 {
-      "@context": "https://schema.org",
-      "@graph": [
-            {
-                  "@type": [
-                        "LocalBusiness",
-                        "PlumbingService"
-                  ],
-                  "@id": "https://justplumbinginc.com/#organization",
-                  "name": "Just Plumbing, Inc.",
-                  "legalName": "Just Plumbing, Inc.",
-                  "url": "https://justplumbinginc.com/",
-                  "telephone": "+1-303-472-0833",
-                  "email": "JustPlumbinginc@outlook.com",
-                  "priceRange": "$$",
-                  "logo": "https://justplumbinginc.com/assets/images/logo.webp",
-                  "image": "https://justplumbinginc.com/assets/images/logo.webp",
-                  "address": {
-                        "@type": "PostalAddress",
-                        "streetAddress": "2563 15th St, Suite 216",
-                        "addressLocality": "Denver",
-                        "addressRegion": "CO",
-                        "postalCode": "80211",
-                        "addressCountry": "US"
-                  },
-                  "geo": {
-                        "@type": "GeoCoordinates",
-                        "latitude": 39.7583,
-                        "longitude": -105.0068
-                  },
-                  "hasCredential": [
-                        {
-                              "@type": "EducationalOccupationalCredential",
-                              "credentialCategory": "State Registration",
-                              "name": "Colorado Plumbing Contractor",
-                              "credentialNumber": "PC.0003531",
-                              "identifier": "PC.0003531"
-                        },
-                        {
-                              "@type": "EducationalOccupationalCredential",
-                              "credentialCategory": "State License",
-                              "name": "Colorado Master Plumber",
-                              "credentialNumber": "MP.00600120",
-                              "identifier": "MP.00600120"
-                        }
-                  ],
-                  "aggregateRating": {
-                        "@type": "AggregateRating",
-                        "ratingValue": 4.7,
-                        "bestRating": 5,
-                        "worstRating": 1,
-                        "ratingCount": 76,
-                        "reviewCount": 76
-                  }
-            },
-            {
-                  "@type": "Article",
-                  "@id": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe#article",
-                  "headline": "Golden Case Study: HOA Multi-Family Riser & Condo Repipe",
-                  "description": "Field documentation of a commercial multi-family plumbing replacement for a 16-unit HOA in Golden, Colorado, featuring Type L Copper main risers and Uponor PEX-A unit distribution lines.",
-                  "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
-                  "author": {
-                        "@type": "Person",
-                        "name": "Bill Clark",
-                        "jobTitle": "Master Plumber & Owner",
-                        "worksFor": {
-                              "@id": "https://justplumbinginc.com/#organization"
-                        }
-                  },
-                  "publisher": {
-                        "@id": "https://justplumbinginc.com/#organization"
-                  },
-                  "datePublished": "2024-07-12",
-                  "dateModified": "2026-01-15",
-                  "mainEntityOfPage": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe"
-            },
-            {
-                  "@type": "BreadcrumbList",
-                  "itemListElement": [
-                        {
-                              "@type": "ListItem",
-                              "position": 1,
-                              "name": "Home",
-                              "item": "https://justplumbinginc.com/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 2,
-                              "name": "Projects",
-                              "item": "https://justplumbinginc.com/projects/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 3,
-                              "name": "Golden HOA Condo Repipe",
-                              "item": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe"
-                        }
-                  ]
-            },
-            {
-                  "@type": "FAQPage",
-                  "@id": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe#faq",
-                  "mainEntity": [
-                        {
-                              "@type": "Question",
-                              "name": "Why do hot water recirculation lines fail so quickly in condo buildings?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Multi-family buildings utilize continuous recirculation pumps so residents have instant hot water. Over time, the high velocity of this continuously moving water mechanically erodes the inside of standard copper pipes, particularly at 90-degree elbows, leading to rapid pinhole leaks."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Did residents have to move out during the HOA repipe?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "No. Just Plumbing organized the project in vertical 'stacks'. By isolating specific units vertically, we completed rough-ins during the day and restored domestic water service every evening, preventing costly hotel relocation expenses for the HOA."
-                              }
-                        },
-                        {
-                              "@type": "Question",
-                              "name": "Why did Just Plumbing use both Type L Copper and PEX-A for this commercial project?",
-                              "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Commercial building codes and fire-stopping requirements often dictate rigid, non-combustible materials for multi-story vertical risers. We installed commercial-grade Type L Copper for the main building risers, and transitioned to flexible Uponor PEX-A inside the individual units to minimize drywall demolition."
-                              }
-                        }
-                  ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "LocalBusiness",
+        "PlumbingService"
+      ],
+      "@id": "https://justplumbinginc.com/#organization",
+      "name": "Just Plumbing, Inc.",
+      "legalName": "Just Plumbing, Inc.",
+      "url": "https://justplumbinginc.com/",
+      "telephone": "+1-303-472-0833",
+      "email": "JustPlumbinginc@outlook.com",
+      "priceRange": "$$-$$$",
+      "logo": "https://justplumbinginc.com/assets/images/logo.webp",
+      "image": "https://justplumbinginc.com/assets/images/logo.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2563 15th St, Suite 216",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80211",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.7583,
+        "longitude": -105.0068
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "State Registration",
+          "name": "Colorado Plumbing Contractor",
+          "credentialNumber": "PC.0003531",
+          "identifier": "PC.0003531"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "State License",
+          "name": "Colorado Master Plumber",
+          "credentialNumber": "MP.00600120",
+          "identifier": "MP.00600120"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 76,
+        "reviewCount": 76
+      },
+      "description": "Licensed Denver Master Plumber (#MP.00600120) and Colorado Plumbing Contractor (#PC.0003531) specializing in 1–2 day whole-home repiping, partial home repiping & overhead slab leak bypasses, HOA & condominium vertical-stack repiping, multi-family apartment complex repiping, and B2B commercial building pipe replacement.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Residential, HOA, Multi-Family & B2B Commercial Repiping Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/whole-home-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
             }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/services/partial-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/hoa-condo-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/multifamily-repiping",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "B2B Commercial Building, Office & Retail Repiping in Denver",
+              "url": "https://justplumbinginc.com/commercial/commercial-repipe",
+              "description": "Turnkey Type L Copper and Uponor PEX-A commercial repiping for office buildings, medical/dental clinics, retail centers, and restaurants across Greater Denver with after-hours and weekend scheduling."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe#article",
+      "headline": "Golden Case Study: HOA Multi-Family Riser & Condo Repipe",
+      "description": "Field documentation of a commercial multi-family plumbing replacement for a 16-unit HOA in Golden, Colorado, featuring Type L Copper main risers and Uponor PEX-A unit distribution lines.",
+      "image": "https://justplumbinginc.com/assets/images/arvada-pex-repipe-installation.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Bill Clark",
+        "jobTitle": "Master Plumber & Owner",
+        "worksFor": {
+          "@id": "https://justplumbinginc.com/#organization"
+        }
+      },
+      "publisher": {
+        "@id": "https://justplumbinginc.com/#organization"
+      },
+      "datePublished": "2024-07-12",
+      "dateModified": "2026-01-15",
+      "mainEntityOfPage": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://justplumbinginc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://justplumbinginc.com/projects/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Golden HOA Condo Repipe",
+          "item": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe"
+        }
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://justplumbinginc.com/projects/golden-hoa-condo-repipe#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why do hot water recirculation lines fail so quickly in condo buildings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Multi-family buildings utilize continuous recirculation pumps so residents have instant hot water. Over time, the high velocity of this continuously moving water mechanically erodes the inside of standard copper pipes, particularly at 90-degree elbows, leading to rapid pinhole leaks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Did residents have to move out during the HOA repipe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Just Plumbing organized the project in vertical 'stacks'. By isolating specific units vertically, we completed rough-ins during the day and restored domestic water service every evening, preventing costly hotel relocation expenses for the HOA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why did Just Plumbing use both Type L Copper and PEX-A for this commercial project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Commercial building codes and fire-stopping requirements often dictate rigid, non-combustible materials for multi-story vertical risers. We installed commercial-grade Type L Copper for the main building risers, and transitioned to flexible Uponor PEX-A inside the individual units to minimize drywall demolition."
+          }
+        }
+      ]
+    }
+  ]
 }
-    </script>
+</script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Golden HOA Multi-Family Riser Repipe Case Study | Just Plumbing Inc.">
   <meta name="twitter:description" content="Discover how we eliminated chronic condo leaks, lowered HOA insurance premiums, and upgraded 16 units using Type L Copper risers and PEX-A branch lines.">
@@ -433,7 +485,7 @@
         <section class="testimonials-section">
             <div class="container">
                 <h2>Real Customer Reviews</h2>
-                <p>See why property managers and homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.6 out of 5 stars.</p>
+                <p>See why property managers and homeowners across the Denver Metro area rate Just Plumbing, Inc. 4.7 out of 5 stars.</p>
                 
                 <div class="testimonials-grid">
                     <div class="review-card">
@@ -444,7 +496,7 @@
 
                     <div class="review-card">
                         <div class="stars" aria-label="5 stars">★★★★★</div>
-                        <p class="review-text">"We recently had our main sewer line replaced by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
+                        <p class="review-text">"We recently had our corroded water supply lines repiped by Just Plumbing... Their pricing was fair and transparent, and they kept everything clean and tidy throughout the entire job. They also installed a new water heater for us while they were at it. Honest, skilled, and compassionate plumbers..."</p>
                         <p class="reviewer-name">- Jennifer Walters</p>
                     </div>
 
